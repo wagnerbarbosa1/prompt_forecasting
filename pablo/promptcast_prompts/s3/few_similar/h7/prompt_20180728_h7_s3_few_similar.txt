@@ -1,0 +1,219 @@
+You are forecasting daily water production for a municipal water utility.
+
+Below are historical examples. Use them as examples of how historical patterns relate to subsequent water production.
+
+Example:
+Similarity distance: 10.038222
+Historical observations:
+2016-08-13: water_produced=9640.02 m3
+2016-08-14: water_produced=7505.12 m3
+2016-08-15: water_produced=10471.21 m3
+2016-08-16: water_produced=7991.92 m3
+2016-08-17: water_produced=8269.08 m3
+2016-08-18: water_produced=11489.35 m3
+2016-08-19: water_produced=9448.42 m3
+2016-08-20: water_produced=9575.92 m3
+2016-08-21: water_produced=7817.89 m3
+2016-08-22: water_produced=10037.74 m3
+2016-08-23: water_produced=7376.33 m3
+2016-08-24: water_produced=8666.18 m3
+2016-08-25: water_produced=10626.10 m3
+2016-08-26: water_produced=8517.71 m3
+
+Historical calendar context:
+2016-08-13: Saturday, weekend, month=August
+2016-08-14: Sunday, weekend, month=August
+2016-08-15: Monday, month=August
+2016-08-16: Tuesday, month=August
+2016-08-17: Wednesday, month=August
+2016-08-18: Thursday, month=August
+2016-08-19: Friday, month=August
+2016-08-20: Saturday, weekend, month=August
+2016-08-21: Sunday, weekend, month=August
+2016-08-22: Monday, month=August
+2016-08-23: Tuesday, month=August
+2016-08-24: Wednesday, month=August
+2016-08-25: Thursday, month=August
+2016-08-26: Friday, month=August
+
+Meteorological forecast for the demonstrated target dates:
+2016-08-27: temperature=19.37 C, radiation=203.65, relative_humidity=87.35 %, precipitation=0.00 mm
+2016-08-28: temperature=17.60 C, radiation=156.56, relative_humidity=96.53 %, precipitation=0.00 mm
+2016-08-29: temperature=18.68 C, radiation=142.00, relative_humidity=94.86 %, precipitation=0.00 mm
+2016-08-30: temperature=18.95 C, radiation=24.87, relative_humidity=98.02 %, precipitation=0.00 mm
+2016-08-31: temperature=21.88 C, radiation=201.52, relative_humidity=76.03 %, precipitation=0.00 mm
+2016-09-01: temperature=18.90 C, radiation=142.30, relative_humidity=86.17 %, precipitation=0.00 mm
+2016-09-02: temperature=19.00 C, radiation=62.17, relative_humidity=87.66 %, precipitation=0.00 mm
+
+Observed water production in the following days:
+2016-08-27: 10768.92 m3
+2016-08-28: 8148.51 m3
+2016-08-29: 9868.47 m3
+2016-08-30: 9210.29 m3
+2016-08-31: 10374.83 m3
+2016-09-01: 8802.66 m3
+2016-09-02: 8558.13 m3
+
+Example:
+Similarity distance: 10.662748
+Historical observations:
+2016-06-11: water_produced=11077.62 m3
+2016-06-12: water_produced=7822.94 m3
+2016-06-13: water_produced=12083.73 m3
+2016-06-14: water_produced=10558.66 m3
+2016-06-15: water_produced=9851.84 m3
+2016-06-16: water_produced=11169.44 m3
+2016-06-17: water_produced=10577.11 m3
+2016-06-18: water_produced=11409.80 m3
+2016-06-19: water_produced=9440.40 m3
+2016-06-20: water_produced=12128.67 m3
+2016-06-21: water_produced=9015.85 m3
+2016-06-22: water_produced=9595.82 m3
+2016-06-23: water_produced=10640.06 m3
+2016-06-24: water_produced=8024.32 m3
+
+Historical calendar context:
+2016-06-11: Saturday, weekend, month=June
+2016-06-12: Sunday, weekend, month=June
+2016-06-13: Monday, month=June
+2016-06-14: Tuesday, month=June
+2016-06-15: Wednesday, month=June
+2016-06-16: Thursday, month=June
+2016-06-17: Friday, month=June
+2016-06-18: Saturday, weekend, month=June
+2016-06-19: Sunday, weekend, month=June
+2016-06-20: Monday, month=June
+2016-06-21: Tuesday, month=June
+2016-06-22: Wednesday, month=June
+2016-06-23: Thursday, month=June
+2016-06-24: Friday, month=June
+
+Meteorological forecast for the demonstrated target dates:
+2016-06-25: temperature=15.88 C, radiation=80.61, relative_humidity=93.17 %, precipitation=0.02 mm
+2016-06-26: temperature=15.75 C, radiation=42.86, relative_humidity=96.14 %, precipitation=0.01 mm
+2016-06-27: temperature=17.30 C, radiation=140.91, relative_humidity=89.25 %, precipitation=0.01 mm
+2016-06-28: temperature=15.43 C, radiation=92.72, relative_humidity=95.53 %, precipitation=0.00 mm
+2016-06-29: temperature=15.67 C, radiation=69.00, relative_humidity=96.06 %, precipitation=0.00 mm
+2016-06-30: temperature=15.02 C, radiation=20.24, relative_humidity=98.83 %, precipitation=0.00 mm
+2016-07-01: temperature=15.81 C, radiation=33.47, relative_humidity=96.62 %, precipitation=0.00 mm
+
+Observed water production in the following days:
+2016-06-25: 10970.74 m3
+2016-06-26: 9782.06 m3
+2016-06-27: 10543.55 m3
+2016-06-28: 9242.10 m3
+2016-06-29: 9502.72 m3
+2016-06-30: 10111.02 m3
+2016-07-01: 9198.14 m3
+
+Example:
+Similarity distance: 10.769383
+Historical observations:
+2017-09-02: water_produced=10415.08 m3
+2017-09-03: water_produced=10102.05 m3
+2017-09-04: water_produced=11142.15 m3
+2017-09-05: water_produced=12541.87 m3
+2017-09-06: water_produced=13175.07 m3
+2017-09-07: water_produced=15670.88 m3
+2017-09-08: water_produced=14205.44 m3
+2017-09-09: water_produced=14396.38 m3
+2017-09-10: water_produced=13079.15 m3
+2017-09-11: water_produced=12768.26 m3
+2017-09-12: water_produced=12855.27 m3
+2017-09-13: water_produced=11623.84 m3
+2017-09-14: water_produced=12003.19 m3
+2017-09-15: water_produced=13075.09 m3
+
+Historical calendar context:
+2017-09-02: Saturday, weekend, month=September
+2017-09-03: Sunday, weekend, month=September
+2017-09-04: Monday, month=September
+2017-09-05: Tuesday, month=September
+2017-09-06: Wednesday, month=September
+2017-09-07: Thursday, public_holiday, month=September
+2017-09-08: Friday, public_holiday, school_recess, month=September
+2017-09-09: Saturday, weekend, month=September
+2017-09-10: Sunday, weekend, month=September
+2017-09-11: Monday, month=September
+2017-09-12: Tuesday, month=September
+2017-09-13: Wednesday, month=September
+2017-09-14: Thursday, month=September
+2017-09-15: Friday, month=September
+
+Meteorological forecast for the demonstrated target dates:
+2017-09-16: temperature=21.48 C, radiation=117.04, relative_humidity=85.99 %, precipitation=0.01 mm
+2017-09-17: temperature=21.24 C, radiation=84.08, relative_humidity=86.63 %, precipitation=0.01 mm
+2017-09-18: temperature=18.95 C, radiation=38.41, relative_humidity=89.38 %, precipitation=0.02 mm
+2017-09-19: temperature=20.51 C, radiation=102.10, relative_humidity=86.99 %, precipitation=0.01 mm
+2017-09-20: temperature=21.77 C, radiation=180.27, relative_humidity=81.82 %, precipitation=0.00 mm
+2017-09-21: temperature=21.80 C, radiation=209.71, relative_humidity=80.31 %, precipitation=0.00 mm
+2017-09-22: temperature=22.11 C, radiation=157.75, relative_humidity=82.72 %, precipitation=0.00 mm
+
+Observed water production in the following days:
+2017-09-16: 12368.00 m3
+2017-09-17: 10000.66 m3
+2017-09-18: 11089.71 m3
+2017-09-19: 12120.90 m3
+2017-09-20: 10706.84 m3
+2017-09-21: 11495.29 m3
+2017-09-22: 12726.06 m3
+
+Now forecast the following case.
+
+The historical input contains the last 14 days, ending before the forecast period.
+
+Historical water production:
+2018-07-14: water_produced=10915.83 m3
+2018-07-15: water_produced=9386.06 m3
+2018-07-16: water_produced=13560.23 m3
+2018-07-17: water_produced=11347.28 m3
+2018-07-18: water_produced=11974.71 m3
+2018-07-19: water_produced=15103.97 m3
+2018-07-20: water_produced=12869.78 m3
+2018-07-21: water_produced=7687.21 m3
+2018-07-22: water_produced=7867.20 m3
+2018-07-23: water_produced=9136.02 m3
+2018-07-24: water_produced=10853.61 m3
+2018-07-25: water_produced=10079.45 m3
+2018-07-26: water_produced=12761.51 m3
+2018-07-27: water_produced=12995.84 m3
+
+Historical calendar context:
+2018-07-14: Saturday, weekend, school_recess, month=July
+2018-07-15: Sunday, weekend, school_recess, month=July
+2018-07-16: Monday, school_recess, month=July
+2018-07-17: Tuesday, school_recess, month=July
+2018-07-18: Wednesday, school_recess, month=July
+2018-07-19: Thursday, school_recess, month=July
+2018-07-20: Friday, school_recess, month=July
+2018-07-21: Saturday, weekend, school_recess, month=July
+2018-07-22: Sunday, weekend, school_recess, month=July
+2018-07-23: Monday, school_recess, month=July
+2018-07-24: Tuesday, school_recess, month=July
+2018-07-25: Wednesday, school_recess, month=July
+2018-07-26: Thursday, school_recess, month=July
+2018-07-27: Friday, school_recess, month=July
+
+Calendar information known in advance for the forecast dates:
+2018-07-28: Saturday, weekend, school_recess, month=July
+2018-07-29: Sunday, weekend, school_recess, month=July
+2018-07-30: Monday, month=July
+2018-07-31: Tuesday, month=July
+2018-08-01: Wednesday, month=August
+2018-08-02: Thursday, month=August
+2018-08-03: Friday, month=August
+
+Meteorological forecast for the forecast dates:
+2018-07-28: temperature=17.84 C, radiation=59.09, relative_humidity=90.49 %, precipitation=0.00 mm
+2018-07-29: temperature=17.47 C, radiation=86.75, relative_humidity=91.10 %, precipitation=0.23 mm
+2018-07-30: temperature=15.71 C, radiation=21.13, relative_humidity=93.41 %, precipitation=0.03 mm
+2018-07-31: temperature=14.63 C, radiation=20.74, relative_humidity=89.59 %, precipitation=0.05 mm
+2018-08-01: temperature=13.61 C, radiation=17.69, relative_humidity=87.10 %, precipitation=0.00 mm
+2018-08-02: temperature=13.37 C, radiation=21.21, relative_humidity=93.56 %, precipitation=0.10 mm
+2018-08-03: temperature=15.68 C, radiation=42.65, relative_humidity=94.65 %, precipitation=0.55 mm
+
+The meteorological values above are forecasts available at the forecast origin, not observed weather values. Use them together with the historical demand and calendar information to forecast water production.
+
+Predict water production for the next 7 day(s), in m3.
+Return ONLY the predicted numerical values, comma-separated, in chronological order, with no explanation.
+Example output format: 12345.67, 12876.30

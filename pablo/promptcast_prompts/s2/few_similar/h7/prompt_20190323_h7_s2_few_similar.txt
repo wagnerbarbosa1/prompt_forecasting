@@ -1,0 +1,181 @@
+You are forecasting daily water production for a municipal water utility.
+
+Below are historical examples. Use them as examples of how historical patterns relate to subsequent water production.
+
+Example:
+Similarity distance: 2.481720
+Historical observations:
+2017-03-11: water_produced=12285.45 m3
+2017-03-12: water_produced=10645.32 m3
+2017-03-13: water_produced=11862.75 m3
+2017-03-14: water_produced=10879.90 m3
+2017-03-15: water_produced=10184.13 m3
+2017-03-16: water_produced=11867.46 m3
+2017-03-17: water_produced=14111.38 m3
+2017-03-18: water_produced=11890.34 m3
+2017-03-19: water_produced=10860.65 m3
+2017-03-20: water_produced=12163.28 m3
+2017-03-21: water_produced=10700.59 m3
+2017-03-22: water_produced=11687.18 m3
+2017-03-23: water_produced=12044.57 m3
+2017-03-24: water_produced=11928.60 m3
+
+Historical calendar context:
+2017-03-11: Saturday, weekend, month=March
+2017-03-12: Sunday, weekend, month=March
+2017-03-13: Monday, month=March
+2017-03-14: Tuesday, month=March
+2017-03-15: Wednesday, month=March
+2017-03-16: Thursday, month=March
+2017-03-17: Friday, month=March
+2017-03-18: Saturday, weekend, month=March
+2017-03-19: Sunday, weekend, month=March
+2017-03-20: Monday, month=March
+2017-03-21: Tuesday, month=March
+2017-03-22: Wednesday, month=March
+2017-03-23: Thursday, month=March
+2017-03-24: Friday, month=March
+
+Observed water production in the following days:
+2017-03-25: 14573.26 m3
+2017-03-26: 12409.18 m3
+2017-03-27: 13793.21 m3
+2017-03-28: 12766.78 m3
+2017-03-29: 11594.25 m3
+2017-03-30: 13099.49 m3
+2017-03-31: 10560.62 m3
+
+Example:
+Similarity distance: 4.146391
+Historical observations:
+2018-03-03: water_produced=15042.14 m3
+2018-03-04: water_produced=14982.78 m3
+2018-03-05: water_produced=14146.52 m3
+2018-03-06: water_produced=13497.31 m3
+2018-03-07: water_produced=11195.18 m3
+2018-03-08: water_produced=12317.26 m3
+2018-03-09: water_produced=13492.13 m3
+2018-03-10: water_produced=13182.86 m3
+2018-03-11: water_produced=12552.08 m3
+2018-03-12: water_produced=14196.42 m3
+2018-03-13: water_produced=12314.81 m3
+2018-03-14: water_produced=9772.52 m3
+2018-03-15: water_produced=15538.81 m3
+2018-03-16: water_produced=13996.34 m3
+
+Historical calendar context:
+2018-03-03: Saturday, weekend, month=March
+2018-03-04: Sunday, weekend, month=March
+2018-03-05: Monday, month=March
+2018-03-06: Tuesday, month=March
+2018-03-07: Wednesday, month=March
+2018-03-08: Thursday, month=March
+2018-03-09: Friday, public_holiday, month=March
+2018-03-10: Saturday, weekend, month=March
+2018-03-11: Sunday, weekend, month=March
+2018-03-12: Monday, month=March
+2018-03-13: Tuesday, month=March
+2018-03-14: Wednesday, month=March
+2018-03-15: Thursday, month=March
+2018-03-16: Friday, month=March
+
+Observed water production in the following days:
+2018-03-17: 14311.93 m3
+2018-03-18: 14072.16 m3
+2018-03-19: 13537.98 m3
+2018-03-20: 14195.57 m3
+2018-03-21: 14076.22 m3
+2018-03-22: 14492.07 m3
+2018-03-23: 14788.38 m3
+
+Example:
+Similarity distance: 4.224608
+Historical observations:
+2018-03-10: water_produced=13182.86 m3
+2018-03-11: water_produced=12552.08 m3
+2018-03-12: water_produced=14196.42 m3
+2018-03-13: water_produced=12314.81 m3
+2018-03-14: water_produced=9772.52 m3
+2018-03-15: water_produced=15538.81 m3
+2018-03-16: water_produced=13996.34 m3
+2018-03-17: water_produced=14311.93 m3
+2018-03-18: water_produced=14072.16 m3
+2018-03-19: water_produced=13537.98 m3
+2018-03-20: water_produced=14195.57 m3
+2018-03-21: water_produced=14076.22 m3
+2018-03-22: water_produced=14492.07 m3
+2018-03-23: water_produced=14788.38 m3
+
+Historical calendar context:
+2018-03-10: Saturday, weekend, month=March
+2018-03-11: Sunday, weekend, month=March
+2018-03-12: Monday, month=March
+2018-03-13: Tuesday, month=March
+2018-03-14: Wednesday, month=March
+2018-03-15: Thursday, month=March
+2018-03-16: Friday, month=March
+2018-03-17: Saturday, weekend, month=March
+2018-03-18: Sunday, weekend, month=March
+2018-03-19: Monday, month=March
+2018-03-20: Tuesday, month=March
+2018-03-21: Wednesday, month=March
+2018-03-22: Thursday, month=March
+2018-03-23: Friday, month=March
+
+Observed water production in the following days:
+2018-03-24: 15111.18 m3
+2018-03-25: 13339.49 m3
+2018-03-26: 13452.69 m3
+2018-03-27: 13005.95 m3
+2018-03-28: 13293.81 m3
+2018-03-29: 13784.73 m3
+2018-03-30: 14156.04 m3
+
+Now forecast the following case.
+
+The historical input contains the last 14 days, ending before the forecast period.
+
+Historical water production:
+2019-03-09: water_produced=14703.67 m3
+2019-03-10: water_produced=11599.70 m3
+2019-03-11: water_produced=12237.01 m3
+2019-03-12: water_produced=11880.97 m3
+2019-03-13: water_produced=11257.82 m3
+2019-03-14: water_produced=12564.72 m3
+2019-03-15: water_produced=15918.85 m3
+2019-03-16: water_produced=13350.85 m3
+2019-03-17: water_produced=12277.08 m3
+2019-03-18: water_produced=15368.43 m3
+2019-03-19: water_produced=12503.74 m3
+2019-03-20: water_produced=12944.89 m3
+2019-03-21: water_produced=16033.08 m3
+2019-03-22: water_produced=13765.35 m3
+
+Historical calendar context:
+2019-03-09: Saturday, weekend, public_holiday, month=March
+2019-03-10: Sunday, weekend, month=March
+2019-03-11: Monday, month=March
+2019-03-12: Tuesday, month=March
+2019-03-13: Wednesday, month=March
+2019-03-14: Thursday, month=March
+2019-03-15: Friday, month=March
+2019-03-16: Saturday, weekend, month=March
+2019-03-17: Sunday, weekend, month=March
+2019-03-18: Monday, month=March
+2019-03-19: Tuesday, month=March
+2019-03-20: Wednesday, month=March
+2019-03-21: Thursday, month=March
+2019-03-22: Friday, month=March
+
+Calendar information known in advance for the forecast dates:
+2019-03-23: Saturday, weekend, month=March
+2019-03-24: Sunday, weekend, month=March
+2019-03-25: Monday, month=March
+2019-03-26: Tuesday, month=March
+2019-03-27: Wednesday, month=March
+2019-03-28: Thursday, month=March
+2019-03-29: Friday, month=March
+
+Predict water production for the next 7 day(s), in m3.
+Return ONLY the predicted numerical values, comma-separated, in chronological order, with no explanation.
+Example output format: 12345.67, 12876.30

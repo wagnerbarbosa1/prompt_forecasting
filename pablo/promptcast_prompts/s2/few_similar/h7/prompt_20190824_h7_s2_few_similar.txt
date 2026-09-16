@@ -1,0 +1,181 @@
+You are forecasting daily water production for a municipal water utility.
+
+Below are historical examples. Use them as examples of how historical patterns relate to subsequent water production.
+
+Example:
+Similarity distance: 3.917843
+Historical observations:
+2018-06-30: water_produced=9334.76 m3
+2018-07-01: water_produced=11549.86 m3
+2018-07-02: water_produced=10204.63 m3
+2018-07-03: water_produced=10559.98 m3
+2018-07-04: water_produced=8165.23 m3
+2018-07-05: water_produced=11205.02 m3
+2018-07-06: water_produced=11752.25 m3
+2018-07-07: water_produced=11913.58 m3
+2018-07-08: water_produced=9189.32 m3
+2018-07-09: water_produced=12195.64 m3
+2018-07-10: water_produced=12131.93 m3
+2018-07-11: water_produced=9987.32 m3
+2018-07-12: water_produced=11693.47 m3
+2018-07-13: water_produced=11505.47 m3
+
+Historical calendar context:
+2018-06-30: Saturday, weekend, month=June
+2018-07-01: Sunday, weekend, month=July
+2018-07-02: Monday, month=July
+2018-07-03: Tuesday, month=July
+2018-07-04: Wednesday, month=July
+2018-07-05: Thursday, month=July
+2018-07-06: Friday, month=July
+2018-07-07: Saturday, weekend, month=July
+2018-07-08: Sunday, weekend, month=July
+2018-07-09: Monday, month=July
+2018-07-10: Tuesday, month=July
+2018-07-11: Wednesday, month=July
+2018-07-12: Thursday, month=July
+2018-07-13: Friday, month=July
+
+Observed water production in the following days:
+2018-07-14: 10915.83 m3
+2018-07-15: 9386.06 m3
+2018-07-16: 13560.23 m3
+2018-07-17: 11347.28 m3
+2018-07-18: 11974.71 m3
+2018-07-19: 15103.97 m3
+2018-07-20: 12869.78 m3
+
+Example:
+Similarity distance: 3.956377
+Historical observations:
+2019-08-03: water_produced=5064.97 m3
+2019-08-04: water_produced=8227.28 m3
+2019-08-05: water_produced=12008.68 m3
+2019-08-06: water_produced=12037.80 m3
+2019-08-07: water_produced=11885.61 m3
+2019-08-08: water_produced=13831.44 m3
+2019-08-09: water_produced=11909.69 m3
+2019-08-10: water_produced=5669.63 m3
+2019-08-11: water_produced=9777.74 m3
+2019-08-12: water_produced=10913.63 m3
+2019-08-13: water_produced=11501.65 m3
+2019-08-14: water_produced=8604.96 m3
+2019-08-15: water_produced=9985.02 m3
+2019-08-16: water_produced=10507.68 m3
+
+Historical calendar context:
+2019-08-03: Saturday, weekend, month=August
+2019-08-04: Sunday, weekend, month=August
+2019-08-05: Monday, month=August
+2019-08-06: Tuesday, month=August
+2019-08-07: Wednesday, month=August
+2019-08-08: Thursday, month=August
+2019-08-09: Friday, month=August
+2019-08-10: Saturday, weekend, month=August
+2019-08-11: Sunday, weekend, month=August
+2019-08-12: Monday, month=August
+2019-08-13: Tuesday, month=August
+2019-08-14: Wednesday, month=August
+2019-08-15: Thursday, month=August
+2019-08-16: Friday, month=August
+
+Observed water production in the following days:
+2019-08-17: 11182.35 m3
+2019-08-18: 9978.12 m3
+2019-08-19: 12604.23 m3
+2019-08-20: 13461.45 m3
+2019-08-21: 10544.35 m3
+2019-08-22: 9303.36 m3
+2019-08-23: 10772.97 m3
+
+Example:
+Similarity distance: 4.154664
+Historical observations:
+2017-08-05: water_produced=9389.24 m3
+2017-08-06: water_produced=9164.33 m3
+2017-08-07: water_produced=10239.85 m3
+2017-08-08: water_produced=9645.39 m3
+2017-08-09: water_produced=9193.78 m3
+2017-08-10: water_produced=12223.42 m3
+2017-08-11: water_produced=10179.83 m3
+2017-08-12: water_produced=10764.07 m3
+2017-08-13: water_produced=9511.72 m3
+2017-08-14: water_produced=10926.97 m3
+2017-08-15: water_produced=10333.92 m3
+2017-08-16: water_produced=10852.42 m3
+2017-08-17: water_produced=10359.32 m3
+2017-08-18: water_produced=10409.56 m3
+
+Historical calendar context:
+2017-08-05: Saturday, weekend, month=August
+2017-08-06: Sunday, weekend, month=August
+2017-08-07: Monday, month=August
+2017-08-08: Tuesday, month=August
+2017-08-09: Wednesday, month=August
+2017-08-10: Thursday, month=August
+2017-08-11: Friday, month=August
+2017-08-12: Saturday, weekend, month=August
+2017-08-13: Sunday, weekend, month=August
+2017-08-14: Monday, month=August
+2017-08-15: Tuesday, month=August
+2017-08-16: Wednesday, month=August
+2017-08-17: Thursday, month=August
+2017-08-18: Friday, month=August
+
+Observed water production in the following days:
+2017-08-19: 11569.97 m3
+2017-08-20: 8629.03 m3
+2017-08-21: 10217.81 m3
+2017-08-22: 10169.67 m3
+2017-08-23: 10304.14 m3
+2017-08-24: 10186.77 m3
+2017-08-25: 11985.20 m3
+
+Now forecast the following case.
+
+The historical input contains the last 14 days, ending before the forecast period.
+
+Historical water production:
+2019-08-10: water_produced=5669.63 m3
+2019-08-11: water_produced=9777.74 m3
+2019-08-12: water_produced=10913.63 m3
+2019-08-13: water_produced=11501.65 m3
+2019-08-14: water_produced=8604.96 m3
+2019-08-15: water_produced=9985.02 m3
+2019-08-16: water_produced=10507.68 m3
+2019-08-17: water_produced=11182.35 m3
+2019-08-18: water_produced=9978.12 m3
+2019-08-19: water_produced=12604.23 m3
+2019-08-20: water_produced=13461.45 m3
+2019-08-21: water_produced=10544.35 m3
+2019-08-22: water_produced=9303.36 m3
+2019-08-23: water_produced=10772.97 m3
+
+Historical calendar context:
+2019-08-10: Saturday, weekend, month=August
+2019-08-11: Sunday, weekend, month=August
+2019-08-12: Monday, month=August
+2019-08-13: Tuesday, month=August
+2019-08-14: Wednesday, month=August
+2019-08-15: Thursday, month=August
+2019-08-16: Friday, month=August
+2019-08-17: Saturday, weekend, month=August
+2019-08-18: Sunday, weekend, month=August
+2019-08-19: Monday, month=August
+2019-08-20: Tuesday, month=August
+2019-08-21: Wednesday, month=August
+2019-08-22: Thursday, month=August
+2019-08-23: Friday, month=August
+
+Calendar information known in advance for the forecast dates:
+2019-08-24: Saturday, weekend, month=August
+2019-08-25: Sunday, weekend, month=August
+2019-08-26: Monday, month=August
+2019-08-27: Tuesday, month=August
+2019-08-28: Wednesday, month=August
+2019-08-29: Thursday, month=August
+2019-08-30: Friday, month=August
+
+Predict water production for the next 7 day(s), in m3.
+Return ONLY the predicted numerical values, comma-separated, in chronological order, with no explanation.
+Example output format: 12345.67, 12876.30

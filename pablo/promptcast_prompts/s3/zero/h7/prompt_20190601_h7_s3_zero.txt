@@ -1,0 +1,61 @@
+You are forecasting daily water production for a municipal water utility.
+
+Now forecast the following case.
+
+The historical input contains the last 14 days, ending before the forecast period.
+
+Historical water production:
+2019-05-18: water_produced=8976.13 m3
+2019-05-19: water_produced=8606.83 m3
+2019-05-20: water_produced=13755.52 m3
+2019-05-21: water_produced=11927.28 m3
+2019-05-22: water_produced=13459.21 m3
+2019-05-23: water_produced=12180.91 m3
+2019-05-24: water_produced=12005.76 m3
+2019-05-25: water_produced=7431.25 m3
+2019-05-26: water_produced=9631.72 m3
+2019-05-27: water_produced=11318.79 m3
+2019-05-28: water_produced=12873.75 m3
+2019-05-29: water_produced=9737.61 m3
+2019-05-30: water_produced=12354.01 m3
+2019-05-31: water_produced=11220.73 m3
+
+Historical calendar context:
+2019-05-18: Saturday, weekend, month=May
+2019-05-19: Sunday, weekend, month=May
+2019-05-20: Monday, month=May
+2019-05-21: Tuesday, month=May
+2019-05-22: Wednesday, month=May
+2019-05-23: Thursday, month=May
+2019-05-24: Friday, month=May
+2019-05-25: Saturday, weekend, month=May
+2019-05-26: Sunday, weekend, month=May
+2019-05-27: Monday, month=May
+2019-05-28: Tuesday, month=May
+2019-05-29: Wednesday, month=May
+2019-05-30: Thursday, month=May
+2019-05-31: Friday, month=May
+
+Calendar information known in advance for the forecast dates:
+2019-06-01: Saturday, weekend, month=June
+2019-06-02: Sunday, weekend, month=June
+2019-06-03: Monday, month=June
+2019-06-04: Tuesday, month=June
+2019-06-05: Wednesday, month=June
+2019-06-06: Thursday, month=June
+2019-06-07: Friday, month=June
+
+Meteorological forecast for the forecast dates:
+2019-06-01: temperature=19.77 C, radiation=78.05, relative_humidity=90.73 %, precipitation=0.01 mm
+2019-06-02: temperature=19.35 C, radiation=40.69, relative_humidity=92.96 %, precipitation=0.55 mm
+2019-06-03: temperature=18.77 C, radiation=45.13, relative_humidity=93.31 %, precipitation=0.75 mm
+2019-06-04: temperature=17.72 C, radiation=164.91, relative_humidity=79.04 %, precipitation=0.03 mm
+2019-06-05: temperature=16.30 C, radiation=93.39, relative_humidity=86.91 %, precipitation=0.00 mm
+2019-06-06: temperature=18.18 C, radiation=104.61, relative_humidity=87.63 %, precipitation=0.04 mm
+2019-06-07: temperature=18.21 C, radiation=160.84, relative_humidity=87.03 %, precipitation=0.00 mm
+
+The meteorological values above are forecasts available at the forecast origin, not observed weather values. Use them together with the historical demand and calendar information to forecast water production.
+
+Predict water production for the next 7 day(s), in m3.
+Return ONLY the predicted numerical values, comma-separated, in chronological order, with no explanation.
+Example output format: 12345.67, 12876.30

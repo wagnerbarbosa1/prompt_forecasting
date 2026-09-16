@@ -1,0 +1,50 @@
+You are forecasting daily water production for a municipal water utility.
+
+Now forecast the following case.
+
+The historical input contains the last 14 days, ending before the forecast period.
+
+Historical water production:
+2018-07-28: water_produced=10158.39 m3
+2018-07-29: water_produced=8002.59 m3
+2018-07-30: water_produced=8891.97 m3
+2018-07-31: water_produced=11282.82 m3
+2018-08-01: water_produced=9120.16 m3
+2018-08-02: water_produced=8606.69 m3
+2018-08-03: water_produced=9453.80 m3
+2018-08-04: water_produced=8639.08 m3
+2018-08-05: water_produced=6108.98 m3
+2018-08-06: water_produced=11896.15 m3
+2018-08-07: water_produced=10914.67 m3
+2018-08-08: water_produced=10999.04 m3
+2018-08-09: water_produced=11390.06 m3
+2018-08-10: water_produced=10503.18 m3
+
+Historical calendar context:
+2018-07-28: Saturday, weekend, school_recess, month=July
+2018-07-29: Sunday, weekend, school_recess, month=July
+2018-07-30: Monday, month=July
+2018-07-31: Tuesday, month=July
+2018-08-01: Wednesday, month=August
+2018-08-02: Thursday, month=August
+2018-08-03: Friday, month=August
+2018-08-04: Saturday, weekend, month=August
+2018-08-05: Sunday, weekend, month=August
+2018-08-06: Monday, month=August
+2018-08-07: Tuesday, month=August
+2018-08-08: Wednesday, month=August
+2018-08-09: Thursday, month=August
+2018-08-10: Friday, month=August
+
+Calendar information known in advance for the forecast dates:
+2018-08-11: Saturday, weekend, month=August
+2018-08-12: Sunday, weekend, month=August
+2018-08-13: Monday, month=August
+2018-08-14: Tuesday, month=August
+2018-08-15: Wednesday, month=August
+2018-08-16: Thursday, month=August
+2018-08-17: Friday, month=August
+
+Predict water production for the next 7 day(s), in m3.
+Return ONLY the predicted numerical values, comma-separated, in chronological order, with no explanation.
+Example output format: 12345.67, 12876.30

@@ -1,0 +1,61 @@
+You are forecasting daily water production for a municipal water utility.
+
+Now forecast the following case.
+
+The historical input contains the last 14 days, ending before the forecast period.
+
+Historical water production:
+2019-03-09: water_produced=14703.67 m3
+2019-03-10: water_produced=11599.70 m3
+2019-03-11: water_produced=12237.01 m3
+2019-03-12: water_produced=11880.97 m3
+2019-03-13: water_produced=11257.82 m3
+2019-03-14: water_produced=12564.72 m3
+2019-03-15: water_produced=15918.85 m3
+2019-03-16: water_produced=13350.85 m3
+2019-03-17: water_produced=12277.08 m3
+2019-03-18: water_produced=15368.43 m3
+2019-03-19: water_produced=12503.74 m3
+2019-03-20: water_produced=12944.89 m3
+2019-03-21: water_produced=16033.08 m3
+2019-03-22: water_produced=13765.35 m3
+
+Historical calendar context:
+2019-03-09: Saturday, weekend, public_holiday, month=March
+2019-03-10: Sunday, weekend, month=March
+2019-03-11: Monday, month=March
+2019-03-12: Tuesday, month=March
+2019-03-13: Wednesday, month=March
+2019-03-14: Thursday, month=March
+2019-03-15: Friday, month=March
+2019-03-16: Saturday, weekend, month=March
+2019-03-17: Sunday, weekend, month=March
+2019-03-18: Monday, month=March
+2019-03-19: Tuesday, month=March
+2019-03-20: Wednesday, month=March
+2019-03-21: Thursday, month=March
+2019-03-22: Friday, month=March
+
+Calendar information known in advance for the forecast dates:
+2019-03-23: Saturday, weekend, month=March
+2019-03-24: Sunday, weekend, month=March
+2019-03-25: Monday, month=March
+2019-03-26: Tuesday, month=March
+2019-03-27: Wednesday, month=March
+2019-03-28: Thursday, month=March
+2019-03-29: Friday, month=March
+
+Meteorological forecast for the forecast dates:
+2019-03-23: temperature=21.57 C, radiation=236.06, relative_humidity=83.15 %, precipitation=0.00 mm
+2019-03-24: temperature=23.36 C, radiation=230.55, relative_humidity=82.43 %, precipitation=0.00 mm
+2019-03-25: temperature=24.76 C, radiation=180.71, relative_humidity=83.84 %, precipitation=0.00 mm
+2019-03-26: temperature=21.57 C, radiation=24.39, relative_humidity=91.26 %, precipitation=0.18 mm
+2019-03-27: temperature=19.93 C, radiation=29.78, relative_humidity=93.04 %, precipitation=0.29 mm
+2019-03-28: temperature=20.98 C, radiation=68.45, relative_humidity=90.84 %, precipitation=0.10 mm
+2019-03-29: temperature=22.09 C, radiation=153.71, relative_humidity=84.24 %, precipitation=0.28 mm
+
+The meteorological values above are forecasts available at the forecast origin, not observed weather values. Use them together with the historical demand and calendar information to forecast water production.
+
+Predict water production for the next 7 day(s), in m3.
+Return ONLY the predicted numerical values, comma-separated, in chronological order, with no explanation.
+Example output format: 12345.67, 12876.30

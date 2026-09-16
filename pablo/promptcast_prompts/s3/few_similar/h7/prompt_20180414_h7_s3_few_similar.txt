@@ -1,0 +1,219 @@
+You are forecasting daily water production for a municipal water utility.
+
+Below are historical examples. Use them as examples of how historical patterns relate to subsequent water production.
+
+Example:
+Similarity distance: 9.646185
+Historical observations:
+2016-05-14: water_produced=10952.61 m3
+2016-05-15: water_produced=9786.03 m3
+2016-05-16: water_produced=13287.38 m3
+2016-05-17: water_produced=9456.76 m3
+2016-05-18: water_produced=8971.75 m3
+2016-05-19: water_produced=10072.69 m3
+2016-05-20: water_produced=10825.46 m3
+2016-05-21: water_produced=10188.12 m3
+2016-05-22: water_produced=8498.91 m3
+2016-05-23: water_produced=13237.37 m3
+2016-05-24: water_produced=10222.27 m3
+2016-05-25: water_produced=9156.56 m3
+2016-05-26: water_produced=12174.26 m3
+2016-05-27: water_produced=12813.69 m3
+
+Historical calendar context:
+2016-05-14: Saturday, weekend, month=May
+2016-05-15: Sunday, weekend, month=May
+2016-05-16: Monday, month=May
+2016-05-17: Tuesday, month=May
+2016-05-18: Wednesday, month=May
+2016-05-19: Thursday, month=May
+2016-05-20: Friday, month=May
+2016-05-21: Saturday, weekend, month=May
+2016-05-22: Sunday, weekend, month=May
+2016-05-23: Monday, month=May
+2016-05-24: Tuesday, month=May
+2016-05-25: Wednesday, month=May
+2016-05-26: Thursday, public_holiday, month=May
+2016-05-27: Friday, school_recess, month=May
+
+Meteorological forecast for the demonstrated target dates:
+2016-05-28: temperature=16.47 C, radiation=19.22, relative_humidity=100.00 %, precipitation=0.03 mm
+2016-05-29: temperature=18.00 C, radiation=35.94, relative_humidity=98.86 %, precipitation=0.03 mm
+2016-05-30: temperature=17.89 C, radiation=50.34, relative_humidity=98.57 %, precipitation=0.00 mm
+2016-05-31: temperature=19.06 C, radiation=115.47, relative_humidity=95.20 %, precipitation=0.00 mm
+2016-06-01: temperature=17.70 C, radiation=27.94, relative_humidity=98.75 %, precipitation=0.08 mm
+2016-06-02: temperature=16.60 C, radiation=47.72, relative_humidity=94.86 %, precipitation=0.17 mm
+2016-06-03: temperature=16.62 C, radiation=105.26, relative_humidity=89.83 %, precipitation=0.00 mm
+
+Observed water production in the following days:
+2016-05-28: 9471.38 m3
+2016-05-29: 7941.34 m3
+2016-05-30: 11524.78 m3
+2016-05-31: 9590.54 m3
+2016-06-01: 8540.22 m3
+2016-06-02: 10173.70 m3
+2016-06-03: 10838.33 m3
+
+Example:
+Similarity distance: 9.999040
+Historical observations:
+2016-04-23: water_produced=13026.49 m3
+2016-04-24: water_produced=7378.77 m3
+2016-04-25: water_produced=10777.44 m3
+2016-04-26: water_produced=12160.10 m3
+2016-04-27: water_produced=10827.67 m3
+2016-04-28: water_produced=10043.66 m3
+2016-04-29: water_produced=10140.53 m3
+2016-04-30: water_produced=11131.73 m3
+2016-05-01: water_produced=7931.84 m3
+2016-05-02: water_produced=10422.36 m3
+2016-05-03: water_produced=8515.12 m3
+2016-05-04: water_produced=9478.18 m3
+2016-05-05: water_produced=9952.01 m3
+2016-05-06: water_produced=9253.86 m3
+
+Historical calendar context:
+2016-04-23: Saturday, weekend, month=April
+2016-04-24: Sunday, weekend, month=April
+2016-04-25: Monday, month=April
+2016-04-26: Tuesday, month=April
+2016-04-27: Wednesday, month=April
+2016-04-28: Thursday, month=April
+2016-04-29: Friday, public_holiday, month=April
+2016-04-30: Saturday, weekend, month=April
+2016-05-01: Sunday, weekend, public_holiday, month=May
+2016-05-02: Monday, month=May
+2016-05-03: Tuesday, month=May
+2016-05-04: Wednesday, month=May
+2016-05-05: Thursday, month=May
+2016-05-06: Friday, month=May
+
+Meteorological forecast for the demonstrated target dates:
+2016-05-07: temperature=20.07 C, radiation=75.48, relative_humidity=93.57 %, precipitation=0.00 mm
+2016-05-08: temperature=20.93 C, radiation=75.92, relative_humidity=92.67 %, precipitation=0.03 mm
+2016-05-09: temperature=20.60 C, radiation=62.23, relative_humidity=94.66 %, precipitation=0.13 mm
+2016-05-10: temperature=21.44 C, radiation=100.84, relative_humidity=93.87 %, precipitation=0.05 mm
+2016-05-11: temperature=20.85 C, radiation=91.36, relative_humidity=91.83 %, precipitation=0.01 mm
+2016-05-12: temperature=18.63 C, radiation=30.93, relative_humidity=95.24 %, precipitation=0.09 mm
+2016-05-13: temperature=16.90 C, radiation=9.02, relative_humidity=100.00 %, precipitation=0.43 mm
+
+Observed water production in the following days:
+2016-05-07: 9697.89 m3
+2016-05-08: 8021.86 m3
+2016-05-09: 12245.07 m3
+2016-05-10: 6505.61 m3
+2016-05-11: 7879.57 m3
+2016-05-12: 10472.99 m3
+2016-05-13: 8833.32 m3
+
+Example:
+Similarity distance: 10.144819
+Historical observations:
+2016-04-09: water_produced=13033.42 m3
+2016-04-10: water_produced=9110.42 m3
+2016-04-11: water_produced=10336.08 m3
+2016-04-12: water_produced=11045.91 m3
+2016-04-13: water_produced=10029.76 m3
+2016-04-14: water_produced=9754.68 m3
+2016-04-15: water_produced=10051.85 m3
+2016-04-16: water_produced=13504.17 m3
+2016-04-17: water_produced=10684.64 m3
+2016-04-18: water_produced=12549.64 m3
+2016-04-19: water_produced=12566.85 m3
+2016-04-20: water_produced=12599.41 m3
+2016-04-21: water_produced=11837.55 m3
+2016-04-22: water_produced=11058.80 m3
+
+Historical calendar context:
+2016-04-09: Saturday, weekend, month=April
+2016-04-10: Sunday, weekend, month=April
+2016-04-11: Monday, month=April
+2016-04-12: Tuesday, month=April
+2016-04-13: Wednesday, month=April
+2016-04-14: Thursday, month=April
+2016-04-15: Friday, month=April
+2016-04-16: Saturday, weekend, month=April
+2016-04-17: Sunday, weekend, month=April
+2016-04-18: Monday, month=April
+2016-04-19: Tuesday, month=April
+2016-04-20: Wednesday, month=April
+2016-04-21: Thursday, public_holiday, month=April
+2016-04-22: Friday, school_recess, month=April
+
+Meteorological forecast for the demonstrated target dates:
+2016-04-23: temperature=25.91 C, radiation=181.85, relative_humidity=91.22 %, precipitation=0.04 mm
+2016-04-24: temperature=27.47 C, radiation=177.11, relative_humidity=91.02 %, precipitation=0.00 mm
+2016-04-25: temperature=26.48 C, radiation=123.24, relative_humidity=84.48 %, precipitation=0.17 mm
+2016-04-26: temperature=23.40 C, radiation=66.29, relative_humidity=86.65 %, precipitation=0.02 mm
+2016-04-27: temperature=17.74 C, radiation=163.74, relative_humidity=84.42 %, precipitation=0.19 mm
+2016-04-28: temperature=14.91 C, radiation=176.62, relative_humidity=70.31 %, precipitation=0.00 mm
+2016-04-29: temperature=15.95 C, radiation=135.26, relative_humidity=80.87 %, precipitation=0.00 mm
+
+Observed water production in the following days:
+2016-04-23: 13026.49 m3
+2016-04-24: 7378.77 m3
+2016-04-25: 10777.44 m3
+2016-04-26: 12160.10 m3
+2016-04-27: 10827.67 m3
+2016-04-28: 10043.66 m3
+2016-04-29: 10140.53 m3
+
+Now forecast the following case.
+
+The historical input contains the last 14 days, ending before the forecast period.
+
+Historical water production:
+2018-03-31: water_produced=13884.13 m3
+2018-04-01: water_produced=12355.91 m3
+2018-04-02: water_produced=14600.07 m3
+2018-04-03: water_produced=13902.13 m3
+2018-04-04: water_produced=11595.54 m3
+2018-04-05: water_produced=12204.91 m3
+2018-04-06: water_produced=13367.05 m3
+2018-04-07: water_produced=11895.43 m3
+2018-04-08: water_produced=10334.85 m3
+2018-04-09: water_produced=13883.78 m3
+2018-04-10: water_produced=12617.16 m3
+2018-04-11: water_produced=12226.02 m3
+2018-04-12: water_produced=12722.34 m3
+2018-04-13: water_produced=12084.82 m3
+
+Historical calendar context:
+2018-03-31: Saturday, weekend, month=March
+2018-04-01: Sunday, weekend, month=April
+2018-04-02: Monday, month=April
+2018-04-03: Tuesday, month=April
+2018-04-04: Wednesday, month=April
+2018-04-05: Thursday, month=April
+2018-04-06: Friday, month=April
+2018-04-07: Saturday, weekend, month=April
+2018-04-08: Sunday, weekend, month=April
+2018-04-09: Monday, month=April
+2018-04-10: Tuesday, month=April
+2018-04-11: Wednesday, month=April
+2018-04-12: Thursday, month=April
+2018-04-13: Friday, month=April
+
+Calendar information known in advance for the forecast dates:
+2018-04-14: Saturday, weekend, month=April
+2018-04-15: Sunday, weekend, month=April
+2018-04-16: Monday, month=April
+2018-04-17: Tuesday, month=April
+2018-04-18: Wednesday, month=April
+2018-04-19: Thursday, month=April
+2018-04-20: Friday, month=April
+
+Meteorological forecast for the forecast dates:
+2018-04-14: temperature=21.17 C, radiation=19.20, relative_humidity=91.98 %, precipitation=1.03 mm
+2018-04-15: temperature=19.94 C, radiation=56.94, relative_humidity=89.70 %, precipitation=0.12 mm
+2018-04-16: temperature=20.02 C, radiation=49.92, relative_humidity=89.22 %, precipitation=0.23 mm
+2018-04-17: temperature=20.15 C, radiation=72.75, relative_humidity=89.51 %, precipitation=0.14 mm
+2018-04-18: temperature=21.33 C, radiation=106.75, relative_humidity=85.19 %, precipitation=0.01 mm
+2018-04-19: temperature=21.44 C, radiation=114.22, relative_humidity=81.90 %, precipitation=0.00 mm
+2018-04-20: temperature=21.91 C, radiation=113.59, relative_humidity=82.34 %, precipitation=0.00 mm
+
+The meteorological values above are forecasts available at the forecast origin, not observed weather values. Use them together with the historical demand and calendar information to forecast water production.
+
+Predict water production for the next 7 day(s), in m3.
+Return ONLY the predicted numerical values, comma-separated, in chronological order, with no explanation.
+Example output format: 12345.67, 12876.30

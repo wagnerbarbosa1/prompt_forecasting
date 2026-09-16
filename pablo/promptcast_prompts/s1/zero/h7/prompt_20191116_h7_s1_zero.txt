@@ -1,0 +1,25 @@
+You are forecasting daily water production for a municipal water utility.
+
+Now forecast the following case.
+
+The historical input contains the last 14 days, ending before the forecast period.
+
+Historical water production:
+2019-11-02: water_produced=16469.38 m3
+2019-11-03: water_produced=14340.76 m3
+2019-11-04: water_produced=14618.33 m3
+2019-11-05: water_produced=13714.54 m3
+2019-11-06: water_produced=11064.72 m3
+2019-11-07: water_produced=10958.24 m3
+2019-11-08: water_produced=15351.23 m3
+2019-11-09: water_produced=10992.20 m3
+2019-11-10: water_produced=11532.70 m3
+2019-11-11: water_produced=13264.87 m3
+2019-11-12: water_produced=15222.06 m3
+2019-11-13: water_produced=12071.67 m3
+2019-11-14: water_produced=14985.79 m3
+2019-11-15: water_produced=16388.28 m3
+
+Predict water production for the next 7 day(s), in m3.
+Return ONLY the predicted numerical values, comma-separated, in chronological order, with no explanation.
+Example output format: 12345.67, 12876.30

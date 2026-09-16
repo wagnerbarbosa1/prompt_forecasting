@@ -1,0 +1,108 @@
+You are forecasting daily water production for a municipal water utility.
+
+Below are historical examples. Use them as examples of how historical patterns relate to subsequent water production.
+
+Example:
+Similarity distance: 2.030583
+Historical observations:
+2018-08-11: water_produced=6869.55 m3
+2018-08-12: water_produced=8303.71 m3
+2018-08-13: water_produced=10685.41 m3
+2018-08-14: water_produced=10272.86 m3
+2018-08-15: water_produced=11532.81 m3
+2018-08-16: water_produced=9424.80 m3
+2018-08-17: water_produced=9765.34 m3
+2018-08-18: water_produced=8606.68 m3
+2018-08-19: water_produced=7791.26 m3
+2018-08-20: water_produced=7997.44 m3
+2018-08-21: water_produced=11756.13 m3
+2018-08-22: water_produced=9217.34 m3
+2018-08-23: water_produced=12053.86 m3
+2018-08-24: water_produced=11209.97 m3
+
+Observed water production in the following days:
+2018-08-25: 8732.72 m3
+2018-08-26: 9360.99 m3
+2018-08-27: 9699.40 m3
+2018-08-28: 10232.37 m3
+2018-08-29: 9746.46 m3
+2018-08-30: 11249.08 m3
+2018-08-31: 10227.38 m3
+
+Example:
+Similarity distance: 2.154217
+Historical observations:
+2018-12-01: water_produced=8464.14 m3
+2018-12-02: water_produced=7874.20 m3
+2018-12-03: water_produced=12726.24 m3
+2018-12-04: water_produced=11931.30 m3
+2018-12-05: water_produced=11806.37 m3
+2018-12-06: water_produced=10683.45 m3
+2018-12-07: water_produced=13456.10 m3
+2018-12-08: water_produced=8993.64 m3
+2018-12-09: water_produced=11461.77 m3
+2018-12-10: water_produced=12831.10 m3
+2018-12-11: water_produced=13709.93 m3
+2018-12-12: water_produced=13263.47 m3
+2018-12-13: water_produced=14878.30 m3
+2018-12-14: water_produced=16536.49 m3
+
+Observed water production in the following days:
+2018-12-15: 16444.44 m3
+2018-12-16: 17400.57 m3
+2018-12-17: 17224.28 m3
+2018-12-18: 18163.31 m3
+2018-12-19: 14245.91 m3
+2018-12-20: 16339.51 m3
+2018-12-21: 16510.76 m3
+
+Example:
+Similarity distance: 2.311482
+Historical observations:
+2018-06-09: water_produced=9106.71 m3
+2018-06-10: water_produced=9150.01 m3
+2018-06-11: water_produced=12499.02 m3
+2018-06-12: water_produced=11248.18 m3
+2018-06-13: water_produced=10656.93 m3
+2018-06-14: water_produced=11637.42 m3
+2018-06-15: water_produced=9910.22 m3
+2018-06-16: water_produced=10179.58 m3
+2018-06-17: water_produced=7724.27 m3
+2018-06-18: water_produced=11024.12 m3
+2018-06-19: water_produced=13243.13 m3
+2018-06-20: water_produced=12862.33 m3
+2018-06-21: water_produced=12522.04 m3
+2018-06-22: water_produced=14111.98 m3
+
+Observed water production in the following days:
+2018-06-23: 10739.78 m3
+2018-06-24: 12137.79 m3
+2018-06-25: 11319.36 m3
+2018-06-26: 10974.91 m3
+2018-06-27: 11112.02 m3
+2018-06-28: 11650.04 m3
+2018-06-29: 11517.87 m3
+
+Now forecast the following case.
+
+The historical input contains the last 14 days, ending before the forecast period.
+
+Historical water production:
+2019-04-06: water_produced=7542.10 m3
+2019-04-07: water_produced=10055.48 m3
+2019-04-08: water_produced=13040.67 m3
+2019-04-09: water_produced=13643.93 m3
+2019-04-10: water_produced=12335.78 m3
+2019-04-11: water_produced=11827.03 m3
+2019-04-12: water_produced=12455.44 m3
+2019-04-13: water_produced=10763.28 m3
+2019-04-14: water_produced=9915.62 m3
+2019-04-15: water_produced=11785.81 m3
+2019-04-16: water_produced=13243.30 m3
+2019-04-17: water_produced=12378.54 m3
+2019-04-18: water_produced=13512.99 m3
+2019-04-19: water_produced=14710.61 m3
+
+Predict water production for the next 7 day(s), in m3.
+Return ONLY the predicted numerical values, comma-separated, in chronological order, with no explanation.
+Example output format: 12345.67, 12876.30

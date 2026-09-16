@@ -1,0 +1,61 @@
+You are forecasting daily water production for a municipal water utility.
+
+Now forecast the following case.
+
+The historical input contains the last 14 days, ending before the forecast period.
+
+Historical water production:
+2019-01-19: water_produced=18778.64 m3
+2019-01-20: water_produced=18055.33 m3
+2019-01-21: water_produced=21961.03 m3
+2019-01-22: water_produced=16519.99 m3
+2019-01-23: water_produced=17470.22 m3
+2019-01-24: water_produced=17460.71 m3
+2019-01-25: water_produced=19380.33 m3
+2019-01-26: water_produced=18147.92 m3
+2019-01-27: water_produced=17820.80 m3
+2019-01-28: water_produced=17826.71 m3
+2019-01-29: water_produced=19563.05 m3
+2019-01-30: water_produced=17182.40 m3
+2019-01-31: water_produced=17130.15 m3
+2019-02-01: water_produced=19742.34 m3
+
+Historical calendar context:
+2019-01-19: Saturday, weekend, school_recess, month=January
+2019-01-20: Sunday, weekend, school_recess, month=January
+2019-01-21: Monday, school_recess, month=January
+2019-01-22: Tuesday, school_recess, month=January
+2019-01-23: Wednesday, school_recess, month=January
+2019-01-24: Thursday, school_recess, month=January
+2019-01-25: Friday, school_recess, month=January
+2019-01-26: Saturday, weekend, school_recess, month=January
+2019-01-27: Sunday, weekend, school_recess, month=January
+2019-01-28: Monday, school_recess, month=January
+2019-01-29: Tuesday, school_recess, month=January
+2019-01-30: Wednesday, school_recess, month=January
+2019-01-31: Thursday, school_recess, month=January
+2019-02-01: Friday, school_recess, month=February
+
+Calendar information known in advance for the forecast dates:
+2019-02-02: Saturday, weekend, school_recess, month=February
+2019-02-03: Sunday, weekend, school_recess, month=February
+2019-02-04: Monday, school_recess, month=February
+2019-02-05: Tuesday, school_recess, month=February
+2019-02-06: Wednesday, school_recess, month=February
+2019-02-07: Thursday, school_recess, month=February
+2019-02-08: Friday, school_recess, month=February
+
+Meteorological forecast for the forecast dates:
+2019-02-02: temperature=27.58 C, radiation=160.22, relative_humidity=78.60 %, precipitation=0.19 mm
+2019-02-03: temperature=24.71 C, radiation=101.17, relative_humidity=86.37 %, precipitation=0.30 mm
+2019-02-04: temperature=21.18 C, radiation=67.42, relative_humidity=88.34 %, precipitation=0.09 mm
+2019-02-05: temperature=20.73 C, radiation=56.31, relative_humidity=90.01 %, precipitation=0.09 mm
+2019-02-06: temperature=21.19 C, radiation=124.25, relative_humidity=86.59 %, precipitation=0.12 mm
+2019-02-07: temperature=22.40 C, radiation=279.13, relative_humidity=79.61 %, precipitation=0.00 mm
+2019-02-08: temperature=25.05 C, radiation=238.32, relative_humidity=77.18 %, precipitation=0.00 mm
+
+The meteorological values above are forecasts available at the forecast origin, not observed weather values. Use them together with the historical demand and calendar information to forecast water production.
+
+Predict water production for the next 7 day(s), in m3.
+Return ONLY the predicted numerical values, comma-separated, in chronological order, with no explanation.
+Example output format: 12345.67, 12876.30

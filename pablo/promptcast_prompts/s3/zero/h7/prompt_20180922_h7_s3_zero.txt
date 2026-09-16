@@ -1,0 +1,61 @@
+You are forecasting daily water production for a municipal water utility.
+
+Now forecast the following case.
+
+The historical input contains the last 14 days, ending before the forecast period.
+
+Historical water production:
+2018-09-08: water_produced=10878.62 m3
+2018-09-09: water_produced=10562.09 m3
+2018-09-10: water_produced=11345.23 m3
+2018-09-11: water_produced=12215.79 m3
+2018-09-12: water_produced=11163.98 m3
+2018-09-13: water_produced=11764.95 m3
+2018-09-14: water_produced=11663.66 m3
+2018-09-15: water_produced=9645.42 m3
+2018-09-16: water_produced=7818.23 m3
+2018-09-17: water_produced=11779.95 m3
+2018-09-18: water_produced=12380.06 m3
+2018-09-19: water_produced=10046.30 m3
+2018-09-20: water_produced=13816.44 m3
+2018-09-21: water_produced=11306.45 m3
+
+Historical calendar context:
+2018-09-08: Saturday, weekend, public_holiday, month=September
+2018-09-09: Sunday, weekend, month=September
+2018-09-10: Monday, month=September
+2018-09-11: Tuesday, month=September
+2018-09-12: Wednesday, month=September
+2018-09-13: Thursday, month=September
+2018-09-14: Friday, month=September
+2018-09-15: Saturday, weekend, month=September
+2018-09-16: Sunday, weekend, month=September
+2018-09-17: Monday, month=September
+2018-09-18: Tuesday, month=September
+2018-09-19: Wednesday, month=September
+2018-09-20: Thursday, month=September
+2018-09-21: Friday, month=September
+
+Calendar information known in advance for the forecast dates:
+2018-09-22: Saturday, weekend, month=September
+2018-09-23: Sunday, weekend, month=September
+2018-09-24: Monday, month=September
+2018-09-25: Tuesday, month=September
+2018-09-26: Wednesday, month=September
+2018-09-27: Thursday, month=September
+2018-09-28: Friday, month=September
+
+Meteorological forecast for the forecast dates:
+2018-09-22: temperature=20.79 C, radiation=139.66, relative_humidity=86.68 %, precipitation=0.00 mm
+2018-09-23: temperature=22.02 C, radiation=101.90, relative_humidity=81.56 %, precipitation=0.00 mm
+2018-09-24: temperature=21.47 C, radiation=111.38, relative_humidity=83.27 %, precipitation=0.00 mm
+2018-09-25: temperature=21.66 C, radiation=172.48, relative_humidity=81.71 %, precipitation=0.00 mm
+2018-09-26: temperature=21.78 C, radiation=79.81, relative_humidity=86.57 %, precipitation=0.03 mm
+2018-09-27: temperature=22.00 C, radiation=63.79, relative_humidity=86.07 %, precipitation=0.00 mm
+2018-09-28: temperature=21.78 C, radiation=44.65, relative_humidity=89.49 %, precipitation=0.01 mm
+
+The meteorological values above are forecasts available at the forecast origin, not observed weather values. Use them together with the historical demand and calendar information to forecast water production.
+
+Predict water production for the next 7 day(s), in m3.
+Return ONLY the predicted numerical values, comma-separated, in chronological order, with no explanation.
+Example output format: 12345.67, 12876.30

@@ -1,0 +1,61 @@
+You are forecasting daily water production for a municipal water utility.
+
+Now forecast the following case.
+
+The historical input contains the last 14 days, ending before the forecast period.
+
+Historical water production:
+2018-07-21: water_produced=7687.21 m3
+2018-07-22: water_produced=7867.20 m3
+2018-07-23: water_produced=9136.02 m3
+2018-07-24: water_produced=10853.61 m3
+2018-07-25: water_produced=10079.45 m3
+2018-07-26: water_produced=12761.51 m3
+2018-07-27: water_produced=12995.84 m3
+2018-07-28: water_produced=10158.39 m3
+2018-07-29: water_produced=8002.59 m3
+2018-07-30: water_produced=8891.97 m3
+2018-07-31: water_produced=11282.82 m3
+2018-08-01: water_produced=9120.16 m3
+2018-08-02: water_produced=8606.69 m3
+2018-08-03: water_produced=9453.80 m3
+
+Historical calendar context:
+2018-07-21: Saturday, weekend, school_recess, month=July
+2018-07-22: Sunday, weekend, school_recess, month=July
+2018-07-23: Monday, school_recess, month=July
+2018-07-24: Tuesday, school_recess, month=July
+2018-07-25: Wednesday, school_recess, month=July
+2018-07-26: Thursday, school_recess, month=July
+2018-07-27: Friday, school_recess, month=July
+2018-07-28: Saturday, weekend, school_recess, month=July
+2018-07-29: Sunday, weekend, school_recess, month=July
+2018-07-30: Monday, month=July
+2018-07-31: Tuesday, month=July
+2018-08-01: Wednesday, month=August
+2018-08-02: Thursday, month=August
+2018-08-03: Friday, month=August
+
+Calendar information known in advance for the forecast dates:
+2018-08-04: Saturday, weekend, month=August
+2018-08-05: Sunday, weekend, month=August
+2018-08-06: Monday, month=August
+2018-08-07: Tuesday, month=August
+2018-08-08: Wednesday, month=August
+2018-08-09: Thursday, month=August
+2018-08-10: Friday, month=August
+
+Meteorological forecast for the forecast dates:
+2018-08-04: temperature=18.02 C, radiation=122.63, relative_humidity=89.02 %, precipitation=0.00 mm
+2018-08-05: temperature=16.98 C, radiation=122.02, relative_humidity=81.40 %, precipitation=0.00 mm
+2018-08-06: temperature=15.14 C, radiation=86.30, relative_humidity=84.12 %, precipitation=0.00 mm
+2018-08-07: temperature=15.39 C, radiation=148.16, relative_humidity=85.74 %, precipitation=0.00 mm
+2018-08-08: temperature=17.25 C, radiation=136.06, relative_humidity=82.49 %, precipitation=0.01 mm
+2018-08-09: temperature=17.09 C, radiation=105.44, relative_humidity=88.45 %, precipitation=0.01 mm
+2018-08-10: temperature=16.14 C, radiation=157.10, relative_humidity=57.65 %, precipitation=0.00 mm
+
+The meteorological values above are forecasts available at the forecast origin, not observed weather values. Use them together with the historical demand and calendar information to forecast water production.
+
+Predict water production for the next 7 day(s), in m3.
+Return ONLY the predicted numerical values, comma-separated, in chronological order, with no explanation.
+Example output format: 12345.67, 12876.30

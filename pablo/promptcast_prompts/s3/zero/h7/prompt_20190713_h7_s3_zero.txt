@@ -1,0 +1,61 @@
+You are forecasting daily water production for a municipal water utility.
+
+Now forecast the following case.
+
+The historical input contains the last 14 days, ending before the forecast period.
+
+Historical water production:
+2019-06-29: water_produced=7245.92 m3
+2019-06-30: water_produced=7619.48 m3
+2019-07-01: water_produced=14050.75 m3
+2019-07-02: water_produced=12805.34 m3
+2019-07-03: water_produced=12392.12 m3
+2019-07-04: water_produced=12097.28 m3
+2019-07-05: water_produced=9995.98 m3
+2019-07-06: water_produced=9045.92 m3
+2019-07-07: water_produced=6477.09 m3
+2019-07-08: water_produced=10220.09 m3
+2019-07-09: water_produced=13549.08 m3
+2019-07-10: water_produced=13199.39 m3
+2019-07-11: water_produced=9679.21 m3
+2019-07-12: water_produced=14378.31 m3
+
+Historical calendar context:
+2019-06-29: Saturday, weekend, month=June
+2019-06-30: Sunday, weekend, month=June
+2019-07-01: Monday, month=July
+2019-07-02: Tuesday, month=July
+2019-07-03: Wednesday, month=July
+2019-07-04: Thursday, month=July
+2019-07-05: Friday, month=July
+2019-07-06: Saturday, weekend, month=July
+2019-07-07: Sunday, weekend, month=July
+2019-07-08: Monday, month=July
+2019-07-09: Tuesday, month=July
+2019-07-10: Wednesday, month=July
+2019-07-11: Thursday, month=July
+2019-07-12: Friday, month=July
+
+Calendar information known in advance for the forecast dates:
+2019-07-13: Saturday, weekend, school_recess, month=July
+2019-07-14: Sunday, weekend, school_recess, month=July
+2019-07-15: Monday, school_recess, month=July
+2019-07-16: Tuesday, school_recess, month=July
+2019-07-17: Wednesday, school_recess, month=July
+2019-07-18: Thursday, school_recess, month=July
+2019-07-19: Friday, school_recess, month=July
+
+Meteorological forecast for the forecast dates:
+2019-07-13: temperature=19.08 C, radiation=133.53, relative_humidity=81.41 %, precipitation=0.00 mm
+2019-07-14: temperature=18.22 C, radiation=118.37, relative_humidity=86.93 %, precipitation=0.00 mm
+2019-07-15: temperature=16.58 C, radiation=9.44, relative_humidity=93.30 %, precipitation=0.06 mm
+2019-07-16: temperature=16.13 C, radiation=165.62, relative_humidity=78.39 %, precipitation=0.00 mm
+2019-07-17: temperature=12.92 C, radiation=69.53, relative_humidity=85.64 %, precipitation=0.00 mm
+2019-07-18: temperature=15.34 C, radiation=63.74, relative_humidity=89.94 %, precipitation=0.04 mm
+2019-07-19: temperature=18.65 C, radiation=84.62, relative_humidity=82.18 %, precipitation=0.01 mm
+
+The meteorological values above are forecasts available at the forecast origin, not observed weather values. Use them together with the historical demand and calendar information to forecast water production.
+
+Predict water production for the next 7 day(s), in m3.
+Return ONLY the predicted numerical values, comma-separated, in chronological order, with no explanation.
+Example output format: 12345.67, 12876.30

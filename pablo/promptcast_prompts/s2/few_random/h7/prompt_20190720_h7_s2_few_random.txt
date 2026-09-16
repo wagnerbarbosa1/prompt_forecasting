@@ -1,0 +1,178 @@
+You are forecasting daily water production for a municipal water utility.
+
+Below are historical examples. Use them as examples of how historical patterns relate to subsequent water production.
+
+Example:
+Historical observations:
+2018-04-20: water_produced=13772.94 m3
+2018-04-21: water_produced=12784.09 m3
+2018-04-22: water_produced=12720.56 m3
+2018-04-23: water_produced=13810.94 m3
+2018-04-24: water_produced=13625.39 m3
+2018-04-25: water_produced=10970.60 m3
+2018-04-26: water_produced=12300.49 m3
+2018-04-27: water_produced=15787.90 m3
+2018-04-28: water_produced=15034.00 m3
+2018-04-29: water_produced=14357.13 m3
+2018-04-30: water_produced=15285.90 m3
+2018-05-01: water_produced=14759.99 m3
+2018-05-02: water_produced=13339.24 m3
+2018-05-03: water_produced=12227.10 m3
+
+Historical calendar context:
+2018-04-20: Friday, month=April
+2018-04-21: Saturday, weekend, public_holiday, month=April
+2018-04-22: Sunday, weekend, month=April
+2018-04-23: Monday, month=April
+2018-04-24: Tuesday, month=April
+2018-04-25: Wednesday, month=April
+2018-04-26: Thursday, month=April
+2018-04-27: Friday, month=April
+2018-04-28: Saturday, weekend, month=April
+2018-04-29: Sunday, weekend, public_holiday, month=April
+2018-04-30: Monday, school_recess, month=April
+2018-05-01: Tuesday, public_holiday, month=May
+2018-05-02: Wednesday, month=May
+2018-05-03: Thursday, month=May
+
+Observed water production in the following days:
+2018-05-04: 13163.26 m3
+2018-05-05: 12405.39 m3
+2018-05-06: 11354.21 m3
+2018-05-07: 11498.09 m3
+2018-05-08: 12444.13 m3
+2018-05-09: 10744.90 m3
+2018-05-10: 12280.78 m3
+
+Example:
+Historical observations:
+2018-08-15: water_produced=11532.81 m3
+2018-08-16: water_produced=9424.80 m3
+2018-08-17: water_produced=9765.34 m3
+2018-08-18: water_produced=8606.68 m3
+2018-08-19: water_produced=7791.26 m3
+2018-08-20: water_produced=7997.44 m3
+2018-08-21: water_produced=11756.13 m3
+2018-08-22: water_produced=9217.34 m3
+2018-08-23: water_produced=12053.86 m3
+2018-08-24: water_produced=11209.97 m3
+2018-08-25: water_produced=8732.72 m3
+2018-08-26: water_produced=9360.99 m3
+2018-08-27: water_produced=9699.40 m3
+2018-08-28: water_produced=10232.37 m3
+
+Historical calendar context:
+2018-08-15: Wednesday, month=August
+2018-08-16: Thursday, month=August
+2018-08-17: Friday, month=August
+2018-08-18: Saturday, weekend, month=August
+2018-08-19: Sunday, weekend, month=August
+2018-08-20: Monday, month=August
+2018-08-21: Tuesday, month=August
+2018-08-22: Wednesday, month=August
+2018-08-23: Thursday, month=August
+2018-08-24: Friday, month=August
+2018-08-25: Saturday, weekend, month=August
+2018-08-26: Sunday, weekend, month=August
+2018-08-27: Monday, month=August
+2018-08-28: Tuesday, month=August
+
+Observed water production in the following days:
+2018-08-29: 9746.46 m3
+2018-08-30: 11249.08 m3
+2018-08-31: 10227.38 m3
+2018-09-01: 9435.10 m3
+2018-09-02: 9114.39 m3
+2018-09-03: 10657.46 m3
+2018-09-04: 10409.10 m3
+
+Example:
+Historical observations:
+2016-03-25: water_produced=10523.07 m3
+2016-03-26: water_produced=12868.48 m3
+2016-03-27: water_produced=11876.11 m3
+2016-03-28: water_produced=11835.28 m3
+2016-03-29: water_produced=11264.19 m3
+2016-03-30: water_produced=11660.77 m3
+2016-03-31: water_produced=10077.39 m3
+2016-04-01: water_produced=12002.73 m3
+2016-04-02: water_produced=11212.64 m3
+2016-04-03: water_produced=9760.55 m3
+2016-04-04: water_produced=11092.24 m3
+2016-04-05: water_produced=9506.96 m3
+2016-04-06: water_produced=9269.21 m3
+2016-04-07: water_produced=8651.26 m3
+
+Historical calendar context:
+2016-03-25: Friday, public_holiday, month=March
+2016-03-26: Saturday, weekend, month=March
+2016-03-27: Sunday, weekend, month=March
+2016-03-28: Monday, month=March
+2016-03-29: Tuesday, month=March
+2016-03-30: Wednesday, month=March
+2016-03-31: Thursday, month=March
+2016-04-01: Friday, month=April
+2016-04-02: Saturday, weekend, month=April
+2016-04-03: Sunday, weekend, month=April
+2016-04-04: Monday, month=April
+2016-04-05: Tuesday, month=April
+2016-04-06: Wednesday, month=April
+2016-04-07: Thursday, month=April
+
+Observed water production in the following days:
+2016-04-08: 10867.67 m3
+2016-04-09: 13033.42 m3
+2016-04-10: 9110.42 m3
+2016-04-11: 10336.08 m3
+2016-04-12: 11045.91 m3
+2016-04-13: 10029.76 m3
+2016-04-14: 9754.68 m3
+
+Now forecast the following case.
+
+The historical input contains the last 14 days, ending before the forecast period.
+
+Historical water production:
+2019-07-06: water_produced=9045.92 m3
+2019-07-07: water_produced=6477.09 m3
+2019-07-08: water_produced=10220.09 m3
+2019-07-09: water_produced=13549.08 m3
+2019-07-10: water_produced=13199.39 m3
+2019-07-11: water_produced=9679.21 m3
+2019-07-12: water_produced=14378.31 m3
+2019-07-13: water_produced=9320.47 m3
+2019-07-14: water_produced=10623.56 m3
+2019-07-15: water_produced=12323.23 m3
+2019-07-16: water_produced=12185.49 m3
+2019-07-17: water_produced=12209.99 m3
+2019-07-18: water_produced=14167.92 m3
+2019-07-19: water_produced=11198.11 m3
+
+Historical calendar context:
+2019-07-06: Saturday, weekend, month=July
+2019-07-07: Sunday, weekend, month=July
+2019-07-08: Monday, month=July
+2019-07-09: Tuesday, month=July
+2019-07-10: Wednesday, month=July
+2019-07-11: Thursday, month=July
+2019-07-12: Friday, month=July
+2019-07-13: Saturday, weekend, school_recess, month=July
+2019-07-14: Sunday, weekend, school_recess, month=July
+2019-07-15: Monday, school_recess, month=July
+2019-07-16: Tuesday, school_recess, month=July
+2019-07-17: Wednesday, school_recess, month=July
+2019-07-18: Thursday, school_recess, month=July
+2019-07-19: Friday, school_recess, month=July
+
+Calendar information known in advance for the forecast dates:
+2019-07-20: Saturday, weekend, school_recess, month=July
+2019-07-21: Sunday, weekend, school_recess, month=July
+2019-07-22: Monday, school_recess, month=July
+2019-07-23: Tuesday, school_recess, month=July
+2019-07-24: Wednesday, school_recess, month=July
+2019-07-25: Thursday, school_recess, month=July
+2019-07-26: Friday, school_recess, month=July
+
+Predict water production for the next 7 day(s), in m3.
+Return ONLY the predicted numerical values, comma-separated, in chronological order, with no explanation.
+Example output format: 12345.67, 12876.30
