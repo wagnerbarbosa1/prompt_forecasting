@@ -1,0 +1,2 @@
+model,rmse0,mae0,mape0,r20,rmse1,mae1,mape1,r21,split
+timesfm-EW,1560.271,1228.713,0.101,0.772,1624.299,1265.326,0.103,0.756,test

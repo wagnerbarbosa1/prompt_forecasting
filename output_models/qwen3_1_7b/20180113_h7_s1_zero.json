@@ -1,0 +1,40 @@
+{
+  "prompt_id": "20180113_h7_s1_zero",
+  "window_id": "20180113_h7",
+  "origin_id": "20180113",
+  "scenario": "s1",
+  "strategy": "zero",
+  "lookback_days": "14",
+  "horizon_days": "7",
+  "history_start": "2017-12-30",
+  "history_end": "2018-01-12",
+  "forecast_start": "2018-01-13",
+  "forecast_end": "2018-01-19",
+  "actual_target": "[18907.68653001292, 21339.89836481163, 19239.78958650809, 19791.262882200772, 18282.846191410812, 20683.096743119164, 18800.83420021538]",
+  "prompt_file": "s1/zero/h7/prompt_20180113_h7_s1_zero.txt",
+  "n_demonstrations": "0",
+  "demonstration_ids": "",
+  "demonstration_distances": "",
+  "model": "qwen3:1.7b",
+  "options": {
+    "temperature": 0,
+    "seed": 42,
+    "num_ctx": 8192,
+    "num_predict": 256
+  },
+  "think": false,
+  "prompt_sha256": "ca3fa8c070a724259cf68d2a1f2f7e0fa4891182243fb79ffaf24e3d4480dc11",
+  "status": "ok",
+  "raw_response": "22517.51,23540.56,25216.28,21485.38,22873.59,24820.23,23339.05",
+  "done_reason": "stop",
+  "predictions": [
+    22517.51,
+    23540.56,
+    25216.28,
+    21485.38,
+    22873.59,
+    24820.23,
+    23339.05
+  ],
+  "elapsed_seconds": 1.067
+}

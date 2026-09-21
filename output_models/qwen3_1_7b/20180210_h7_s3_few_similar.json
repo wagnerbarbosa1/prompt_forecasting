@@ -1,0 +1,30 @@
+{
+  "prompt_id": "20180210_h7_s3_few_similar",
+  "window_id": "20180210_h7",
+  "origin_id": "20180210",
+  "scenario": "s3",
+  "strategy": "few_similar",
+  "lookback_days": "14",
+  "horizon_days": "7",
+  "history_start": "2018-01-27",
+  "history_end": "2018-02-09",
+  "forecast_start": "2018-02-10",
+  "forecast_end": "2018-02-16",
+  "actual_target": "[19357.26452556551, 18981.308034880545, 20262.450713158367, 20487.044933094563, 16393.64991033298, 16171.887047285529, 14466.564460237678]",
+  "prompt_file": "s3/few_similar/h7/prompt_20180210_h7_s3_few_similar.txt",
+  "n_demonstrations": "3",
+  "demonstration_ids": "[\"20170212_h7\", \"20160124_h7\", \"20170225_h7\"]",
+  "demonstration_distances": "[9.63670157588756, 10.201748324828428, 10.302100787880317]",
+  "model": "qwen3:1.7b",
+  "options": {
+    "temperature": 0,
+    "seed": 42,
+    "num_ctx": 8192,
+    "num_predict": 256
+  },
+  "think": false,
+  "prompt_sha256": "23a2548e3f504d96eb95914b2d6a4f2205a54ceac59b05af6c2427804221f916",
+  "status": "error",
+  "error": "HTTP Error 500: Internal Server Error",
+  "elapsed_seconds": 7.733
+}

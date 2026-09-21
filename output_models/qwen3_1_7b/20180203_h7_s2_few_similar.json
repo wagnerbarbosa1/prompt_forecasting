@@ -1,0 +1,40 @@
+{
+  "prompt_id": "20180203_h7_s2_few_similar",
+  "window_id": "20180203_h7",
+  "origin_id": "20180203",
+  "scenario": "s2",
+  "strategy": "few_similar",
+  "lookback_days": "14",
+  "horizon_days": "7",
+  "history_start": "2018-01-20",
+  "history_end": "2018-02-02",
+  "forecast_start": "2018-02-03",
+  "forecast_end": "2018-02-09",
+  "actual_target": "[17615.196042594904, 14212.996881432116, 16436.601911626844, 15630.308288828888, 15463.619345422176, 16798.19139137591, 18350.70714213005]",
+  "prompt_file": "s2/few_similar/h7/prompt_20180203_h7_s2_few_similar.txt",
+  "n_demonstrations": "3",
+  "demonstration_ids": "[\"20170211_h7\", \"20170204_h7\", \"20180127_h7\"]",
+  "demonstration_distances": "[4.427659583547495, 4.463460627504262, 4.488582569313995]",
+  "model": "qwen3:1.7b",
+  "options": {
+    "temperature": 0,
+    "seed": 42,
+    "num_ctx": 8192,
+    "num_predict": 256
+  },
+  "think": false,
+  "prompt_sha256": "2d599070737041d8f13ea3ed9f050f65f6846038e3675765082dc2458151d7db",
+  "status": "ok",
+  "raw_response": "16916.66, 15992.71, 17657.86, 16376.45, 15994.90, 16916.66, 17542.14",
+  "done_reason": "stop",
+  "predictions": [
+    16916.66,
+    15992.71,
+    17657.86,
+    16376.45,
+    15994.9,
+    16916.66,
+    17542.14
+  ],
+  "elapsed_seconds": 1.668
+}
