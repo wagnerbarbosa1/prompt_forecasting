@@ -1,0 +1,33 @@
+Forecast daily water production in cubic metres from the complete historical table below.
+Use demand, weather and calendar covariates to infer level, trend and seasonality.
+Return ONLY a JSON object with key "predictions" and exactly 7 nonnegative numbers.
+Do not explain. Do not repeat the historical values as an answer.
+HISTORICAL DAILY OBSERVATIONS (CSV, oldest to newest):
+timestamp,water_produced,relative_humidity_mean,temperature_mean,radiation_mean,precipitation_mean,day,dayofweek_sin,dayofweek_cos,season_sin,season_cos,is_holiday_ctba_gtba_jve,is_weekend,is_carnival,is_school_recess_pr
+2019-01-26,18147.92,78.75,26.39,204.19,0,26,-0.974928,-0.222521,0,1,0,1,0,1
+2019-01-27,17820.80,81.08,26.04,150.1,0,27,-0.781831,0.62349,0,1,0,1,0,1
+2019-01-28,17826.71,82.86,27.11,272.12,0.13,28,0,1,0,1,0,0,0,1
+2019-01-29,19563.05,82.45,28.7,216.15,0,29,0.781831,0.62349,0,1,0,0,0,1
+2019-01-30,17182.40,78.79,28.71,93.81,0,30,0.974928,-0.222521,0,1,0,0,0,1
+2019-01-31,17130.15,64.12,29.79,37.76,0,31,0.433884,-0.900969,0,1,0,0,0,1
+2019-02-01,19742.34,73.17,29.12,22.79,0,1,-0.433884,-0.900969,0,1,0,0,0,1
+2019-02-02,16185.68,78.6,27.58,160.22,0.19,2,-0.974928,-0.222521,0,1,0,1,0,1
+2019-02-03,17586.95,86.37,24.71,101.17,0.3,3,-0.781831,0.62349,0,1,0,1,0,1
+2019-02-04,15842.44,88.34,21.18,67.42,0.09,4,0,1,0,1,0,0,0,1
+2019-02-05,15354.49,90.01,20.73,56.31,0.09,5,0.781831,0.62349,0,1,0,0,0,1
+2019-02-06,13602.31,86.59,21.19,124.25,0.12,6,0.974928,-0.222521,0,1,0,0,0,1
+2019-02-07,15091.38,79.61,22.4,279.13,0,7,0.433884,-0.900969,0,1,0,0,0,1
+2019-02-08,15666.30,77.18,25.05,238.32,0,8,-0.433884,-0.900969,0,1,0,0,0,1
+2019-02-09,16240.70,77.88,26.23,249.43,0,9,-0.974928,-0.222521,0,1,0,1,0,1
+END HISTORY: 15 observations from 2019-01-26 to 2019-02-09.
+SUPPLIED FUTURE COVARIATES (CSV, no future water production):
+timestamp,relative_humidity_mean,temperature_mean,radiation_mean,precipitation_mean,day,dayofweek_sin,dayofweek_cos,season_sin,season_cos,is_holiday_ctba_gtba_jve,is_weekend,is_carnival,is_school_recess_pr
+2019-02-10,77.28,26.73,174.08,0,10,-0.781831,0.62349,0,1,0,1,0,1
+2019-02-11,82.13,27.07,93.2,0.06,11,0,1,0,1,0,0,0,1
+2019-02-12,82.93,25.91,69.44,0.06,12,0.781831,0.62349,0,1,0,0,0,1
+2019-02-13,87.22,21.58,60.88,0.25,13,0.974928,-0.222521,0,1,0,0,0,1
+2019-02-14,79.49,22.65,116.75,0,14,0.433884,-0.900969,0,1,0,0,0,0
+2019-02-15,86.39,21.07,30.38,0.56,15,-0.433884,-0.900969,0,1,0,0,0,0
+2019-02-16,92.84,20.5,39.74,0.4,16,-0.974928,-0.222521,0,1,0,1,0,0
+Forecast dates in output order: 2019-02-10,2019-02-11,2019-02-12,2019-02-13,2019-02-14,2019-02-15,2019-02-16
+Output schema: {"predictions": [number, ...]}; array length must be 7.

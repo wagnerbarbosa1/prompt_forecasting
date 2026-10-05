@@ -1,0 +1,33 @@
+Forecast daily water production in cubic metres from the complete historical table below.
+Use demand, weather and calendar covariates to infer level, trend and seasonality.
+Return ONLY a JSON object with key "predictions" and exactly 7 nonnegative numbers.
+Do not explain. Do not repeat the historical values as an answer.
+HISTORICAL DAILY OBSERVATIONS (CSV, oldest to newest):
+timestamp,water_produced,precipitation_median,temperature_2m_previsao_mean,shortwave_radiation_previsao_std,day,dayofweek_sin,dayofweek_cos,season_sin,season_cos,is_holiday
+2024-06-22,241529.86,0,20.0333,189.042,22,-0.974928,-0.222521,-1,-1.83697e-16,False
+2024-06-23,231585.09,0,21.975,215.118,23,-0.781831,0.62349,-1,-1.83697e-16,False
+2024-06-24,214255.64,0,20.5354,57.8686,24,0,1,-1,-1.83697e-16,False
+2024-06-25,203387.65,0.27,16.0792,17.9116,25,0.781831,0.62349,-1,-1.83697e-16,False
+2024-06-26,218026.03,0.1,17.2417,205.181,26,0.974928,-0.222521,-1,-1.83697e-16,False
+2024-06-27,219848.55,0,17.7937,198,27,0.433884,-0.900969,-1,-1.83697e-16,False
+2024-06-28,228498.06,0,19.1542,186.921,28,-0.433884,-0.900969,-1,-1.83697e-16,False
+2024-06-29,238904.42,0,18.0354,184.908,29,-0.974928,-0.222521,-1,-1.83697e-16,False
+2024-06-30,211720.70,0,12.6354,235.915,30,-0.781831,0.62349,-1,-1.83697e-16,False
+2024-07-01,211550.77,0,13.0604,228.791,1,0,1,-1,-1.83697e-16,False
+2024-07-02,212167.20,0,15.1875,213.392,2,0.781831,0.62349,-1,-1.83697e-16,False
+2024-07-03,220862.04,0,18.3375,213.136,3,0.974928,-0.222521,-1,-1.83697e-16,False
+2024-07-04,219523.51,0,18.1042,126.15,4,0.433884,-0.900969,-1,-1.83697e-16,False
+2024-07-05,218504.44,0,17.8896,176.884,5,-0.433884,-0.900969,-1,-1.83697e-16,False
+2024-07-06,210769.80,0,14.8771,30.6825,6,-0.974928,-0.222521,-1,-1.83697e-16,False
+END HISTORY: 15 observations from 2024-06-22 to 2024-07-06.
+SUPPLIED FUTURE COVARIATES (CSV, no future water production):
+timestamp,precipitation_median,temperature_2m_previsao_mean,shortwave_radiation_previsao_std,day,dayofweek_sin,dayofweek_cos,season_sin,season_cos,is_holiday
+2024-07-07,0,14.1833,98.0237,7,-0.781831,0.62349,-1,-1.83697e-16,False
+2024-07-08,0.14,15.0792,31.9128,8,0,1,-1,-1.83697e-16,False
+2024-07-09,0.15,13.4542,13.9502,9,0.781831,0.62349,-1,-1.83697e-16,False
+2024-07-10,0.31,15.0813,162.335,10,0.974928,-0.222521,-1,-1.83697e-16,False
+2024-07-11,0.06,15.5146,33.4053,11,0.433884,-0.900969,-1,-1.83697e-16,False
+2024-07-12,0.59,14.2375,25.4179,12,-0.433884,-0.900969,-1,-1.83697e-16,False
+2024-07-13,1.03,14.9563,77.8543,13,-0.974928,-0.222521,-1,-1.83697e-16,False
+Forecast dates in output order: 2024-07-07,2024-07-08,2024-07-09,2024-07-10,2024-07-11,2024-07-12,2024-07-13
+Output schema: {"predictions": [number, ...]}; array length must be 7.

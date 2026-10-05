@@ -1,0 +1,33 @@
+Forecast daily water production in cubic metres from the complete historical table below.
+Use demand, weather and calendar covariates to infer level, trend and seasonality.
+Return ONLY a JSON object with key "predictions" and exactly 7 nonnegative numbers.
+Do not explain. Do not repeat the historical values as an answer.
+HISTORICAL DAILY OBSERVATIONS (CSV, oldest to newest):
+timestamp,water_produced,relative_humidity_mean,temperature_mean,radiation_mean,precipitation_mean,day,dayofweek_sin,dayofweek_cos,season_sin,season_cos,is_holiday_ctba_gtba_jve,is_weekend,is_carnival,is_school_recess_pr
+2018-01-13,18907.69,84.8,24.26,157.84,0.17,13,-0.974928,-0.222521,0,1,0,1,0,1
+2018-01-14,21339.90,79.22,26.08,185.76,0.03,14,-0.781831,0.62349,0,1,0,1,0,1
+2018-01-15,19239.79,75.79,27.26,165.26,0.01,15,0,1,0,1,0,0,0,1
+2018-01-16,19791.26,82.76,26.18,136.89,0.81,16,0.781831,0.62349,0,1,0,0,0,1
+2018-01-17,18282.85,88.85,24.35,154.19,0.13,17,0.974928,-0.222521,0,1,0,0,0,1
+2018-01-18,20683.10,80.27,27.17,146.63,0.06,18,0.433884,-0.900969,0,1,0,0,0,1
+2018-01-19,18800.83,83.47,25.02,128.31,0.05,19,-0.433884,-0.900969,0,1,0,0,0,1
+2018-01-20,17178.42,91.53,22.62,73.84,0.12,20,-0.974928,-0.222521,0,1,0,1,0,1
+2018-01-21,16884.50,89.9,23.37,120.2,0.23,21,-0.781831,0.62349,0,1,0,1,0,1
+2018-01-22,18181.71,84.5,25.43,198.73,0.27,22,0,1,0,1,0,0,0,1
+2018-01-23,16537.14,80.81,26.03,216.94,0.1,23,0.781831,0.62349,0,1,0,0,0,1
+2018-01-24,14644.68,81.07,25.98,107.23,0.24,24,0.974928,-0.222521,0,1,0,0,0,1
+2018-01-25,18003.28,87.22,24.24,72.17,0.02,25,0.433884,-0.900969,0,1,0,0,0,1
+2018-01-26,17417.02,90.08,21.88,42.44,0.7,26,-0.433884,-0.900969,0,1,0,0,0,1
+2018-01-27,17542.14,85.67,21.84,124.01,0.09,27,-0.974928,-0.222521,0,1,0,1,0,1
+END HISTORY: 15 observations from 2018-01-13 to 2018-01-27.
+SUPPLIED FUTURE COVARIATES (CSV, no future water production):
+timestamp,relative_humidity_mean,temperature_mean,radiation_mean,precipitation_mean,day,dayofweek_sin,dayofweek_cos,season_sin,season_cos,is_holiday_ctba_gtba_jve,is_weekend,is_carnival,is_school_recess_pr
+2018-01-28,84.01,23.75,199.7,0,28,-0.781831,0.62349,0,1,0,1,0,1
+2018-01-29,87,24.18,95.35,0.07,29,0,1,0,1,0,0,0,1
+2018-01-30,79.41,23.42,264.38,0.01,30,0.781831,0.62349,0,1,0,0,0,1
+2018-01-31,82.16,24.1,239.58,0.05,31,0.974928,-0.222521,0,1,0,0,0,1
+2018-02-01,80.14,23.77,247.04,0.03,1,0.433884,-0.900969,0,1,0,0,0,1
+2018-02-02,81.19,23.85,190.09,0.01,2,-0.433884,-0.900969,0,1,0,0,0,1
+2018-02-03,77.98,24.39,257.05,0,3,-0.974928,-0.222521,0,1,0,1,0,1
+Forecast dates in output order: 2018-01-28,2018-01-29,2018-01-30,2018-01-31,2018-02-01,2018-02-02,2018-02-03
+Output schema: {"predictions": [number, ...]}; array length must be 7.

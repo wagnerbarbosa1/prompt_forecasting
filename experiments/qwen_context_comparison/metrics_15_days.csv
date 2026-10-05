@@ -1,0 +1,3 @@
+dataset,model,context_days,horizon_days,step_days,n_windows,n_predictions,mae,rmse,mape_percent,smape_percent,r2,mape_zero_targets_excluded
+joinville,qwen3:4b-instruct-2507-q4_K_M,15,7,7,54,378,13513.074391534394,16797.924757506924,6.294467796494289,6.029066181733345,-0.3335904806504064,0
+guaratuba,qwen3:4b-instruct-2507-q4_K_M,15,7,7,104,728,2156.2205404691867,2768.823594580251,18.09068626616355,16.09774901154576,0.37897847386511807,0

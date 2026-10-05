@@ -1,0 +1,33 @@
+Forecast daily water production in cubic metres from the complete historical table below.
+Use demand, weather and calendar covariates to infer level, trend and seasonality.
+Return ONLY a JSON object with key "predictions" and exactly 7 nonnegative numbers.
+Do not explain. Do not repeat the historical values as an answer.
+HISTORICAL DAILY OBSERVATIONS (CSV, oldest to newest):
+timestamp,water_produced,relative_humidity_mean,temperature_mean,radiation_mean,precipitation_mean,day,dayofweek_sin,dayofweek_cos,season_sin,season_cos,is_holiday_ctba_gtba_jve,is_weekend,is_carnival,is_school_recess_pr
+2019-03-02,18555.26,81.68,24.69,261.05,0,2,-0.974928,-0.222521,0,1,0,1,1,0
+2019-03-03,19925.20,80.63,26.01,202.18,0.01,3,-0.781831,0.62349,0,1,0,1,1,0
+2019-03-04,18591.56,83.05,25.73,151.69,0,4,0,1,0,1,1,0,1,1
+2019-03-05,18390.88,83.59,25.94,227.94,0,5,0.781831,0.62349,0,1,1,0,1,0
+2019-03-06,15689.75,81.96,26.29,235,0,6,0.974928,-0.222521,0,1,1,0,1,1
+2019-03-07,13833.09,78.46,26.02,173.57,0.02,7,0.433884,-0.900969,0,1,0,0,0,0
+2019-03-08,13516.06,73.66,27.46,112.38,0,8,-0.433884,-0.900969,0,1,0,0,0,0
+2019-03-09,14703.67,81.96,26.51,134.88,0.03,9,-0.974928,-0.222521,0,1,1,1,0,0
+2019-03-10,11599.70,89.97,23.26,56.54,0.51,10,-0.781831,0.62349,0,1,0,1,0,0
+2019-03-11,12237.01,83.09,22.67,96.43,0.02,11,0,1,0,1,0,0,0,0
+2019-03-12,11880.97,84.46,23.09,131.8,0.01,12,0.781831,0.62349,0,1,0,0,0,0
+2019-03-13,11257.82,83.94,24.74,139.43,0,13,0.974928,-0.222521,0,1,0,0,0,0
+2019-03-14,12564.72,80.79,25.95,103.13,0,14,0.433884,-0.900969,0,1,0,0,0,0
+2019-03-15,15918.85,87.67,24.13,51.05,0.06,15,-0.433884,-0.900969,0,1,0,0,0,0
+2019-03-16,13350.85,87.61,23.86,90.6,0.41,16,-0.974928,-0.222521,0,1,0,1,0,0
+END HISTORY: 15 observations from 2019-03-02 to 2019-03-16.
+SUPPLIED FUTURE COVARIATES (CSV, no future water production):
+timestamp,relative_humidity_mean,temperature_mean,radiation_mean,precipitation_mean,day,dayofweek_sin,dayofweek_cos,season_sin,season_cos,is_holiday_ctba_gtba_jve,is_weekend,is_carnival,is_school_recess_pr
+2019-03-17,85.13,24.36,95.08,0,17,-0.781831,0.62349,0,1,0,1,0,0
+2019-03-18,85.8,25.12,98.76,0,18,0,1,0,1,0,0,0,0
+2019-03-19,83.29,25.7,206.65,0,19,0.781831,0.62349,0,1,0,0,0,0
+2019-03-20,85.66,23.18,49.79,0.16,20,0.974928,-0.222521,1,6.12323e-17,0,0,0,0
+2019-03-21,88.01,20.16,23.99,0.22,21,0.433884,-0.900969,1,6.12323e-17,0,0,0,0
+2019-03-22,92.97,19.17,51.04,0.33,22,-0.433884,-0.900969,1,6.12323e-17,0,0,0,0
+2019-03-23,83.15,21.57,236.06,0,23,-0.974928,-0.222521,1,6.12323e-17,0,1,0,0
+Forecast dates in output order: 2019-03-17,2019-03-18,2019-03-19,2019-03-20,2019-03-21,2019-03-22,2019-03-23
+Output schema: {"predictions": [number, ...]}; array length must be 7.

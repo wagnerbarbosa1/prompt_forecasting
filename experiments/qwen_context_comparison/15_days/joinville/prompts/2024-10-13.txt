@@ -1,0 +1,33 @@
+Forecast daily water production in cubic metres from the complete historical table below.
+Use demand, weather and calendar covariates to infer level, trend and seasonality.
+Return ONLY a JSON object with key "predictions" and exactly 7 nonnegative numbers.
+Do not explain. Do not repeat the historical values as an answer.
+HISTORICAL DAILY OBSERVATIONS (CSV, oldest to newest):
+timestamp,water_produced,precipitation_median,temperature_2m_previsao_mean,shortwave_radiation_previsao_std,day,dayofweek_sin,dayofweek_cos,season_sin,season_cos,is_holiday
+2024-09-28,230409.71,0.01,19.8188,276.249,28,-0.974928,-0.222521,0,1,False
+2024-09-29,210466.78,0,19.7042,340.206,29,-0.781831,0.62349,0,1,False
+2024-09-30,213669.21,0,21.4479,306.268,30,0,1,0,1,False
+2024-10-01,220328.01,0,23.3021,347.349,1,0.781831,0.62349,0,1,False
+2024-10-02,198849.13,0,22.2208,244.5,2,0.974928,-0.222521,0,1,False
+2024-10-03,200424.17,0.06,18.8042,86.2491,3,0.433884,-0.900969,0,1,False
+2024-10-04,197855.35,0,17.5479,93.0839,4,-0.433884,-0.900969,0,1,False
+2024-10-05,221483.02,0,19.2667,307.686,5,-0.974928,-0.222521,0,1,False
+2024-10-06,213501.77,0,20.0542,333.136,6,-0.781831,0.62349,0,1,False
+2024-10-07,213102.01,0,20.4792,281.15,7,0,1,0,1,False
+2024-10-08,208299.50,0,21.1854,267.427,8,0.781831,0.62349,0,1,False
+2024-10-09,186068.14,0.07,19.8417,54.7055,9,0.974928,-0.222521,0,1,False
+2024-10-10,189942.78,1.73,19.5417,23.7193,10,0.433884,-0.900969,0,1,False
+2024-10-11,208951.59,0.95,21.1292,81.6879,11,-0.433884,-0.900969,0,1,False
+2024-10-12,235962.92,0.16,21.6375,247.432,12,-0.974928,-0.222521,0,1,True
+END HISTORY: 15 observations from 2024-09-28 to 2024-10-12.
+SUPPLIED FUTURE COVARIATES (CSV, no future water production):
+timestamp,precipitation_median,temperature_2m_previsao_mean,shortwave_radiation_previsao_std,day,dayofweek_sin,dayofweek_cos,season_sin,season_cos,is_holiday
+2024-10-13,0.1,20.5542,133.495,13,-0.781831,0.62349,0,1,False
+2024-10-14,0.09,20.2854,174.746,14,0,1,0,1,False
+2024-10-15,0.06,20.9396,228.479,15,0.781831,0.62349,0,1,False
+2024-10-16,0,21.7063,336.028,16,0.974928,-0.222521,0,1,False
+2024-10-17,0,21.9479,242.754,17,0.433884,-0.900969,0,1,False
+2024-10-18,0,21.9875,197.848,18,-0.433884,-0.900969,0,1,False
+2024-10-19,0.12,20.1104,61.4463,19,-0.974928,-0.222521,0,1,False
+Forecast dates in output order: 2024-10-13,2024-10-14,2024-10-15,2024-10-16,2024-10-17,2024-10-18,2024-10-19
+Output schema: {"predictions": [number, ...]}; array length must be 7.

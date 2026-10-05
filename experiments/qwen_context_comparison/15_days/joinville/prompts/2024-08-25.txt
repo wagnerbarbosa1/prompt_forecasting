@@ -1,0 +1,33 @@
+Forecast daily water production in cubic metres from the complete historical table below.
+Use demand, weather and calendar covariates to infer level, trend and seasonality.
+Return ONLY a JSON object with key "predictions" and exactly 7 nonnegative numbers.
+Do not explain. Do not repeat the historical values as an answer.
+HISTORICAL DAILY OBSERVATIONS (CSV, oldest to newest):
+timestamp,water_produced,precipitation_median,temperature_2m_previsao_mean,shortwave_radiation_previsao_std,day,dayofweek_sin,dayofweek_cos,season_sin,season_cos,is_holiday
+2024-08-10,228281.71,0.01,14.0417,279.182,10,-0.974928,-0.222521,-1,-1.83697e-16,False
+2024-08-11,200957.96,0,14.7688,281.485,11,-0.781831,0.62349,-1,-1.83697e-16,False
+2024-08-12,207278.35,0,14.6833,292.747,12,0,1,-1,-1.83697e-16,False
+2024-08-13,195581.03,0,12.2354,287.679,13,0.781831,0.62349,-1,-1.83697e-16,False
+2024-08-14,198175.62,0,12.4333,279.708,14,0.974928,-0.222521,-1,-1.83697e-16,False
+2024-08-15,202573.11,0,14.5375,267.282,15,0.433884,-0.900969,-1,-1.83697e-16,False
+2024-08-16,213792.88,0,17.4771,264.837,16,-0.433884,-0.900969,-1,-1.83697e-16,False
+2024-08-17,226118.11,0,18.8042,267.092,17,-0.974928,-0.222521,-1,-1.83697e-16,False
+2024-08-18,206367.57,0,18.8146,270.097,18,-0.781831,0.62349,-1,-1.83697e-16,False
+2024-08-19,212413.20,0,19.2354,268.525,19,0,1,-1,-1.83697e-16,False
+2024-08-20,209247.62,0,19.3521,247.788,20,0.781831,0.62349,-1,-1.83697e-16,False
+2024-08-21,200276.56,0.03,19.9229,226.207,21,0.974928,-0.222521,-1,-1.83697e-16,False
+2024-08-22,210469.96,0.01,19.7271,256.776,22,0.433884,-0.900969,-1,-1.83697e-16,False
+2024-08-23,217792.58,0,18.4167,186.064,23,-0.433884,-0.900969,-1,-1.83697e-16,False
+2024-08-24,200553.65,0.15,15.0625,24.4748,24,-0.974928,-0.222521,-1,-1.83697e-16,False
+END HISTORY: 15 observations from 2024-08-10 to 2024-08-24.
+SUPPLIED FUTURE COVARIATES (CSV, no future water production):
+timestamp,precipitation_median,temperature_2m_previsao_mean,shortwave_radiation_previsao_std,day,dayofweek_sin,dayofweek_cos,season_sin,season_cos,is_holiday
+2024-08-25,0.09,13.5917,280.51,25,-0.781831,0.62349,-1,-1.83697e-16,False
+2024-08-26,0,12.6813,315.581,26,0,1,-1,-1.83697e-16,False
+2024-08-27,0,13.4688,271.869,27,0.781831,0.62349,-1,-1.83697e-16,False
+2024-08-28,0,14.0604,201.22,28,0.974928,-0.222521,-1,-1.83697e-16,False
+2024-08-29,0,16.2979,261.059,29,0.433884,-0.900969,-1,-1.83697e-16,False
+2024-08-30,0,18.3104,303.846,30,-0.433884,-0.900969,-1,-1.83697e-16,False
+2024-08-31,0,18.2125,197.666,31,-0.974928,-0.222521,-1,-1.83697e-16,False
+Forecast dates in output order: 2024-08-25,2024-08-26,2024-08-27,2024-08-28,2024-08-29,2024-08-30,2024-08-31
+Output schema: {"predictions": [number, ...]}; array length must be 7.
