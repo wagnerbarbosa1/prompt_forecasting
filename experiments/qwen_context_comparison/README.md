@@ -31,7 +31,7 @@ Servidor dedicado, sem mudar a configuração do servidor anterior:
 
 ```bash
 OLLAMA_HOST=127.0.0.1:11435 OLLAMA_FLASH_ATTENTION=1 \
-OLLAMA_KV_CACHE_TYPE=q4_0 OLLAMA_NUM_PARALLEL=1 ollama serve
+OLLAMA_KV_CACHE_TYPE=q4_0 OLLAMA_NUM_PARALLEL=1 LLAMA_ARG_CACHE_RAM=0 ollama serve
 ```
 
 Em outro terminal, na raiz do projeto:
@@ -41,3 +41,5 @@ bash experiments/run_qwen_context_comparison.sh
 ```
 
 O comparador exige execuções completas, sete leads por janela, os mesmos pesos/configuração/covariáveis e exatamente os mesmos alvos. Só `qwen_history_days` pode diferir. Não assume que contexto maior necessariamente melhora o resultado.
+
+O cache adicional de snapshots de prompts está desabilitado (`LLAMA_ARG_CACHE_RAM=0`) para evitar swap. O cache KV da sequência ativa continua disponível para o reaproveitamento do prefixo histórico.

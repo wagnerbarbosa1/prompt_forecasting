@@ -59,7 +59,8 @@
   "runtime": {
     "ollama_flash_attention": true,
     "ollama_kv_cache_type": "q4_0",
-    "ollama_num_parallel": 1
+    "ollama_num_parallel": 1,
+    "llama_arg_cache_ram": 0
   },
   "prompt_layout": "tabular"
 }
