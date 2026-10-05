@@ -1,0 +1,36 @@
+Forecast daily water production in cubic metres.
+Use the chronological daily history below to infer level, trend and seasonality.
+Return ONLY a JSON object with key "predictions" and exactly 7 nonnegative numbers.
+Do not explain. Do not repeat the historical values as an answer.
+History: 15 consecutive daily observations, from 2024-09-07 to 2024-09-21.
+Values (oldest to newest): 229291.39,217415.53,203726.34,215817.47,224678.39,222692.45,226197.18,209975.09,184424.05,198205.42,207494.00,198160.71,192011.18,202164.16,228115.23
+Forecast dates in output order: 2024-09-22,2024-09-23,2024-09-24,2024-09-25,2024-09-26,2024-09-27,2024-09-28
+Output schema: {"predictions": [number, ...]}; array length must be 7.
+Use the historical and supplied future covariates below in this forecast.
+Covariate values for forecast dates are supplied by the dataset.
+Historical covariates (CSV):
+timestamp,precipitation_median,temperature_2m_previsao_mean,shortwave_radiation_previsao_std,day,dayofweek_sin,dayofweek_cos,season_sin,season_cos,is_holiday
+2024-09-07,0,18.4688,276.141,7,-0.974928,-0.222521,-1,-1.83697e-16,True
+2024-09-08,0,20.4729,312.07,8,-0.781831,0.62349,-1,-1.83697e-16,False
+2024-09-09,0,19.3,155.759,9,0,1,-1,-1.83697e-16,False
+2024-09-10,0,20.5125,273.467,10,0.781831,0.62349,-1,-1.83697e-16,False
+2024-09-11,0,22.5562,333.301,11,0.974928,-0.222521,-1,-1.83697e-16,False
+2024-09-12,0,22.1854,324.462,12,0.433884,-0.900969,-1,-1.83697e-16,False
+2024-09-13,0,20.6958,310.523,13,-0.433884,-0.900969,-1,-1.83697e-16,False
+2024-09-14,0,21.1042,159.72,14,-0.974928,-0.222521,-1,-1.83697e-16,False
+2024-09-15,0.66,16.7146,31.6798,15,-0.781831,0.62349,-1,-1.83697e-16,False
+2024-09-16,2,16.3812,36.123,16,0,1,-1,-1.83697e-16,False
+2024-09-17,0.07,18.1479,241.235,17,0.781831,0.62349,-1,-1.83697e-16,False
+2024-09-18,0.06,18.1,192.927,18,0.974928,-0.222521,-1,-1.83697e-16,False
+2024-09-19,0.02,19.4833,190.564,19,0.433884,-0.900969,-1,-1.83697e-16,False
+2024-09-20,0.02,19.8229,184.328,20,-0.433884,-0.900969,-1,-1.83697e-16,False
+2024-09-21,0.08,20.1875,223.971,21,-0.974928,-0.222521,0,1,False
+Future covariates (CSV, no future water production):
+timestamp,precipitation_median,temperature_2m_previsao_mean,shortwave_radiation_previsao_std,day,dayofweek_sin,dayofweek_cos,season_sin,season_cos,is_holiday
+2024-09-22,0,20.5271,339.148,22,-0.781831,0.62349,0,1,False
+2024-09-23,0,20.8979,321.6,23,0,1,0,1,False
+2024-09-24,0,20.8979,321.311,24,0.781831,0.62349,0,1,False
+2024-09-25,0,21.0583,315.928,25,0.974928,-0.222521,0,1,False
+2024-09-26,0,21.6917,265.409,26,0.433884,-0.900969,0,1,False
+2024-09-27,0.11,21.3771,247.741,27,-0.433884,-0.900969,0,1,False
+2024-09-28,0.01,19.8188,276.249,28,-0.974928,-0.222521,0,1,False

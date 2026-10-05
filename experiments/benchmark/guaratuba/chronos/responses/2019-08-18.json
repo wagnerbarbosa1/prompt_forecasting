@@ -1,0 +1,76 @@
+{
+  "request_id": "d5859ceec2625e26f8f3b9b5aa08d8a10affe7d8e2e4697b0c804164b27c79f5",
+  "window": {
+    "context_start": 0,
+    "origin": 1325,
+    "horizon": 7
+  },
+  "origin": "2019-08-18",
+  "history_rows": 1325,
+  "history_start": "2016-01-01 00:00:00",
+  "history_end": "2019-08-17 00:00:00",
+  "covariates": [
+    "relative_humidity_mean",
+    "temperature_mean",
+    "radiation_mean",
+    "precipitation_mean",
+    "day",
+    "dayofweek_sin",
+    "dayofweek_cos",
+    "season_sin",
+    "season_cos",
+    "is_holiday_ctba_gtba_jve",
+    "is_weekend",
+    "is_carnival",
+    "is_school_recess_pr"
+  ],
+  "status": "ok",
+  "predictions": [
+    9953.8740234375,
+    11396.056640625,
+    12369.5888671875,
+    10028.2138671875,
+    10290.4521484375,
+    10648.2451171875,
+    9627.328125
+  ],
+  "elapsed_seconds": 0.09492937498725951,
+  "audit": {
+    "history_rows": 1325,
+    "context_length": 1325,
+    "history_start": "2016-01-01 00:00:00",
+    "history_end": "2019-08-17 00:00:00",
+    "future_columns": [
+      "timestamp",
+      "relative_humidity_mean",
+      "temperature_mean",
+      "radiation_mean",
+      "precipitation_mean",
+      "day",
+      "dayofweek_sin",
+      "dayofweek_cos",
+      "season_sin",
+      "season_cos",
+      "is_holiday_ctba_gtba_jve",
+      "is_weekend",
+      "is_carnival",
+      "is_school_recess_pr",
+      "unique_id"
+    ],
+    "covariates": [
+      "relative_humidity_mean",
+      "temperature_mean",
+      "radiation_mean",
+      "precipitation_mean",
+      "day",
+      "dayofweek_sin",
+      "dayofweek_cos",
+      "season_sin",
+      "season_cos",
+      "is_holiday_ctba_gtba_jve",
+      "is_weekend",
+      "is_carnival",
+      "is_school_recess_pr"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+test_chronos_receives_entire_growing_history_and_covariates (test_forecasting.ForecastTests.test_chronos_receives_entire_growing_history_and_covariates) ... ok
+test_context_budget_rejects_silent_truncation (test_forecasting.ForecastTests.test_context_budget_rejects_silent_truncation) ... ok
+test_covariates_and_history_grow_without_future_targets (test_forecasting.ForecastTests.test_covariates_and_history_grow_without_future_targets) ... ok
+test_demonstrations_remain_before_frozen_test (test_forecasting.ForecastTests.test_demonstrations_remain_before_frozen_test) ... ok
+test_duplicate_dates_rejected (test_forecasting.ForecastTests.test_duplicate_dates_rejected) ... ok
+test_future_target_column_is_rejected (test_forecasting.ForecastTests.test_future_target_column_is_rejected) ... ok
+test_future_target_mutation_does_not_change_prompt (test_forecasting.ForecastTests.test_future_target_mutation_does_not_change_prompt) ... ok
+test_imputed_test_days_not_scored (test_forecasting.ForecastTests.test_imputed_test_days_not_scored) ... ok
+test_invalid_model_responses (test_forecasting.ForecastTests.test_invalid_model_responses) ... ok
+test_metric_units (test_forecasting.ForecastTests.test_metric_units) ... ok
+test_missing_day_is_filled_from_past_only (test_forecasting.ForecastTests.test_missing_day_is_filled_from_past_only) ... ok
+test_real_datasets_shared_protocol (test_forecasting.ForecastTests.test_real_datasets_shared_protocol) ... ok
+test_retry_and_raw_response_audit (test_forecasting.ForecastTests.test_retry_and_raw_response_audit) ... ok
+test_validation_uses_training_prefix (test_forecasting.ForecastTests.test_validation_uses_training_prefix) ... ok
+test_comparison_uses_same_checkpoint_and_all_seven_days (test_qwen_context_comparison.QwenContextComparisonTests.test_comparison_uses_same_checkpoint_and_all_seven_days) ... ok
+test_positive_and_negative_improvement (test_qwen_context_comparison.QwenContextComparisonTests.test_positive_and_negative_improvement) ... ok
+test_tabular_prompt_preserves_values_and_expanding_prefix (test_qwen_context_comparison.QwenContextComparisonTests.test_tabular_prompt_preserves_values_and_expanding_prefix) ... ok
+test_comparison_includes_errors_after_day_two (test_seven_day_metrics.SevenDayMetricsTests.test_comparison_includes_errors_after_day_two) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.224s
+
+OK

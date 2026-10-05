@@ -1,0 +1,36 @@
+Forecast daily water production in cubic metres.
+Use the chronological daily history below to infer level, trend and seasonality.
+Return ONLY a JSON object with key "predictions" and exactly 7 nonnegative numbers.
+Do not explain. Do not repeat the historical values as an answer.
+History: 15 consecutive daily observations, from 2025-02-15 to 2025-03-01.
+Values (oldest to newest): 254851.64,247789.23,244289.77,228711.21,230050.37,242040.52,246336.82,261087.43,242712.74,246813.76,245542.88,245773.10,248393.41,253600.64,265394.77
+Forecast dates in output order: 2025-03-02,2025-03-03,2025-03-04,2025-03-05,2025-03-06,2025-03-07,2025-03-08
+Output schema: {"predictions": [number, ...]}; array length must be 7.
+Use the historical and supplied future covariates below in this forecast.
+Covariate values for forecast dates are supplied by the dataset.
+Historical covariates (CSV):
+timestamp,precipitation_median,temperature_2m_previsao_mean,shortwave_radiation_previsao_std,day,dayofweek_sin,dayofweek_cos,season_sin,season_cos,is_holiday
+2025-02-15,0.14,26.7542,325.074,15,-0.974928,-0.222521,1,6.12323e-17,False
+2025-02-16,0,27.8667,321.574,16,-0.781831,0.62349,1,6.12323e-17,False
+2025-02-17,0,29.5708,338.125,17,0,1,1,6.12323e-17,False
+2025-02-18,0.02,25.4563,100.069,18,0.781831,0.62349,1,6.12323e-17,False
+2025-02-19,0.31,24.6708,239.185,19,0.974928,-0.222521,1,6.12323e-17,False
+2025-02-20,0.1,26.1625,303.614,20,0.433884,-0.900969,1,6.12323e-17,False
+2025-02-21,0,26.5104,285.53,21,-0.433884,-0.900969,1,6.12323e-17,False
+2025-02-22,0.07,26.2729,296.312,22,-0.974928,-0.222521,1,6.12323e-17,False
+2025-02-23,0.06,26.3313,345.446,23,-0.781831,0.62349,1,6.12323e-17,False
+2025-02-24,0.07,26.6646,327.56,24,0,1,1,6.12323e-17,False
+2025-02-25,0,27.4271,321.609,25,0.781831,0.62349,1,6.12323e-17,False
+2025-02-26,0,28.0813,344.203,26,0.974928,-0.222521,1,6.12323e-17,False
+2025-02-27,0.01,27.7708,323.024,27,0.433884,-0.900969,1,6.12323e-17,False
+2025-02-28,0.01,27.0917,342.755,28,-0.433884,-0.900969,1,6.12323e-17,False
+2025-03-01,0,27.5167,351.905,1,-0.974928,-0.222521,1,6.12323e-17,False
+Future covariates (CSV, no future water production):
+timestamp,precipitation_median,temperature_2m_previsao_mean,shortwave_radiation_previsao_std,day,dayofweek_sin,dayofweek_cos,season_sin,season_cos,is_holiday
+2025-03-02,0,28.0417,360.065,2,-0.781831,0.62349,1,6.12323e-17,False
+2025-03-03,0,27.2521,337.211,3,0,1,1,6.12323e-17,True
+2025-03-04,0,26.9625,338.895,4,0.781831,0.62349,1,6.12323e-17,True
+2025-03-05,0.06,26.6896,334.056,5,0.974928,-0.222521,1,6.12323e-17,False
+2025-03-06,0,26.8667,359.066,6,0.433884,-0.900969,1,6.12323e-17,False
+2025-03-07,0,26.2312,304.932,7,-0.433884,-0.900969,1,6.12323e-17,False
+2025-03-08,0,26.6083,316.146,8,-0.974928,-0.222521,1,6.12323e-17,False

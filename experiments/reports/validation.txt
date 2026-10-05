@@ -1,0 +1,7 @@
+15 testes aprovados.
+474 janelas, 3318 previsões, sem falhas.
+Covariáveis preservadas nos três modelos.
+Histórico expansivo: Joinville 365 a 736; Guaratuba 730 a 1451. Qwen 15 dias conforme AGENTS.md.
+Todas as origens contêm leads 1,2,3,4,5,6,7.
+Seis métricas agregadas e 42 RMSEs por antecedência conferidos independentemente com scikit-learn.
+Hashes de datasets válidos.

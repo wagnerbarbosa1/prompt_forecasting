@@ -1,0 +1,16 @@
+test_context_budget_rejects_silent_truncation (test_forecasting.ForecastTests.test_context_budget_rejects_silent_truncation) ... ok
+test_demonstrations_remain_before_frozen_test (test_forecasting.ForecastTests.test_demonstrations_remain_before_frozen_test) ... ok
+test_duplicate_dates_rejected (test_forecasting.ForecastTests.test_duplicate_dates_rejected) ... ok
+test_future_target_mutation_does_not_change_prompt (test_forecasting.ForecastTests.test_future_target_mutation_does_not_change_prompt) ... ok
+test_imputed_test_days_not_scored (test_forecasting.ForecastTests.test_imputed_test_days_not_scored) ... ok
+test_invalid_model_responses (test_forecasting.ForecastTests.test_invalid_model_responses) ... ok
+test_metric_units (test_forecasting.ForecastTests.test_metric_units) ... ok
+test_missing_day_is_filled_from_past_only (test_forecasting.ForecastTests.test_missing_day_is_filled_from_past_only) ... ok
+test_real_datasets_shared_protocol (test_forecasting.ForecastTests.test_real_datasets_shared_protocol) ... ok
+test_retry_and_raw_response_audit (test_forecasting.ForecastTests.test_retry_and_raw_response_audit) ... ok
+test_validation_uses_training_prefix (test_forecasting.ForecastTests.test_validation_uses_training_prefix) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.051s
+
+OK

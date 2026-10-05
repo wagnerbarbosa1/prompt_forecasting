@@ -1,0 +1,36 @@
+Forecast daily water production in cubic metres.
+Use the chronological daily history below to infer level, trend and seasonality.
+Return ONLY a JSON object with key "predictions" and exactly 7 nonnegative numbers.
+Do not explain. Do not repeat the historical values as an answer.
+History: 15 consecutive daily observations, from 2024-11-02 to 2024-11-16.
+Values (oldest to newest): 231782.34,220729.98,222078.91,220465.84,220021.26,220903.48,222379.73,232742.71,222970.16,224718.69,213133.67,211985.36,211736.52,231574.35,210481.01
+Forecast dates in output order: 2024-11-17,2024-11-18,2024-11-19,2024-11-20,2024-11-21,2024-11-22,2024-11-23
+Output schema: {"predictions": [number, ...]}; array length must be 7.
+Use the historical and supplied future covariates below in this forecast.
+Covariate values for forecast dates are supplied by the dataset.
+Historical covariates (CSV):
+timestamp,precipitation_median,temperature_2m_previsao_mean,shortwave_radiation_previsao_std,day,dayofweek_sin,dayofweek_cos,season_sin,season_cos,is_holiday
+2024-11-02,0,23.4021,198.521,2,-0.974928,-0.222521,0,1,True
+2024-11-03,0.57,22.6646,75.1008,3,-0.781831,0.62349,0,1,False
+2024-11-04,0.44,22.3833,33.6381,4,0,1,0,1,False
+2024-11-05,0.13,23.7688,139.073,5,0.781831,0.62349,0,1,False
+2024-11-06,0.1,24.3333,227.962,6,0.974928,-0.222521,0,1,False
+2024-11-07,0.52,23.3542,87.4861,7,0.433884,-0.900969,0,1,False
+2024-11-08,0.17,23.5292,184.668,8,-0.433884,-0.900969,0,1,False
+2024-11-09,0,22.1729,230.16,9,-0.974928,-0.222521,0,1,False
+2024-11-10,0,22.4896,318.921,10,-0.781831,0.62349,0,1,False
+2024-11-11,0,23.5292,401.585,11,0,1,0,1,False
+2024-11-12,0,21.5771,106.889,12,0.781831,0.62349,0,1,False
+2024-11-13,0,20.8958,280.065,13,0.974928,-0.222521,0,1,False
+2024-11-14,0,21.9125,286.689,14,0.433884,-0.900969,0,1,False
+2024-11-15,0,22.2917,234.364,15,-0.433884,-0.900969,0,1,True
+2024-11-16,0.12,22.6771,173.315,16,-0.974928,-0.222521,0,1,False
+Future covariates (CSV, no future water production):
+timestamp,precipitation_median,temperature_2m_previsao_mean,shortwave_radiation_previsao_std,day,dayofweek_sin,dayofweek_cos,season_sin,season_cos,is_holiday
+2024-11-17,0.11,23.7792,346.207,17,-0.781831,0.62349,0,1,False
+2024-11-18,0,24.7417,404.287,18,0,1,0,1,False
+2024-11-19,0,24.4292,251.754,19,0.781831,0.62349,0,1,False
+2024-11-20,0.07,23.4833,204.951,20,0.974928,-0.222521,0,1,True
+2024-11-21,0.11,20.7312,29.5227,21,0.433884,-0.900969,0,1,False
+2024-11-22,0.77,21.5167,27.6229,22,-0.433884,-0.900969,0,1,False
+2024-11-23,0.61,21.2812,168.466,23,-0.974928,-0.222521,0,1,False

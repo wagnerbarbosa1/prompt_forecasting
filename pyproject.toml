@@ -3,8 +3,16 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "promptcast_forecast"
-version = "0.1.0"
+name = "promptcast-forecast"
+version = "0.2.0"
+description = "Auditable rolling-origin water demand forecasting with Qwen, Chronos and TimesFM"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24", "pandas>=2"]
+
+[project.scripts]
+qwen_forecast = "src.pipelines.forecasting_pipeline:main"
+forecast-compare = "src.pipelines.compare_models:main"
 
 [tool.setuptools.packages.find]
-where = ["src"]
+where = ["."]
+include = ["src*"]

@@ -1,0 +1,53 @@
+{
+  "config": {
+    "datasets": {
+      "joinville": {
+        "path": "data/processed/joinville_processed_1day.csv",
+        "context": 365
+      },
+      "guaratuba": {
+        "path": "data/processed/guaratuba_processed_1daysin.csv",
+        "context": 565
+      }
+    },
+    "horizon": 7,
+    "step": 7,
+    "evaluation_years": 2,
+    "validation_fraction": 0.2,
+    "seed": 42,
+    "qwen": {
+      "model": "qwen3:1.7b",
+      "base_url": "http://127.0.0.1:11434",
+      "temperature": 0,
+      "num_ctx": 8192,
+      "num_predict": 256,
+      "timeout": 600,
+      "retries": 2
+    },
+    "strategy": "zero",
+    "few_shot_examples": 3
+  },
+  "dataset_sha256": "d54a71f6f209f7ba69fc0d3628b63d9435f035e8dd3a914cf4182a7b56b5347e",
+  "source_sha256": "a2015be844ca3b18137e5194e92e92976d9f1e77fd4d382e740a573c75f2ce27",
+  "model": {
+    "model": "qwen3:1.7b",
+    "digest": "8f68893c685c3ddff2aa3fffce2aa60a30bb2da65ca488b61fff134a4d1730e7",
+    "config": {
+      "model": "qwen3:1.7b",
+      "base_url": "http://127.0.0.1:11434",
+      "temperature": 0,
+      "num_ctx": 8192,
+      "num_predict": 256,
+      "timeout": 600,
+      "retries": 2,
+      "seed": 42
+    }
+  },
+  "dataset": "joinville",
+  "limit": 0,
+  "n_windows": 54,
+  "first_test_origin": 365,
+  "missing_days_forward_filled": [],
+  "protocol": "rolling-origin; frozen pretrained weights; demand only",
+  "run_id": "a50a76c5c0237c26b24a691e2919d65fe6cecac16c590c80a99a5f328c335bc7"
+}

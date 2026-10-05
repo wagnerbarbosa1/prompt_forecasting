@@ -1,0 +1,21 @@
+{
+  "request_id": "881e4218212a67c25ed4ecbec8fb7348543c89faa3f25beda48505fe68ed08a7",
+  "window": {
+    "context_start": 133,
+    "origin": 498,
+    "horizon": 7
+  },
+  "origin": "2024-10-27",
+  "status": "ok",
+  "predictions": [
+    218197.40625,
+    217184.546875,
+    217386.5625,
+    218791.890625,
+    219035.15625,
+    224586.28125,
+    231046.375
+  ],
+  "elapsed_seconds": 0.03483629200491123,
+  "audit": {}
+}

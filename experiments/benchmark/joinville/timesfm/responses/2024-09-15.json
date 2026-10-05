@@ -1,0 +1,53 @@
+{
+  "request_id": "a31bb0ee605e090f4732ef51a8e153d425eb534091e4387aff1ec14685f8a9c3",
+  "window": {
+    "context_start": 0,
+    "origin": 456,
+    "horizon": 7
+  },
+  "origin": "2024-09-15",
+  "history_rows": 456,
+  "history_start": "2023-06-17 00:00:00",
+  "history_end": "2024-09-14 00:00:00",
+  "covariates": [
+    "precipitation_median",
+    "temperature_2m_previsao_mean",
+    "shortwave_radiation_previsao_std",
+    "day",
+    "dayofweek_sin",
+    "dayofweek_cos",
+    "season_sin",
+    "season_cos",
+    "is_holiday"
+  ],
+  "status": "ok",
+  "predictions": [
+    194546.02926798828,
+    195798.3981641948,
+    207664.33796416596,
+    205801.1838605593,
+    209709.64037404722,
+    214843.91984474513,
+    225843.59108562118
+  ],
+  "elapsed_seconds": 0.12403472900041379,
+  "audit": {
+    "history_rows": 456,
+    "history_start": "2023-06-17 00:00:00",
+    "history_end": "2024-09-14 00:00:00",
+    "max_context": 480,
+    "covariates": [
+      "precipitation_median",
+      "temperature_2m_previsao_mean",
+      "shortwave_radiation_previsao_std",
+      "day",
+      "dayofweek_sin",
+      "dayofweek_cos",
+      "season_sin",
+      "season_cos",
+      "is_holiday"
+    ],
+    "future_rows": 7,
+    "xreg_mode": "xreg + timesfm"
+  }
+}

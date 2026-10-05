@@ -1,0 +1,257 @@
+<!doctype html><html lang="pt-BR"><meta charset="utf-8"><title>Guia Qwen Forecast</title><style>@page{size:A4;margin:17mm 17mm 18mm}*{box-sizing:border-box}body{font-family:Arial,sans-serif;font-size:10.3pt;line-height:1.45;color:#1e293b;margin:0}section{break-before:page}section:first-child{break-before:auto}h1{font-size:23pt;line-height:1.15;color:#143b56;margin:0 0 18px;border-bottom:3px solid #36a6ab;padding-bottom:12px}h1 small{font-size:18pt;font-weight:400}h2{font-size:13pt;color:#145b70;margin:17px 0 7px}p{margin:8px 0}pre{font-family:monospace;font-size:8.1pt;line-height:1.35;background:#f0f4f7;padding:12px;border-left:3px solid #36a6ab;white-space:pre-wrap;overflow-wrap:anywhere;break-inside:avoid}code{font-family:monospace;font-size:9pt}table{border-collapse:collapse;width:100%;font-size:9pt;margin:12px 0}th{text-align:left;background:#143b56;color:white}td,th{border:1px solid #cad5df;padding:7px;vertical-align:top}tr{break-inside:avoid}thead{display:table-header-group}tbody tr:nth-child(even){background:#f3f7f9}.callout{background:#e8f6f4;border-left:4px solid #36a6ab;padding:14px;margin:18px 0}.flow{text-align:center;background:#f0f4f7;padding:16px;line-height:1.7}.subtitle{font-size:13pt;color:#52758c}li{margin-bottom:5px}a{color:#145b70;text-decoration:none}</style><body><section><h1>Qwen Forecast<br><small>Do dado à previsão auditável</small></h1>
+<p class="subtitle">Guia didático da implementação · 5 de outubro de 2026</p>
+<p>Este documento acompanha o código reorganizado deste projeto. Ele explica como transformar uma série de produção de água em um prompt, enviar esse prompt ao Qwen pelo Ollama e avaliar as previsões junto com Chronos e TimesFM.</p>
+<div class="callout"><b>O que o Qwen faz aqui?</b> Recebe números históricos como texto e gera os próximos sete valores. O projeto não treina nem ajusta os pesos do Qwen. A expressão <i>qwen_forecast</i> designa essa rotina de inferência com o modelo local <b>qwen3:1.7b</b>.</div>
+<p>Os exemplos de código são extraídos dos arquivos reais. Caminhos são relativos à raiz do repositório. Imports aparecem apenas quando ajudam a entender uma dependência; o foco está em contratos, parâmetros, fluxo e prevenção de vazamento.</p>
+<h2>Roteiro de leitura</h2>
+<ol><li>Arquitetura e protocolo temporal.</li><li>Leitura, validação e janelas.</li><li>Construção de prompts e exemplos few-shot.</li><li>Dataclasses, argumentos e interfaces.</li><li>HTTP, saída estruturada, validação e retentativas.</li><li>Orquestração, cache, métricas e resultados.</li><li>Como executar, testar e estender o projeto.</li></ol>
+<p>Leia primeiro os capítulos de prompts e Ollama se já conhecer validação temporal. Para reproduzir a execução, use o capítulo de comandos e a configuração em <code>configs/benchmark.json</code>.</p>
+</section><section><h1>1 · Arquitetura e responsabilidades</h1>
+<p>A organização segue as camadas solicitadas. Cada camada tem um contrato: dados entram validados, modelos recebem somente história e a avaliação acessa os alvos depois da previsão. Isso reduz o risco de um adaptador receber uma coluna futura por acidente.</p>
+<table><thead><tr><th>Camada / arquivo</th><th>Responsabilidade</th></tr></thead><tbody><tr><td>data/ingestion/files.py</td><td>read_series lê o CSV; write_json grava artefatos completos.</td></tr><tr><td>data/validation/schema.py</td><td>validate_series valida datas e demanda.</td></tr><tr><td>data/preprocessing/</td><td>daily_grid expõe lacunas; fill_past_only preenche causalmente; generate_prompts monta o texto.</td></tr><tr><td>data/features/</td><td>future_dates constrói datas conhecidas; demand_only explicita a seleção univariada.</td></tr><tr><td>evaluation/cross_validation.py</td><td>ForecastWindow representa recortes; build_windows define origens comuns.</td></tr><tr><td>models/promptcast.py</td><td>OllamaConfig, QwenForecaster e funções de contrato HTTP/JSON.</td></tr><tr><td>models/chronos.py e timesfm.py</td><td>Adaptam bibliotecas especializadas à mesma assinatura predict.</td></tr><tr><td>pipelines/</td><td>data_pipeline prepara; forecasting_pipeline executa; compare_models confere e compara.</td></tr><tr><td>training/train.py</td><td>Reserva uma extensão temporal de treino/validação; não faz fit neste experimento.</td></tr></tbody></table>
+<h2>Fluxo principal</h2>
+<div class="flow">CSV → validação → grade diária → preenchimento causal → janelas<br>↓<br>história → prompt → Ollama → resposta → validação → previsão<br>↓<br>alvo observado + previsão → CSV por modelo → métricas comparáveis</div>
+<p>O adaptador Qwen não conhece o dataframe completo. A função <code>build_prompt</code> também recebe apenas história. O comparador trabalha depois das inferências e exige as mesmas datas para os três modelos.</p>
+<p>Arquivos vazios de API, banco de dados e Moirai não foram criados: não existe uma implementação ativa desses recursos. Os scripts antigos de execução foram substituídos. As fontes CSV foram preservadas, e o notebook foi convertido em análise somente de leitura.</p>
+</section><section><h1>2 · Protocolo temporal e limites da garantia</h1>
+<table><thead><tr><th>Conjunto</th><th>Contexto</th><th>Horizonte / passo</th><th>Janelas</th></tr></thead><tbody><tr><td>Joinville</td><td>365 dias</td><td>7 / 7 dias</td><td>54</td></tr><tr><td>Guaratuba</td><td>565 dias</td><td>7 / 7 dias</td><td>104</td></tr></tbody></table>
+<p>Uma origem <code>O</code> representa o primeiro dia a prever. A história ocupa <code>[O-contexto, O)</code>, e o alvo ocupa <code>[O, O+7)</code>. O parêntese significa que o limite final é exclusivo. Nenhum valor do alvo da janela entra na chamada ao modelo.</p>
+<p>A primeira origem é o maior entre o tamanho do contexto e o índice que inicia os dois últimos anos da série. Em Joinville, isso produz 16/06/2024; em Guaratuba, 01/01/2018. O passo de sete evita sobreposição entre os alvos. Uma sobra final inferior a sete dias não gera janela incompleta.</p>
+<h2>Contexto não é treinamento de pesos</h2>
+<p>Em uma avaliação de origens móveis, um valor observado na primeira semana de teste pode entrar na história de uma previsão semanas depois. Isso representa informação já disponível naquela nova data. Neste projeto ele é usado somente como contexto de inferência; nenhum otimizador, ajuste de pesos ou escolha de hiperparâmetros usa esses testes.</p>
+<p>Exemplos few-shot têm uma regra ainda mais restrita: ficam congelados no prefixo anterior ao primeiro alvo avaliado. Assim, nenhum teste vira resposta de demonstração. O benchmark executado usa zero-shot, sem essas demonstrações.</p>
+<div class="callout">Clima observado no futuro não pode ser renomeado como previsão meteorológica. Sem data de emissão que prove sua disponibilidade na origem, ele é excluído. Também excluímos colunas derivadas, cuja origem causal não está documentada.</div>
+<p>A garantia cobre a preparação e execução locais. Os CSVs recebidos já estavam processados: não há aqui evidência suficiente para auditar toda a transformação anterior. Tampouco este repositório permite provar ausência das séries nos corpora externos de pré-treino dos modelos.</p>
+<p>Não há validação para ajuste neste experimento. Para uma extensão de treino, <code>training_partition(first_test_origin, validation_fraction=0.2)</code> delega a <code>validation_split</code> e separa os últimos 20% do prefixo de treino, mantendo o teste fora de ambos.</p>
+</section><section><h1>3 · Ler e preparar dados sem olhar à frente</h1>
+<h2>read_series e validate_series</h2>
+<p><code>read_series(path)</code> lê o CSV e chama <code>validate_series(df)</code>. Esta mantém somente <code>timestamp</code> e <code>water_produced</code>, converte tipos, ordena cronologicamente e rejeita datas vazias/duplicadas, horários intradiários e demanda inválida. Duplicatas geram erro em vez de uma escolha arbitrária de qual observação conservar.</p>
+<p>O retorno é um novo dataframe. <code>.copy()</code> torna explícita a intenção de não modificar a fonte. <code>errors="raise"</code> impede conversões silenciosas de entradas ruins. <code>np.isfinite</code> detecta tanto NaN quanto infinito.</p>
+<h2>daily_grid e fill_past_only</h2>
+<p><code>daily_grid(df)</code> usa a data como índice e <code>asfreq("D")</code> materializa todos os dias entre o primeiro e o último. A coluna <code>observed</code> é marcada antes de qualquer preenchimento. Em Guaratuba falta 29/02/2016: esse dia passa a existir como lacuna explícita.</p>
+<pre>def fill_past_only(df: pd.DataFrame) -&gt; pd.DataFrame:
+    result = df.copy()
+    result[&#x27;water_produced&#x27;] = result.water_produced.ffill()
+    if result.water_produced.isna().any():
+        raise ValueError(&#x27;Cannot fill initial missing demand without past data&#x27;)
+    return result</pre>
+<p><code>ffill()</code> usa a última observação anterior. Não usa a observação seguinte, como ocorreria com várias formas de interpolação. A marca <code>observed=False</code> permanece, permitindo ao construtor de janelas recusar alvos preenchidos.</p>
+<h2>prepare_dataset</h2>
+<pre>def prepare_dataset(path, context, *, horizon=7, step=7, evaluation_years=2):
+    df = fill_past_only(daily_grid(read_series(path)))
+    windows = build_windows(df, context, horizon, step, evaluation_years)
+    return df, windows</pre>
+<p>O retorno é uma tupla <code>(df, windows)</code>. O dataframe preparado conserva a marca de observação; a lista de janelas contém somente recortes elegíveis. Os parâmetros depois de <code>*</code> são obrigatoriamente nomeados: isso evita confundir horizonte, passo e anos de avaliação quando todos são números.</p>
+</section><section><h1>4 · Janelas e @dataclass</h1>
+<p>Uma <code>dataclass</code> é uma classe que recebe automaticamente métodos comuns, como inicialização, representação textual e comparação por campos. Aqui ela dá nome aos limites temporais em vez de espalhar tuplas de índices sem significado.</p>
+<pre>@dataclass(frozen=True)
+class ForecastWindow:
+    context_start: int
+    origin: int
+    horizon: int
+
+    @property
+    def history(self) -&gt; slice:
+        return slice(self.context_start, self.origin)
+
+    @property
+    def target(self) -&gt; slice:
+        return slice(self.origin, self.origin + self.horizon)</pre>
+<p>Ao escrever <code>ForecastWindow(0, 365, 7)</code>, Python cria uma instância com <code>context_start=0</code>, <code>origin=365</code> e <code>horizon=7</code>. O decorador <code>@dataclass(frozen=True)</code> impede reatribuir esses campos, ajudando a manter estável o protocolo durante a execução. Essa imutabilidade é superficial: em outras classes, uma lista contida em um campo ainda poderia ser mutável.</p>
+<p><code>@property</code> transforma um método sem parâmetros extras em acesso semelhante a atributo. <code>window.history</code> executa o método e retorna um <code>slice</code>; não é preciso escrever parênteses. <code>df.iloc[window.history]</code> seleciona posições, não rótulos de índice.</p>
+<h2>Como build_windows usa a classe</h2>
+<p><code>build_windows(df, context, horizon=7, step=7, evaluation_years=2)</code> valida limites positivos, calcula a primeira origem elegível e percorre <code>range(first, len(df)-horizon+1, step)</code>. O <code>+1</code> inclui a última origem que ainda tem sete alvos completos.</p>
+<p>A expressão <code>df.iloc[origin:origin+horizon].observed.all()</code> exige observação real em todo o alvo. Para cada origem válida, cria uma <code>ForecastWindow(origin-context, origin, horizon)</code>. Sem janelas válidas, lança erro; não devolve um benchmark aparentemente bem-sucedido e vazio.</p>
+<h2>Outras dataclasses</h2>
+<p><code>Demonstration</code> guarda história, resposta e fim do alvo de um exemplo histórico em tuplas. <code>OllamaConfig</code> reúne limites e opções de inferência. <code>dataclasses.asdict(config)</code> transforma os campos em dicionário serializável para auditoria e cálculo de hash.</p>
+</section><section><h1>5 · Transformando história em prompt</h1>
+<p>O arquivo central é <code>src/data/preprocessing/generate_prompts.py</code>. O prompt da comparação contém somente demanda, instruções, datas e formato de saída. Datas futuras são determinísticas, calculadas a partir do último dia histórico.</p>
+<table><thead><tr><th>Função / parâmetro</th><th>Uso concreto</th></tr></thead><tbody><tr><td>format_values(values)</td><td>Formata cada valor com duas casas decimais e une por vírgula, sem separador de milhares.</td></tr><tr><td>future_dates(last_observed, horizon)</td><td>Gera os dias seguintes com pd.date_range; não consulta a tabela de teste.</td></tr><tr><td>build_prompt(history, horizon, *, demonstrations=None)</td><td>Valida o histórico, descreve a tarefa, insere exemplos opcionais e serializa a sequência.</td></tr><tr><td>history</td><td>Dataframe já recortado com timestamp e water_produced; nunca o dataset completo.</td></tr><tr><td>horizon</td><td>Número exato de valores exigidos na saída; sete no benchmark.</td></tr><tr><td>demonstrations</td><td>Lista opcional de exemplos históricos; None equivale a zero-shot.</td></tr></tbody></table>
+<h2>A ordem dos blocos</h2>
+<ol><li>Tarefa e unidade: prever produção diária de água em metros cúbicos.</li><li>Orientação para inferir nível, tendência e sazonalidade.</li><li>Contrato: objeto JSON com <code>predictions</code> e sete números não negativos.</li><li>Exemplos históricos, se solicitados.</li><li>Quantidade de dias, datas de início/fim e sequência do mais antigo ao mais recente.</li><li>Datas previstas e lembrete do esquema de saída.</li></ol>
+<p>A sequência compacta reduz o custo de tokens comparada a repetir uma descrição em cada dia. A ordem ainda é inequívoca: há uma grade diária, um intervalo conhecido e a contagem de valores. Arredondar o texto para duas casas decimais é uma diferença de representação em relação às baselines, que recebem os floats originais; isso está registrado, não oculto.</p>
+<pre>history = df.iloc[window.history][[&quot;timestamp&quot;, &quot;water_produced&quot;]].copy()
+prompt = build_prompt(history, window.horizon, demonstrations=[])
+# Os alvos só serão acessados após model.predict(...).</pre>
+<p>A função retorna uma string. Ela não faz HTTP, não lê arquivos de resultado e não calcula métricas. Essa separação permite testar que alterar alvos futuros não altera o prompt.</p>
+</section><section><h1>6 · Few-shot sem exemplos vindos do teste</h1>
+<p>A função <code>select_demonstrations</code> preserva duas estratégias úteis da implementação anterior. Elas estão disponíveis para estudos futuros, mas não foram usadas para escolher a configuração a partir dos resultados atuais.</p>
+<table><thead><tr><th>Parâmetro</th><th>Significado</th></tr></thead><tbody><tr><td>training_values</td><td>Prefixo congelado antes da primeira origem de teste, passado já recortado pelo pipeline.</td></tr><tr><td>history</td><td>História da origem atual; define largura e vetor de consulta para similaridade.</td></tr><tr><td>horizon</td><td>Tamanho da resposta de cada exemplo.</td></tr><tr><td>strategy</td><td>zero, few_random ou few_similar.</td></tr><tr><td>count=3</td><td>Quantidade exigida de exemplos; dados insuficientes geram erro.</td></tr><tr><td>seed=42</td><td>Semente do gerador local usado na amostragem aleatória.</td></tr></tbody></table>
+<h2>Candidatos</h2>
+<p>Se <code>width=len(history)</code> e há <code>N</code> observações no prefixo, os candidatos são origens entre <code>width</code> e <code>N-horizon</code>, inclusive. Para uma origem candidata <code>o</code>, a entrada é <code>values[o-width:o]</code> e a resposta é <code>values[o:o+horizon]</code>. A resposta inteira deve terminar dentro do prefixo.</p>
+<h2>few_random</h2>
+<p><code>np.random.default_rng(seed).choice(..., replace=False)</code> escolhe índices sem repetir o mesmo candidato. Usar um gerador local evita alterar aleatoriedade global de outras partes do programa. Os exemplos escolhidos são organizados cronologicamente antes de entrar no texto.</p>
+<h2>few_similar</h2>
+<p>A função interna <code>standardized(x)</code> centraliza e divide pelo desvio padrão da própria entrada. Um piso de <code>1e-8</code> evita divisão por zero. Compara-se a média das diferenças quadráticas entre entradas padronizadas; os menores valores são selecionados por <code>np.argsort</code> estável. A resposta de cada candidato não participa dessa distância.</p>
+<p>Essa distância favorece formato temporal, não necessariamente nível absoluto. Os alvos dos exemplos só são anexados depois da escolha. A função não garante exemplos disjuntos entre si, mas garante candidatos distintos; esse é um detalhe metodológico relevante em uma futura análise few-shot.</p>
+<div class="callout">Contexto longo + três exemplos pode superar 8.192 tokens. O adaptador rejeita prompts que não cabem no orçamento conservador. Aumente explicitamente <code>num_ctx</code> e avalie memória antes de comparar uma nova configuração; não encurte o contexto de uma cidade silenciosamente.</div>
+</section><section><h1>7 · args, *args, **kwargs e argumentos nomeados</h1>
+<p>São conceitos relacionados, mas diferentes. O objeto chamado <code>args</code> no programa vem do parser da linha de comando. Ele não é a mesma coisa que o padrão <code>*args</code> de uma assinatura Python.</p>
+<pre>parser.add_argument(&quot;--model&quot;, choices=[&quot;qwen&quot;, &quot;chronos&quot;, &quot;timesfm&quot;], default=&quot;qwen&quot;)
+args = parser.parse_args()
+# args.model contém a escolha feita na linha de comando.</pre>
+<p><code>parse_args()</code> devolve um <code>argparse.Namespace</code>, um objeto cujos atributos correspondem às opções registradas. <code>type=Path</code> converte um argumento textual em caminho; <code>choices</code> rejeita uma opção desconhecida antes de iniciar o modelo.</p>
+<h2>O asterisco sozinho</h2>
+<pre>def build_prompt(history, horizon, *, demonstrations=None):
+    ...
+
+build_prompt(history, 7, demonstrations=examples)</pre>
+<p>O <code>*</code> sozinho não coleta argumentos. Ele exige que os argumentos seguintes sejam passados pelo nome. A chamada <code>build_prompt(history, 7, examples)</code> seria inválida. Isso torna uma opção adicional visível e reduz erros de ordem.</p>
+<h2>*args e **kwargs em uma definição</h2>
+<pre># Exemplo didático; não é necessário no pipeline atual.
+def encaminhar(funcao, *args, **kwargs):
+    return funcao(*args, **kwargs)
+
+encaminhar(build_prompt, history, 7, demonstrations=examples)</pre>
+<p>Na definição, <code>*args</code> reúne argumentos posicionais extras em uma tupla. <code>**kwargs</code> reúne argumentos nomeados extras em um dicionário. Os nomes args e kwargs são convencionais: o que determina o comportamento são os asteriscos. Na chamada, os mesmos símbolos fazem a operação inversa, desempacotando tupla e dicionário.</p>
+<h2>** usado de verdade no projeto</h2>
+<pre>OllamaConfig(**config[&quot;qwen&quot;], seed=config[&quot;seed&quot;])
+# Equivale a passar model=..., base_url=..., temperature=..., etc.</pre>
+<p>As chaves do dicionário precisam coincidir com os nomes aceitos pelo construtor. Chave desconhecida ou argumento repetido gera <code>TypeError</code>. Não há função genérica que engula qualquer opção: o construtor tipado ajuda a detectar erros de configuração.</p>
+<p><code>dict(common, **deterministic_metrics(...))</code> também desempacota um dicionário, desta vez para compor uma linha do relatório. As anotações como <code>list[float]</code> explicam o contrato, mas não validam valores sozinhas: por isso há checagens explícitas no parser.</p>
+</section><section><h1>8 · OllamaConfig e a identidade do modelo</h1>
+<p>Ollama é o servidor local que carrega e executa o Qwen. Python atua como cliente HTTP. Não é preciso adicionar o SDK Ollama ao ambiente: a biblioteca padrão fornece a comunicação necessária.</p>
+<table><thead><tr><th>Campo</th><th>Valor da execução</th><th>Efeito</th></tr></thead><tbody><tr><td>model</td><td>qwen3:1.7b</td><td>Seleciona o modelo instalado.</td></tr><tr><td>base_url</td><td>http://127.0.0.1:11434</td><td>Endereço do servidor local.</td></tr><tr><td>temperature</td><td>0</td><td>Reduz aleatoriedade da geração; não garante reprodutibilidade bit a bit entre hardwares.</td></tr><tr><td>seed</td><td>42</td><td>Semente enviada ao runtime.</td></tr><tr><td>num_ctx</td><td>8192</td><td>Capacidade de contexto em tokens.</td></tr><tr><td>num_predict</td><td>256</td><td>Limite de tokens gerados, suficiente para sete números.</td></tr><tr><td>timeout</td><td>600 s</td><td>Prazo da operação HTTP; não é o tempo esperado por previsão.</td></tr><tr><td>retries</td><td>2</td><td>Até duas novas tentativas além da primeira.</td></tr></tbody></table>
+<p><code>OllamaConfig.__post_init__</code> roda automaticamente após o inicializador gerado pela dataclass. Ele rejeita limites não positivos e quantidade negativa de retentativas. <code>frozen=True</code> evita que outra função mude uma configuração no meio da execução.</p>
+<h2>QwenForecaster.__init__</h2>
+<p>O construtor recebe uma instância de configuração e consulta <code>/api/tags</code>. Ele procura o nome exato e salva seu <code>digest</code>, além de <code>asdict(config)</code>, em <code>self.identity</code>. Se o modelo não está instalado, falha imediatamente. O programa não troca por outro modelo automaticamente.</p>
+<p><code>self</code> é a própria instância. Atributos como <code>self.config</code> e <code>self.last_audit</code> mantêm estado entre chamadas. Cada nova previsão substitui a auditoria anterior por uma estrutura referente àquela janela.</p>
+<h2>Interface comum</h2>
+<p>Os três adaptadores possuem <code>predict(history, horizon, *, prompt=None)</code> ou a variante que exige prompt no Qwen. O pipeline consegue chamá-los do mesmo modo sem conhecer as APIs específicas. Isso é polimorfismo por contrato: não exige herança, desde que a assinatura e o resultado sejam compatíveis.</p>
+</section><section><h1>9 · HTTP e saída estruturada</h1>
+<h2>post_json(url, payload, timeout)</h2>
+<pre>def post_json(url: str, payload: dict, timeout: int) -&gt; dict:
+    request = urllib.request.Request(url, data=json.dumps(payload).encode(&#x27;utf-8&#x27;),
+                                     headers={&#x27;Content-Type&#x27;: &#x27;application/json&#x27;})
+    with urllib.request.urlopen(request, timeout=timeout) as response:
+        return json.load(response)</pre>
+<p><code>json.dumps(payload)</code> transforma o dicionário em texto JSON; <code>encode("utf-8")</code> transforma o texto em bytes para o corpo HTTP. O cabeçalho informa o tipo do corpo. Ao fornecer <code>data</code>, a requisição usa POST. O bloco <code>with</code> fecha a resposta mesmo que ocorra uma exceção durante a leitura.</p>
+<p><code>json.load(response)</code> interpreta o envelope HTTP retornado pelo Ollama. O campo <code>response</code> dentro desse envelope ainda é uma string: ela contém o JSON que o modelo gerou e será validada separadamente.</p>
+<h2>O contrato enviado em format</h2>
+<pre>def prediction_schema(horizon: int) -&gt; dict:
+    return {&#x27;type&#x27;: &#x27;object&#x27;, &#x27;properties&#x27;: {&#x27;predictions&#x27;: {
+        &#x27;type&#x27;: &#x27;array&#x27;, &#x27;items&#x27;: {&#x27;type&#x27;: &#x27;number&#x27;, &#x27;minimum&#x27;: 0},
+        &#x27;minItems&#x27;: horizon, &#x27;maxItems&#x27;: horizon}},
+        &#x27;required&#x27;: [&#x27;predictions&#x27;], &#x27;additionalProperties&#x27;: False}</pre>
+<p><code>minItems</code> e <code>maxItems</code> fixam o tamanho do vetor. <code>minimum=0</code> expressa a restrição física do consumo. <code>required</code> exige a chave, e <code>additionalProperties=False</code> impede chaves extras no contrato. A validação local repete as condições essenciais: não basta confiar no modelo ou no esquema.</p>
+<h2>Demais campos do payload</h2>
+<p><code>stream=False</code> pede uma resposta completa, simplificando persistência e parsing. <code>think=False</code> desliga a saída de raciocínio do Qwen nesta configuração. <code>keep_alive="10m"</code> mantém o modelo carregado entre janelas. <code>options</code> contém temperatura, semente e limites; não é um argumento do sistema operacional.</p>
+<p>Referências oficiais: <a href="https://docs.ollama.com/api/generate">Ollama /api/generate</a> e <a href="https://docs.ollama.com/capabilities/structured-outputs">structured outputs</a>. Os exemplos deste manual descrevem a implementação local e não exigem serviços de nuvem.</p>
+</section><section><h1>10 · Validar números, limites e falhas</h1>
+<h2>parse_prediction(text, horizon)</h2>
+<pre>def parse_prediction(text: str, horizon: int) -&gt; list[float]:
+    &quot;&quot;&quot;Reject prose, strings, booleans, NaN, missing values and wrong horizons.&quot;&quot;&quot;
+    parsed = json.loads(text)
+    if not isinstance(parsed, dict) or set(parsed) != {&#x27;predictions&#x27;}:
+        raise ValueError(&#x27;Expected exactly the predictions key&#x27;)
+    values = parsed[&#x27;predictions&#x27;]
+    if not isinstance(values, list) or len(values) != horizon:
+        raise ValueError(f&#x27;Expected {horizon} predictions&#x27;)
+    if any(type(v) not in (int, float) or not math.isfinite(v) or v &lt; 0 for v in values):
+        raise ValueError(&#x27;Predictions must be finite, nonnegative numbers&#x27;)
+    return [float(v) for v in values]</pre>
+<p>Usamos <code>type(v) not in (int, float)</code> intencionalmente: em Python, <code>bool</code> é uma subclasse de <code>int</code>. Uma validação com apenas <code>isinstance(True, int)</code> aceitaria <code>True</code> como previsão. Valores textuais como <code>"12"</code> também são recusados, evitando correções silenciosas.</p>
+<p><code>math.isfinite</code> recusa NaN e infinito mesmo que o decodificador JSON os aceite. O parser não remove cercas Markdown, não extrai números de explicações e não completa posições ausentes. Uma resposta inválida é registrada como falha, não substituída por uma previsão artificial.</p>
+<h2>QwenForecaster.predict</h2>
+<p>Antes do HTTP, conta os bytes UTF-8 do prompt e reserva <code>num_predict + 512</code> posições para saída e template. É uma estimativa conservadora para a tokenização do Qwen, que pode rejeitar um texto que caberia; o objetivo é impedir truncamento silencioso. A resposta também é verificada quanto a <code>done</code>, motivo <code>length</code> e contagens de tokens.</p>
+<p>O laço executa no máximo <code>retries+1</code> tentativas. Cada uma registra resposta bruta ou erro. Em falhas previstas de JSON/validação, conexão ou timeout, espera 1 e depois 2 segundos antes de tentar de novo. Na última tentativa, <code>raise</code> propaga o erro original. A temperatura permanece a mesma: uma saída inválida determinística pode repetir-se.</p>
+<p>O pipeline captura a falha da janela, grava <code>status="error"</code> e continua coletando diagnóstico. Ao final retorna código de saída não zero; o script de comparação não prossegue com resultados incompletos.</p>
+</section><section><h1>11 · Orquestração, cache e auditoria</h1>
+<h2>main e create_model</h2>
+<p><code>main()</code> interpreta a linha de comando, lê o JSON de configuração e percorre os datasets selecionados. <code>create_model(name, context, config)</code> importa apenas o adaptador escolhido. Esse carregamento tardio permite executar Qwen em um ambiente que não tenha as bibliotecas de Chronos ou TimesFM.</p>
+<h2>run_dataset: ordem que evita vazamento</h2>
+<ol><li>Prepara a série e as janelas comuns.</li><li>Constrói o modelo e a procedência da execução.</li><li>Congela <code>training_values</code> no prefixo anterior ao primeiro teste.</li><li>Recorta somente a história da janela.</li><li>Para Qwen, escolhe exemplos, constrói e salva o prompt.</li><li>Verifica se uma resposta válida pertence exatamente à requisição atual.</li><li>Chama <code>model.predict</code> se não há cache compatível.</li><li>Salva resposta e auditoria; só então acessa <code>df.iloc[window.target]</code>.</li><li>Associa cada previsão ao alvo da mesma antecedência e grava CSV/status.</li></ol>
+<h2>fingerprint e source_fingerprint</h2>
+<p><code>fingerprint(value)</code> serializa uma estrutura com chaves ordenadas e calcula SHA-256. <code>source_fingerprint()</code> inclui caminhos e conteúdo dos arquivos Python de <code>src</code>. A procedência combina código, dataset, configuração, identidade do modelo, quantidade de janelas e eventual limite de teste.</p>
+<p>O <code>request_id</code> inclui também a janela e o texto exato do prompt. Só há reaproveitamento se o identificador coincide e o status anterior é <code>ok</code>. A retomada pressupõe que os artefatos locais não foram alterados manualmente; hashes são identificação de procedência, não assinatura de segurança.</p>
+<h2>write_json</h2>
+<p>Grava primeiro em um arquivo <code>.tmp</code> e usa <code>replace</code> para substituir o destino completo. Assim, uma interrupção durante escrita não deixa metade do JSON principal. <code>allow_nan=False</code> impede artefatos JSON não padronizados. Essa função não fornece trava entre processos: execute somente uma instância por diretório de saída.</p>
+<p>As previsões intermediárias por janela permitem retomar uma execução interrompida mesmo antes de o CSV final existir. O tempo usa <code>time.monotonic()</code>, adequado para duração porque não depende de ajustes no relógio de calendário.</p>
+</section><section><h1>12 · Baselines e métricas comparáveis</h1>
+<h2>ChronosForecaster</h2>
+<p>O construtor carrega <code>amazon/chronos-2</code> do cache local, usa CUDA quando disponível e fixa a semente. <code>predict</code> fornece um dataframe com identificador de série, data e demanda histórica a <code>predict_df</code>. Os parâmetros <code>prediction_length</code> e <code>context_length</code> refletem o mesmo horizonte e contexto usados no Qwen. <code>quantile_levels=[0.5]</code> seleciona a mediana como previsão pontual.</p>
+<h2>TimesFMForecaster</h2>
+<p>Carrega <code>google/timesfm-2.5-200m-pytorch</code> e compila com contexto arredondado ao próximo múltiplo de 32, por exigência dos patches. Esse arredondamento define capacidade interna; o vetor de observações continua com exatamente 365 ou 565 valores. <code>max_horizon=128</code> é capacidade interna, enquanto <code>forecast(horizon=7, inputs=[...])</code> pede os sete dias avaliados.</p>
+<p><code>normalize_inputs=True</code> delega a normalização da entrada histórica ao modelo; não ajusta estatísticas usando alvos. As demais opções seguem o caminho de inferência configurado no adaptador. O retorno contém previsão pontual e quantis; usamos a primeira.</p>
+<h2>deterministic_metrics</h2>
+<table><thead><tr><th>Métrica</th><th>Definição e leitura</th></tr></thead><tbody><tr><td>MAE</td><td>Média de |previsão - observado|. Mesma unidade da demanda; menor é melhor.</td></tr><tr><td>RMSE</td><td>Raiz da média do erro ao quadrado. Penaliza erros grandes; menor é melhor.</td></tr><tr><td>MAPE (%)</td><td>100 × média de |erro/observado|; exclui observados zero e informa contagem.</td></tr><tr><td>sMAPE (%)</td><td>100 × média de 2|erro|/(|observado|+|previsão|); par 0/0 contribui zero.</td></tr><tr><td>R²</td><td>1 - soma dos erros² / soma dos desvios do observado em relação à sua média². Pode ser negativo; alvo constante fica indefinido.</td></tr></tbody></table>
+<p><code>compare(output)</code> exige todos os modelos, nenhum erro, nenhuma execução limitada, mesmas chaves temporais/alvos e mesma configuração/dataset/código. Não compara um subconjunto conveniente de janelas em que o Qwen acertou o formato. As métricas principais agrupam todos os pontos por cidade; um segundo CSV separa os sete leads.</p>
+<p>O tempo registrado por janela exclui a construção inicial do adaptador. No Qwen pode incluir carregamento preguiçoso do servidor; não deve ser tratado como comparação controlada de latência dos motores.</p>
+</section><section><h1>13 · Resultados da execução completa</h1><p>Os números abaixo foram lidos do CSV produzido pelas inferências desta execução, sem reutilizar as métricas antigas. São 54 janelas em Joinville (378 alvos) e 104 em Guaratuba (728 alvos), por modelo.</p><table><thead><tr><th>Dataset</th><th>Modelo</th><th>MAE</th><th>RMSE</th><th>MAPE %</th><th>R²</th></tr></thead><tbody><tr><td>joinville</td><td>qwen</td><td>19154.309</td><td>22981.845</td><td>8.915</td><td>-1.496</td></tr><tr><td>joinville</td><td>chronos</td><td>8636.334</td><td>10870.152</td><td>3.980</td><td>0.442</td></tr><tr><td>joinville</td><td>timesfm</td><td>8543.088</td><td>10751.578</td><td>3.934</td><td>0.454</td></tr><tr><td>guaratuba</td><td>qwen</td><td>3546.063</td><td>4801.616</td><td>28.760</td><td>-0.858</td></tr><tr><td>guaratuba</td><td>chronos</td><td>1385.454</td><td>1807.227</td><td>11.265</td><td>0.737</td></tr><tr><td>guaratuba</td><td>timesfm</td><td>1406.671</td><td>1842.025</td><td>11.175</td><td>0.727</td></tr></tbody></table><p>Compare modelos dentro da mesma cidade: as escalas de produção diferem entre elas. Um R² negativo significa que a soma dos erros quadráticos supera a referência da média dos alvos usada na definição da métrica; não significa erro de parsing.</p><p>O protocolo foi definido antes da avaliação. Não houve escolha de prompt, hiperparâmetro ou modelo vencedor para reexecutar sobre o teste após observar essas métricas. Desempenho ruim deve permanecer no relatório.</p><table><thead><tr><th>Dataset</th><th>Modelo</th><th>Início do teste</th><th>Fim do teste</th><th>Segundos de inferência</th></tr></thead><tbody><tr><td>joinville</td><td>qwen</td><td>2024-06-16</td><td>2025-06-28</td><td>159.46</td></tr><tr><td>joinville</td><td>chronos</td><td>2024-06-16</td><td>2025-06-28</td><td>1.63</td></tr><tr><td>joinville</td><td>timesfm</td><td>2024-06-16</td><td>2025-06-28</td><td>2.34</td></tr><tr><td>guaratuba</td><td>qwen</td><td>2018-01-01</td><td>2019-12-29</td><td>753.94</td></tr><tr><td>guaratuba</td><td>chronos</td><td>2018-01-01</td><td>2019-12-29</td><td>1.56</td></tr><tr><td>guaratuba</td><td>timesfm</td><td>2018-01-01</td><td>2019-12-29</td><td>4.00</td></tr></tbody></table><p>Consulte <code>metrics_by_horizon.csv</code> para separar o primeiro e o sétimo dia, e <code>predictions.csv</code> para examinar eventos individuais. Resultados completos, incluindo sMAPE e tempos médios, permanecem no CSV principal.</p></section><section><h1>14 · Executar e investigar uma janela</h1>
+<h2>Execução completa</h2>
+<pre># Na raiz do projeto; Ollama deve estar ativo.
+ollama serve
+# Em outro terminal:
+bash experiments/run_benchmark.sh</pre>
+<p>O script executa Qwen no ambiente <code>promptcast</code>, libera o modelo do Ollama, executa Chronos no ambiente <code>chronos</code>, TimesFM no ambiente <code>timesfm</code> e compara resultados. Os ambientes existentes não são modificados. A configuração fica em <code>configs/benchmark.json</code>.</p>
+<h2>Executar Qwen isoladamente</h2>
+<pre>conda run -n promptcast python -m src.pipelines.forecasting_pipeline --model qwen
+# Apenas integração, sem produzir comparação final:
+conda run -n promptcast python -m src.pipelines.forecasting_pipeline     --model qwen --limit 1 --output experiments/smoke</pre>
+<p>O entry point <code>qwen_forecast</code> está declarado no <code>pyproject.toml</code> para instalação futura. Nesta execução usamos <code>python -m</code> para não instalar nada nos ambientes. O trecho <code>if __name__ == "__main__"</code> chama o parser quando o módulo é executado, mas não inicia inferência quando outro módulo importa funções para testes.</p>
+<h2>Exemplo de investigação</h2>
+<ol><li>Abra <code>experiments/benchmark/guaratuba/prompts/2018-01-01.txt</code>: os valores devem terminar em 31/12/2017.</li><li>Abra o JSON de mesmo nome em <code>guaratuba/qwen/responses</code>: observe request, attempts, response e predictions.</li><li>Confira <code>prompt_eval_count</code> e <code>eval_count</code> no envelope do Ollama.</li><li>Localize a origem em <code>guaratuba/qwen/predictions.csv</code>: sete linhas devem corresponder a sete leads.</li><li>Consulte <code>run.json</code> para digest do modelo, hashes e parâmetros.</li></ol>
+<p>Ao mudar código ou configuração, use um novo diretório de saída para conservar o experimento anterior. O cache atual invalida configurações diferentes, mas o mesmo caminho será sobrescrito pela nova execução.</p>
+</section><section><h1>15 · Testes, manutenção e extensões</h1>
+<p>Os testes não precisam carregar os modelos. Eles verificam propriedades que poderiam invalidar a comparação, complementados por testes reais de uma janela e pela execução completa.</p>
+<table><thead><tr><th>Verificação</th><th>Risco coberto</th></tr></thead><tbody><tr><td>Contexto e datas nas duas fontes</td><td>Uma alteração de slicing incluir alvos ou usar horizonte errado.</td></tr><tr><td>Mutação de alvos futuros</td><td>Mudar o teste modificar o prompt atual.</td></tr><tr><td>Few-shot restrito ao prefixo</td><td>Usar testes como respostas de demonstrações.</td></tr><tr><td>Preenchimento causal</td><td>Interpolação usar uma observação futura.</td></tr><tr><td>Exclusão de alvo preenchido</td><td>Métrica tratar valor imputado como verdade observada.</td></tr><tr><td>Parser estrito</td><td>Aceitar booleanos, texto, negativos, NaN ou horizonte errado.</td></tr><tr><td>Retentativas e auditoria</td><td>Perder a resposta bruta ou não registrar falha anterior.</td></tr><tr><td>Orçamento do prompt</td><td>Truncar contexto histórico silenciosamente.</td></tr><tr><td>Métricas conhecidas</td><td>Confundir MAPE percentual com fração ou remover linhas desalinhadas.</td></tr><tr><td>Validação temporal e datas únicas</td><td>Misturar partições ou aceitar duplicatas ambiguamente.</td></tr></tbody></table><pre>conda run -n promptcast python -m unittest discover -s tests -v</pre>
+<h2>Como estender sem quebrar o protocolo</h2>
+<p>Um novo modelo deve receber somente história e devolver exatamente <code>horizon</code> números. Uma futura covariável meteorológica exige origem de emissão, relação com cada data prevista e comprovação de disponibilidade anterior à origem. Uma transformação aprendida deve ser ajustada exclusivamente no treino da partição apropriada.</p>
+<p>Se for comparar estilos de prompt, reserve uma validação temporal dentro do prefixo de treino. Escolha a configuração nela e congele a escolha antes de medir o teste. Não use o CSV final para escolher a melhor configuração e depois anunciar esse mesmo teste como avaliação independente.</p>
+<h2>Referências e versões</h2>
+<ul><li><a href="https://docs.ollama.com/api/generate">Ollama API generate</a> e <a href="https://docs.ollama.com/capabilities/structured-outputs">saídas estruturadas</a>.</li><li><a href="https://github.com/amazon-science/chronos-forecasting">Amazon Chronos</a> — biblioteca instalada 2.3.1; modelo amazon/chronos-2.</li><li><a href="https://github.com/google-research/timesfm">Google TimesFM</a> — biblioteca instalada 2.0.2; modelo TimesFM 2.5 200M.</li><li><a href="https://docs.python.org/3/library/dataclasses.html">Python dataclasses</a>, <a href="https://docs.python.org/3/library/argparse.html">argparse</a> e <a href="https://docs.python.org/3/tutorial/controlflow.html#more-on-defining-functions">argumentos de funções</a>.</li></ul>
+<p>A versão da biblioteca TimesFM e a geração do modelo são identificadores diferentes: instalar a distribuição 2.0.2 nesta máquina não significa executar os pesos TimesFM 2.0. O identificador real dos pesos está no adaptador e em <code>run.json</code>.</p>
+</section><section><h1>Apêndice A · build_prompt completo</h1><p>Fonte: <code>src/data/preprocessing/generate_prompts.py</code>. O corpo abaixo é extraído diretamente da implementação entregue.</p><pre>def build_prompt(history: pd.DataFrame, horizon: int, *,
+                 demonstrations: list[Demonstration] | None = None) -&gt; str:
+    &quot;&quot;&quot;Accept history only, not the complete dataframe or a target dataframe.&quot;&quot;&quot;
+    if horizon &lt; 1 or history.empty:
+        raise ValueError(&#x27;History and positive horizon are required&#x27;)
+    values = history.water_produced.to_numpy(dtype=float)
+    if not np.isfinite(values).all():
+        raise ValueError(&#x27;History contains invalid values&#x27;)
+    dates = future_dates(history.timestamp.iloc[-1], horizon)
+    parts = [
+        &#x27;Forecast daily water production in cubic metres.&#x27;,
+        &#x27;Use the chronological daily history below to infer level, trend and seasonality.&#x27;,
+        f&#x27;Return ONLY a JSON object with key &quot;predictions&quot; and exactly {horizon} nonnegative numbers.&#x27;,
+        &#x27;Do not explain. Do not repeat the historical values as an answer.&#x27;
+    ]
+    for example in demonstrations or []:
+        parts.append(&#x27;Historical example input: &#x27; + format_values(example.history))
+        parts.append(&#x27;Historical example output: &#x27; + json.dumps({&#x27;predictions&#x27;: list(example.target)}))
+    parts.extend([
+        f&#x27;History: {len(history)} consecutive daily observations, &#x27;
+        f&#x27;from {history.timestamp.iloc[0].date()} to {history.timestamp.iloc[-1].date()}.&#x27;,
+        &#x27;Values (oldest to newest): &#x27; + format_values(values),
+        &#x27;Forecast dates in output order: &#x27; + &#x27;,&#x27;.join(dates.strftime(&#x27;%Y-%m-%d&#x27;)),
+        f&#x27;Output schema: {{&quot;predictions&quot;: [number, ...]}}; array length must be {horizon}.&#x27;
+    ])
+    return &#x27;\n&#x27;.join(parts)</pre></section><section><h1>Apêndice B · predict completo</h1><p>Fonte: <code>src/models/promptcast.py</code>. A auditoria mantém cada tentativa e só retorna após validar a resposta.</p><pre>def predict(self, history, horizon: int, *, prompt: str) -&gt; list[float]:
+        &quot;&quot;&quot;Send only a prebuilt, target-free prompt; retain every attempted response.&quot;&quot;&quot;
+        config = self.config
+        # UTF-8 byte count is a conservative upper bound for byte-level tokenizers.
+        # Reserve space for the Ollama model template and the entire generated answer.
+        if len(prompt.encode(&#x27;utf-8&#x27;)) + config.num_predict + 512 &gt; config.num_ctx:
+            raise ValueError(&#x27;Prompt exceeds conservative context budget; increase num_ctx&#x27;)
+        payload = {&#x27;model&#x27;: config.model, &#x27;prompt&#x27;: prompt, &#x27;stream&#x27;: False,
+                   &#x27;think&#x27;: False, &#x27;keep_alive&#x27;: &#x27;10m&#x27;, &#x27;format&#x27;: prediction_schema(horizon),
+                   &#x27;options&#x27;: {&#x27;temperature&#x27;: config.temperature, &#x27;seed&#x27;: config.seed,
+                               &#x27;num_ctx&#x27;: config.num_ctx, &#x27;num_predict&#x27;: config.num_predict}}
+        self.last_audit = {&#x27;request&#x27;: payload, &#x27;attempts&#x27;: []}
+        for attempt in range(config.retries + 1):
+            audit = {&#x27;attempt&#x27;: attempt + 1}
+            self.last_audit[&#x27;attempts&#x27;].append(audit)
+            try:
+                answer = post_json(config.base_url + &#x27;/api/generate&#x27;, payload, config.timeout)
+                audit[&#x27;response&#x27;] = answer
+                if not answer.get(&#x27;done&#x27;) or answer.get(&#x27;done_reason&#x27;) == &#x27;length&#x27;:
+                    raise ValueError(&#x27;Incomplete or token-limited Ollama response&#x27;)
+                if answer.get(&#x27;prompt_eval_count&#x27;, 0) + answer.get(&#x27;eval_count&#x27;, 0) &gt;= config.num_ctx:
+                    raise ValueError(&#x27;Context limit reached&#x27;)
+                return parse_prediction(answer.get(&#x27;response&#x27;, &#x27;&#x27;), horizon)
+            except (ValueError, urllib.error.URLError, TimeoutError) as exc:
+                audit[&#x27;error&#x27;] = str(exc)
+                if attempt == config.retries:
+                    raise
+                time.sleep(min(2 ** attempt, 4))
+        raise RuntimeError(&#x27;Unreachable retry state&#x27;)</pre></section></body></html>

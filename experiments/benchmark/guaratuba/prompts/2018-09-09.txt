@@ -1,0 +1,36 @@
+Forecast daily water production in cubic metres.
+Use the chronological daily history below to infer level, trend and seasonality.
+Return ONLY a JSON object with key "predictions" and exactly 7 nonnegative numbers.
+Do not explain. Do not repeat the historical values as an answer.
+History: 15 consecutive daily observations, from 2018-08-25 to 2018-09-08.
+Values (oldest to newest): 8732.72,9360.99,9699.40,10232.37,9746.46,11249.08,10227.38,9435.10,9114.39,10657.46,10409.10,12199.60,13196.08,12573.15,10878.62
+Forecast dates in output order: 2018-09-09,2018-09-10,2018-09-11,2018-09-12,2018-09-13,2018-09-14,2018-09-15
+Output schema: {"predictions": [number, ...]}; array length must be 7.
+Use the historical and supplied future covariates below in this forecast.
+Covariate values for forecast dates are supplied by the dataset.
+Historical covariates (CSV):
+timestamp,relative_humidity_mean,temperature_mean,radiation_mean,precipitation_mean,day,dayofweek_sin,dayofweek_cos,season_sin,season_cos,is_holiday_ctba_gtba_jve,is_weekend,is_carnival,is_school_recess_pr
+2018-08-25,72.92,19.88,179.84,0.13,25,-0.974928,-0.222521,1.22465e-16,-1,0,1,0,0
+2018-08-26,60.8,15.01,224.79,0,26,-0.781831,0.62349,1.22465e-16,-1,0,1,0,0
+2018-08-27,75.73,13.62,183.7,0,27,0,1,1.22465e-16,-1,0,0,0,0
+2018-08-28,77.52,16.32,138.44,0,28,0.781831,0.62349,1.22465e-16,-1,0,0,0,0
+2018-08-29,81.26,18.72,160.37,0,29,0.974928,-0.222521,1.22465e-16,-1,0,0,0,0
+2018-08-30,86.18,18.72,153.41,0,30,0.433884,-0.900969,1.22465e-16,-1,0,0,0,0
+2018-08-31,89.76,18.38,142.35,0,31,-0.433884,-0.900969,1.22465e-16,-1,0,0,0,0
+2018-09-01,85.91,20.29,81.03,0.03,1,-0.974928,-0.222521,1.22465e-16,-1,0,1,0,0
+2018-09-02,90.26,19.63,25.78,0.03,2,-0.781831,0.62349,1.22465e-16,-1,0,1,0,0
+2018-09-03,93.14,18.57,32.28,0.14,3,0,1,1.22465e-16,-1,0,0,0,0
+2018-09-04,79.26,18.15,163.38,0.02,4,0.781831,0.62349,1.22465e-16,-1,0,0,0,0
+2018-09-05,76.62,16.41,232.33,0,5,0.974928,-0.222521,1.22465e-16,-1,0,0,0,0
+2018-09-06,79.57,15.84,208.1,0,6,0.433884,-0.900969,1.22465e-16,-1,0,0,0,0
+2018-09-07,80.71,17.15,224.56,0,7,-0.433884,-0.900969,1.22465e-16,-1,1,0,0,0
+2018-09-08,82.48,18.09,92.28,0,8,-0.974928,-0.222521,1.22465e-16,-1,1,1,0,0
+Future covariates (CSV, no future water production):
+timestamp,relative_humidity_mean,temperature_mean,radiation_mean,precipitation_mean,day,dayofweek_sin,dayofweek_cos,season_sin,season_cos,is_holiday_ctba_gtba_jve,is_weekend,is_carnival,is_school_recess_pr
+2018-09-09,80.15,19.14,148.06,0,9,-0.781831,0.62349,1.22465e-16,-1,0,1,0,0
+2018-09-10,85.76,18.73,171.29,0,10,0,1,1.22465e-16,-1,0,0,0,0
+2018-09-11,87.03,17.97,176.7,0,11,0.781831,0.62349,1.22465e-16,-1,0,0,0,0
+2018-09-12,87.81,17.98,65.69,0.14,12,0.974928,-0.222521,1.22465e-16,-1,0,0,0,0
+2018-09-13,81.74,18.95,46.32,0.04,13,0.433884,-0.900969,1.22465e-16,-1,0,0,0,0
+2018-09-14,91.28,18.67,28.22,0.03,14,-0.433884,-0.900969,1.22465e-16,-1,0,0,0,0
+2018-09-15,88.22,18.49,118.38,0.04,15,-0.974928,-0.222521,1.22465e-16,-1,0,1,0,0

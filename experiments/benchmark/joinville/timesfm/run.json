@@ -1,0 +1,89 @@
+{
+  "config": {
+    "datasets": {
+      "joinville": {
+        "path": "data/processed/joinville_processed_1day.csv",
+        "context": 365,
+        "numerical_covariates": [
+          "precipitation_median",
+          "temperature_2m_previsao_mean",
+          "shortwave_radiation_previsao_std",
+          "day",
+          "dayofweek_sin",
+          "dayofweek_cos",
+          "season_sin",
+          "season_cos"
+        ],
+        "categorical_covariates": [
+          "is_holiday"
+        ]
+      },
+      "guaratuba": {
+        "path": "data/processed/guaratuba_processed_1daysin.csv",
+        "context": 730,
+        "numerical_covariates": [
+          "relative_humidity_mean",
+          "temperature_mean",
+          "radiation_mean",
+          "precipitation_mean",
+          "day",
+          "dayofweek_sin",
+          "dayofweek_cos",
+          "season_sin",
+          "season_cos"
+        ],
+        "categorical_covariates": [
+          "is_holiday_ctba_gtba_jve",
+          "is_weekend",
+          "is_carnival",
+          "is_school_recess_pr"
+        ]
+      }
+    },
+    "horizon": 7,
+    "step": 7,
+    "validation_fraction": 0.2,
+    "seed": 42,
+    "qwen": {
+      "model": "qwen3:1.7b",
+      "base_url": "http://127.0.0.1:11434",
+      "temperature": 0,
+      "num_ctx": 8192,
+      "num_predict": 256,
+      "timeout": 600,
+      "retries": 2
+    },
+    "strategy": "zero",
+    "few_shot_examples": 3,
+    "qwen_history_days": 15,
+    "future_covariates_policy": "supplied CSV values, as in original scripts; availability at forecast origin is an unverified input assumption"
+  },
+  "dataset_sha256": "d54a71f6f209f7ba69fc0d3628b63d9435f035e8dd3a914cf4182a7b56b5347e",
+  "source_sha256": "5cf5ea96bb9403f99e8413c8c09175af6ed621a3fe91a1c1f448de1757dddf88",
+  "model": {
+    "model": "google/timesfm-2.5-200m-pytorch",
+    "initial_context": 365,
+    "version": "2.0.2",
+    "xreg_mode": "xreg + timesfm"
+  },
+  "dataset": "joinville",
+  "limit": 0,
+  "n_windows": 54,
+  "first_test_origin": 365,
+  "missing_days_forward_filled": [],
+  "protocol": "expanding history with historical and supplied future covariates",
+  "covariates": [
+    "precipitation_median",
+    "temperature_2m_previsao_mean",
+    "shortwave_radiation_previsao_std",
+    "day",
+    "dayofweek_sin",
+    "dayofweek_cos",
+    "season_sin",
+    "season_cos",
+    "is_holiday"
+  ],
+  "future_covariates_policy": "supplied CSV values, as in original scripts; availability at forecast origin is an unverified input assumption",
+  "qwen_history_days": 15,
+  "run_id": "bd65f4c0d5385948ee60aeed2a708ef3610bad1d1f71261c14f13445b1a22541"
+}

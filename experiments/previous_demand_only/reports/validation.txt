@@ -1,0 +1,6 @@
+11 testes unitários aprovados.
+474 janelas concluídas (158 por modelo), sem falhas.
+3318 previsões individuais.
+Seis linhas de métricas conferidas independentemente com scikit-learn.
+Hashes dos datasets conferidos; nenhuma fonte foi alterada.
+PDF validado por extração de texto e inspeção visual.

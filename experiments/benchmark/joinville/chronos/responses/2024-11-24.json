@@ -1,0 +1,64 @@
+{
+  "request_id": "f4daa2edf08452f31b20813475f54140bbc677a26f5e30500b857696ad23e2c3",
+  "window": {
+    "context_start": 0,
+    "origin": 526,
+    "horizon": 7
+  },
+  "origin": "2024-11-24",
+  "history_rows": 526,
+  "history_start": "2023-06-17 00:00:00",
+  "history_end": "2024-11-23 00:00:00",
+  "covariates": [
+    "precipitation_median",
+    "temperature_2m_previsao_mean",
+    "shortwave_radiation_previsao_std",
+    "day",
+    "dayofweek_sin",
+    "dayofweek_cos",
+    "season_sin",
+    "season_cos",
+    "is_holiday"
+  ],
+  "status": "ok",
+  "predictions": [
+    225558.921875,
+    225999.21875,
+    234428.296875,
+    233398.84375,
+    231729.375,
+    213459.09375,
+    236668.578125
+  ],
+  "elapsed_seconds": 0.03688362499815412,
+  "audit": {
+    "history_rows": 526,
+    "context_length": 526,
+    "history_start": "2023-06-17 00:00:00",
+    "history_end": "2024-11-23 00:00:00",
+    "future_columns": [
+      "timestamp",
+      "precipitation_median",
+      "temperature_2m_previsao_mean",
+      "shortwave_radiation_previsao_std",
+      "day",
+      "dayofweek_sin",
+      "dayofweek_cos",
+      "season_sin",
+      "season_cos",
+      "is_holiday",
+      "unique_id"
+    ],
+    "covariates": [
+      "precipitation_median",
+      "temperature_2m_previsao_mean",
+      "shortwave_radiation_previsao_std",
+      "day",
+      "dayofweek_sin",
+      "dayofweek_cos",
+      "season_sin",
+      "season_cos",
+      "is_holiday"
+    ]
+  }
+}

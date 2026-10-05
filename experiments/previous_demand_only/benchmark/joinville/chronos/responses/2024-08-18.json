@@ -1,0 +1,21 @@
+{
+  "request_id": "87af2b8de07e2cb38bb5ec0d66eb11e03a5e54fc3fea25dafba828c8862a384f",
+  "window": {
+    "context_start": 63,
+    "origin": 428,
+    "horizon": 7
+  },
+  "origin": "2024-08-18",
+  "status": "ok",
+  "predictions": [
+    205907.578125,
+    203993.15625,
+    203278.734375,
+    205461.96875,
+    205710.4375,
+    208000.453125,
+    218445.71875
+  ],
+  "elapsed_seconds": 0.014597150991903618,
+  "audit": {}
+}
