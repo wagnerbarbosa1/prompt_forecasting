@@ -1,0 +1,4 @@
+  dataset  rmse_15_days  rmse_expanding  rmse_reduction_percent
+joinville  16797.924758    26312.775455              -56.643013
+guaratuba   2768.823595     8262.069085             -198.396370
+FINISHED: validated forecasts and simple comparison CSVs

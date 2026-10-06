@@ -1,0 +1,142 @@
+[
+  {
+    "file": "pyproject.toml",
+    "lines": 18,
+    "sha256": "c85a2368ec54a37f42e229907d8c6070958d9fa4dc4b2ae72c3fd89b5c1178f7"
+  },
+  {
+    "file": "experiments/start_ollama_context_server.sh",
+    "lines": 8,
+    "sha256": "00184c26225c9a45960d3e6a6c9afbf2094f74a251c7cd77fdca6842e9db15ef"
+  },
+  {
+    "file": "experiments/run_qwen_context_comparison.sh",
+    "lines": 12,
+    "sha256": "72c1804cc384546dced83107f1477f5ee0b6cc3e7865093a11e67f3f42948cda"
+  },
+  {
+    "file": "experiments/run_benchmark.sh",
+    "lines": 11,
+    "sha256": "7c9226c3ec2387aa24ae8b98758c065b32dce9b6595aed63be59765f0870c7bf"
+  },
+  {
+    "file": "configs/benchmark.json",
+    "lines": 59,
+    "sha256": "56cc63897dcb707bdaa9b2bb10d5df0414cc6977eabf5111f676e1eec4f5319d"
+  },
+  {
+    "file": "configs/qwen_context_15_days.json",
+    "lines": 66,
+    "sha256": "8cbfa529dad3c700746354d67360d8c32243e956e3660e4b427cf0c1f2c0be8b"
+  },
+  {
+    "file": "configs/qwen_context_expanding.json",
+    "lines": 66,
+    "sha256": "792d9c9a6aa0b2f1e65ba61940f5d7f396cb43181140515c71a708d30a1096e9"
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "lines": 142,
+    "sha256": "2087af35dc26fdefd50c0872fd99f5620dc4cb510930e333e92905c3046ed38c"
+  },
+  {
+    "file": "src/pipelines/data_pipeline.py",
+    "lines": 11,
+    "sha256": "126ca72f0c2e882bd547b093cfd1c557f9452c338de59a8db9fd9f60ca8cff7f"
+  },
+  {
+    "file": "src/data/ingestion/files.py",
+    "lines": 18,
+    "sha256": "3ace075a801a52dc87b6e29189097bc80204079935544367526c367fdcb27901"
+  },
+  {
+    "file": "src/data/validation/schema.py",
+    "lines": 21,
+    "sha256": "d5c72310716276c63210b694a2e7f0d0cdc7b267b476dac2ab1e412a1436e12c"
+  },
+  {
+    "file": "src/data/preprocessing/resampling.py",
+    "lines": 8,
+    "sha256": "33d458e31acaed8a8d826b01d2b7d5b20f45a0825073b66d4092ecf40c4995e0"
+  },
+  {
+    "file": "src/data/preprocessing/missing_values.py",
+    "lines": 11,
+    "sha256": "48d7a521417ef68f727b15797fb8d8c33dfe205f71db9dddd890574ecf1e297a"
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "lines": 37,
+    "sha256": "fe467e111af3b2907d9aa42f753c01afc8b9aeaab7194583c8542ca9aeab3a70"
+  },
+  {
+    "file": "src/data/features/temporal.py",
+    "lines": 6,
+    "sha256": "05e1165987546b2320e6dff5a8709cf646b98db9f8f5281c0a8092bce8144c24"
+  },
+  {
+    "file": "src/data/features/covariates.py",
+    "lines": 43,
+    "sha256": "265c84d324e98cc1db784ef3d155806d742adb6e360735207cc6f9881fe9eddd"
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "lines": 127,
+    "sha256": "1305b1f127f4a9de567eb7006e88172fb4181a795af3a469021c5e541354c546"
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "lines": 99,
+    "sha256": "b222c85acd066aaed968da9b511fe19f49ee6f98e7dbc602ed1abda79792e9ee"
+  },
+  {
+    "file": "src/models/chronos.py",
+    "lines": 34,
+    "sha256": "b87428a5ee2bc106c38203330df3866cfdc3a1b4b4e9ad7b5920a4907eff917c"
+  },
+  {
+    "file": "src/models/timesfm.py",
+    "lines": 41,
+    "sha256": "508356fc7f9b65ed2ef610fa1214374f15cc57dca933f767015cceac03892ff0"
+  },
+  {
+    "file": "src/evaluation/metrics.py",
+    "lines": 20,
+    "sha256": "f4141db5d243c7b5e939064ef2f4c022545b6d99fc6846ce36a6aeee4875d2a2"
+  },
+  {
+    "file": "src/pipelines/compare_models.py",
+    "lines": 64,
+    "sha256": "7b2a4b81739aeda24d12693f71da1ddaf13e685b9cc753b6d6477b4a35bd63b1"
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "lines": 90,
+    "sha256": "d4b47c183d1b8dd1b0ef8dd83add939a1a09093bb1c501181b479eadbecc7247"
+  },
+  {
+    "file": "src/training/train.py",
+    "lines": 11,
+    "sha256": "bdff53809e5067f833bbec7698ea9b0be09af475a4f6a893f5465c905e04df30"
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "lines": 158,
+    "sha256": "9f6b38ebb1f83bdcb0a0f73e8b3bc37e74f095a2a713a6532fcff659a0e24402"
+  },
+  {
+    "file": "tests/test_qwen_context_comparison.py",
+    "lines": 57,
+    "sha256": "6dc522d0f7a2bee4467031a185a15f8089970c5a1f88c279a4f5ef4ee29ad954"
+  },
+  {
+    "file": "tests/test_seven_day_metrics.py",
+    "lines": 47,
+    "sha256": "fff364c2855fb53d1cbdec0bb8e08dea740b2b6c3df90c5e8cfaed79e43b8c63"
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "lines": 99,
+    "sha256": "6def8de2666618f7058ddbdd9648447dfef7ce79e71fc75c0a7c6340dbe15e85"
+  }
+]

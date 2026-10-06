@@ -1,0 +1,8306 @@
+[
+  {
+    "file": "pyproject.toml",
+    "line": 1,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "pyproject.toml",
+    "line": 2,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "pyproject.toml",
+    "line": 3,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "pyproject.toml",
+    "line": 4,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "pyproject.toml",
+    "line": 5,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "pyproject.toml",
+    "line": 6,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "pyproject.toml",
+    "line": 7,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "pyproject.toml",
+    "line": 8,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "pyproject.toml",
+    "line": 9,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "pyproject.toml",
+    "line": 10,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "pyproject.toml",
+    "line": 11,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "pyproject.toml",
+    "line": 12,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "pyproject.toml",
+    "line": 13,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "pyproject.toml",
+    "line": 14,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "pyproject.toml",
+    "line": 15,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "pyproject.toml",
+    "line": 16,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "pyproject.toml",
+    "line": 17,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "pyproject.toml",
+    "line": 18,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/start_ollama_context_server.sh",
+    "line": 1,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/start_ollama_context_server.sh",
+    "line": 2,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/start_ollama_context_server.sh",
+    "line": 3,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/start_ollama_context_server.sh",
+    "line": 4,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/start_ollama_context_server.sh",
+    "line": 5,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/start_ollama_context_server.sh",
+    "line": 6,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/start_ollama_context_server.sh",
+    "line": 7,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/start_ollama_context_server.sh",
+    "line": 8,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/run_qwen_context_comparison.sh",
+    "line": 1,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/run_qwen_context_comparison.sh",
+    "line": 2,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/run_qwen_context_comparison.sh",
+    "line": 3,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/run_qwen_context_comparison.sh",
+    "line": 4,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/run_qwen_context_comparison.sh",
+    "line": 5,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/run_qwen_context_comparison.sh",
+    "line": 6,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/run_qwen_context_comparison.sh",
+    "line": 7,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/run_qwen_context_comparison.sh",
+    "line": 8,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/run_qwen_context_comparison.sh",
+    "line": 9,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/run_qwen_context_comparison.sh",
+    "line": 10,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/run_qwen_context_comparison.sh",
+    "line": 11,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/run_qwen_context_comparison.sh",
+    "line": 12,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/run_benchmark.sh",
+    "line": 1,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/run_benchmark.sh",
+    "line": 2,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/run_benchmark.sh",
+    "line": 3,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/run_benchmark.sh",
+    "line": 4,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/run_benchmark.sh",
+    "line": 5,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/run_benchmark.sh",
+    "line": 6,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/run_benchmark.sh",
+    "line": 7,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/run_benchmark.sh",
+    "line": 8,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/run_benchmark.sh",
+    "line": 9,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/run_benchmark.sh",
+    "line": 10,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/run_benchmark.sh",
+    "line": 11,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/benchmark.json",
+    "line": 1,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/benchmark.json",
+    "line": 2,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/benchmark.json",
+    "line": 3,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/benchmark.json",
+    "line": 4,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/benchmark.json",
+    "line": 5,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/benchmark.json",
+    "line": 6,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/benchmark.json",
+    "line": 7,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/benchmark.json",
+    "line": 8,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/benchmark.json",
+    "line": 9,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/benchmark.json",
+    "line": 10,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/benchmark.json",
+    "line": 11,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/benchmark.json",
+    "line": 12,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/benchmark.json",
+    "line": 13,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/benchmark.json",
+    "line": 14,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/benchmark.json",
+    "line": 15,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/benchmark.json",
+    "line": 16,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/benchmark.json",
+    "line": 17,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/benchmark.json",
+    "line": 18,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/benchmark.json",
+    "line": 19,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/benchmark.json",
+    "line": 20,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/benchmark.json",
+    "line": 21,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/benchmark.json",
+    "line": 22,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/benchmark.json",
+    "line": 23,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/benchmark.json",
+    "line": 24,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/benchmark.json",
+    "line": 25,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/benchmark.json",
+    "line": 26,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/benchmark.json",
+    "line": 27,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/benchmark.json",
+    "line": 28,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/benchmark.json",
+    "line": 29,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/benchmark.json",
+    "line": 30,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/benchmark.json",
+    "line": 31,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/benchmark.json",
+    "line": 32,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/benchmark.json",
+    "line": 33,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/benchmark.json",
+    "line": 34,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/benchmark.json",
+    "line": 35,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/benchmark.json",
+    "line": 36,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/benchmark.json",
+    "line": 37,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/benchmark.json",
+    "line": 38,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/benchmark.json",
+    "line": 39,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/benchmark.json",
+    "line": 40,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/benchmark.json",
+    "line": 41,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/benchmark.json",
+    "line": 42,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/benchmark.json",
+    "line": 43,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/benchmark.json",
+    "line": 44,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/benchmark.json",
+    "line": 45,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/benchmark.json",
+    "line": 46,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/benchmark.json",
+    "line": 47,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/benchmark.json",
+    "line": 48,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/benchmark.json",
+    "line": 49,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/benchmark.json",
+    "line": 50,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/benchmark.json",
+    "line": 51,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/benchmark.json",
+    "line": 52,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/benchmark.json",
+    "line": 53,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/benchmark.json",
+    "line": 54,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/benchmark.json",
+    "line": 55,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/benchmark.json",
+    "line": 56,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/benchmark.json",
+    "line": 57,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/benchmark.json",
+    "line": 58,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/benchmark.json",
+    "line": 59,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_15_days.json",
+    "line": 1,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_15_days.json",
+    "line": 2,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_15_days.json",
+    "line": 3,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_15_days.json",
+    "line": 4,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_15_days.json",
+    "line": 5,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_15_days.json",
+    "line": 6,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_15_days.json",
+    "line": 7,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_15_days.json",
+    "line": 8,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_15_days.json",
+    "line": 9,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_15_days.json",
+    "line": 10,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_15_days.json",
+    "line": 11,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_15_days.json",
+    "line": 12,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_15_days.json",
+    "line": 13,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_15_days.json",
+    "line": 14,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_15_days.json",
+    "line": 15,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_15_days.json",
+    "line": 16,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_15_days.json",
+    "line": 17,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_15_days.json",
+    "line": 18,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_15_days.json",
+    "line": 19,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_15_days.json",
+    "line": 20,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_15_days.json",
+    "line": 21,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_15_days.json",
+    "line": 22,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_15_days.json",
+    "line": 23,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_15_days.json",
+    "line": 24,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_15_days.json",
+    "line": 25,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_15_days.json",
+    "line": 26,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_15_days.json",
+    "line": 27,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_15_days.json",
+    "line": 28,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_15_days.json",
+    "line": 29,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_15_days.json",
+    "line": 30,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_15_days.json",
+    "line": 31,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_15_days.json",
+    "line": 32,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_15_days.json",
+    "line": 33,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_15_days.json",
+    "line": 34,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_15_days.json",
+    "line": 35,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_15_days.json",
+    "line": 36,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_15_days.json",
+    "line": 37,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_15_days.json",
+    "line": 38,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_15_days.json",
+    "line": 39,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_15_days.json",
+    "line": 40,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_15_days.json",
+    "line": 41,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_15_days.json",
+    "line": 42,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_15_days.json",
+    "line": 43,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_15_days.json",
+    "line": 44,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_15_days.json",
+    "line": 45,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_15_days.json",
+    "line": 46,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_15_days.json",
+    "line": 47,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_15_days.json",
+    "line": 48,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_15_days.json",
+    "line": 49,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_15_days.json",
+    "line": 50,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_15_days.json",
+    "line": 51,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_15_days.json",
+    "line": 52,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_15_days.json",
+    "line": 53,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_15_days.json",
+    "line": 54,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_15_days.json",
+    "line": 55,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_15_days.json",
+    "line": 56,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_15_days.json",
+    "line": 57,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_15_days.json",
+    "line": 58,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_15_days.json",
+    "line": 59,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_15_days.json",
+    "line": 60,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_15_days.json",
+    "line": 61,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_15_days.json",
+    "line": 62,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_15_days.json",
+    "line": 63,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_15_days.json",
+    "line": 64,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_15_days.json",
+    "line": 65,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_15_days.json",
+    "line": 66,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_expanding.json",
+    "line": 1,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_expanding.json",
+    "line": 2,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_expanding.json",
+    "line": 3,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_expanding.json",
+    "line": 4,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_expanding.json",
+    "line": 5,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_expanding.json",
+    "line": 6,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_expanding.json",
+    "line": 7,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_expanding.json",
+    "line": 8,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_expanding.json",
+    "line": 9,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_expanding.json",
+    "line": 10,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_expanding.json",
+    "line": 11,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_expanding.json",
+    "line": 12,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_expanding.json",
+    "line": 13,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_expanding.json",
+    "line": 14,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_expanding.json",
+    "line": 15,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_expanding.json",
+    "line": 16,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_expanding.json",
+    "line": 17,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_expanding.json",
+    "line": 18,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_expanding.json",
+    "line": 19,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_expanding.json",
+    "line": 20,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_expanding.json",
+    "line": 21,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_expanding.json",
+    "line": 22,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_expanding.json",
+    "line": 23,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_expanding.json",
+    "line": 24,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_expanding.json",
+    "line": 25,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_expanding.json",
+    "line": 26,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_expanding.json",
+    "line": 27,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_expanding.json",
+    "line": 28,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_expanding.json",
+    "line": 29,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_expanding.json",
+    "line": 30,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_expanding.json",
+    "line": 31,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_expanding.json",
+    "line": 32,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_expanding.json",
+    "line": 33,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_expanding.json",
+    "line": 34,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_expanding.json",
+    "line": 35,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_expanding.json",
+    "line": 36,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_expanding.json",
+    "line": 37,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_expanding.json",
+    "line": 38,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_expanding.json",
+    "line": 39,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_expanding.json",
+    "line": 40,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_expanding.json",
+    "line": 41,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_expanding.json",
+    "line": 42,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_expanding.json",
+    "line": 43,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_expanding.json",
+    "line": 44,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_expanding.json",
+    "line": 45,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_expanding.json",
+    "line": 46,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_expanding.json",
+    "line": 47,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_expanding.json",
+    "line": 48,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_expanding.json",
+    "line": 49,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_expanding.json",
+    "line": 50,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_expanding.json",
+    "line": 51,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_expanding.json",
+    "line": 52,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_expanding.json",
+    "line": 53,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_expanding.json",
+    "line": 54,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_expanding.json",
+    "line": 55,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_expanding.json",
+    "line": 56,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_expanding.json",
+    "line": 57,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_expanding.json",
+    "line": 58,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_expanding.json",
+    "line": 59,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_expanding.json",
+    "line": 60,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_expanding.json",
+    "line": 61,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_expanding.json",
+    "line": 62,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_expanding.json",
+    "line": 63,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_expanding.json",
+    "line": 64,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_expanding.json",
+    "line": 65,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/qwen_context_expanding.json",
+    "line": 66,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 1,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 2,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 3,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 4,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 5,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 6,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 7,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 8,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 9,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 10,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 11,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 12,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 13,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 14,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 15,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 16,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 17,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 18,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 19,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 20,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 21,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 22,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 23,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 24,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 25,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 26,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 27,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 28,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 29,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 30,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 31,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 32,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 33,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 34,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 35,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 36,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 37,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 38,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 39,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 40,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 41,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 42,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 43,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 44,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 45,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 46,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 47,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 48,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 49,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 50,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 51,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 52,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 53,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 54,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 55,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 56,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 57,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 58,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 59,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 60,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 61,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 62,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 63,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 64,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 65,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 66,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 67,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 68,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 69,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 70,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 71,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 72,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 73,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 74,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 75,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 76,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 77,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 78,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 79,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 80,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 81,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 82,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 83,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 84,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 85,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 86,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 87,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 88,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 89,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 90,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 91,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 92,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 93,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 94,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 95,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 96,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 97,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 98,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 99,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 100,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 101,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 102,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 103,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 104,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 105,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 106,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 107,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 108,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 109,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 110,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 111,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 112,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 113,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 114,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 115,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 116,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 117,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 118,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 119,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 120,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 121,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 122,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 123,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 124,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 125,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 126,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 127,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 128,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 129,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 130,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 131,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 132,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 133,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 134,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 135,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 136,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 137,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 138,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 139,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 140,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 141,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/forecasting_pipeline.py",
+    "line": 142,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/data_pipeline.py",
+    "line": 1,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/data_pipeline.py",
+    "line": 2,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/data_pipeline.py",
+    "line": 3,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/data_pipeline.py",
+    "line": 4,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/data_pipeline.py",
+    "line": 5,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/data_pipeline.py",
+    "line": 6,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/data_pipeline.py",
+    "line": 7,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/data_pipeline.py",
+    "line": 8,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/data_pipeline.py",
+    "line": 9,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/data_pipeline.py",
+    "line": 10,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/data_pipeline.py",
+    "line": 11,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/ingestion/files.py",
+    "line": 1,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/ingestion/files.py",
+    "line": 2,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/ingestion/files.py",
+    "line": 3,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/ingestion/files.py",
+    "line": 4,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/ingestion/files.py",
+    "line": 5,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/ingestion/files.py",
+    "line": 6,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/data/ingestion/files.py",
+    "line": 7,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/data/ingestion/files.py",
+    "line": 8,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/ingestion/files.py",
+    "line": 9,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/ingestion/files.py",
+    "line": 10,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/data/ingestion/files.py",
+    "line": 11,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/data/ingestion/files.py",
+    "line": 12,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/ingestion/files.py",
+    "line": 13,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/ingestion/files.py",
+    "line": 14,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/ingestion/files.py",
+    "line": 15,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/ingestion/files.py",
+    "line": 16,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/ingestion/files.py",
+    "line": 17,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/ingestion/files.py",
+    "line": 18,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/validation/schema.py",
+    "line": 1,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/validation/schema.py",
+    "line": 2,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/validation/schema.py",
+    "line": 3,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/validation/schema.py",
+    "line": 4,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/data/validation/schema.py",
+    "line": 5,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/data/validation/schema.py",
+    "line": 6,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/validation/schema.py",
+    "line": 7,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/validation/schema.py",
+    "line": 8,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/validation/schema.py",
+    "line": 9,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/validation/schema.py",
+    "line": 10,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/validation/schema.py",
+    "line": 11,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/validation/schema.py",
+    "line": 12,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/validation/schema.py",
+    "line": 13,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/validation/schema.py",
+    "line": 14,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/validation/schema.py",
+    "line": 15,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/validation/schema.py",
+    "line": 16,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/validation/schema.py",
+    "line": 17,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/validation/schema.py",
+    "line": 18,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/validation/schema.py",
+    "line": 19,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/validation/schema.py",
+    "line": 20,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/validation/schema.py",
+    "line": 21,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/resampling.py",
+    "line": 1,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/resampling.py",
+    "line": 2,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/resampling.py",
+    "line": 3,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/resampling.py",
+    "line": 4,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/resampling.py",
+    "line": 5,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/resampling.py",
+    "line": 6,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/resampling.py",
+    "line": 7,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/resampling.py",
+    "line": 8,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/missing_values.py",
+    "line": 1,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/missing_values.py",
+    "line": 2,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/missing_values.py",
+    "line": 3,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/missing_values.py",
+    "line": 4,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/missing_values.py",
+    "line": 5,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/missing_values.py",
+    "line": 6,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/missing_values.py",
+    "line": 7,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/missing_values.py",
+    "line": 8,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/missing_values.py",
+    "line": 9,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/missing_values.py",
+    "line": 10,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/missing_values.py",
+    "line": 11,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 1,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 2,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 3,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 4,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 5,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 6,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 7,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 8,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 9,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 10,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 11,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 12,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 13,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 14,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 15,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 16,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 17,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 18,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 19,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 20,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 21,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 22,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 23,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 24,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 25,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 26,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 27,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 28,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 29,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 30,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 31,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 32,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 33,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 34,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 35,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 36,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 37,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/temporal.py",
+    "line": 1,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/temporal.py",
+    "line": 2,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/temporal.py",
+    "line": 3,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/temporal.py",
+    "line": 4,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/temporal.py",
+    "line": 5,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/temporal.py",
+    "line": 6,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/covariates.py",
+    "line": 1,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/covariates.py",
+    "line": 2,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/covariates.py",
+    "line": 3,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/covariates.py",
+    "line": 4,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/covariates.py",
+    "line": 5,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/covariates.py",
+    "line": 6,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/covariates.py",
+    "line": 7,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/covariates.py",
+    "line": 8,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/covariates.py",
+    "line": 9,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/covariates.py",
+    "line": 10,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/covariates.py",
+    "line": 11,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/covariates.py",
+    "line": 12,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/covariates.py",
+    "line": 13,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/covariates.py",
+    "line": 14,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/covariates.py",
+    "line": 15,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/covariates.py",
+    "line": 16,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/covariates.py",
+    "line": 17,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/covariates.py",
+    "line": 18,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/covariates.py",
+    "line": 19,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/covariates.py",
+    "line": 20,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/covariates.py",
+    "line": 21,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/covariates.py",
+    "line": 22,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/covariates.py",
+    "line": 23,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/covariates.py",
+    "line": 24,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/covariates.py",
+    "line": 25,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/covariates.py",
+    "line": 26,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/covariates.py",
+    "line": 27,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/covariates.py",
+    "line": 28,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/covariates.py",
+    "line": 29,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/covariates.py",
+    "line": 30,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/covariates.py",
+    "line": 31,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/covariates.py",
+    "line": 32,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/covariates.py",
+    "line": 33,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/covariates.py",
+    "line": 34,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/covariates.py",
+    "line": 35,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/covariates.py",
+    "line": 36,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/covariates.py",
+    "line": 37,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/covariates.py",
+    "line": 38,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/covariates.py",
+    "line": 39,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/covariates.py",
+    "line": 40,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/covariates.py",
+    "line": 41,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/covariates.py",
+    "line": 42,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/covariates.py",
+    "line": 43,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 1,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 2,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 3,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 4,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 5,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 6,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 7,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 8,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 9,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 10,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 11,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 12,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 13,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 14,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 15,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 16,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 17,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 18,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 19,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 20,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 21,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 22,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 23,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 24,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 25,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 26,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 27,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 28,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 29,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 30,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 31,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 32,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 33,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 34,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 35,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 36,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 37,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 38,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 39,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 40,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 41,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 42,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 43,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 44,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 45,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 46,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 47,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 48,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 49,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 50,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 51,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 52,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 53,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 54,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 55,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 56,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 57,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 58,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 59,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 60,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 61,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 62,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 63,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 64,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 65,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 66,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 67,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 68,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 69,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 70,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 71,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 72,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 73,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 74,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 75,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 76,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 77,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 78,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 79,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 80,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 81,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 82,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 83,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 84,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 85,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 86,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 87,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 88,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 89,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 90,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 91,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 92,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 93,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 94,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 95,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 96,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 97,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 98,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 99,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 100,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 101,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 102,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 103,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 104,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 105,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 106,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 107,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 108,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 109,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 110,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 111,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 112,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 113,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 114,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 115,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 116,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 117,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 118,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 119,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 120,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 121,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 122,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 123,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 124,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 125,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 126,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/preprocessing/generate_prompts.py",
+    "line": 127,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 1,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 2,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 3,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 4,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 5,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 6,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 7,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 8,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 9,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 10,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 11,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 12,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 13,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 14,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 15,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 16,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 17,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 18,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 19,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 20,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 21,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 22,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 23,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 24,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 25,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 26,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 27,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 28,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 29,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 30,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 31,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 32,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 33,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 34,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 35,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 36,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 37,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 38,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 39,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 40,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 41,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 42,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 43,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 44,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 45,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 46,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 47,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 48,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 49,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 50,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 51,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 52,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 53,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 54,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 55,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 56,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 57,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 58,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 59,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 60,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 61,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 62,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 63,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 64,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 65,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 66,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 67,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 68,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 69,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 70,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 71,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 72,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 73,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 74,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 75,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 76,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 77,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 78,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 79,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 80,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 81,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 82,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 83,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 84,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 85,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 86,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 87,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 88,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 89,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 90,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 91,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 92,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 93,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 94,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 95,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 96,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 97,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 98,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/promptcast.py",
+    "line": 99,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/chronos.py",
+    "line": 1,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/chronos.py",
+    "line": 2,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/chronos.py",
+    "line": 3,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/models/chronos.py",
+    "line": 4,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/models/chronos.py",
+    "line": 5,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/chronos.py",
+    "line": 6,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/chronos.py",
+    "line": 7,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/chronos.py",
+    "line": 8,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/chronos.py",
+    "line": 9,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/chronos.py",
+    "line": 10,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/chronos.py",
+    "line": 11,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/chronos.py",
+    "line": 12,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/chronos.py",
+    "line": 13,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/chronos.py",
+    "line": 14,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/chronos.py",
+    "line": 15,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/chronos.py",
+    "line": 16,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/chronos.py",
+    "line": 17,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/models/chronos.py",
+    "line": 18,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/chronos.py",
+    "line": 19,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/chronos.py",
+    "line": 20,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/chronos.py",
+    "line": 21,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/chronos.py",
+    "line": 22,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/chronos.py",
+    "line": 23,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/chronos.py",
+    "line": 24,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/chronos.py",
+    "line": 25,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/chronos.py",
+    "line": 26,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/chronos.py",
+    "line": 27,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/chronos.py",
+    "line": 28,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/chronos.py",
+    "line": 29,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/chronos.py",
+    "line": 30,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/chronos.py",
+    "line": 31,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/chronos.py",
+    "line": 32,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/chronos.py",
+    "line": 33,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/chronos.py",
+    "line": 34,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/timesfm.py",
+    "line": 1,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/timesfm.py",
+    "line": 2,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/timesfm.py",
+    "line": 3,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/timesfm.py",
+    "line": 4,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/timesfm.py",
+    "line": 5,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/models/timesfm.py",
+    "line": 6,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/models/timesfm.py",
+    "line": 7,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/timesfm.py",
+    "line": 8,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/timesfm.py",
+    "line": 9,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/timesfm.py",
+    "line": 10,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/timesfm.py",
+    "line": 11,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/timesfm.py",
+    "line": 12,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/timesfm.py",
+    "line": 13,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/timesfm.py",
+    "line": 14,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/timesfm.py",
+    "line": 15,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/timesfm.py",
+    "line": 16,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/timesfm.py",
+    "line": 17,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/timesfm.py",
+    "line": 18,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/timesfm.py",
+    "line": 19,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/models/timesfm.py",
+    "line": 20,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/timesfm.py",
+    "line": 21,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/timesfm.py",
+    "line": 22,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/timesfm.py",
+    "line": 23,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/timesfm.py",
+    "line": 24,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/timesfm.py",
+    "line": 25,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/timesfm.py",
+    "line": 26,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/timesfm.py",
+    "line": 27,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/timesfm.py",
+    "line": 28,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/timesfm.py",
+    "line": 29,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/timesfm.py",
+    "line": 30,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/timesfm.py",
+    "line": 31,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/timesfm.py",
+    "line": 32,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/timesfm.py",
+    "line": 33,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/timesfm.py",
+    "line": 34,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/timesfm.py",
+    "line": 35,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/timesfm.py",
+    "line": 36,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/timesfm.py",
+    "line": 37,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/timesfm.py",
+    "line": 38,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/timesfm.py",
+    "line": 39,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/timesfm.py",
+    "line": 40,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/timesfm.py",
+    "line": 41,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/metrics.py",
+    "line": 1,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/metrics.py",
+    "line": 2,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/metrics.py",
+    "line": 3,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/metrics.py",
+    "line": 4,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/metrics.py",
+    "line": 5,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/metrics.py",
+    "line": 6,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/metrics.py",
+    "line": 7,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/metrics.py",
+    "line": 8,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/metrics.py",
+    "line": 9,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/metrics.py",
+    "line": 10,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/metrics.py",
+    "line": 11,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/metrics.py",
+    "line": 12,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/metrics.py",
+    "line": 13,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/metrics.py",
+    "line": 14,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/metrics.py",
+    "line": 15,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/metrics.py",
+    "line": 16,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/metrics.py",
+    "line": 17,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/metrics.py",
+    "line": 18,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/metrics.py",
+    "line": 19,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/metrics.py",
+    "line": 20,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_models.py",
+    "line": 1,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_models.py",
+    "line": 2,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_models.py",
+    "line": 3,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_models.py",
+    "line": 4,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_models.py",
+    "line": 5,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_models.py",
+    "line": 6,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_models.py",
+    "line": 7,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_models.py",
+    "line": 8,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_models.py",
+    "line": 9,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_models.py",
+    "line": 10,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_models.py",
+    "line": 11,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_models.py",
+    "line": 12,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_models.py",
+    "line": 13,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_models.py",
+    "line": 14,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_models.py",
+    "line": 15,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_models.py",
+    "line": 16,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_models.py",
+    "line": 17,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_models.py",
+    "line": 18,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_models.py",
+    "line": 19,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_models.py",
+    "line": 20,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_models.py",
+    "line": 21,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_models.py",
+    "line": 22,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_models.py",
+    "line": 23,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_models.py",
+    "line": 24,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_models.py",
+    "line": 25,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_models.py",
+    "line": 26,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_models.py",
+    "line": 27,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_models.py",
+    "line": 28,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_models.py",
+    "line": 29,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_models.py",
+    "line": 30,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_models.py",
+    "line": 31,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_models.py",
+    "line": 32,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_models.py",
+    "line": 33,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_models.py",
+    "line": 34,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_models.py",
+    "line": 35,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_models.py",
+    "line": 36,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_models.py",
+    "line": 37,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_models.py",
+    "line": 38,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_models.py",
+    "line": 39,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_models.py",
+    "line": 40,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_models.py",
+    "line": 41,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_models.py",
+    "line": 42,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_models.py",
+    "line": 43,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_models.py",
+    "line": 44,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_models.py",
+    "line": 45,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_models.py",
+    "line": 46,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_models.py",
+    "line": 47,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_models.py",
+    "line": 48,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_models.py",
+    "line": 49,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_models.py",
+    "line": 50,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_models.py",
+    "line": 51,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_models.py",
+    "line": 52,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_models.py",
+    "line": 53,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_models.py",
+    "line": 54,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_models.py",
+    "line": 55,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_models.py",
+    "line": 56,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_models.py",
+    "line": 57,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_models.py",
+    "line": 58,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_models.py",
+    "line": 59,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_models.py",
+    "line": 60,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_models.py",
+    "line": 61,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_models.py",
+    "line": 62,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_models.py",
+    "line": 63,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_models.py",
+    "line": 64,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 1,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 2,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 3,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 4,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 5,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 6,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 7,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 8,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 9,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 10,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 11,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 12,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 13,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 14,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 15,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 16,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 17,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 18,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 19,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 20,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 21,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 22,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 23,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 24,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 25,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 26,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 27,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 28,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 29,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 30,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 31,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 32,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 33,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 34,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 35,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 36,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 37,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 38,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 39,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 40,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 41,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 42,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 43,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 44,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 45,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 46,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 47,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 48,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 49,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 50,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 51,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 52,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 53,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 54,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 55,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 56,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 57,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 58,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 59,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 60,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 61,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 62,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 63,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 64,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 65,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 66,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 67,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 68,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 69,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 70,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 71,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 72,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 73,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 74,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 75,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 76,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 77,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 78,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 79,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 80,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 81,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 82,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 83,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 84,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 85,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 86,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 87,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 88,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 89,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/compare_qwen_contexts.py",
+    "line": 90,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/training/train.py",
+    "line": 1,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/training/train.py",
+    "line": 2,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/training/train.py",
+    "line": 3,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/training/train.py",
+    "line": 4,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/training/train.py",
+    "line": 5,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/training/train.py",
+    "line": 6,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/training/train.py",
+    "line": 7,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/training/train.py",
+    "line": 8,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/training/train.py",
+    "line": 9,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/training/train.py",
+    "line": 10,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/training/train.py",
+    "line": 11,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 1,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 2,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 3,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 4,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 5,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 6,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 7,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 8,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 9,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 10,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 11,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 12,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 13,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 14,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 15,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 16,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 17,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 18,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 19,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 20,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 21,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 22,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 23,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 24,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 25,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 26,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 27,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 28,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 29,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 30,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 31,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 32,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 33,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 34,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 35,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 36,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 37,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 38,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 39,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 40,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 41,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 42,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 43,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 44,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 45,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 46,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 47,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 48,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 49,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 50,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 51,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 52,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 53,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 54,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 55,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 56,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 57,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 58,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 59,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 60,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 61,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 62,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 63,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 64,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 65,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 66,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 67,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 68,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 69,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 70,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 71,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 72,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 73,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 74,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 75,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 76,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 77,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 78,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 79,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 80,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 81,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 82,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 83,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 84,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 85,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 86,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 87,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 88,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 89,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 90,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 91,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 92,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 93,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 94,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 95,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 96,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 97,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 98,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 99,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 100,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 101,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 102,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 103,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 104,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 105,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 106,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 107,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 108,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 109,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 110,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 111,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 112,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 113,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 114,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 115,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 116,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 117,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 118,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 119,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 120,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 121,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 122,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 123,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 124,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 125,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 126,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 127,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 128,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 129,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 130,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 131,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 132,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 133,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 134,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 135,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 136,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 137,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 138,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 139,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 140,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 141,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 142,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 143,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 144,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 145,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 146,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 147,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 148,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 149,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 150,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 151,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 152,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 153,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 154,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 155,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 156,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 157,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "line": 158,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_qwen_context_comparison.py",
+    "line": 1,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_qwen_context_comparison.py",
+    "line": 2,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_qwen_context_comparison.py",
+    "line": 3,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_qwen_context_comparison.py",
+    "line": 4,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_qwen_context_comparison.py",
+    "line": 5,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_qwen_context_comparison.py",
+    "line": 6,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_qwen_context_comparison.py",
+    "line": 7,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_qwen_context_comparison.py",
+    "line": 8,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_qwen_context_comparison.py",
+    "line": 9,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_qwen_context_comparison.py",
+    "line": 10,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "tests/test_qwen_context_comparison.py",
+    "line": 11,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "tests/test_qwen_context_comparison.py",
+    "line": 12,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_qwen_context_comparison.py",
+    "line": 13,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_qwen_context_comparison.py",
+    "line": 14,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_qwen_context_comparison.py",
+    "line": 15,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_qwen_context_comparison.py",
+    "line": 16,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_qwen_context_comparison.py",
+    "line": 17,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "tests/test_qwen_context_comparison.py",
+    "line": 18,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_qwen_context_comparison.py",
+    "line": 19,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_qwen_context_comparison.py",
+    "line": 20,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_qwen_context_comparison.py",
+    "line": 21,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_qwen_context_comparison.py",
+    "line": 22,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_qwen_context_comparison.py",
+    "line": 23,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_qwen_context_comparison.py",
+    "line": 24,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_qwen_context_comparison.py",
+    "line": 25,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_qwen_context_comparison.py",
+    "line": 26,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_qwen_context_comparison.py",
+    "line": 27,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_qwen_context_comparison.py",
+    "line": 28,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_qwen_context_comparison.py",
+    "line": 29,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_qwen_context_comparison.py",
+    "line": 30,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_qwen_context_comparison.py",
+    "line": 31,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_qwen_context_comparison.py",
+    "line": 32,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_qwen_context_comparison.py",
+    "line": 33,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_qwen_context_comparison.py",
+    "line": 34,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_qwen_context_comparison.py",
+    "line": 35,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_qwen_context_comparison.py",
+    "line": 36,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_qwen_context_comparison.py",
+    "line": 37,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_qwen_context_comparison.py",
+    "line": 38,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_qwen_context_comparison.py",
+    "line": 39,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_qwen_context_comparison.py",
+    "line": 40,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_qwen_context_comparison.py",
+    "line": 41,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_qwen_context_comparison.py",
+    "line": 42,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "tests/test_qwen_context_comparison.py",
+    "line": 43,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_qwen_context_comparison.py",
+    "line": 44,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_qwen_context_comparison.py",
+    "line": 45,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_qwen_context_comparison.py",
+    "line": 46,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_qwen_context_comparison.py",
+    "line": 47,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_qwen_context_comparison.py",
+    "line": 48,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_qwen_context_comparison.py",
+    "line": 49,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_qwen_context_comparison.py",
+    "line": 50,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_qwen_context_comparison.py",
+    "line": 51,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_qwen_context_comparison.py",
+    "line": 52,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_qwen_context_comparison.py",
+    "line": 53,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_qwen_context_comparison.py",
+    "line": 54,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_qwen_context_comparison.py",
+    "line": 55,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_qwen_context_comparison.py",
+    "line": 56,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_qwen_context_comparison.py",
+    "line": 57,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_seven_day_metrics.py",
+    "line": 1,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_seven_day_metrics.py",
+    "line": 2,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_seven_day_metrics.py",
+    "line": 3,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_seven_day_metrics.py",
+    "line": 4,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_seven_day_metrics.py",
+    "line": 5,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_seven_day_metrics.py",
+    "line": 6,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_seven_day_metrics.py",
+    "line": 7,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_seven_day_metrics.py",
+    "line": 8,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_seven_day_metrics.py",
+    "line": 9,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_seven_day_metrics.py",
+    "line": 10,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_seven_day_metrics.py",
+    "line": 11,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "tests/test_seven_day_metrics.py",
+    "line": 12,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "tests/test_seven_day_metrics.py",
+    "line": 13,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_seven_day_metrics.py",
+    "line": 14,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_seven_day_metrics.py",
+    "line": 15,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_seven_day_metrics.py",
+    "line": 16,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_seven_day_metrics.py",
+    "line": 17,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_seven_day_metrics.py",
+    "line": 18,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_seven_day_metrics.py",
+    "line": 19,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_seven_day_metrics.py",
+    "line": 20,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_seven_day_metrics.py",
+    "line": 21,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_seven_day_metrics.py",
+    "line": 22,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_seven_day_metrics.py",
+    "line": 23,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_seven_day_metrics.py",
+    "line": 24,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_seven_day_metrics.py",
+    "line": 25,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_seven_day_metrics.py",
+    "line": 26,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_seven_day_metrics.py",
+    "line": 27,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_seven_day_metrics.py",
+    "line": 28,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_seven_day_metrics.py",
+    "line": 29,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_seven_day_metrics.py",
+    "line": 30,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_seven_day_metrics.py",
+    "line": 31,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_seven_day_metrics.py",
+    "line": 32,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_seven_day_metrics.py",
+    "line": 33,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_seven_day_metrics.py",
+    "line": 34,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_seven_day_metrics.py",
+    "line": 35,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_seven_day_metrics.py",
+    "line": 36,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_seven_day_metrics.py",
+    "line": 37,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_seven_day_metrics.py",
+    "line": 38,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_seven_day_metrics.py",
+    "line": 39,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_seven_day_metrics.py",
+    "line": 40,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_seven_day_metrics.py",
+    "line": 41,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_seven_day_metrics.py",
+    "line": 42,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_seven_day_metrics.py",
+    "line": 43,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_seven_day_metrics.py",
+    "line": 44,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_seven_day_metrics.py",
+    "line": 45,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_seven_day_metrics.py",
+    "line": 46,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_seven_day_metrics.py",
+    "line": 47,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 1,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 2,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 3,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 4,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 5,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 6,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 7,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 8,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 9,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 10,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 11,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 12,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 13,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 14,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 15,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 16,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 17,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 18,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 19,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 20,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 21,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 22,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 23,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 24,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 25,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 26,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 27,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 28,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 29,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 30,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 31,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 32,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 33,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 34,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 35,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 36,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 37,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 38,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 39,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 40,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 41,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 42,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 43,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 44,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 45,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 46,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 47,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 48,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 49,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 50,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 51,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 52,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 53,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 54,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 55,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 56,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 57,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 58,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 59,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 60,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 61,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 62,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 63,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 64,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 65,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 66,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 67,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 68,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 69,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 70,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 71,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 72,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 73,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 74,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 75,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 76,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 77,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 78,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 79,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 80,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 81,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 82,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 83,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 84,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 85,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 86,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 87,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 88,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 89,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 90,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 91,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 92,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 93,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 94,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 95,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 96,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 97,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 98,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
+    "line": 99,
+    "kind": "code",
+    "explained": true
+  }
+]

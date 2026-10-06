@@ -1,0 +1,2 @@
+dataset,timestamp,observed,day_recorded,day_expected,weekday_sin_recorded,weekday_sin_expected,is_weekend_recorded,is_weekend_expected
+guaratuba,2016-02-29,False,28.0,29,-0.7818314824680299,0.0,1.0,0
