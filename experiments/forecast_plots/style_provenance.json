@@ -1,0 +1,10 @@
+{
+  "plots.py": {
+    "original_sha256": "2c7cc505d710b92df1ebba1df26888012148e5747ab5a87a0ab7f441911084b3",
+    "copied_sha256": "2aaacb8cfda785780e303536cf9a612a323c5a03311eb1fae40c5b59c42bb717"
+  },
+  "colors.py": {
+    "original_sha256": "2329eb07dab897ca296c56e621fc413dfbdf9c63775c8341bcb0a06aecc1ab8a",
+    "copied_sha256": "2329eb07dab897ca296c56e621fc413dfbdf9c63775c8341bcb0a06aecc1ab8a"
+  }
+}
