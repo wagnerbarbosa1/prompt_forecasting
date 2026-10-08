@@ -1,0 +1,34 @@
+[
+  {
+    "dataset": "joinville",
+    "context": 7,
+    "windows": 54,
+    "target_mutation_invariant": true,
+    "same_test_dates_as_chronos": true,
+    "models_receive_identical_prompts": true
+  },
+  {
+    "dataset": "guaratuba",
+    "context": 7,
+    "windows": 104,
+    "target_mutation_invariant": true,
+    "same_test_dates_as_chronos": true,
+    "models_receive_identical_prompts": true
+  },
+  {
+    "dataset": "joinville",
+    "context": 15,
+    "windows": 54,
+    "target_mutation_invariant": true,
+    "same_test_dates_as_chronos": true,
+    "models_receive_identical_prompts": true
+  },
+  {
+    "dataset": "guaratuba",
+    "context": 15,
+    "windows": 104,
+    "target_mutation_invariant": true,
+    "same_test_dates_as_chronos": true,
+    "models_receive_identical_prompts": true
+  }
+]

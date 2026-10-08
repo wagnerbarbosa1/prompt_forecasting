@@ -8,7 +8,7 @@ import time
 import numpy as np
 import pandas as pd
 from src.data.ingestion.files import write_json
-from src.data.preprocessing.generate_prompts import build_prompt, build_tabular_prompt, select_demonstrations
+from src.data.preprocessing.generate_prompts import build_prompt, select_demonstrations
 from src.pipelines.data_pipeline import prepare_dataset
 from src.data.features.covariates import model_inputs, validate_covariates, covariate_columns
 
@@ -41,10 +41,19 @@ def create_model(name, context, config, dataset):
     raise ValueError(f'Unknown model {name}')
 
 
+def qwen_history_days(config) -> int:
+    """LLM inputs must use a fixed seven- or fifteen-day observation window."""
+    days = config.get('qwen_history_days')
+    if type(days) is not int or days not in (7, 15):
+        raise ValueError('qwen_history_days must be 7 or 15')
+    return days
+
+
 def run_dataset(name, dataset, config, model_name, output, limit=0):
+    history_days = qwen_history_days(config) if model_name == 'qwen' else None
     path = ROOT / dataset['path']
     df, windows = prepare_dataset(path, dataset['context'], horizon=config['horizon'],
-                                  step=config['step'])
+                                  step=config['step'], textual_calendar=dataset.get('textual_calendar', False))
     validate_covariates(df, dataset)
     if limit:
         windows = windows[:limit]
@@ -54,7 +63,8 @@ def run_dataset(name, dataset, config, model_name, output, limit=0):
                   'dataset': name, 'limit': limit, 'n_windows': len(windows),
                   'first_test_origin': windows[0].origin,
                   'missing_days_forward_filled': df.loc[~df.observed, 'timestamp'].dt.strftime('%Y-%m-%d').tolist(),
-                  'protocol': 'expanding history with historical and supplied future covariates',
+                  'protocol': (f'fixed {history_days}-day history' if model_name == 'qwen'
+                               else 'expanding history') + ' with historical and supplied future covariates',
                   'covariates': covariate_columns(dataset),
                   'future_covariates_policy': config['future_covariates_policy'],
                   'qwen_history_days': config['qwen_history_days']}
@@ -66,19 +76,15 @@ def run_dataset(name, dataset, config, model_name, output, limit=0):
     rows, failures = [], []
     for index, window in enumerate(windows, 1):
         history, future = model_inputs(df, window, dataset,
-            history_days=config['qwen_history_days'] if model_name == 'qwen' else None)
+            history_days=history_days)
         origin_date = df.timestamp.iloc[window.origin].strftime('%Y-%m-%d')
         target = destination / 'responses' / f'{origin_date}.json'
         prompt = None
         if model_name == 'qwen':
             examples = select_demonstrations(training_values, history.water_produced.to_numpy(),
                 window.horizon, strategy=config['strategy'], count=config['few_shot_examples'], seed=config['seed'])
-            if config.get('prompt_layout', 'legacy') == 'tabular':
-                if examples:
-                    raise ValueError('The controlled tabular experiment uses zero-shot prompts')
-                prompt = build_tabular_prompt(history, window.horizon, future_covariates=future)
-            else:
-                prompt = build_prompt(history, window.horizon, demonstrations=examples, future_covariates=future)
+            prompt = build_prompt(history, window.horizon, demonstrations=examples,
+                                  future_covariates=future, region=name.capitalize())
             prompt_path = output / name / 'prompts' / f'{origin_date}.txt'
             prompt_path.parent.mkdir(parents=True, exist_ok=True)
             prompt_path.write_text(prompt)

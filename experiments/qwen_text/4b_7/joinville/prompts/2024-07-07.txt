@@ -1,0 +1,30 @@
+Forecast daily water production in cubic metres using demand, weather and calendar context.
+Each sequence below contains one value per day, aligned with the listed dates in chronological order.
+Return ONLY a JSON object with key "predictions" and exactly 7 nonnegative numbers.
+Do not explain. Do not repeat the historical values as an answer.
+The observation dates in chronological order are: two thousand and twenty-four, day thirty of June; two thousand and twenty-four, day one of July; two thousand and twenty-four, day two of July; two thousand and twenty-four, day three of July; two thousand and twenty-four, day four of July; two thousand and twenty-four, day five of July; two thousand and twenty-four, day six of July.
+From two thousand and twenty-four, day thirty of June to two thousand and twenty-four, day six of July, the water production (water_produced) of region Joinville was 211720.70; 211550.77; 212167.20; 220862.04; 219523.51; 218504.44; 210769.80 cubic metres on each day, respectively.
+From two thousand and twenty-four, day thirty of June to two thousand and twenty-four, day six of July, the median precipitation of region Joinville was 0; 0; 0; 0; 0; 0; 0 on each day, respectively.
+From two thousand and twenty-four, day thirty of June to two thousand and twenty-four, day six of July, the forecast average temperature at two metres of region Joinville was 12.6354; 13.0604; 15.1875; 18.3375; 18.1042; 17.8896; 14.8771 degrees Celsius on each day, respectively.
+From two thousand and twenty-four, day thirty of June to two thousand and twenty-four, day six of July, the forecast standard deviation of shortwave radiation of region Joinville was 235.915; 228.791; 213.392; 213.136; 126.15; 176.884; 30.6825 on each day, respectively.
+From two thousand and twenty-four, day thirty of June to two thousand and twenty-four, day six of July, the public holiday status of region Joinville was not a public holiday; not a public holiday; not a public holiday; not a public holiday; not a public holiday; not a public holiday; not a public holiday on each day, respectively.
+From two thousand and twenty-four, day thirty of June to two thousand and twenty-four, day six of July, the day of the month of region Joinville was thirty; one; two; three; four; five; six on each day, respectively.
+From two thousand and twenty-four, day thirty of June to two thousand and twenty-four, day six of July, the day of the week of region Joinville was Sunday; Monday; Tuesday; Wednesday; Thursday; Friday; Saturday on each day, respectively.
+From two thousand and twenty-four, day thirty of June to two thousand and twenty-four, day six of July, the season of the year of region Joinville was spring; spring; spring; spring; spring; spring; spring on each day, respectively.
+The following covariates are supplied inputs for the forecast dates; they do not include future water production.
+The forecast dates in chronological order are: two thousand and twenty-four, day seven of July; two thousand and twenty-four, day eight of July; two thousand and twenty-four, day nine of July; two thousand and twenty-four, day ten of July; two thousand and twenty-four, day eleven of July; two thousand and twenty-four, day twelve of July; two thousand and twenty-four, day thirteen of July.
+From two thousand and twenty-four, day seven of July to two thousand and twenty-four, day thirteen of July, the supplied median precipitation of region Joinville is 0; 0.14; 0.15; 0.31; 0.06; 0.59; 1.03 on each day, respectively.
+From two thousand and twenty-four, day seven of July to two thousand and twenty-four, day thirteen of July, the supplied forecast average temperature at two metres of region Joinville is 14.1833; 15.0792; 13.4542; 15.0813; 15.5146; 14.2375; 14.9563 degrees Celsius on each day, respectively.
+From two thousand and twenty-four, day seven of July to two thousand and twenty-four, day thirteen of July, the supplied forecast standard deviation of shortwave radiation of region Joinville is 98.0237; 31.9128; 13.9502; 162.335; 33.4053; 25.4179; 77.8543 on each day, respectively.
+From two thousand and twenty-four, day seven of July to two thousand and twenty-four, day thirteen of July, the supplied public holiday status of region Joinville is not a public holiday; not a public holiday; not a public holiday; not a public holiday; not a public holiday; not a public holiday; not a public holiday on each day, respectively.
+From two thousand and twenty-four, day seven of July to two thousand and twenty-four, day thirteen of July, the supplied day of the month of region Joinville is seven; eight; nine; ten; eleven; twelve; thirteen on each day, respectively.
+From two thousand and twenty-four, day seven of July to two thousand and twenty-four, day thirteen of July, the supplied day of the week of region Joinville is Sunday; Monday; Tuesday; Wednesday; Thursday; Friday; Saturday on each day, respectively.
+From two thousand and twenty-four, day seven of July to two thousand and twenty-four, day thirteen of July, the supplied season of the year of region Joinville is spring; spring; spring; spring; spring; spring; spring on each day, respectively.
+What is the water_produced going to be on two thousand and twenty-four, day seven of July in region Joinville?
+What is the water_produced going to be on two thousand and twenty-four, day eight of July in region Joinville?
+What is the water_produced going to be on two thousand and twenty-four, day nine of July in region Joinville?
+What is the water_produced going to be on two thousand and twenty-four, day ten of July in region Joinville?
+What is the water_produced going to be on two thousand and twenty-four, day eleven of July in region Joinville?
+What is the water_produced going to be on two thousand and twenty-four, day twelve of July in region Joinville?
+What is the water_produced going to be on two thousand and twenty-four, day thirteen of July in region Joinville?
+Output schema: {"predictions": [number, ...]}; array length must be 7, in the same order as the questions.

@@ -1,0 +1,26 @@
+{
+  "design_id": "DAHVuKKQK2c",
+  "edit_url": "https://www.canva.com/d/0k7hrPpE-3SJx5e",
+  "status": "committed",
+  "table_pages": [
+    8,
+    9
+  ],
+  "graph_pages": [
+    11,
+    12,
+    13,
+    16,
+    17,
+    18
+  ],
+  "assets": {
+    "joinville_1_7b": "MAHXaah-kQ8",
+    "joinville_4b": "MAHXaUNjMfs",
+    "joinville_rmse": "MAHXaYJI4eE",
+    "guaratuba_1_7b": "MAHXaUW1LbM",
+    "guaratuba_4b": "MAHXaa0iDh8",
+    "guaratuba_rmse": "MAHXaTLO5oQ"
+  },
+  "metrics_verified": true
+}

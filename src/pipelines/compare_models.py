@@ -4,7 +4,7 @@ import json
 from pathlib import Path
 import pandas as pd
 from src.evaluation.metrics import deterministic_metrics
-from src.pipelines.forecasting_pipeline import ROOT
+from src.pipelines.forecasting_pipeline import ROOT, qwen_history_days
 
 
 def compare(output: Path):
@@ -22,7 +22,7 @@ def compare(output: Path):
             keys = frame[['origin', 'timestamp', 'lead', 'y_true', 'initial_context', 'horizon']]
             origins = frame.drop_duplicates('origin')
             initial = int(frame.initial_context.iloc[0])
-            expected_contexts = ([run['qwen_history_days']] * len(origins) if model == 'qwen'
+            expected_contexts = ([qwen_history_days(run)] * len(origins) if model == 'qwen'
                                  else [initial + 7*i for i in range(len(origins))])
             if origins.context.tolist() != expected_contexts:
                 raise ValueError(f'Incorrect history lengths: {dataset}/{model}')
@@ -38,7 +38,7 @@ def compare(output: Path):
                       'initial_context_days': int(frame.initial_context.iloc[0]),
                       'context_days_first': int(frame.context.iloc[0]),
                       'context_days_last': int(frame.context.iloc[-1]),
-                      'history_policy': 'last 15 days' if model == 'qwen' else 'expanding',
+                      'history_policy': f'last {qwen_history_days(run)} days' if model == 'qwen' else 'expanding',
                       'covariates': '|'.join(run['covariates']), 'horizon_days': 7, 'step_days': 7,
                       'strategy': run['config']['strategy'] if model == 'qwen' else 'pretrained',
                       'n_windows': status['expected_windows'], 'n_predictions': len(frame),

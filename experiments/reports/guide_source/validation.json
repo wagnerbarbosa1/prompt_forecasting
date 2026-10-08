@@ -1,8 +1,8 @@
 {
-  "files": 28,
-  "line_coverage": 1384,
-  "pages": 174,
-  "missing_files": [],
-  "unresolved_calls": [],
-  "horizontal_overflows": []
+  "files": 36,
+  "lines": 1975,
+  "all_source_hashes_match": true,
+  "all_lines_documented": true,
+  "unresolved_calls": 0,
+  "pages": 229
 }

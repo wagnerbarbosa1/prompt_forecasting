@@ -47,7 +47,7 @@
     "model": "qwen3:1.7b",
     "base_url": "http://127.0.0.1:11434",
     "temperature": 0,
-    "num_ctx": 8192,
+    "num_ctx": 16384,
     "num_predict": 256,
     "timeout": 600,
     "retries": 2

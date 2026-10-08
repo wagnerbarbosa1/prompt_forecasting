@@ -13,8 +13,7 @@ MODELS = [
     ('chronos2', 'Chronos2', 'experiments/benchmark', 'chronos', 'expansivo'),
     ('timesfm25', 'TimesFM2.5', 'experiments/benchmark', 'timesfm', 'expansivo'),
     ('qwen17b_15', 'Qwen3 1.7B', 'experiments/benchmark', 'qwen', '15 dias'),
-    ('qwen4b_15', 'Qwen3 4B', 'experiments/qwen_context_comparison/15_days', 'qwen', '15 dias'),
-    ('qwen4b_expanding', 'Qwen3 4B', 'experiments/qwen_context_comparison/expanding', 'qwen', 'expansivo'),
+    ('qwen4b_15', 'Qwen3 4B', 'experiments/qwen_15_days', 'qwen', '15 dias'),
 ]
 
 

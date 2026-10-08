@@ -1,0 +1,263 @@
+{
+  "dataset": "joinville",
+  "model": "knn",
+  "config": {
+    "datasets": {
+      "joinville": {
+        "path": "data/processed/joinville_processed_1day.csv"
+      },
+      "guaratuba": {
+        "path": "data/processed/guaratuba_processed_1daysin.csv"
+      }
+    },
+    "initial_training": 355,
+    "validation_days": 30,
+    "test_days": 30,
+    "step_days": 30,
+    "refit_train_validation": true,
+    "inputs": "univariate historical water_produced; no future weather",
+    "candidates": {
+      "linear_regression": [
+        {
+          "lags": 7
+        },
+        {
+          "lags": 15
+        },
+        {
+          "lags": 30
+        }
+      ],
+      "knn": [
+        {
+          "lags": 7,
+          "neighbors": 3,
+          "weights": "uniform"
+        },
+        {
+          "lags": 7,
+          "neighbors": 3,
+          "weights": "distance"
+        },
+        {
+          "lags": 7,
+          "neighbors": 5,
+          "weights": "uniform"
+        },
+        {
+          "lags": 7,
+          "neighbors": 5,
+          "weights": "distance"
+        },
+        {
+          "lags": 7,
+          "neighbors": 10,
+          "weights": "uniform"
+        },
+        {
+          "lags": 7,
+          "neighbors": 10,
+          "weights": "distance"
+        },
+        {
+          "lags": 15,
+          "neighbors": 3,
+          "weights": "uniform"
+        },
+        {
+          "lags": 15,
+          "neighbors": 3,
+          "weights": "distance"
+        },
+        {
+          "lags": 15,
+          "neighbors": 5,
+          "weights": "uniform"
+        },
+        {
+          "lags": 15,
+          "neighbors": 5,
+          "weights": "distance"
+        },
+        {
+          "lags": 15,
+          "neighbors": 10,
+          "weights": "uniform"
+        },
+        {
+          "lags": 15,
+          "neighbors": 10,
+          "weights": "distance"
+        },
+        {
+          "lags": 30,
+          "neighbors": 3,
+          "weights": "uniform"
+        },
+        {
+          "lags": 30,
+          "neighbors": 3,
+          "weights": "distance"
+        },
+        {
+          "lags": 30,
+          "neighbors": 5,
+          "weights": "uniform"
+        },
+        {
+          "lags": 30,
+          "neighbors": 5,
+          "weights": "distance"
+        },
+        {
+          "lags": 30,
+          "neighbors": 10,
+          "weights": "uniform"
+        },
+        {
+          "lags": 30,
+          "neighbors": 10,
+          "weights": "distance"
+        }
+      ],
+      "arima": [
+        {
+          "order": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "order": [
+            2,
+            0,
+            0
+          ]
+        },
+        {
+          "order": [
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "order": [
+            2,
+            0,
+            1
+          ]
+        },
+        {
+          "order": [
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "order": [
+            2,
+            1,
+            0
+          ]
+        },
+        {
+          "order": [
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "order": [
+            1,
+            1,
+            1
+          ]
+        }
+      ]
+    }
+  },
+  "dataset_sha256": "d54a71f6f209f7ba69fc0d3628b63d9435f035e8dd3a914cf4182a7b56b5347e",
+  "source_sha256": "c5b812e79e48bae3ff488d9276e3a87e74bd5946b03c1efd4139c3b95a3b0d03",
+  "folds": [
+    {
+      "number": 1,
+      "train_end": 355,
+      "validation_end": 385,
+      "test_end": 415
+    },
+    {
+      "number": 2,
+      "train_end": 385,
+      "validation_end": 415,
+      "test_end": 445
+    },
+    {
+      "number": 3,
+      "train_end": 415,
+      "validation_end": 445,
+      "test_end": 475
+    },
+    {
+      "number": 4,
+      "train_end": 445,
+      "validation_end": 475,
+      "test_end": 505
+    },
+    {
+      "number": 5,
+      "train_end": 475,
+      "validation_end": 505,
+      "test_end": 535
+    },
+    {
+      "number": 6,
+      "train_end": 505,
+      "validation_end": 535,
+      "test_end": 565
+    },
+    {
+      "number": 7,
+      "train_end": 535,
+      "validation_end": 565,
+      "test_end": 595
+    },
+    {
+      "number": 8,
+      "train_end": 565,
+      "validation_end": 595,
+      "test_end": 625
+    },
+    {
+      "number": 9,
+      "train_end": 595,
+      "validation_end": 625,
+      "test_end": 655
+    },
+    {
+      "number": 10,
+      "train_end": 625,
+      "validation_end": 655,
+      "test_end": 685
+    },
+    {
+      "number": 11,
+      "train_end": 655,
+      "validation_end": 685,
+      "test_end": 715
+    },
+    {
+      "number": 12,
+      "train_end": 685,
+      "validation_end": 715,
+      "test_end": 745
+    }
+  ],
+  "unused_tail_days": 0,
+  "protocol": "expanding selection training; trailing validation; refit pre-test prefix",
+  "no_future_covariates": true,
+  "run_id": "c5f99ab5dfa04b6290e65aad961b303ddbcacc45926289ab24ed73c21dd66e20"
+}

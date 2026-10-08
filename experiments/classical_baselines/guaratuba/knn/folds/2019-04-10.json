@@ -1,0 +1,222 @@
+{
+  "request_id": "46c710f61efa076a506aab48869c9a51e85773965174388ecaf2d2c110299d72",
+  "fold": {
+    "number": 28,
+    "train_end": 1165,
+    "validation_end": 1195,
+    "test_end": 1225
+  },
+  "origin": "2019-04-10",
+  "training_end": "2019-03-10",
+  "validation_end": "2019-04-09",
+  "test_end": "2019-05-09",
+  "status": "ok",
+  "predictions": [
+    11829.579035195165,
+    12123.899344133213,
+    13823.558706305153,
+    10672.569647144983,
+    10147.208308009354,
+    12010.806077836061,
+    12114.680474775836,
+    11954.120661692117,
+    12206.63755408365,
+    12710.199780537656,
+    10882.043392044277,
+    9549.866506328184,
+    11372.71815937946,
+    11330.737852823999,
+    11354.664479450832,
+    11654.239616983186,
+    11864.2462559115,
+    10804.87191777764,
+    9300.155032655626,
+    11174.660438904326,
+    11513.373753877484,
+    11148.00343723027,
+    10466.626636642604,
+    11028.346701333783,
+    11135.33535655258,
+    10127.27247992536,
+    11678.206715262213,
+    10429.283172760679,
+    10818.497033952419,
+    9475.203810335077
+  ],
+  "audit": {
+    "selected": {
+      "lags": 7,
+      "neighbors": 5,
+      "weights": "uniform"
+    },
+    "validation_rmse": 1489.1378033039464,
+    "selection_training_size": 1165,
+    "validation_size": 30,
+    "final_fit_size": 1195,
+    "trials": [
+      {
+        "parameters": {
+          "lags": 7,
+          "neighbors": 3,
+          "weights": "uniform"
+        },
+        "status": "ok",
+        "validation_rmse": 1865.251982905083
+      },
+      {
+        "parameters": {
+          "lags": 7,
+          "neighbors": 3,
+          "weights": "distance"
+        },
+        "status": "ok",
+        "validation_rmse": 2207.3273901730313
+      },
+      {
+        "parameters": {
+          "lags": 7,
+          "neighbors": 5,
+          "weights": "uniform"
+        },
+        "status": "ok",
+        "validation_rmse": 1489.1378033039464
+      },
+      {
+        "parameters": {
+          "lags": 7,
+          "neighbors": 5,
+          "weights": "distance"
+        },
+        "status": "ok",
+        "validation_rmse": 1742.5902389019536
+      },
+      {
+        "parameters": {
+          "lags": 7,
+          "neighbors": 10,
+          "weights": "uniform"
+        },
+        "status": "ok",
+        "validation_rmse": 1548.3543213444032
+      },
+      {
+        "parameters": {
+          "lags": 7,
+          "neighbors": 10,
+          "weights": "distance"
+        },
+        "status": "ok",
+        "validation_rmse": 1685.6810306671503
+      },
+      {
+        "parameters": {
+          "lags": 15,
+          "neighbors": 3,
+          "weights": "uniform"
+        },
+        "status": "ok",
+        "validation_rmse": 2170.020236365516
+      },
+      {
+        "parameters": {
+          "lags": 15,
+          "neighbors": 3,
+          "weights": "distance"
+        },
+        "status": "ok",
+        "validation_rmse": 1985.4420604404067
+      },
+      {
+        "parameters": {
+          "lags": 15,
+          "neighbors": 5,
+          "weights": "uniform"
+        },
+        "status": "ok",
+        "validation_rmse": 1920.2262929299723
+      },
+      {
+        "parameters": {
+          "lags": 15,
+          "neighbors": 5,
+          "weights": "distance"
+        },
+        "status": "ok",
+        "validation_rmse": 1922.839350282213
+      },
+      {
+        "parameters": {
+          "lags": 15,
+          "neighbors": 10,
+          "weights": "uniform"
+        },
+        "status": "ok",
+        "validation_rmse": 2016.000091624463
+      },
+      {
+        "parameters": {
+          "lags": 15,
+          "neighbors": 10,
+          "weights": "distance"
+        },
+        "status": "ok",
+        "validation_rmse": 1942.5780772271949
+      },
+      {
+        "parameters": {
+          "lags": 30,
+          "neighbors": 3,
+          "weights": "uniform"
+        },
+        "status": "ok",
+        "validation_rmse": 2138.0472187901305
+      },
+      {
+        "parameters": {
+          "lags": 30,
+          "neighbors": 3,
+          "weights": "distance"
+        },
+        "status": "ok",
+        "validation_rmse": 2073.342035138935
+      },
+      {
+        "parameters": {
+          "lags": 30,
+          "neighbors": 5,
+          "weights": "uniform"
+        },
+        "status": "ok",
+        "validation_rmse": 2090.672200285546
+      },
+      {
+        "parameters": {
+          "lags": 30,
+          "neighbors": 5,
+          "weights": "distance"
+        },
+        "status": "ok",
+        "validation_rmse": 2061.6063890296637
+      },
+      {
+        "parameters": {
+          "lags": 30,
+          "neighbors": 10,
+          "weights": "uniform"
+        },
+        "status": "ok",
+        "validation_rmse": 1992.139279883923
+      },
+      {
+        "parameters": {
+          "lags": 30,
+          "neighbors": 10,
+          "weights": "distance"
+        },
+        "status": "ok",
+        "validation_rmse": 1997.1920742400278
+      }
+    ]
+  },
+  "elapsed_seconds": 0.21834890700120013
+}

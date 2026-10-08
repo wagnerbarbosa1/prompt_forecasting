@@ -1,4 +1,4 @@
-"""Identical, chronological, expanding-history rolling origins for all models."""
+"""Shared chronological evaluation origins; each model selects its allowed history."""
 from dataclasses import dataclass
 
 
@@ -35,3 +35,42 @@ def validation_split(training_size: int, fraction: float = 0.2) -> tuple[slice, 
         raise ValueError('Invalid training size or validation fraction')
     size = max(1, int(training_size * fraction))
     return slice(0, training_size - size), slice(training_size - size, training_size)
+
+
+@dataclass(frozen=True)
+class ExpandingValidationFold:
+    number: int
+    train_end: int
+    validation_end: int
+    test_end: int
+
+    @property
+    def training(self):
+        return slice(0, self.train_end)
+
+    @property
+    def validation(self):
+        return slice(self.train_end, self.validation_end)
+
+    @property
+    def test(self):
+        return slice(self.validation_end, self.test_end)
+
+
+def expanding_validation_folds(df, initial_training=355, validation_days=30, test_days=30):
+    """Chronological folds with a rolling validation block and growing train prefix.
+
+    Full test blocks only. Advancing by test_days reveals that block's actual
+    observations for the next origin, never for predictions within that block.
+    """
+    if min(initial_training, validation_days, test_days) < 1:
+        raise ValueError('Fold lengths must be positive')
+    folds = []
+    for number, train_end in enumerate(range(initial_training, len(df)-validation_days-test_days+1, test_days), 1):
+        validation_end = train_end + validation_days
+        test_end = validation_end + test_days
+        if df.iloc[train_end:test_end].observed.all():
+            folds.append(ExpandingValidationFold(number, train_end, validation_end, test_end))
+    if not folds:
+        raise ValueError('No complete train/validation/test folds')
+    return folds

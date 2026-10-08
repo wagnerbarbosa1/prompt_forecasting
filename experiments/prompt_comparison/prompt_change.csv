@@ -1,0 +1,5 @@
+dataset,model,context,old_num_ctx,new_num_ctx,old_rmse,new_rmse,rmse_reduction_percent,interpretation
+joinville,Qwen3 1.7B,15,8192,16384,15441.57312303486,96098.28589447173,-522.334817371151,Historical comparison; token budgets and prompt contents also differ
+joinville,Qwen3 4B,15,131072,16384,16797.924757506924,15930.501186748099,5.163873414608414,Historical comparison; token budgets and prompt contents also differ
+guaratuba,Qwen3 1.7B,15,8192,16384,2806.1290711803613,14031.6840167771,-400.037014009297,Historical comparison; token budgets and prompt contents also differ
+guaratuba,Qwen3 4B,15,131072,16384,2768.823594580251,2551.2737686222845,7.8571212114705675,Historical comparison; token budgets and prompt contents also differ

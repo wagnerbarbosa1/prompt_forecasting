@@ -1,0 +1,9 @@
+{
+  "runs": 6,
+  "folds": 141,
+  "predictions": 4230,
+  "all_tests_complete": true,
+  "all_fit_boundaries_before_test": true,
+  "validation_selects_minimum_rmse": true,
+  "candidate_failures_recorded": 0
+}

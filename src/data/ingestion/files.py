@@ -5,8 +5,12 @@ import pandas as pd
 from src.data.validation.schema import validate_series
 
 
-def read_series(path: str | Path) -> pd.DataFrame:
-    return validate_series(pd.read_csv(path))
+def read_series(path: str | Path, *, textual_calendar: bool = False) -> pd.DataFrame:
+    frame = pd.read_csv(path)
+    if textual_calendar:
+        from src.data.preprocessing.calendar_text import date_from_text
+        frame['timestamp'] = frame.timestamp.map(date_from_text)
+    return validate_series(frame)
 
 
 def write_json(path: str | Path, value: dict) -> None:

@@ -10,11 +10,6 @@
     "sha256": "00184c26225c9a45960d3e6a6c9afbf2094f74a251c7cd77fdca6842e9db15ef"
   },
   {
-    "file": "experiments/run_qwen_context_comparison.sh",
-    "lines": 12,
-    "sha256": "72c1804cc384546dced83107f1477f5ee0b6cc3e7865093a11e67f3f42948cda"
-  },
-  {
     "file": "experiments/run_benchmark.sh",
     "lines": 11,
     "sha256": "7c9226c3ec2387aa24ae8b98758c065b32dce9b6595aed63be59765f0870c7bf"
@@ -22,37 +17,62 @@
   {
     "file": "configs/benchmark.json",
     "lines": 59,
-    "sha256": "56cc63897dcb707bdaa9b2bb10d5df0414cc6977eabf5111f676e1eec4f5319d"
+    "sha256": "95c8957574f7180762877b8d22ae2ccde79bb2e0c7f70248fc81e485d9f18d88"
   },
   {
     "file": "configs/qwen_context_15_days.json",
-    "lines": 66,
-    "sha256": "8cbfa529dad3c700746354d67360d8c32243e956e3660e4b427cf0c1f2c0be8b"
+    "lines": 65,
+    "sha256": "f1c1dae3c49ccde40b14eb5be5fa42887f62354001ff5b3a33489e8e11569406"
   },
   {
-    "file": "configs/qwen_context_expanding.json",
-    "lines": 66,
-    "sha256": "792d9c9a6aa0b2f1e65ba61940f5d7f396cb43181140515c71a708d30a1096e9"
+    "file": "configs/qwen_text_1_7b_7.json",
+    "lines": 57,
+    "sha256": "5c080ec9f035263d2f07df25b8d2cc674d3970cf5e9ba41aae4442da4b45922e"
+  },
+  {
+    "file": "configs/qwen_text_1_7b_15.json",
+    "lines": 57,
+    "sha256": "bf4f49f761d9d98591a9df5adfa0b64411189bdbb9f987d706be5718e9608ee8"
+  },
+  {
+    "file": "configs/qwen_text_4b_7.json",
+    "lines": 57,
+    "sha256": "ab650eee3dbc4bd67941e06ba720d20212292c04ee8ebaa46f1758b2f159c0cc"
+  },
+  {
+    "file": "configs/qwen_text_4b_15.json",
+    "lines": 57,
+    "sha256": "d2a0fa7ae26bf8c71ca8fed04a0718afa3caa1cc4ea20d11deca61e16e151397"
+  },
+  {
+    "file": "src/pipelines/qwen_text_experiment.py",
+    "lines": 105,
+    "sha256": "3dc87eecf2ea633aea5d1b7692d8c93fb5c8b413d795fe75c3c52bd8532a769e"
   },
   {
     "file": "src/pipelines/forecasting_pipeline.py",
-    "lines": 142,
-    "sha256": "2087af35dc26fdefd50c0872fd99f5620dc4cb510930e333e92905c3046ed38c"
+    "lines": 148,
+    "sha256": "b9531d5ea72b9b6fcfa18d469dc90c9352989147bbea0019733d800452a0c30a"
   },
   {
     "file": "src/pipelines/data_pipeline.py",
     "lines": 11,
-    "sha256": "126ca72f0c2e882bd547b093cfd1c557f9452c338de59a8db9fd9f60ca8cff7f"
+    "sha256": "8f27d6d9d8838704f5d9bb95887ab9f0b8e928b785031e8041eb34f952be4378"
   },
   {
     "file": "src/data/ingestion/files.py",
-    "lines": 18,
-    "sha256": "3ace075a801a52dc87b6e29189097bc80204079935544367526c367fdcb27901"
+    "lines": 22,
+    "sha256": "80eb05a0f103682889465c1daf24c26385e382d557110dd285bb4b54dfabe275"
   },
   {
     "file": "src/data/validation/schema.py",
     "lines": 21,
     "sha256": "d5c72310716276c63210b694a2e7f0d0cdc7b267b476dac2ab1e412a1436e12c"
+  },
+  {
+    "file": "src/data/preprocessing/calendar_text.py",
+    "lines": 152,
+    "sha256": "6a6359e538192b00df0d74e568f1b1fbb01d5fbcde84b50befffedd016393ec8"
   },
   {
     "file": "src/data/preprocessing/resampling.py",
@@ -67,7 +87,7 @@
   {
     "file": "src/evaluation/cross_validation.py",
     "lines": 37,
-    "sha256": "fe467e111af3b2907d9aa42f753c01afc8b9aeaab7194583c8542ca9aeab3a70"
+    "sha256": "c747d9daa646f470f57268f2cb3fae90aea4f1001c40b2f414b096b3313031f3"
   },
   {
     "file": "src/data/features/temporal.py",
@@ -81,8 +101,8 @@
   },
   {
     "file": "src/data/preprocessing/generate_prompts.py",
-    "lines": 127,
-    "sha256": "1305b1f127f4a9de567eb7006e88172fb4181a795af3a469021c5e541354c546"
+    "lines": 145,
+    "sha256": "148e21bca2ec04ab9840e1799a577acd9745b7a06d51734125dac9797c83619b"
   },
   {
     "file": "src/models/promptcast.py",
@@ -107,12 +127,7 @@
   {
     "file": "src/pipelines/compare_models.py",
     "lines": 64,
-    "sha256": "7b2a4b81739aeda24d12693f71da1ddaf13e685b9cc753b6d6477b4a35bd63b1"
-  },
-  {
-    "file": "src/pipelines/compare_qwen_contexts.py",
-    "lines": 90,
-    "sha256": "d4b47c183d1b8dd1b0ef8dd83add939a1a09093bb1c501181b479eadbecc7247"
+    "sha256": "3fa92592c861fda7882d86936543424733deb37258c1cbddc1cc7b89f01d7bf1"
   },
   {
     "file": "src/training/train.py",
@@ -120,14 +135,39 @@
     "sha256": "bdff53809e5067f833bbec7698ea9b0be09af475a4f6a893f5465c905e04df30"
   },
   {
-    "file": "tests/test_forecasting.py",
-    "lines": 158,
-    "sha256": "9f6b38ebb1f83bdcb0a0f73e8b3bc37e74f095a2a713a6532fcff659a0e24402"
+    "file": "src/visualization/qwen_text_results.py",
+    "lines": 49,
+    "sha256": "5c074dd1a15fbabbed4089ea68fec38c19ea51ff17348fee975205f092df9f79"
   },
   {
-    "file": "tests/test_qwen_context_comparison.py",
-    "lines": 57,
-    "sha256": "6dc522d0f7a2bee4467031a185a15f8089970c5a1f88c279a4f5ef4ee29ad954"
+    "file": "src/visualization/forecast_comparison.py",
+    "lines": 60,
+    "sha256": "04f9333ebc4efdf4a972649787b83eb94b33936095fca760c3f64552a5c433ba"
+  },
+  {
+    "file": "src/visualization/plots.py",
+    "lines": 90,
+    "sha256": "0d454a2a246ed68f309eecdb976a83b450db76b3de7b4ae553d4a037a4ee18f4"
+  },
+  {
+    "file": "src/visualization/colors.py",
+    "lines": 46,
+    "sha256": "2329eb07dab897ca296c56e621fc413dfbdf9c63775c8341bcb0a06aecc1ab8a"
+  },
+  {
+    "file": "tests/test_calendar_prompts.py",
+    "lines": 78,
+    "sha256": "14551c5cdad1a4978f50182b4e6e878bb74c46155bd7e27e31ddcb23b027f86b"
+  },
+  {
+    "file": "tests/test_forecasting.py",
+    "lines": 160,
+    "sha256": "d8531e299d642f79da82402c83d5088ec06af73a60613a8a8d852d90fa9473da"
+  },
+  {
+    "file": "tests/test_qwen_fixed_context.py",
+    "lines": 40,
+    "sha256": "9a4df35cc00ebe64eff1dcab089fc708719ae2c27000e4f5990080ec9c72ce19"
   },
   {
     "file": "tests/test_seven_day_metrics.py",
@@ -135,8 +175,8 @@
     "sha256": "fff364c2855fb53d1cbdec0bb8e08dea740b2b6c3df90c5e8cfaed79e43b8c63"
   },
   {
-    "file": "experiments/qwen_context_comparison/audit/audit_run.py",
-    "lines": 99,
-    "sha256": "6def8de2666618f7058ddbdd9648447dfef7ce79e71fc75c0a7c6340dbe15e85"
+    "file": "tests/test_text_dataset_input.py",
+    "lines": 38,
+    "sha256": "227240a66a7ee45875cedbf2797e8b2087e50ad4d8b8c88bbe848fe41fd58ed5"
   }
 ]

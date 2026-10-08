@@ -6,6 +6,7 @@ import json
 from pathlib import Path
 import re
 import subprocess
+import shutil
 import textwrap
 from content import INTRO, PURPOSE, NOTES, API_TEXT, FUNCTIONS, CONFIG_KEYS, SHELL
 from reportlab.pdfbase import pdfmetrics
@@ -33,19 +34,7 @@ def api_key(name):
     leaf=name.split('.')[-1]
     return leaf if leaf in API else None
 
-ORDER=[
-'pyproject.toml', 'experiments/start_ollama_context_server.sh',
-'experiments/run_qwen_context_comparison.sh','experiments/run_benchmark.sh',
-'configs/benchmark.json','configs/qwen_context_15_days.json','configs/qwen_context_expanding.json',
-'src/pipelines/forecasting_pipeline.py','src/pipelines/data_pipeline.py',
-'src/data/ingestion/files.py','src/data/validation/schema.py','src/data/preprocessing/resampling.py',
-'src/data/preprocessing/missing_values.py','src/evaluation/cross_validation.py',
-'src/data/features/temporal.py','src/data/features/covariates.py',
-'src/data/preprocessing/generate_prompts.py','src/models/promptcast.py',
-'src/models/chronos.py','src/models/timesfm.py','src/evaluation/metrics.py',
-'src/pipelines/compare_models.py','src/pipelines/compare_qwen_contexts.py','src/training/train.py',
- 'tests/test_forecasting.py','tests/test_qwen_context_comparison.py','tests/test_seven_day_metrics.py',
- 'experiments/qwen_context_comparison/audit/audit_run.py']
+ORDER = ['pyproject.toml', 'experiments/start_ollama_context_server.sh', 'experiments/run_benchmark.sh', 'configs/benchmark.json', 'configs/qwen_context_15_days.json', 'configs/qwen_text_1_7b_7.json', 'configs/qwen_text_1_7b_15.json', 'configs/qwen_text_4b_7.json', 'configs/qwen_text_4b_15.json', 'src/pipelines/qwen_text_experiment.py', 'src/pipelines/forecasting_pipeline.py', 'src/pipelines/data_pipeline.py', 'src/data/ingestion/files.py', 'src/data/validation/schema.py', 'src/data/preprocessing/calendar_text.py', 'src/data/preprocessing/resampling.py', 'src/data/preprocessing/missing_values.py', 'src/evaluation/cross_validation.py', 'src/data/features/temporal.py', 'src/data/features/covariates.py', 'src/data/preprocessing/generate_prompts.py', 'src/models/promptcast.py', 'src/models/chronos.py', 'src/models/timesfm.py', 'src/evaluation/metrics.py', 'src/pipelines/compare_models.py', 'src/training/train.py', 'src/visualization/qwen_text_results.py', 'src/visualization/forecast_comparison.py', 'src/visualization/plots.py', 'src/visualization/colors.py', 'tests/test_calendar_prompts.py', 'tests/test_forecasting.py', 'tests/test_qwen_fixed_context.py', 'tests/test_seven_day_metrics.py', 'tests/test_text_dataset_input.py']
 blocks=[]; manifest=[]; used_api=set(); unresolved=set(); line_coverage=[]
 def add(kind,text,key=None): blocks.append((kind,text,key))
 def paras(text):
@@ -54,31 +43,31 @@ def paras(text):
 def chapter(title,key): add('h1',title,key)
 
 chapter('Qwen Forecast\nCódigo, arquitetura e inferência\nGuia completo comentado','capa')
-paras('Edição de 6 de outubro de 2026. Leitura linha a linha do projeto atual, com foco na construção de prompts e na inferência local pelo Ollama.\nInclui módulos de dados, três adaptadores de modelos, métricas, CLIs, configurações, scripts, testes e auditoria.\nA documentação preserva o comportamento atual e evidencia limitações. Não houve alteração do pipeline ou de resultados para produzir este livro.')
-add('p','Retrato Git: '+subprocess.check_output(['git','rev-parse','--short','HEAD'],cwd=ROOT,text=True).strip()+'. Fontes atuais também incluem a auditoria local; hashes individuais constam no manifesto acompanhante.')
+paras('Edição de 8 de outubro de 2026. Leitura linha a linha do projeto atual, com foco na construção de prompts e na inferência local pelo Ollama.\nInclui conversão e ingestão de CSVs textuais, prompts narrativos, três adaptadores, avaliação Qwen 7/15 dias, gráficos, CLIs, configurações, scripts e testes.\nA documentação preserva o comportamento atual e evidencia limitações. O livro descreve as mudanças solicitadas no pipeline; sua geração não executa modelos nem modifica previsões.')
+add('p','Retrato Git: '+subprocess.check_output(['git','rev-parse','--short','HEAD'],cwd=ROOT,text=True).strip()+'. O retrato inclui alterações locais ainda não commitadas; os hashes individuais do manifesto identificam o conteúdo exato documentado.')
 add('toc','Sumário navegável','sumario')
 for i,(title,text) in enumerate(INTRO,1):
     chapter(f'{i}. {title}',f'intro{i}'); paras(text)
     if i==3:
-        add('code', '''qwen_forecast (pyproject.toml)
-  -> forecasting_pipeline.main()
-     -> run_dataset()
-        -> prepare_dataset()
-           -> read_series() -> pd.read_csv() -> validate_series()
-           -> daily_grid() -> fill_past_only() -> build_windows()
-        -> create_model() -> OllamaConfig -> QwenForecaster
-           -> /api/tags + /api/show
-        -> para cada janela:
-           model_inputs() -> history + future SEM alvo
-           build_tabular_prompt() -> string -> prompt.txt
-           hash -> cache valido OU predict()
-           predict() -> post_json() -> /api/generate
-           parse_prediction() -> sete floats
-           zip(truth, predictions) -> registros por lead
-        -> predictions.csv + status.json
-  -> comparador (invocado separadamente pelo shell)
-     -> deterministic_metrics() -> CSVs de metricas''')
-chapter('9. Inventário e dependências entre módulos','inventory')
+        add('code', """python -m src.pipelines.qwen_text_experiment
+  -> prepare() -> configuration(checkpoint, dias)
+     -> prepare_dataset(textual_calendar=True)
+        -> read_series() -> date_from_text() -> validate_series()
+        -> daily_grid() -> fill_past_only() -> build_windows()
+     -> model_inputs(history_days=7 ou 15)
+     -> build_prompt() -> _narrate() -> calendar_to_text()
+     -> prompts/*.txt + prompt_manifest.json
+  -> run_dataset() -> qwen_history_days() -> create_model()
+     -> QwenForecaster: /api/tags + /api/show
+     -> para cada origem: recorte -> prompt -> identidade/cache
+        -> predict() -> post_json() -> /api/generate local
+        -> parse_prediction() -> sete floats
+        -> somente depois: y_true e registros por lead
+     -> predictions.csv + status.json + responses/
+  -> summarize() -> alvos iguais, sete leads, metricas e CSVs
+python -m src.visualization.qwen_text_results
+  -> summarize() -> quatro series em paineis + duas barras RMSE""")
+chapter(f'{len(INTRO)+1}. Inventário e dependências entre módulos','inventory')
 for rel in ORDER:
     p=ROOT/rel
     add('p',f'{rel} — {len(p.read_text().splitlines())} linhas. '+PURPOSE.get(rel, 'Configuração declarativa.' if p.suffix in ('.json','.toml') else 'Script de execução.' if p.suffix=='.sh' else 'Testes automatizados de contratos do pipeline.'))
@@ -127,7 +116,7 @@ def describe_statement(n):
     if isinstance(n,ast.Pass):return 'Corpo vazio intencional: não executa operação.'
     return 'Integra a instrução iniciada na linha '+str(n.lineno)+', dentro do fluxo descrito pela função.'
 
-for idx,rel in enumerate(ORDER,10):
+for idx,rel in enumerate(ORDER,len(INTRO)+2):
     path=ROOT/rel; source=path.read_text(); lines=source.splitlines(); key='file'+str(idx)
     chapter(f'{idx}. {rel}',key)
     digest=hashlib.sha256(path.read_bytes()).hexdigest()
@@ -180,7 +169,7 @@ for idx,rel in enumerate(ORDER,10):
             same=[n for n in nodes if getattr(n,'lineno',0)==number]
             if text.startswith(('import ','from ')):
                 n=next((n for n in same if isinstance(n,(ast.Import,ast.ImportFrom))),None)
-                explanation='Importa '+(', '.join(a.name+(' como '+a.asname if a.asname else '') for a in n.names) if n else text)+(' de '+n.module if isinstance(n,ast.ImportFrom) else '')+'. Disponibiliza os nomes para as chamadas deste módulo; não executa a previsão.'
+                explanation='Importa '+(', '.join(a.name+(' como '+a.asname if a.asname else '') for a in n.names) if n else text)+(' de '+('.' * n.level + (n.module or '')) if isinstance(n,ast.ImportFrom) else '')+'. Disponibiliza os nomes para as chamadas deste módulo; não executa a previsão.'
             elif number in doc_lines:explanation='Documentação textual do módulo/função. Descreve o contrato; não é instrução de cálculo ou acesso ao dataset.'
             elif text.startswith('#'):explanation='Comentário de implementação: '+text.lstrip('# ')+'. Não é executado; as operações efetivas são as linhas seguintes.'
             elif text.startswith('@'):explanation='Aplica o decorador '+text[1:]+(' à classe declarada em seguida; gera comportamento de dataclass.' if 'dataclass' in text else ' ao método seguinte; permite acessá-lo como atributo calculado.')
@@ -217,7 +206,7 @@ for idx,rel in enumerate(ORDER,10):
             if match:explanation=CONFIG_KEYS.get(match[1],'Campo declarativo do arquivo JSON.')+' JSON é lido por json.loads; não executa chamadas por si só.'
             elif text.startswith('"'):
                 name=text.rstrip(',').strip('"'); explanation='Nome de covariável '+name+'. O CSV precisa conter exatamente esta coluna; ela é preservada na história e no futuro sem o alvo.'
-            else:explanation='Delimitador JSON: abre/fecha um objeto ou lista e organiza os campos do bloco. As vírgulas separam elementos; null representa ausência de corte histórico.'
+            else:explanation='Delimitador JSON: abre/fecha um objeto ou lista e organiza os campos do bloco. As vírgulas separam elementos; null é ausência de valor JSON; qwen_history_days não aceita esse valor.'
         elif explanation is None:
             toml={1:'Seção que configura a ferramenta de construção do pacote.',2:'Dependência de build setuptools>=61; não é comando executado no benchmark.',3:'Backend setuptools.build_meta usado para construir/instalar o pacote.',5:'Metadados do projeto instalável.',6:'Nome de distribuição, diferente do pacote importado src.',7:'Versão declarada do projeto.',8:'Descrição textual do pacote.',9:'Versão mínima de Python declarada. A sintaxe de união | exige Python 3.10+.',10:'Dependências comuns; PyTorch/Chronos/TimesFM pertencem aos ambientes especializados, não são instalados por esta lista.',12:'Tabela de comandos de console que a instalação disponibiliza.',13:'Cria qwen_forecast apontando para main de forecasting_pipeline. Não procura arquivo qwen_forecast.py.',14:'Cria forecast-compare apontando para main de compare_models.',16:'Configura descoberta de pacotes do setuptools.',17:'Busca pacotes a partir da raiz atual.',18:'Inclui pacotes cujo nome começa com src. A estrutura real, não nomes de arquivos antigos, determina os imports.'}
             explanation=toml.get(number,'Delimitação/separação da configuração TOML; não executa previsão.')
@@ -225,7 +214,7 @@ for idx,rel in enumerate(ORDER,10):
         details=[]
         for call in [n for n in nodes if isinstance(n,ast.Call) and n.lineno==number]:
             name=short(call.func); ak=api_key(name)
-            desc=API[ak][0] if ak else FUNCTIONS.get(name.split('.')[-1],'Chamada de rotina do projeto ou construtor descrito no mapa de funções.')
+            desc=API[ak][0] if ak else FUNCTIONS.get(name.split('.')[-1],'Chamada externa; os argumentos concretos e o contexto da instrução são apresentados abaixo.')
             actual=[f'posicional {i+1}: {short(a)}' for i,a in enumerate(call.args)]
             actual += [(k.arg or '**desempacotamento')+': '+short(k.value) for k in call.keywords]
             details.append(name+' — '+desc+' Argumentos usados: '+('; '.join(actual) if actual else 'nenhum argumento explícito')+'.')
@@ -238,16 +227,11 @@ paras('Esta referência explica as APIs efetivamente chamadas. Em cada ocorrênc
 for name in sorted(used_api):
     add('h2',name,None);add('p',API[name][0]);add('p','Parâmetros e uso neste projeto: '+API[name][1])
 chapter('Como executar e localizar o resultado','commands')
-for code,desc in [
-('bash experiments/start_ollama_context_server.sh','Em um terminal, inicia o servidor local separado; use ambientes já disponíveis, sem instalá-los ou atualizá-los.'),
-('conda run -n promptcast python -m src.pipelines.forecasting_pipeline \\\n  --model qwen --config configs/qwen_context_expanding.json \\\n  --output experiments/qwen_context_comparison/expanding','Executa Qwen3 4B expansivo nas duas cidades. Reutiliza somente caches com identidade exata. Não execute duplicatas escrevendo na mesma pasta.'),
-('conda run -n promptcast python -m src.pipelines.compare_qwen_contexts \\\n  --output experiments/qwen_context_comparison','Depois dos braços 15_days e expanding completos, gera métricas e comparação controlada.'),
-('conda run -n promptcast python -m unittest discover -s tests -v','Executa testes de contrato sem baixar modelos; testes mockados não substituem execução real do Ollama.'),
-('PYTHONPATH=. conda run -n promptcast python \\\n  experiments/qwen_context_comparison/audit/audit_run.py','Audita respostas salvas e escreve checks/windows/summary na pasta audit. Não faz uma nova inferência.')]:
+for code,desc in [('bash experiments/start_ollama_context_server.sh', 'Inicia Ollama local na porta 11435. Se o servidor já estiver ativo, reutilize-o. Não modifica ambientes Conda.'), ('conda run -n baseline python -m src.data.preprocessing.calendar_text', 'Gera as duas cópias com calendário em inglês em data/processed/calendar_text.'), ('conda run -n promptcast python -m src.pipelines.qwen_text_experiment --prepare-only', 'Gera e verifica os 632 prompts a partir dos CSVs textuais, sem chamar os modelos.'), ('conda run -n promptcast python -m src.pipelines.qwen_text_experiment', 'Executa as oito avaliações locais e resume os resultados completos. Reaproveita somente caches válidos.'), ('conda run -n promptcast python -m src.pipelines.qwen_text_experiment --summarize-only', 'Recalcula métricas das oito avaliações já concluídas, sem nova inferência.'), ('conda run -n baseline python -m src.visualization.qwen_text_results', 'Valida os resultados e gera seis figuras em experiments/qwen_text/plots.'), ('conda run -n baseline python -m unittest discover -s tests -v', 'Executa os testes. Mocks não substituem inferência real; o teste textual verifica leitura direta e isolamento temporal.'), ('python3 experiments/reports/guide_source/build_guide.py', 'Reconstrói PDF, HTML, manifesto, cobertura de linhas e catálogo de chamadas com o ReportLab já instalado no Python do sistema.')]:
     add('code',code);add('p',desc)
 paras('O ambiente selecionado precisa conter dependências já instaladas. O usuário exige consulta antes de modificar ambientes conda. O comando instalado qwen_forecast depende de instalação do pacote naquele ambiente; python -m funciona pela localização de src quando executado a partir da raiz.\nPara estudar, não é necessário executar novamente centenas de janelas. Abra uma resposta em responses, compare audit.request.prompt com o .txt correspondente e associe predictions[i] à linha lead=i+1 do CSV. Para mudar código, use validação anterior ao teste; não escolha uma formulação de prompt por desempenho em janelas finais já inspecionadas.')
 chapter('Cobertura, fontes e reprodução do documento','coverage')
-paras(f'Foram incluídos {len(ORDER)} arquivos de código/configuração/script e {len(empty)} inicializadores vazios. Todas as {sum(len((ROOT/p).read_text().splitlines()) for p in ORDER)} linhas físicas estão cobertas: linhas com conteúdo recebem código e anotação; linhas em branco são separadores registrados no manifesto. A extração usa os arquivos reais, não trechos reescritos.\nA referência primária é o próprio repositório. Para semântica específica de TimesFM, também foi consultada a implementação instalada de timesfm/configs.py no ambiente timesfm, incluindo a docstring de ForecastConfig. Bibliotecas possuem versões instaladas distintas por ambiente; os parâmetros documentados correspondem às chamadas deste código, não a uma promessa para qualquer versão futura.\nArquivos gerados: guia_qwen_forecast.pdf, guia_qwen_forecast.html, guide_source/manifest.json e guide_source/line_coverage.json. O conteúdo editorial e o gerador estão em guide_source/content.py e guide_source/build_guide.py, fora de src para não invalidar hashes de inferência. O gerador documenta o produto, não integra sua execução.\nPara reconstruir neste ambiente, execute python experiments/reports/guide_source/build_guide.py com o Python de sistema, que já possui ReportLab. Isso não altera ambientes conda. O manifesto é a referência para confirmar a qual versão de cada arquivo uma explicação pertence.')
+paras(f'Foram incluídos {len(ORDER)} arquivos de código/configuração/script e {len(empty)} inicializadores vazios. Todas as {sum(len((ROOT/p).read_text().splitlines()) for p in ORDER)} linhas físicas estão cobertas: linhas com conteúdo recebem código e anotação; linhas em branco são separadores registrados no manifesto. A extração usa os arquivos reais, não trechos reescritos.\nA referência primária é o próprio repositório. As explicações descrevem as chamadas e contratos dos adaptadores presentes neste retrato; não afirmam comportamento de versões futuras das bibliotecas. Bibliotecas possuem versões instaladas distintas por ambiente; os parâmetros documentados correspondem às chamadas deste código, não a uma promessa para qualquer versão futura.\nArquivos gerados: guia_qwen_forecast.pdf, guia_qwen_forecast.html, guide_source/manifest.json e guide_source/line_coverage.json. O conteúdo editorial e o gerador estão em guide_source/content.py e guide_source/build_guide.py, fora de src para não invalidar hashes de inferência. O gerador documenta o produto, não integra sua execução.\nPara reconstruir neste ambiente, execute python experiments/reports/guide_source/build_guide.py com o Python de sistema, que já possui ReportLab. Isso não altera ambientes conda. O manifesto é a referência para confirmar a qual versão de cada arquivo uma explicação pertence.')
 (OUT/'guide_source/manifest.json').write_text(json.dumps(manifest,indent=2,ensure_ascii=False)+'\n')
 (OUT/'guide_source/line_coverage.json').write_text(json.dumps(line_coverage,indent=2,ensure_ascii=False)+'\n')
 (OUT/'guide_source/unresolved_calls.json').write_text(json.dumps(sorted(unresolved),indent=2)+'\n')
@@ -274,7 +258,7 @@ class Doc(BaseDocTemplate):
             self.notify('TOCEntry',(0,title,self.page,f.guide_key))
 def page_footer(c,doc):
     c.saveState();c.setFont('Guide',7);c.setFillColor(colors.HexColor('#64748b'))
-    c.drawString(42,24,'Qwen Forecast • Guia completo do código • 06/10/2026')
+    c.drawString(42,24,'Qwen Forecast • Guia completo do código • 08/10/2026')
     c.drawRightString(A4[0]-42,24,str(doc.page));c.restoreState()
 doc=Doc(str(OUT/'guia_qwen_forecast.pdf'),pagesize=A4,leftMargin=42,rightMargin=42,topMargin=42,bottomMargin=42,title='Qwen Forecast — Guia completo linha a linha',author='Documentação técnica do projeto')
 doc.addPageTemplates(PageTemplate(id='normal',frames=[Frame(42,42,A4[0]-84,A4[1]-84,id='body')],onPage=page_footer))
@@ -307,4 +291,5 @@ for kind,value,key in blocks:
 html_parts.append('</body></html>')
 (OUT/'guia_qwen_forecast.html').write_text('\n'.join(html_parts))
 doc.multiBuild(story)
+shutil.copyfile(OUT/"guia_qwen_forecast.pdf", ROOT/"guia_qwen_forecast.pdf")
 print(json.dumps(dict(files=len(ORDER),empty_init=len(empty),lines=len(line_coverage),api_entries=len(used_api),unresolved=sorted(unresolved)),ensure_ascii=False))

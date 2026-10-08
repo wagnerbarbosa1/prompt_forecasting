@@ -1,0 +1,100 @@
+{
+  "config": {
+    "datasets": {
+      "joinville": {
+        "path": "data/processed/calendar_text/joinville_processed_1day_calendar_text.csv",
+        "context": 365,
+        "numerical_covariates": [
+          "precipitation_median",
+          "temperature_2m_previsao_mean",
+          "shortwave_radiation_previsao_std"
+        ],
+        "categorical_covariates": [
+          "is_holiday",
+          "day",
+          "dayofweek",
+          "season"
+        ],
+        "textual_calendar": true
+      },
+      "guaratuba": {
+        "path": "data/processed/calendar_text/guaratuba_processed_1daysin_calendar_text.csv",
+        "context": 730,
+        "numerical_covariates": [
+          "relative_humidity_mean",
+          "temperature_mean",
+          "radiation_mean",
+          "precipitation_mean"
+        ],
+        "categorical_covariates": [
+          "is_holiday_ctba_gtba_jve",
+          "is_weekend",
+          "is_carnival",
+          "is_school_recess_pr",
+          "day",
+          "dayofweek",
+          "season"
+        ],
+        "textual_calendar": true
+      }
+    },
+    "horizon": 7,
+    "step": 7,
+    "validation_fraction": 0.2,
+    "seed": 42,
+    "qwen": {
+      "model": "qwen3:4b-instruct-2507-q4_K_M",
+      "base_url": "http://127.0.0.1:11435",
+      "temperature": 0,
+      "num_ctx": 16384,
+      "num_predict": 256,
+      "timeout": 600,
+      "retries": 2
+    },
+    "strategy": "zero",
+    "few_shot_examples": 3,
+    "qwen_history_days": 7,
+    "future_covariates_policy": "supplied CSV values, as in original scripts; availability at forecast origin is an unverified input assumption"
+  },
+  "dataset_sha256": "ece8b423ac5e7e775c2b0f0c6c9915e39c5d1548b121934462c9ecce665190fe",
+  "source_sha256": "1b9bc160a1d05b3c092e9d4bc8d0b764851e1ba65883824c1ea48ec163893366",
+  "model": {
+    "model": "qwen3:4b-instruct-2507-q4_K_M",
+    "digest": "0edcdef34593eac1aa2be9c7d06c432dcf81945adca5eca2f27662c18f168ba0",
+    "maximum_context_tokens": 262144,
+    "config": {
+      "model": "qwen3:4b-instruct-2507-q4_K_M",
+      "base_url": "http://127.0.0.1:11435",
+      "temperature": 0,
+      "num_ctx": 16384,
+      "num_predict": 256,
+      "timeout": 600,
+      "retries": 2,
+      "seed": 42
+    }
+  },
+  "dataset": "guaratuba",
+  "limit": 0,
+  "n_windows": 104,
+  "first_test_origin": 730,
+  "missing_days_forward_filled": [
+    "2016-02-29"
+  ],
+  "protocol": "fixed 7-day history with historical and supplied future covariates",
+  "covariates": [
+    "relative_humidity_mean",
+    "temperature_mean",
+    "radiation_mean",
+    "precipitation_mean",
+    "is_holiday_ctba_gtba_jve",
+    "is_weekend",
+    "is_carnival",
+    "is_school_recess_pr",
+    "day",
+    "dayofweek",
+    "season"
+  ],
+  "future_covariates_policy": "supplied CSV values, as in original scripts; availability at forecast origin is an unverified input assumption",
+  "qwen_history_days": 7,
+  "run_id": "21905ac3e50e13410fef713119852426fea88f96fe663cf1b5f932df6fcfa850"
+}

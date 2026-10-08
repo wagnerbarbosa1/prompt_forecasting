@@ -1,0 +1,1868 @@
+Prepared 632 prompts from textual CSVs.
+joinville/qwen 1/54 2024-06-16: ok
+joinville/qwen 2/54 2024-06-23: ok
+joinville/qwen 3/54 2024-06-30: ok
+joinville/qwen 4/54 2024-07-07: ok
+joinville/qwen 5/54 2024-07-14: ok
+joinville/qwen 6/54 2024-07-21: ok
+joinville/qwen 7/54 2024-07-28: ok
+joinville/qwen 8/54 2024-08-04: ok
+joinville/qwen 9/54 2024-08-11: ok
+joinville/qwen 10/54 2024-08-18: ok
+joinville/qwen 11/54 2024-08-25: ok
+joinville/qwen 12/54 2024-09-01: ok
+joinville/qwen 13/54 2024-09-08: ok
+joinville/qwen 14/54 2024-09-15: ok
+joinville/qwen 15/54 2024-09-22: ok
+joinville/qwen 16/54 2024-09-29: ok
+joinville/qwen 17/54 2024-10-06: ok
+joinville/qwen 18/54 2024-10-13: ok
+joinville/qwen 19/54 2024-10-20: ok
+joinville/qwen 20/54 2024-10-27: ok
+joinville/qwen 21/54 2024-11-03: ok
+joinville/qwen 22/54 2024-11-10: ok
+joinville/qwen 23/54 2024-11-17: ok
+joinville/qwen 24/54 2024-11-24: ok
+joinville/qwen 25/54 2024-12-01: ok
+joinville/qwen 26/54 2024-12-08: ok
+joinville/qwen 27/54 2024-12-15: ok
+joinville/qwen 28/54 2024-12-22: ok
+joinville/qwen 29/54 2024-12-29: ok
+joinville/qwen 30/54 2025-01-05: ok
+joinville/qwen 31/54 2025-01-12: ok
+joinville/qwen 32/54 2025-01-19: ok
+joinville/qwen 33/54 2025-01-26: ok
+joinville/qwen 34/54 2025-02-02: ok
+joinville/qwen 35/54 2025-02-09: ok
+joinville/qwen 36/54 2025-02-16: ok
+joinville/qwen 37/54 2025-02-23: ok
+joinville/qwen 38/54 2025-03-02: ok
+joinville/qwen 39/54 2025-03-09: ok
+joinville/qwen 40/54 2025-03-16: ok
+joinville/qwen 41/54 2025-03-23: ok
+joinville/qwen 42/54 2025-03-30: ok
+joinville/qwen 43/54 2025-04-06: ok
+joinville/qwen 44/54 2025-04-13: ok
+joinville/qwen 45/54 2025-04-20: ok
+joinville/qwen 46/54 2025-04-27: ok
+joinville/qwen 47/54 2025-05-04: ok
+joinville/qwen 48/54 2025-05-11: ok
+joinville/qwen 49/54 2025-05-18: ok
+joinville/qwen 50/54 2025-05-25: ok
+joinville/qwen 51/54 2025-06-01: ok
+joinville/qwen 52/54 2025-06-08: ok
+joinville/qwen 53/54 2025-06-15: ok
+joinville/qwen 54/54 2025-06-22: ok
+guaratuba/qwen 1/104 2017-12-31: ok
+guaratuba/qwen 2/104 2018-01-07: ok
+guaratuba/qwen 3/104 2018-01-14: ok
+guaratuba/qwen 4/104 2018-01-21: ok
+guaratuba/qwen 5/104 2018-01-28: ok
+guaratuba/qwen 6/104 2018-02-04: ok
+guaratuba/qwen 7/104 2018-02-11: ok
+guaratuba/qwen 8/104 2018-02-18: ok
+guaratuba/qwen 9/104 2018-02-25: ok
+guaratuba/qwen 10/104 2018-03-04: ok
+guaratuba/qwen 11/104 2018-03-11: ok
+guaratuba/qwen 12/104 2018-03-18: ok
+guaratuba/qwen 13/104 2018-03-25: ok
+guaratuba/qwen 14/104 2018-04-01: ok
+guaratuba/qwen 15/104 2018-04-08: ok
+guaratuba/qwen 16/104 2018-04-15: ok
+guaratuba/qwen 17/104 2018-04-22: ok
+guaratuba/qwen 18/104 2018-04-29: ok
+guaratuba/qwen 19/104 2018-05-06: ok
+guaratuba/qwen 20/104 2018-05-13: ok
+guaratuba/qwen 21/104 2018-05-20: ok
+guaratuba/qwen 22/104 2018-05-27: ok
+guaratuba/qwen 23/104 2018-06-03: ok
+guaratuba/qwen 24/104 2018-06-10: ok
+guaratuba/qwen 25/104 2018-06-17: ok
+guaratuba/qwen 26/104 2018-06-24: ok
+guaratuba/qwen 27/104 2018-07-01: ok
+guaratuba/qwen 28/104 2018-07-08: ok
+guaratuba/qwen 29/104 2018-07-15: ok
+guaratuba/qwen 30/104 2018-07-22: ok
+guaratuba/qwen 31/104 2018-07-29: ok
+guaratuba/qwen 32/104 2018-08-05: ok
+guaratuba/qwen 33/104 2018-08-12: ok
+guaratuba/qwen 34/104 2018-08-19: ok
+guaratuba/qwen 35/104 2018-08-26: ok
+guaratuba/qwen 36/104 2018-09-02: ok
+guaratuba/qwen 37/104 2018-09-09: ok
+guaratuba/qwen 38/104 2018-09-16: ok
+guaratuba/qwen 39/104 2018-09-23: ok
+guaratuba/qwen 40/104 2018-09-30: ok
+guaratuba/qwen 41/104 2018-10-07: ok
+guaratuba/qwen 42/104 2018-10-14: ok
+guaratuba/qwen 43/104 2018-10-21: ok
+guaratuba/qwen 44/104 2018-10-28: ok
+guaratuba/qwen 45/104 2018-11-04: ok
+guaratuba/qwen 46/104 2018-11-11: ok
+guaratuba/qwen 47/104 2018-11-18: ok
+guaratuba/qwen 48/104 2018-11-25: ok
+guaratuba/qwen 49/104 2018-12-02: ok
+guaratuba/qwen 50/104 2018-12-09: ok
+guaratuba/qwen 51/104 2018-12-16: ok
+guaratuba/qwen 52/104 2018-12-23: ok
+guaratuba/qwen 53/104 2018-12-30: ok
+guaratuba/qwen 54/104 2019-01-06: ok
+guaratuba/qwen 55/104 2019-01-13: ok
+guaratuba/qwen 56/104 2019-01-20: ok
+guaratuba/qwen 57/104 2019-01-27: ok
+guaratuba/qwen 58/104 2019-02-03: ok
+guaratuba/qwen 59/104 2019-02-10: ok
+guaratuba/qwen 60/104 2019-02-17: ok
+guaratuba/qwen 61/104 2019-02-24: ok
+guaratuba/qwen 62/104 2019-03-03: ok
+guaratuba/qwen 63/104 2019-03-10: ok
+guaratuba/qwen 64/104 2019-03-17: ok
+guaratuba/qwen 65/104 2019-03-24: ok
+guaratuba/qwen 66/104 2019-03-31: ok
+guaratuba/qwen 67/104 2019-04-07: ok
+guaratuba/qwen 68/104 2019-04-14: ok
+guaratuba/qwen 69/104 2019-04-21: ok
+guaratuba/qwen 70/104 2019-04-28: ok
+guaratuba/qwen 71/104 2019-05-05: ok
+guaratuba/qwen 72/104 2019-05-12: ok
+guaratuba/qwen 73/104 2019-05-19: ok
+guaratuba/qwen 74/104 2019-05-26: ok
+guaratuba/qwen 75/104 2019-06-02: ok
+guaratuba/qwen 76/104 2019-06-09: ok
+guaratuba/qwen 77/104 2019-06-16: ok
+guaratuba/qwen 78/104 2019-06-23: ok
+guaratuba/qwen 79/104 2019-06-30: ok
+guaratuba/qwen 80/104 2019-07-07: ok
+guaratuba/qwen 81/104 2019-07-14: ok
+guaratuba/qwen 82/104 2019-07-21: ok
+guaratuba/qwen 83/104 2019-07-28: ok
+guaratuba/qwen 84/104 2019-08-04: ok
+guaratuba/qwen 85/104 2019-08-11: ok
+guaratuba/qwen 86/104 2019-08-18: ok
+guaratuba/qwen 87/104 2019-08-25: ok
+guaratuba/qwen 88/104 2019-09-01: ok
+guaratuba/qwen 89/104 2019-09-08: ok
+guaratuba/qwen 90/104 2019-09-15: ok
+guaratuba/qwen 91/104 2019-09-22: ok
+guaratuba/qwen 92/104 2019-09-29: ok
+guaratuba/qwen 93/104 2019-10-06: ok
+guaratuba/qwen 94/104 2019-10-13: ok
+guaratuba/qwen 95/104 2019-10-20: ok
+guaratuba/qwen 96/104 2019-10-27: ok
+guaratuba/qwen 97/104 2019-11-03: ok
+guaratuba/qwen 98/104 2019-11-10: ok
+guaratuba/qwen 99/104 2019-11-17: ok
+guaratuba/qwen 100/104 2019-11-24: ok
+guaratuba/qwen 101/104 2019-12-01: ok
+guaratuba/qwen 102/104 2019-12-08: ok
+guaratuba/qwen 103/104 2019-12-15: ok
+guaratuba/qwen 104/104 2019-12-22: ok
+joinville/qwen 1/54 2024-06-16: ok
+joinville/qwen 2/54 2024-06-23: ok
+joinville/qwen 3/54 2024-06-30: ok
+joinville/qwen 4/54 2024-07-07: ok
+joinville/qwen 5/54 2024-07-14: ok
+joinville/qwen 6/54 2024-07-21: ok
+joinville/qwen 7/54 2024-07-28: ok
+joinville/qwen 8/54 2024-08-04: ok
+joinville/qwen 9/54 2024-08-11: ok
+joinville/qwen 10/54 2024-08-18: ok
+joinville/qwen 11/54 2024-08-25: ok
+joinville/qwen 12/54 2024-09-01: ok
+joinville/qwen 13/54 2024-09-08: ok
+joinville/qwen 14/54 2024-09-15: ok
+joinville/qwen 15/54 2024-09-22: ok
+joinville/qwen 16/54 2024-09-29: ok
+joinville/qwen 17/54 2024-10-06: ok
+joinville/qwen 18/54 2024-10-13: ok
+joinville/qwen 19/54 2024-10-20: ok
+joinville/qwen 20/54 2024-10-27: ok
+joinville/qwen 21/54 2024-11-03: ok
+joinville/qwen 22/54 2024-11-10: ok
+joinville/qwen 23/54 2024-11-17: ok
+joinville/qwen 24/54 2024-11-24: ok
+joinville/qwen 25/54 2024-12-01: ok
+joinville/qwen 26/54 2024-12-08: ok
+joinville/qwen 27/54 2024-12-15: ok
+joinville/qwen 28/54 2024-12-22: ok
+joinville/qwen 29/54 2024-12-29: ok
+joinville/qwen 30/54 2025-01-05: ok
+joinville/qwen 31/54 2025-01-12: ok
+joinville/qwen 32/54 2025-01-19: ok
+joinville/qwen 33/54 2025-01-26: ok
+joinville/qwen 34/54 2025-02-02: ok
+joinville/qwen 35/54 2025-02-09: ok
+joinville/qwen 36/54 2025-02-16: ok
+joinville/qwen 37/54 2025-02-23: ok
+joinville/qwen 38/54 2025-03-02: ok
+joinville/qwen 39/54 2025-03-09: ok
+joinville/qwen 40/54 2025-03-16: ok
+joinville/qwen 41/54 2025-03-23: ok
+joinville/qwen 42/54 2025-03-30: ok
+joinville/qwen 43/54 2025-04-06: ok
+joinville/qwen 44/54 2025-04-13: ok
+joinville/qwen 45/54 2025-04-20: ok
+joinville/qwen 46/54 2025-04-27: ok
+joinville/qwen 47/54 2025-05-04: ok
+joinville/qwen 48/54 2025-05-11: ok
+joinville/qwen 49/54 2025-05-18: ok
+joinville/qwen 50/54 2025-05-25: ok
+joinville/qwen 51/54 2025-06-01: ok
+joinville/qwen 52/54 2025-06-08: ok
+joinville/qwen 53/54 2025-06-15: ok
+joinville/qwen 54/54 2025-06-22: ok
+guaratuba/qwen 1/104 2017-12-31: ok
+guaratuba/qwen 2/104 2018-01-07: ok
+guaratuba/qwen 3/104 2018-01-14: ok
+guaratuba/qwen 4/104 2018-01-21: ok
+guaratuba/qwen 5/104 2018-01-28: ok
+guaratuba/qwen 6/104 2018-02-04: ok
+guaratuba/qwen 7/104 2018-02-11: ok
+guaratuba/qwen 8/104 2018-02-18: ok
+guaratuba/qwen 9/104 2018-02-25: ok
+guaratuba/qwen 10/104 2018-03-04: ok
+guaratuba/qwen 11/104 2018-03-11: ok
+guaratuba/qwen 12/104 2018-03-18: ok
+guaratuba/qwen 13/104 2018-03-25: ok
+guaratuba/qwen 14/104 2018-04-01: ok
+guaratuba/qwen 15/104 2018-04-08: ok
+guaratuba/qwen 16/104 2018-04-15: ok
+guaratuba/qwen 17/104 2018-04-22: ok
+guaratuba/qwen 18/104 2018-04-29: ok
+guaratuba/qwen 19/104 2018-05-06: ok
+guaratuba/qwen 20/104 2018-05-13: ok
+guaratuba/qwen 21/104 2018-05-20: ok
+guaratuba/qwen 22/104 2018-05-27: ok
+guaratuba/qwen 23/104 2018-06-03: ok
+guaratuba/qwen 24/104 2018-06-10: ok
+guaratuba/qwen 25/104 2018-06-17: ok
+guaratuba/qwen 26/104 2018-06-24: ok
+guaratuba/qwen 27/104 2018-07-01: ok
+guaratuba/qwen 28/104 2018-07-08: ok
+guaratuba/qwen 29/104 2018-07-15: ok
+guaratuba/qwen 30/104 2018-07-22: ok
+guaratuba/qwen 31/104 2018-07-29: ok
+guaratuba/qwen 32/104 2018-08-05: ok
+guaratuba/qwen 33/104 2018-08-12: ok
+guaratuba/qwen 34/104 2018-08-19: ok
+guaratuba/qwen 35/104 2018-08-26: ok
+guaratuba/qwen 36/104 2018-09-02: ok
+guaratuba/qwen 37/104 2018-09-09: ok
+guaratuba/qwen 38/104 2018-09-16: ok
+guaratuba/qwen 39/104 2018-09-23: ok
+guaratuba/qwen 40/104 2018-09-30: ok
+guaratuba/qwen 41/104 2018-10-07: ok
+guaratuba/qwen 42/104 2018-10-14: ok
+guaratuba/qwen 43/104 2018-10-21: ok
+guaratuba/qwen 44/104 2018-10-28: ok
+guaratuba/qwen 45/104 2018-11-04: ok
+guaratuba/qwen 46/104 2018-11-11: ok
+guaratuba/qwen 47/104 2018-11-18: ok
+guaratuba/qwen 48/104 2018-11-25: ok
+guaratuba/qwen 49/104 2018-12-02: ok
+guaratuba/qwen 50/104 2018-12-09: ok
+guaratuba/qwen 51/104 2018-12-16: ok
+guaratuba/qwen 52/104 2018-12-23: ok
+guaratuba/qwen 53/104 2018-12-30: ok
+guaratuba/qwen 54/104 2019-01-06: ok
+guaratuba/qwen 55/104 2019-01-13: ok
+guaratuba/qwen 56/104 2019-01-20: ok
+guaratuba/qwen 57/104 2019-01-27: ok
+guaratuba/qwen 58/104 2019-02-03: ok
+guaratuba/qwen 59/104 2019-02-10: ok
+guaratuba/qwen 60/104 2019-02-17: ok
+guaratuba/qwen 61/104 2019-02-24: ok
+guaratuba/qwen 62/104 2019-03-03: ok
+guaratuba/qwen 63/104 2019-03-10: ok
+guaratuba/qwen 64/104 2019-03-17: ok
+guaratuba/qwen 65/104 2019-03-24: ok
+guaratuba/qwen 66/104 2019-03-31: ok
+guaratuba/qwen 67/104 2019-04-07: ok
+guaratuba/qwen 68/104 2019-04-14: ok
+guaratuba/qwen 69/104 2019-04-21: ok
+guaratuba/qwen 70/104 2019-04-28: ok
+guaratuba/qwen 71/104 2019-05-05: ok
+guaratuba/qwen 72/104 2019-05-12: ok
+guaratuba/qwen 73/104 2019-05-19: ok
+guaratuba/qwen 74/104 2019-05-26: ok
+guaratuba/qwen 75/104 2019-06-02: ok
+guaratuba/qwen 76/104 2019-06-09: ok
+guaratuba/qwen 77/104 2019-06-16: ok
+guaratuba/qwen 78/104 2019-06-23: ok
+guaratuba/qwen 79/104 2019-06-30: ok
+guaratuba/qwen 80/104 2019-07-07: ok
+guaratuba/qwen 81/104 2019-07-14: ok
+guaratuba/qwen 82/104 2019-07-21: ok
+guaratuba/qwen 83/104 2019-07-28: ok
+guaratuba/qwen 84/104 2019-08-04: ok
+guaratuba/qwen 85/104 2019-08-11: ok
+guaratuba/qwen 86/104 2019-08-18: ok
+guaratuba/qwen 87/104 2019-08-25: ok
+guaratuba/qwen 88/104 2019-09-01: ok
+guaratuba/qwen 89/104 2019-09-08: ok
+guaratuba/qwen 90/104 2019-09-15: ok
+guaratuba/qwen 91/104 2019-09-22: ok
+guaratuba/qwen 92/104 2019-09-29: ok
+guaratuba/qwen 93/104 2019-10-06: ok
+guaratuba/qwen 94/104 2019-10-13: ok
+guaratuba/qwen 95/104 2019-10-20: ok
+guaratuba/qwen 96/104 2019-10-27: ok
+guaratuba/qwen 97/104 2019-11-03: ok
+guaratuba/qwen 98/104 2019-11-10: ok
+guaratuba/qwen 99/104 2019-11-17: ok
+guaratuba/qwen 100/104 2019-11-24: ok
+guaratuba/qwen 101/104 2019-12-01: ok
+guaratuba/qwen 102/104 2019-12-08: ok
+guaratuba/qwen 103/104 2019-12-15: ok
+guaratuba/qwen 104/104 2019-12-22: ok
+joinville/qwen 1/54 2024-06-16: ok
+joinville/qwen 2/54 2024-06-23: ok
+joinville/qwen 3/54 2024-06-30: ok
+joinville/qwen 4/54 2024-07-07: ok
+joinville/qwen 5/54 2024-07-14: ok
+joinville/qwen 6/54 2024-07-21: ok
+joinville/qwen 7/54 2024-07-28: ok
+joinville/qwen 8/54 2024-08-04: ok
+joinville/qwen 9/54 2024-08-11: ok
+joinville/qwen 10/54 2024-08-18: ok
+joinville/qwen 11/54 2024-08-25: ok
+joinville/qwen 12/54 2024-09-01: ok
+joinville/qwen 13/54 2024-09-08: ok
+joinville/qwen 14/54 2024-09-15: ok
+joinville/qwen 15/54 2024-09-22: ok
+joinville/qwen 16/54 2024-09-29: ok
+joinville/qwen 17/54 2024-10-06: ok
+joinville/qwen 18/54 2024-10-13: ok
+joinville/qwen 19/54 2024-10-20: ok
+joinville/qwen 20/54 2024-10-27: ok
+joinville/qwen 21/54 2024-11-03: ok
+joinville/qwen 22/54 2024-11-10: ok
+joinville/qwen 23/54 2024-11-17: ok
+joinville/qwen 24/54 2024-11-24: ok
+joinville/qwen 25/54 2024-12-01: ok
+joinville/qwen 26/54 2024-12-08: ok
+joinville/qwen 27/54 2024-12-15: ok
+joinville/qwen 28/54 2024-12-22: ok
+joinville/qwen 29/54 2024-12-29: ok
+joinville/qwen 30/54 2025-01-05: ok
+joinville/qwen 31/54 2025-01-12: ok
+joinville/qwen 32/54 2025-01-19: ok
+joinville/qwen 33/54 2025-01-26: ok
+joinville/qwen 34/54 2025-02-02: ok
+joinville/qwen 35/54 2025-02-09: ok
+joinville/qwen 36/54 2025-02-16: ok
+joinville/qwen 37/54 2025-02-23: ok
+joinville/qwen 38/54 2025-03-02: ok
+joinville/qwen 39/54 2025-03-09: ok
+joinville/qwen 40/54 2025-03-16: ok
+joinville/qwen 41/54 2025-03-23: ok
+joinville/qwen 42/54 2025-03-30: ok
+joinville/qwen 43/54 2025-04-06: ok
+joinville/qwen 44/54 2025-04-13: ok
+joinville/qwen 45/54 2025-04-20: ok
+joinville/qwen 46/54 2025-04-27: ok
+joinville/qwen 47/54 2025-05-04: ok
+joinville/qwen 48/54 2025-05-11: ok
+joinville/qwen 49/54 2025-05-18: ok
+joinville/qwen 50/54 2025-05-25: ok
+joinville/qwen 51/54 2025-06-01: ok
+joinville/qwen 52/54 2025-06-08: ok
+joinville/qwen 53/54 2025-06-15: ok
+joinville/qwen 54/54 2025-06-22: ok
+guaratuba/qwen 1/104 2017-12-31: ok
+guaratuba/qwen 2/104 2018-01-07: ok
+guaratuba/qwen 3/104 2018-01-14: ok
+guaratuba/qwen 4/104 2018-01-21: ok
+guaratuba/qwen 5/104 2018-01-28: ok
+guaratuba/qwen 6/104 2018-02-04: ok
+guaratuba/qwen 7/104 2018-02-11: ok
+guaratuba/qwen 8/104 2018-02-18: ok
+guaratuba/qwen 9/104 2018-02-25: ok
+guaratuba/qwen 10/104 2018-03-04: ok
+guaratuba/qwen 11/104 2018-03-11: ok
+guaratuba/qwen 12/104 2018-03-18: ok
+guaratuba/qwen 13/104 2018-03-25: ok
+guaratuba/qwen 14/104 2018-04-01: ok
+guaratuba/qwen 15/104 2018-04-08: ok
+guaratuba/qwen 16/104 2018-04-15: ok
+guaratuba/qwen 17/104 2018-04-22: ok
+guaratuba/qwen 18/104 2018-04-29: ok
+guaratuba/qwen 19/104 2018-05-06: ok
+guaratuba/qwen 20/104 2018-05-13: ok
+guaratuba/qwen 21/104 2018-05-20: ok
+guaratuba/qwen 22/104 2018-05-27: ok
+guaratuba/qwen 23/104 2018-06-03: ok
+guaratuba/qwen 24/104 2018-06-10: ok
+guaratuba/qwen 25/104 2018-06-17: ok
+guaratuba/qwen 26/104 2018-06-24: ok
+guaratuba/qwen 27/104 2018-07-01: ok
+guaratuba/qwen 28/104 2018-07-08: ok
+guaratuba/qwen 29/104 2018-07-15: ok
+guaratuba/qwen 30/104 2018-07-22: ok
+guaratuba/qwen 31/104 2018-07-29: ok
+guaratuba/qwen 32/104 2018-08-05: ok
+guaratuba/qwen 33/104 2018-08-12: ok
+guaratuba/qwen 34/104 2018-08-19: ok
+guaratuba/qwen 35/104 2018-08-26: ok
+guaratuba/qwen 36/104 2018-09-02: ok
+guaratuba/qwen 37/104 2018-09-09: ok
+guaratuba/qwen 38/104 2018-09-16: ok
+guaratuba/qwen 39/104 2018-09-23: ok
+guaratuba/qwen 40/104 2018-09-30: ok
+guaratuba/qwen 41/104 2018-10-07: ok
+guaratuba/qwen 42/104 2018-10-14: ok
+guaratuba/qwen 43/104 2018-10-21: ok
+guaratuba/qwen 44/104 2018-10-28: ok
+guaratuba/qwen 45/104 2018-11-04: ok
+guaratuba/qwen 46/104 2018-11-11: ok
+guaratuba/qwen 47/104 2018-11-18: ok
+guaratuba/qwen 48/104 2018-11-25: ok
+guaratuba/qwen 49/104 2018-12-02: ok
+guaratuba/qwen 50/104 2018-12-09: ok
+guaratuba/qwen 51/104 2018-12-16: ok
+guaratuba/qwen 52/104 2018-12-23: ok
+guaratuba/qwen 53/104 2018-12-30: ok
+guaratuba/qwen 54/104 2019-01-06: ok
+guaratuba/qwen 55/104 2019-01-13: ok
+guaratuba/qwen 56/104 2019-01-20: ok
+guaratuba/qwen 57/104 2019-01-27: ok
+guaratuba/qwen 58/104 2019-02-03: ok
+guaratuba/qwen 59/104 2019-02-10: ok
+guaratuba/qwen 60/104 2019-02-17: ok
+guaratuba/qwen 61/104 2019-02-24: ok
+guaratuba/qwen 62/104 2019-03-03: ok
+guaratuba/qwen 63/104 2019-03-10: ok
+guaratuba/qwen 64/104 2019-03-17: ok
+guaratuba/qwen 65/104 2019-03-24: ok
+guaratuba/qwen 66/104 2019-03-31: ok
+guaratuba/qwen 67/104 2019-04-07: ok
+guaratuba/qwen 68/104 2019-04-14: ok
+guaratuba/qwen 69/104 2019-04-21: ok
+guaratuba/qwen 70/104 2019-04-28: ok
+guaratuba/qwen 71/104 2019-05-05: ok
+guaratuba/qwen 72/104 2019-05-12: ok
+guaratuba/qwen 73/104 2019-05-19: ok
+guaratuba/qwen 74/104 2019-05-26: ok
+guaratuba/qwen 75/104 2019-06-02: ok
+guaratuba/qwen 76/104 2019-06-09: ok
+guaratuba/qwen 77/104 2019-06-16: ok
+guaratuba/qwen 78/104 2019-06-23: ok
+guaratuba/qwen 79/104 2019-06-30: ok
+guaratuba/qwen 80/104 2019-07-07: ok
+guaratuba/qwen 81/104 2019-07-14: ok
+guaratuba/qwen 82/104 2019-07-21: ok
+guaratuba/qwen 83/104 2019-07-28: ok
+guaratuba/qwen 84/104 2019-08-04: ok
+guaratuba/qwen 85/104 2019-08-11: ok
+guaratuba/qwen 86/104 2019-08-18: ok
+guaratuba/qwen 87/104 2019-08-25: ok
+guaratuba/qwen 88/104 2019-09-01: ok
+guaratuba/qwen 89/104 2019-09-08: ok
+guaratuba/qwen 90/104 2019-09-15: ok
+guaratuba/qwen 91/104 2019-09-22: ok
+guaratuba/qwen 92/104 2019-09-29: ok
+guaratuba/qwen 93/104 2019-10-06: ok
+guaratuba/qwen 94/104 2019-10-13: ok
+guaratuba/qwen 95/104 2019-10-20: ok
+guaratuba/qwen 96/104 2019-10-27: ok
+guaratuba/qwen 97/104 2019-11-03: ok
+guaratuba/qwen 98/104 2019-11-10: ok
+guaratuba/qwen 99/104 2019-11-17: ok
+guaratuba/qwen 100/104 2019-11-24: ok
+guaratuba/qwen 101/104 2019-12-01: ok
+guaratuba/qwen 102/104 2019-12-08: ok
+guaratuba/qwen 103/104 2019-12-15: ok
+guaratuba/qwen 104/104 2019-12-22: ok
+joinville/qwen 1/54 2024-06-16: ok
+joinville/qwen 2/54 2024-06-23: ok
+joinville/qwen 3/54 2024-06-30: ok
+joinville/qwen 4/54 2024-07-07: ok
+joinville/qwen 5/54 2024-07-14: ok
+joinville/qwen 6/54 2024-07-21: ok
+joinville/qwen 7/54 2024-07-28: ok
+joinville/qwen 8/54 2024-08-04: ok
+joinville/qwen 9/54 2024-08-11: ok
+joinville/qwen 10/54 2024-08-18: ok
+joinville/qwen 11/54 2024-08-25: ok
+joinville/qwen 12/54 2024-09-01: ok
+joinville/qwen 13/54 2024-09-08: ok
+joinville/qwen 14/54 2024-09-15: ok
+joinville/qwen 15/54 2024-09-22: ok
+joinville/qwen 16/54 2024-09-29: ok
+joinville/qwen 17/54 2024-10-06: ok
+joinville/qwen 18/54 2024-10-13: ok
+joinville/qwen 19/54 2024-10-20: ok
+joinville/qwen 20/54 2024-10-27: ok
+joinville/qwen 21/54 2024-11-03: ok
+joinville/qwen 22/54 2024-11-10: ok
+joinville/qwen 23/54 2024-11-17: ok
+joinville/qwen 24/54 2024-11-24: ok
+joinville/qwen 25/54 2024-12-01: ok
+joinville/qwen 26/54 2024-12-08: ok
+joinville/qwen 27/54 2024-12-15: ok
+joinville/qwen 28/54 2024-12-22: ok
+joinville/qwen 29/54 2024-12-29: ok
+joinville/qwen 30/54 2025-01-05: ok
+joinville/qwen 31/54 2025-01-12: ok
+joinville/qwen 32/54 2025-01-19: ok
+joinville/qwen 33/54 2025-01-26: ok
+joinville/qwen 34/54 2025-02-02: ok
+joinville/qwen 35/54 2025-02-09: ok
+joinville/qwen 36/54 2025-02-16: ok
+joinville/qwen 37/54 2025-02-23: ok
+joinville/qwen 38/54 2025-03-02: ok
+joinville/qwen 39/54 2025-03-09: ok
+joinville/qwen 40/54 2025-03-16: ok
+joinville/qwen 41/54 2025-03-23: ok
+joinville/qwen 42/54 2025-03-30: ok
+joinville/qwen 43/54 2025-04-06: ok
+joinville/qwen 44/54 2025-04-13: ok
+joinville/qwen 45/54 2025-04-20: ok
+joinville/qwen 46/54 2025-04-27: ok
+joinville/qwen 47/54 2025-05-04: ok
+joinville/qwen 48/54 2025-05-11: ok
+joinville/qwen 49/54 2025-05-18: ok
+joinville/qwen 50/54 2025-05-25: ok
+joinville/qwen 51/54 2025-06-01: ok
+joinville/qwen 52/54 2025-06-08: ok
+joinville/qwen 53/54 2025-06-15: ok
+joinville/qwen 54/54 2025-06-22: ok
+guaratuba/qwen 1/104 2017-12-31: ok
+guaratuba/qwen 2/104 2018-01-07: ok
+guaratuba/qwen 3/104 2018-01-14: ok
+guaratuba/qwen 4/104 2018-01-21: ok
+guaratuba/qwen 5/104 2018-01-28: ok
+guaratuba/qwen 6/104 2018-02-04: ok
+guaratuba/qwen 7/104 2018-02-11: ok
+guaratuba/qwen 8/104 2018-02-18: ok
+guaratuba/qwen 9/104 2018-02-25: ok
+guaratuba/qwen 10/104 2018-03-04: ok
+guaratuba/qwen 11/104 2018-03-11: ok
+guaratuba/qwen 12/104 2018-03-18: ok
+guaratuba/qwen 13/104 2018-03-25: ok
+guaratuba/qwen 14/104 2018-04-01: ok
+guaratuba/qwen 15/104 2018-04-08: ok
+guaratuba/qwen 16/104 2018-04-15: ok
+guaratuba/qwen 17/104 2018-04-22: ok
+guaratuba/qwen 18/104 2018-04-29: ok
+guaratuba/qwen 19/104 2018-05-06: ok
+guaratuba/qwen 20/104 2018-05-13: ok
+guaratuba/qwen 21/104 2018-05-20: ok
+guaratuba/qwen 22/104 2018-05-27: ok
+guaratuba/qwen 23/104 2018-06-03: ok
+guaratuba/qwen 24/104 2018-06-10: ok
+guaratuba/qwen 25/104 2018-06-17: ok
+guaratuba/qwen 26/104 2018-06-24: ok
+guaratuba/qwen 27/104 2018-07-01: ok
+guaratuba/qwen 28/104 2018-07-08: ok
+guaratuba/qwen 29/104 2018-07-15: ok
+guaratuba/qwen 30/104 2018-07-22: ok
+guaratuba/qwen 31/104 2018-07-29: ok
+guaratuba/qwen 32/104 2018-08-05: ok
+guaratuba/qwen 33/104 2018-08-12: ok
+guaratuba/qwen 34/104 2018-08-19: ok
+guaratuba/qwen 35/104 2018-08-26: ok
+guaratuba/qwen 36/104 2018-09-02: ok
+guaratuba/qwen 37/104 2018-09-09: ok
+guaratuba/qwen 38/104 2018-09-16: ok
+guaratuba/qwen 39/104 2018-09-23: ok
+guaratuba/qwen 40/104 2018-09-30: ok
+guaratuba/qwen 41/104 2018-10-07: ok
+guaratuba/qwen 42/104 2018-10-14: ok
+guaratuba/qwen 43/104 2018-10-21: ok
+guaratuba/qwen 44/104 2018-10-28: ok
+guaratuba/qwen 45/104 2018-11-04: ok
+guaratuba/qwen 46/104 2018-11-11: ok
+guaratuba/qwen 47/104 2018-11-18: ok
+guaratuba/qwen 48/104 2018-11-25: ok
+guaratuba/qwen 49/104 2018-12-02: ok
+guaratuba/qwen 50/104 2018-12-09: ok
+guaratuba/qwen 51/104 2018-12-16: ok
+guaratuba/qwen 52/104 2018-12-23: ok
+guaratuba/qwen 53/104 2018-12-30: ok
+guaratuba/qwen 54/104 2019-01-06: ok
+guaratuba/qwen 55/104 2019-01-13: ok
+guaratuba/qwen 56/104 2019-01-20: ok
+guaratuba/qwen 57/104 2019-01-27: ok
+guaratuba/qwen 58/104 2019-02-03: ok
+guaratuba/qwen 59/104 2019-02-10: ok
+guaratuba/qwen 60/104 2019-02-17: ok
+guaratuba/qwen 61/104 2019-02-24: ok
+guaratuba/qwen 62/104 2019-03-03: ok
+guaratuba/qwen 63/104 2019-03-10: ok
+guaratuba/qwen 64/104 2019-03-17: ok
+guaratuba/qwen 65/104 2019-03-24: ok
+guaratuba/qwen 66/104 2019-03-31: ok
+guaratuba/qwen 67/104 2019-04-07: ok
+guaratuba/qwen 68/104 2019-04-14: ok
+guaratuba/qwen 69/104 2019-04-21: ok
+guaratuba/qwen 70/104 2019-04-28: ok
+guaratuba/qwen 71/104 2019-05-05: ok
+guaratuba/qwen 72/104 2019-05-12: ok
+guaratuba/qwen 73/104 2019-05-19: ok
+guaratuba/qwen 74/104 2019-05-26: ok
+guaratuba/qwen 75/104 2019-06-02: ok
+guaratuba/qwen 76/104 2019-06-09: ok
+guaratuba/qwen 77/104 2019-06-16: ok
+guaratuba/qwen 78/104 2019-06-23: ok
+guaratuba/qwen 79/104 2019-06-30: ok
+guaratuba/qwen 80/104 2019-07-07: ok
+guaratuba/qwen 81/104 2019-07-14: ok
+guaratuba/qwen 82/104 2019-07-21: ok
+guaratuba/qwen 83/104 2019-07-28: ok
+guaratuba/qwen 84/104 2019-08-04: ok
+Prepared 632 prompts from textual CSVs.
+joinville/qwen 1/54 2024-06-16: ok cached
+joinville/qwen 2/54 2024-06-23: ok cached
+joinville/qwen 3/54 2024-06-30: ok cached
+joinville/qwen 4/54 2024-07-07: ok cached
+joinville/qwen 5/54 2024-07-14: ok cached
+joinville/qwen 6/54 2024-07-21: ok cached
+joinville/qwen 7/54 2024-07-28: ok cached
+joinville/qwen 8/54 2024-08-04: ok cached
+joinville/qwen 9/54 2024-08-11: ok cached
+joinville/qwen 10/54 2024-08-18: ok cached
+joinville/qwen 11/54 2024-08-25: ok cached
+joinville/qwen 12/54 2024-09-01: ok cached
+joinville/qwen 13/54 2024-09-08: ok cached
+joinville/qwen 14/54 2024-09-15: ok cached
+joinville/qwen 15/54 2024-09-22: ok cached
+joinville/qwen 16/54 2024-09-29: ok cached
+joinville/qwen 17/54 2024-10-06: ok cached
+joinville/qwen 18/54 2024-10-13: ok cached
+joinville/qwen 19/54 2024-10-20: ok cached
+joinville/qwen 20/54 2024-10-27: ok cached
+joinville/qwen 21/54 2024-11-03: ok cached
+joinville/qwen 22/54 2024-11-10: ok cached
+joinville/qwen 23/54 2024-11-17: ok cached
+joinville/qwen 24/54 2024-11-24: ok cached
+joinville/qwen 25/54 2024-12-01: ok cached
+joinville/qwen 26/54 2024-12-08: ok cached
+joinville/qwen 27/54 2024-12-15: ok cached
+joinville/qwen 28/54 2024-12-22: ok cached
+joinville/qwen 29/54 2024-12-29: ok cached
+joinville/qwen 30/54 2025-01-05: ok cached
+joinville/qwen 31/54 2025-01-12: ok cached
+joinville/qwen 32/54 2025-01-19: ok cached
+joinville/qwen 33/54 2025-01-26: ok cached
+joinville/qwen 34/54 2025-02-02: ok cached
+joinville/qwen 35/54 2025-02-09: ok cached
+joinville/qwen 36/54 2025-02-16: ok cached
+joinville/qwen 37/54 2025-02-23: ok cached
+joinville/qwen 38/54 2025-03-02: ok cached
+joinville/qwen 39/54 2025-03-09: ok cached
+joinville/qwen 40/54 2025-03-16: ok cached
+joinville/qwen 41/54 2025-03-23: ok cached
+joinville/qwen 42/54 2025-03-30: ok cached
+joinville/qwen 43/54 2025-04-06: ok cached
+joinville/qwen 44/54 2025-04-13: ok cached
+joinville/qwen 45/54 2025-04-20: ok cached
+joinville/qwen 46/54 2025-04-27: ok cached
+joinville/qwen 47/54 2025-05-04: ok cached
+joinville/qwen 48/54 2025-05-11: ok cached
+joinville/qwen 49/54 2025-05-18: ok cached
+joinville/qwen 50/54 2025-05-25: ok cached
+joinville/qwen 51/54 2025-06-01: ok cached
+joinville/qwen 52/54 2025-06-08: ok cached
+joinville/qwen 53/54 2025-06-15: ok cached
+joinville/qwen 54/54 2025-06-22: ok cached
+guaratuba/qwen 1/104 2017-12-31: ok cached
+guaratuba/qwen 2/104 2018-01-07: ok cached
+guaratuba/qwen 3/104 2018-01-14: ok cached
+guaratuba/qwen 4/104 2018-01-21: ok cached
+guaratuba/qwen 5/104 2018-01-28: ok cached
+guaratuba/qwen 6/104 2018-02-04: ok cached
+guaratuba/qwen 7/104 2018-02-11: ok cached
+guaratuba/qwen 8/104 2018-02-18: ok cached
+guaratuba/qwen 9/104 2018-02-25: ok cached
+guaratuba/qwen 10/104 2018-03-04: ok cached
+guaratuba/qwen 11/104 2018-03-11: ok cached
+guaratuba/qwen 12/104 2018-03-18: ok cached
+guaratuba/qwen 13/104 2018-03-25: ok cached
+guaratuba/qwen 14/104 2018-04-01: ok cached
+guaratuba/qwen 15/104 2018-04-08: ok cached
+guaratuba/qwen 16/104 2018-04-15: ok cached
+guaratuba/qwen 17/104 2018-04-22: ok cached
+guaratuba/qwen 18/104 2018-04-29: ok cached
+guaratuba/qwen 19/104 2018-05-06: ok cached
+guaratuba/qwen 20/104 2018-05-13: ok cached
+guaratuba/qwen 21/104 2018-05-20: ok cached
+guaratuba/qwen 22/104 2018-05-27: ok cached
+guaratuba/qwen 23/104 2018-06-03: ok cached
+guaratuba/qwen 24/104 2018-06-10: ok cached
+guaratuba/qwen 25/104 2018-06-17: ok cached
+guaratuba/qwen 26/104 2018-06-24: ok cached
+guaratuba/qwen 27/104 2018-07-01: ok cached
+guaratuba/qwen 28/104 2018-07-08: ok cached
+guaratuba/qwen 29/104 2018-07-15: ok cached
+guaratuba/qwen 30/104 2018-07-22: ok cached
+guaratuba/qwen 31/104 2018-07-29: ok cached
+guaratuba/qwen 32/104 2018-08-05: ok cached
+guaratuba/qwen 33/104 2018-08-12: ok cached
+guaratuba/qwen 34/104 2018-08-19: ok cached
+guaratuba/qwen 35/104 2018-08-26: ok cached
+guaratuba/qwen 36/104 2018-09-02: ok cached
+guaratuba/qwen 37/104 2018-09-09: ok cached
+guaratuba/qwen 38/104 2018-09-16: ok cached
+guaratuba/qwen 39/104 2018-09-23: ok cached
+guaratuba/qwen 40/104 2018-09-30: ok cached
+guaratuba/qwen 41/104 2018-10-07: ok cached
+guaratuba/qwen 42/104 2018-10-14: ok cached
+guaratuba/qwen 43/104 2018-10-21: ok cached
+guaratuba/qwen 44/104 2018-10-28: ok cached
+guaratuba/qwen 45/104 2018-11-04: ok cached
+guaratuba/qwen 46/104 2018-11-11: ok cached
+guaratuba/qwen 47/104 2018-11-18: ok cached
+guaratuba/qwen 48/104 2018-11-25: ok cached
+guaratuba/qwen 49/104 2018-12-02: ok cached
+guaratuba/qwen 50/104 2018-12-09: ok cached
+guaratuba/qwen 51/104 2018-12-16: ok cached
+guaratuba/qwen 52/104 2018-12-23: ok cached
+guaratuba/qwen 53/104 2018-12-30: ok cached
+guaratuba/qwen 54/104 2019-01-06: ok cached
+guaratuba/qwen 55/104 2019-01-13: ok cached
+guaratuba/qwen 56/104 2019-01-20: ok cached
+guaratuba/qwen 57/104 2019-01-27: ok cached
+guaratuba/qwen 58/104 2019-02-03: ok cached
+guaratuba/qwen 59/104 2019-02-10: ok cached
+guaratuba/qwen 60/104 2019-02-17: ok cached
+guaratuba/qwen 61/104 2019-02-24: ok cached
+guaratuba/qwen 62/104 2019-03-03: ok cached
+guaratuba/qwen 63/104 2019-03-10: ok cached
+guaratuba/qwen 64/104 2019-03-17: ok cached
+guaratuba/qwen 65/104 2019-03-24: ok cached
+guaratuba/qwen 66/104 2019-03-31: ok cached
+guaratuba/qwen 67/104 2019-04-07: ok cached
+guaratuba/qwen 68/104 2019-04-14: ok cached
+guaratuba/qwen 69/104 2019-04-21: ok cached
+guaratuba/qwen 70/104 2019-04-28: ok cached
+guaratuba/qwen 71/104 2019-05-05: ok cached
+guaratuba/qwen 72/104 2019-05-12: ok cached
+guaratuba/qwen 73/104 2019-05-19: ok cached
+guaratuba/qwen 74/104 2019-05-26: ok cached
+guaratuba/qwen 75/104 2019-06-02: ok cached
+guaratuba/qwen 76/104 2019-06-09: ok cached
+guaratuba/qwen 77/104 2019-06-16: ok cached
+guaratuba/qwen 78/104 2019-06-23: ok cached
+guaratuba/qwen 79/104 2019-06-30: ok cached
+guaratuba/qwen 80/104 2019-07-07: ok cached
+guaratuba/qwen 81/104 2019-07-14: ok cached
+guaratuba/qwen 82/104 2019-07-21: ok cached
+guaratuba/qwen 83/104 2019-07-28: ok cached
+guaratuba/qwen 84/104 2019-08-04: ok cached
+guaratuba/qwen 85/104 2019-08-11: ok cached
+guaratuba/qwen 86/104 2019-08-18: ok cached
+guaratuba/qwen 87/104 2019-08-25: ok cached
+guaratuba/qwen 88/104 2019-09-01: ok cached
+guaratuba/qwen 89/104 2019-09-08: ok cached
+guaratuba/qwen 90/104 2019-09-15: ok cached
+guaratuba/qwen 91/104 2019-09-22: ok cached
+guaratuba/qwen 92/104 2019-09-29: ok cached
+guaratuba/qwen 93/104 2019-10-06: ok cached
+guaratuba/qwen 94/104 2019-10-13: ok cached
+guaratuba/qwen 95/104 2019-10-20: ok cached
+guaratuba/qwen 96/104 2019-10-27: ok cached
+guaratuba/qwen 97/104 2019-11-03: ok cached
+guaratuba/qwen 98/104 2019-11-10: ok cached
+guaratuba/qwen 99/104 2019-11-17: ok cached
+guaratuba/qwen 100/104 2019-11-24: ok cached
+guaratuba/qwen 101/104 2019-12-01: ok cached
+guaratuba/qwen 102/104 2019-12-08: ok cached
+guaratuba/qwen 103/104 2019-12-15: ok cached
+guaratuba/qwen 104/104 2019-12-22: ok cached
+joinville/qwen 1/54 2024-06-16: ok cached
+joinville/qwen 2/54 2024-06-23: ok cached
+joinville/qwen 3/54 2024-06-30: ok cached
+joinville/qwen 4/54 2024-07-07: ok cached
+joinville/qwen 5/54 2024-07-14: ok cached
+joinville/qwen 6/54 2024-07-21: ok cached
+joinville/qwen 7/54 2024-07-28: ok cached
+joinville/qwen 8/54 2024-08-04: ok cached
+joinville/qwen 9/54 2024-08-11: ok cached
+joinville/qwen 10/54 2024-08-18: ok cached
+joinville/qwen 11/54 2024-08-25: ok cached
+joinville/qwen 12/54 2024-09-01: ok cached
+joinville/qwen 13/54 2024-09-08: ok cached
+joinville/qwen 14/54 2024-09-15: ok cached
+joinville/qwen 15/54 2024-09-22: ok cached
+joinville/qwen 16/54 2024-09-29: ok cached
+joinville/qwen 17/54 2024-10-06: ok cached
+joinville/qwen 18/54 2024-10-13: ok cached
+joinville/qwen 19/54 2024-10-20: ok cached
+joinville/qwen 20/54 2024-10-27: ok cached
+joinville/qwen 21/54 2024-11-03: ok cached
+joinville/qwen 22/54 2024-11-10: ok cached
+joinville/qwen 23/54 2024-11-17: ok cached
+joinville/qwen 24/54 2024-11-24: ok cached
+joinville/qwen 25/54 2024-12-01: ok cached
+joinville/qwen 26/54 2024-12-08: ok cached
+joinville/qwen 27/54 2024-12-15: ok cached
+joinville/qwen 28/54 2024-12-22: ok cached
+joinville/qwen 29/54 2024-12-29: ok cached
+joinville/qwen 30/54 2025-01-05: ok cached
+joinville/qwen 31/54 2025-01-12: ok cached
+joinville/qwen 32/54 2025-01-19: ok cached
+joinville/qwen 33/54 2025-01-26: ok cached
+joinville/qwen 34/54 2025-02-02: ok cached
+joinville/qwen 35/54 2025-02-09: ok cached
+joinville/qwen 36/54 2025-02-16: ok cached
+joinville/qwen 37/54 2025-02-23: ok cached
+joinville/qwen 38/54 2025-03-02: ok cached
+joinville/qwen 39/54 2025-03-09: ok cached
+joinville/qwen 40/54 2025-03-16: ok cached
+joinville/qwen 41/54 2025-03-23: ok cached
+joinville/qwen 42/54 2025-03-30: ok cached
+joinville/qwen 43/54 2025-04-06: ok cached
+joinville/qwen 44/54 2025-04-13: ok cached
+joinville/qwen 45/54 2025-04-20: ok cached
+joinville/qwen 46/54 2025-04-27: ok cached
+joinville/qwen 47/54 2025-05-04: ok cached
+joinville/qwen 48/54 2025-05-11: ok cached
+joinville/qwen 49/54 2025-05-18: ok cached
+joinville/qwen 50/54 2025-05-25: ok cached
+joinville/qwen 51/54 2025-06-01: ok cached
+joinville/qwen 52/54 2025-06-08: ok cached
+joinville/qwen 53/54 2025-06-15: ok cached
+joinville/qwen 54/54 2025-06-22: ok cached
+guaratuba/qwen 1/104 2017-12-31: ok cached
+guaratuba/qwen 2/104 2018-01-07: ok cached
+guaratuba/qwen 3/104 2018-01-14: ok cached
+guaratuba/qwen 4/104 2018-01-21: ok cached
+guaratuba/qwen 5/104 2018-01-28: ok cached
+guaratuba/qwen 6/104 2018-02-04: ok cached
+guaratuba/qwen 7/104 2018-02-11: ok cached
+guaratuba/qwen 8/104 2018-02-18: ok cached
+guaratuba/qwen 9/104 2018-02-25: ok cached
+guaratuba/qwen 10/104 2018-03-04: ok cached
+guaratuba/qwen 11/104 2018-03-11: ok cached
+guaratuba/qwen 12/104 2018-03-18: ok cached
+guaratuba/qwen 13/104 2018-03-25: ok cached
+guaratuba/qwen 14/104 2018-04-01: ok cached
+guaratuba/qwen 15/104 2018-04-08: ok cached
+guaratuba/qwen 16/104 2018-04-15: ok cached
+guaratuba/qwen 17/104 2018-04-22: ok cached
+guaratuba/qwen 18/104 2018-04-29: ok cached
+guaratuba/qwen 19/104 2018-05-06: ok cached
+guaratuba/qwen 20/104 2018-05-13: ok cached
+guaratuba/qwen 21/104 2018-05-20: ok cached
+guaratuba/qwen 22/104 2018-05-27: ok cached
+guaratuba/qwen 23/104 2018-06-03: ok cached
+guaratuba/qwen 24/104 2018-06-10: ok cached
+guaratuba/qwen 25/104 2018-06-17: ok cached
+guaratuba/qwen 26/104 2018-06-24: ok cached
+guaratuba/qwen 27/104 2018-07-01: ok cached
+guaratuba/qwen 28/104 2018-07-08: ok cached
+guaratuba/qwen 29/104 2018-07-15: ok cached
+guaratuba/qwen 30/104 2018-07-22: ok cached
+guaratuba/qwen 31/104 2018-07-29: ok cached
+guaratuba/qwen 32/104 2018-08-05: ok cached
+guaratuba/qwen 33/104 2018-08-12: ok cached
+guaratuba/qwen 34/104 2018-08-19: ok cached
+guaratuba/qwen 35/104 2018-08-26: ok cached
+guaratuba/qwen 36/104 2018-09-02: ok cached
+guaratuba/qwen 37/104 2018-09-09: ok cached
+guaratuba/qwen 38/104 2018-09-16: ok cached
+guaratuba/qwen 39/104 2018-09-23: ok cached
+guaratuba/qwen 40/104 2018-09-30: ok cached
+guaratuba/qwen 41/104 2018-10-07: ok cached
+guaratuba/qwen 42/104 2018-10-14: ok cached
+guaratuba/qwen 43/104 2018-10-21: ok cached
+guaratuba/qwen 44/104 2018-10-28: ok cached
+guaratuba/qwen 45/104 2018-11-04: ok cached
+guaratuba/qwen 46/104 2018-11-11: ok cached
+guaratuba/qwen 47/104 2018-11-18: ok cached
+guaratuba/qwen 48/104 2018-11-25: ok cached
+guaratuba/qwen 49/104 2018-12-02: ok cached
+guaratuba/qwen 50/104 2018-12-09: ok cached
+guaratuba/qwen 51/104 2018-12-16: ok cached
+guaratuba/qwen 52/104 2018-12-23: ok cached
+guaratuba/qwen 53/104 2018-12-30: ok cached
+guaratuba/qwen 54/104 2019-01-06: ok cached
+guaratuba/qwen 55/104 2019-01-13: ok cached
+guaratuba/qwen 56/104 2019-01-20: ok cached
+guaratuba/qwen 57/104 2019-01-27: ok cached
+guaratuba/qwen 58/104 2019-02-03: ok cached
+guaratuba/qwen 59/104 2019-02-10: ok cached
+guaratuba/qwen 60/104 2019-02-17: ok cached
+guaratuba/qwen 61/104 2019-02-24: ok cached
+guaratuba/qwen 62/104 2019-03-03: ok cached
+guaratuba/qwen 63/104 2019-03-10: ok cached
+guaratuba/qwen 64/104 2019-03-17: ok cached
+guaratuba/qwen 65/104 2019-03-24: ok cached
+guaratuba/qwen 66/104 2019-03-31: ok cached
+guaratuba/qwen 67/104 2019-04-07: ok cached
+guaratuba/qwen 68/104 2019-04-14: ok cached
+guaratuba/qwen 69/104 2019-04-21: ok cached
+guaratuba/qwen 70/104 2019-04-28: ok cached
+guaratuba/qwen 71/104 2019-05-05: ok cached
+guaratuba/qwen 72/104 2019-05-12: ok cached
+guaratuba/qwen 73/104 2019-05-19: ok cached
+guaratuba/qwen 74/104 2019-05-26: ok cached
+guaratuba/qwen 75/104 2019-06-02: ok cached
+guaratuba/qwen 76/104 2019-06-09: ok cached
+guaratuba/qwen 77/104 2019-06-16: ok cached
+guaratuba/qwen 78/104 2019-06-23: ok cached
+guaratuba/qwen 79/104 2019-06-30: ok cached
+guaratuba/qwen 80/104 2019-07-07: ok cached
+guaratuba/qwen 81/104 2019-07-14: ok cached
+guaratuba/qwen 82/104 2019-07-21: ok cached
+guaratuba/qwen 83/104 2019-07-28: ok cached
+guaratuba/qwen 84/104 2019-08-04: ok cached
+guaratuba/qwen 85/104 2019-08-11: ok cached
+guaratuba/qwen 86/104 2019-08-18: ok cached
+guaratuba/qwen 87/104 2019-08-25: ok cached
+guaratuba/qwen 88/104 2019-09-01: ok cached
+guaratuba/qwen 89/104 2019-09-08: ok cached
+guaratuba/qwen 90/104 2019-09-15: ok cached
+guaratuba/qwen 91/104 2019-09-22: ok cached
+guaratuba/qwen 92/104 2019-09-29: ok cached
+guaratuba/qwen 93/104 2019-10-06: ok cached
+guaratuba/qwen 94/104 2019-10-13: ok cached
+guaratuba/qwen 95/104 2019-10-20: ok cached
+guaratuba/qwen 96/104 2019-10-27: ok cached
+guaratuba/qwen 97/104 2019-11-03: ok cached
+guaratuba/qwen 98/104 2019-11-10: ok cached
+guaratuba/qwen 99/104 2019-11-17: ok cached
+guaratuba/qwen 100/104 2019-11-24: ok cached
+guaratuba/qwen 101/104 2019-12-01: ok cached
+guaratuba/qwen 102/104 2019-12-08: ok cached
+guaratuba/qwen 103/104 2019-12-15: ok cached
+guaratuba/qwen 104/104 2019-12-22: ok cached
+joinville/qwen 1/54 2024-06-16: ok cached
+joinville/qwen 2/54 2024-06-23: ok cached
+joinville/qwen 3/54 2024-06-30: ok cached
+joinville/qwen 4/54 2024-07-07: ok cached
+joinville/qwen 5/54 2024-07-14: ok cached
+joinville/qwen 6/54 2024-07-21: ok cached
+joinville/qwen 7/54 2024-07-28: ok cached
+joinville/qwen 8/54 2024-08-04: ok cached
+joinville/qwen 9/54 2024-08-11: ok cached
+joinville/qwen 10/54 2024-08-18: ok cached
+joinville/qwen 11/54 2024-08-25: ok cached
+joinville/qwen 12/54 2024-09-01: ok cached
+joinville/qwen 13/54 2024-09-08: ok cached
+joinville/qwen 14/54 2024-09-15: ok cached
+joinville/qwen 15/54 2024-09-22: ok cached
+joinville/qwen 16/54 2024-09-29: ok cached
+joinville/qwen 17/54 2024-10-06: ok cached
+joinville/qwen 18/54 2024-10-13: ok cached
+joinville/qwen 19/54 2024-10-20: ok cached
+joinville/qwen 20/54 2024-10-27: ok cached
+joinville/qwen 21/54 2024-11-03: ok cached
+joinville/qwen 22/54 2024-11-10: ok cached
+joinville/qwen 23/54 2024-11-17: ok cached
+joinville/qwen 24/54 2024-11-24: ok cached
+joinville/qwen 25/54 2024-12-01: ok cached
+joinville/qwen 26/54 2024-12-08: ok cached
+joinville/qwen 27/54 2024-12-15: ok cached
+joinville/qwen 28/54 2024-12-22: ok cached
+joinville/qwen 29/54 2024-12-29: ok cached
+joinville/qwen 30/54 2025-01-05: ok cached
+joinville/qwen 31/54 2025-01-12: ok cached
+joinville/qwen 32/54 2025-01-19: ok cached
+joinville/qwen 33/54 2025-01-26: ok cached
+joinville/qwen 34/54 2025-02-02: ok cached
+joinville/qwen 35/54 2025-02-09: ok cached
+joinville/qwen 36/54 2025-02-16: ok cached
+joinville/qwen 37/54 2025-02-23: ok cached
+joinville/qwen 38/54 2025-03-02: ok cached
+joinville/qwen 39/54 2025-03-09: ok cached
+joinville/qwen 40/54 2025-03-16: ok cached
+joinville/qwen 41/54 2025-03-23: ok cached
+joinville/qwen 42/54 2025-03-30: ok cached
+joinville/qwen 43/54 2025-04-06: ok cached
+joinville/qwen 44/54 2025-04-13: ok cached
+joinville/qwen 45/54 2025-04-20: ok cached
+joinville/qwen 46/54 2025-04-27: ok cached
+joinville/qwen 47/54 2025-05-04: ok cached
+joinville/qwen 48/54 2025-05-11: ok cached
+joinville/qwen 49/54 2025-05-18: ok cached
+joinville/qwen 50/54 2025-05-25: ok cached
+joinville/qwen 51/54 2025-06-01: ok cached
+joinville/qwen 52/54 2025-06-08: ok cached
+joinville/qwen 53/54 2025-06-15: ok cached
+joinville/qwen 54/54 2025-06-22: ok cached
+guaratuba/qwen 1/104 2017-12-31: ok cached
+guaratuba/qwen 2/104 2018-01-07: ok cached
+guaratuba/qwen 3/104 2018-01-14: ok cached
+guaratuba/qwen 4/104 2018-01-21: ok cached
+guaratuba/qwen 5/104 2018-01-28: ok cached
+guaratuba/qwen 6/104 2018-02-04: ok cached
+guaratuba/qwen 7/104 2018-02-11: ok cached
+guaratuba/qwen 8/104 2018-02-18: ok cached
+guaratuba/qwen 9/104 2018-02-25: ok cached
+guaratuba/qwen 10/104 2018-03-04: ok cached
+guaratuba/qwen 11/104 2018-03-11: ok cached
+guaratuba/qwen 12/104 2018-03-18: ok cached
+guaratuba/qwen 13/104 2018-03-25: ok cached
+guaratuba/qwen 14/104 2018-04-01: ok cached
+guaratuba/qwen 15/104 2018-04-08: ok cached
+guaratuba/qwen 16/104 2018-04-15: ok cached
+guaratuba/qwen 17/104 2018-04-22: ok cached
+guaratuba/qwen 18/104 2018-04-29: ok cached
+guaratuba/qwen 19/104 2018-05-06: ok cached
+guaratuba/qwen 20/104 2018-05-13: ok cached
+guaratuba/qwen 21/104 2018-05-20: ok cached
+guaratuba/qwen 22/104 2018-05-27: ok cached
+guaratuba/qwen 23/104 2018-06-03: ok cached
+guaratuba/qwen 24/104 2018-06-10: ok cached
+guaratuba/qwen 25/104 2018-06-17: ok cached
+guaratuba/qwen 26/104 2018-06-24: ok cached
+guaratuba/qwen 27/104 2018-07-01: ok cached
+guaratuba/qwen 28/104 2018-07-08: ok cached
+guaratuba/qwen 29/104 2018-07-15: ok cached
+guaratuba/qwen 30/104 2018-07-22: ok cached
+guaratuba/qwen 31/104 2018-07-29: ok cached
+guaratuba/qwen 32/104 2018-08-05: ok cached
+guaratuba/qwen 33/104 2018-08-12: ok cached
+guaratuba/qwen 34/104 2018-08-19: ok cached
+guaratuba/qwen 35/104 2018-08-26: ok cached
+guaratuba/qwen 36/104 2018-09-02: ok cached
+guaratuba/qwen 37/104 2018-09-09: ok cached
+guaratuba/qwen 38/104 2018-09-16: ok cached
+guaratuba/qwen 39/104 2018-09-23: ok cached
+guaratuba/qwen 40/104 2018-09-30: ok cached
+guaratuba/qwen 41/104 2018-10-07: ok cached
+guaratuba/qwen 42/104 2018-10-14: ok cached
+guaratuba/qwen 43/104 2018-10-21: ok cached
+guaratuba/qwen 44/104 2018-10-28: ok cached
+guaratuba/qwen 45/104 2018-11-04: ok cached
+guaratuba/qwen 46/104 2018-11-11: ok cached
+guaratuba/qwen 47/104 2018-11-18: ok cached
+guaratuba/qwen 48/104 2018-11-25: ok cached
+guaratuba/qwen 49/104 2018-12-02: ok cached
+guaratuba/qwen 50/104 2018-12-09: ok cached
+guaratuba/qwen 51/104 2018-12-16: ok cached
+guaratuba/qwen 52/104 2018-12-23: ok cached
+guaratuba/qwen 53/104 2018-12-30: ok cached
+guaratuba/qwen 54/104 2019-01-06: ok cached
+guaratuba/qwen 55/104 2019-01-13: ok cached
+guaratuba/qwen 56/104 2019-01-20: ok cached
+guaratuba/qwen 57/104 2019-01-27: ok cached
+guaratuba/qwen 58/104 2019-02-03: ok cached
+guaratuba/qwen 59/104 2019-02-10: ok cached
+guaratuba/qwen 60/104 2019-02-17: ok cached
+guaratuba/qwen 61/104 2019-02-24: ok cached
+guaratuba/qwen 62/104 2019-03-03: ok cached
+guaratuba/qwen 63/104 2019-03-10: ok cached
+guaratuba/qwen 64/104 2019-03-17: ok cached
+guaratuba/qwen 65/104 2019-03-24: ok cached
+guaratuba/qwen 66/104 2019-03-31: ok cached
+guaratuba/qwen 67/104 2019-04-07: ok cached
+guaratuba/qwen 68/104 2019-04-14: ok cached
+guaratuba/qwen 69/104 2019-04-21: ok cached
+guaratuba/qwen 70/104 2019-04-28: ok cached
+guaratuba/qwen 71/104 2019-05-05: ok cached
+guaratuba/qwen 72/104 2019-05-12: ok cached
+guaratuba/qwen 73/104 2019-05-19: ok cached
+guaratuba/qwen 74/104 2019-05-26: ok cached
+guaratuba/qwen 75/104 2019-06-02: ok cached
+guaratuba/qwen 76/104 2019-06-09: ok cached
+guaratuba/qwen 77/104 2019-06-16: ok cached
+guaratuba/qwen 78/104 2019-06-23: ok cached
+guaratuba/qwen 79/104 2019-06-30: ok cached
+guaratuba/qwen 80/104 2019-07-07: ok cached
+guaratuba/qwen 81/104 2019-07-14: ok cached
+guaratuba/qwen 82/104 2019-07-21: ok cached
+guaratuba/qwen 83/104 2019-07-28: ok cached
+guaratuba/qwen 84/104 2019-08-04: ok cached
+guaratuba/qwen 85/104 2019-08-11: ok cached
+guaratuba/qwen 86/104 2019-08-18: ok cached
+guaratuba/qwen 87/104 2019-08-25: ok cached
+guaratuba/qwen 88/104 2019-09-01: ok cached
+guaratuba/qwen 89/104 2019-09-08: ok cached
+guaratuba/qwen 90/104 2019-09-15: ok cached
+guaratuba/qwen 91/104 2019-09-22: ok cached
+guaratuba/qwen 92/104 2019-09-29: ok cached
+guaratuba/qwen 93/104 2019-10-06: ok cached
+guaratuba/qwen 94/104 2019-10-13: ok cached
+guaratuba/qwen 95/104 2019-10-20: ok cached
+guaratuba/qwen 96/104 2019-10-27: ok cached
+guaratuba/qwen 97/104 2019-11-03: ok cached
+guaratuba/qwen 98/104 2019-11-10: ok cached
+guaratuba/qwen 99/104 2019-11-17: ok cached
+guaratuba/qwen 100/104 2019-11-24: ok cached
+guaratuba/qwen 101/104 2019-12-01: ok cached
+guaratuba/qwen 102/104 2019-12-08: ok cached
+guaratuba/qwen 103/104 2019-12-15: ok cached
+guaratuba/qwen 104/104 2019-12-22: ok cached
+joinville/qwen 1/54 2024-06-16: ok cached
+joinville/qwen 2/54 2024-06-23: ok cached
+joinville/qwen 3/54 2024-06-30: ok cached
+joinville/qwen 4/54 2024-07-07: ok cached
+joinville/qwen 5/54 2024-07-14: ok cached
+joinville/qwen 6/54 2024-07-21: ok cached
+joinville/qwen 7/54 2024-07-28: ok cached
+joinville/qwen 8/54 2024-08-04: ok cached
+joinville/qwen 9/54 2024-08-11: ok cached
+joinville/qwen 10/54 2024-08-18: ok cached
+joinville/qwen 11/54 2024-08-25: ok cached
+joinville/qwen 12/54 2024-09-01: ok cached
+joinville/qwen 13/54 2024-09-08: ok cached
+joinville/qwen 14/54 2024-09-15: ok cached
+joinville/qwen 15/54 2024-09-22: ok cached
+joinville/qwen 16/54 2024-09-29: ok cached
+joinville/qwen 17/54 2024-10-06: ok cached
+joinville/qwen 18/54 2024-10-13: ok cached
+joinville/qwen 19/54 2024-10-20: ok cached
+joinville/qwen 20/54 2024-10-27: ok cached
+joinville/qwen 21/54 2024-11-03: ok cached
+joinville/qwen 22/54 2024-11-10: ok cached
+joinville/qwen 23/54 2024-11-17: ok cached
+joinville/qwen 24/54 2024-11-24: ok cached
+joinville/qwen 25/54 2024-12-01: ok cached
+joinville/qwen 26/54 2024-12-08: ok cached
+joinville/qwen 27/54 2024-12-15: ok cached
+joinville/qwen 28/54 2024-12-22: ok cached
+joinville/qwen 29/54 2024-12-29: ok cached
+joinville/qwen 30/54 2025-01-05: ok cached
+joinville/qwen 31/54 2025-01-12: ok cached
+joinville/qwen 32/54 2025-01-19: ok cached
+joinville/qwen 33/54 2025-01-26: ok cached
+joinville/qwen 34/54 2025-02-02: ok cached
+joinville/qwen 35/54 2025-02-09: ok cached
+joinville/qwen 36/54 2025-02-16: ok cached
+joinville/qwen 37/54 2025-02-23: ok cached
+joinville/qwen 38/54 2025-03-02: ok cached
+joinville/qwen 39/54 2025-03-09: ok cached
+joinville/qwen 40/54 2025-03-16: ok cached
+joinville/qwen 41/54 2025-03-23: ok cached
+joinville/qwen 42/54 2025-03-30: ok cached
+joinville/qwen 43/54 2025-04-06: ok cached
+joinville/qwen 44/54 2025-04-13: ok cached
+joinville/qwen 45/54 2025-04-20: ok cached
+joinville/qwen 46/54 2025-04-27: ok cached
+joinville/qwen 47/54 2025-05-04: ok cached
+joinville/qwen 48/54 2025-05-11: ok cached
+joinville/qwen 49/54 2025-05-18: ok cached
+joinville/qwen 50/54 2025-05-25: ok cached
+joinville/qwen 51/54 2025-06-01: ok cached
+joinville/qwen 52/54 2025-06-08: ok cached
+joinville/qwen 53/54 2025-06-15: ok cached
+joinville/qwen 54/54 2025-06-22: ok cached
+guaratuba/qwen 1/104 2017-12-31: ok cached
+guaratuba/qwen 2/104 2018-01-07: ok cached
+guaratuba/qwen 3/104 2018-01-14: ok cached
+guaratuba/qwen 4/104 2018-01-21: ok cached
+guaratuba/qwen 5/104 2018-01-28: ok cached
+guaratuba/qwen 6/104 2018-02-04: ok cached
+guaratuba/qwen 7/104 2018-02-11: ok cached
+guaratuba/qwen 8/104 2018-02-18: ok cached
+guaratuba/qwen 9/104 2018-02-25: ok cached
+guaratuba/qwen 10/104 2018-03-04: ok cached
+guaratuba/qwen 11/104 2018-03-11: ok cached
+guaratuba/qwen 12/104 2018-03-18: ok cached
+guaratuba/qwen 13/104 2018-03-25: ok cached
+guaratuba/qwen 14/104 2018-04-01: ok cached
+guaratuba/qwen 15/104 2018-04-08: ok cached
+guaratuba/qwen 16/104 2018-04-15: ok cached
+guaratuba/qwen 17/104 2018-04-22: ok cached
+guaratuba/qwen 18/104 2018-04-29: ok cached
+guaratuba/qwen 19/104 2018-05-06: ok cached
+guaratuba/qwen 20/104 2018-05-13: ok cached
+guaratuba/qwen 21/104 2018-05-20: ok cached
+guaratuba/qwen 22/104 2018-05-27: ok cached
+guaratuba/qwen 23/104 2018-06-03: ok cached
+guaratuba/qwen 24/104 2018-06-10: ok cached
+guaratuba/qwen 25/104 2018-06-17: ok cached
+guaratuba/qwen 26/104 2018-06-24: ok cached
+guaratuba/qwen 27/104 2018-07-01: ok cached
+guaratuba/qwen 28/104 2018-07-08: ok cached
+guaratuba/qwen 29/104 2018-07-15: ok cached
+guaratuba/qwen 30/104 2018-07-22: ok cached
+guaratuba/qwen 31/104 2018-07-29: ok cached
+guaratuba/qwen 32/104 2018-08-05: ok cached
+guaratuba/qwen 33/104 2018-08-12: ok cached
+guaratuba/qwen 34/104 2018-08-19: ok cached
+guaratuba/qwen 35/104 2018-08-26: ok cached
+guaratuba/qwen 36/104 2018-09-02: ok cached
+guaratuba/qwen 37/104 2018-09-09: ok cached
+guaratuba/qwen 38/104 2018-09-16: ok cached
+guaratuba/qwen 39/104 2018-09-23: ok cached
+guaratuba/qwen 40/104 2018-09-30: ok cached
+guaratuba/qwen 41/104 2018-10-07: ok cached
+guaratuba/qwen 42/104 2018-10-14: ok cached
+guaratuba/qwen 43/104 2018-10-21: ok cached
+guaratuba/qwen 44/104 2018-10-28: ok cached
+guaratuba/qwen 45/104 2018-11-04: ok cached
+guaratuba/qwen 46/104 2018-11-11: ok cached
+guaratuba/qwen 47/104 2018-11-18: ok cached
+guaratuba/qwen 48/104 2018-11-25: ok cached
+guaratuba/qwen 49/104 2018-12-02: ok cached
+guaratuba/qwen 50/104 2018-12-09: ok cached
+guaratuba/qwen 51/104 2018-12-16: ok cached
+guaratuba/qwen 52/104 2018-12-23: ok cached
+guaratuba/qwen 53/104 2018-12-30: ok cached
+guaratuba/qwen 54/104 2019-01-06: ok cached
+guaratuba/qwen 55/104 2019-01-13: ok cached
+guaratuba/qwen 56/104 2019-01-20: ok cached
+guaratuba/qwen 57/104 2019-01-27: ok cached
+guaratuba/qwen 58/104 2019-02-03: ok cached
+guaratuba/qwen 59/104 2019-02-10: ok cached
+guaratuba/qwen 60/104 2019-02-17: ok cached
+guaratuba/qwen 61/104 2019-02-24: ok cached
+guaratuba/qwen 62/104 2019-03-03: ok cached
+guaratuba/qwen 63/104 2019-03-10: ok cached
+guaratuba/qwen 64/104 2019-03-17: ok cached
+guaratuba/qwen 65/104 2019-03-24: ok cached
+guaratuba/qwen 66/104 2019-03-31: ok cached
+guaratuba/qwen 67/104 2019-04-07: ok cached
+guaratuba/qwen 68/104 2019-04-14: ok cached
+guaratuba/qwen 69/104 2019-04-21: ok cached
+guaratuba/qwen 70/104 2019-04-28: ok cached
+guaratuba/qwen 71/104 2019-05-05: ok cached
+guaratuba/qwen 72/104 2019-05-12: ok cached
+guaratuba/qwen 73/104 2019-05-19: ok cached
+guaratuba/qwen 74/104 2019-05-26: ok cached
+guaratuba/qwen 75/104 2019-06-02: ok cached
+guaratuba/qwen 76/104 2019-06-09: ok cached
+guaratuba/qwen 77/104 2019-06-16: ok cached
+guaratuba/qwen 78/104 2019-06-23: ok cached
+guaratuba/qwen 79/104 2019-06-30: ok cached
+guaratuba/qwen 80/104 2019-07-07: ok cached
+guaratuba/qwen 81/104 2019-07-14: ok cached
+guaratuba/qwen 82/104 2019-07-21: ok cached
+guaratuba/qwen 83/104 2019-07-28: ok cached
+guaratuba/qwen 84/104 2019-08-04: ok cached
+Prepared 632 prompts from textual CSVs.
+joinville/qwen 1/54 2024-06-16: ok cached
+joinville/qwen 2/54 2024-06-23: ok cached
+joinville/qwen 3/54 2024-06-30: ok cached
+joinville/qwen 4/54 2024-07-07: ok cached
+joinville/qwen 5/54 2024-07-14: ok cached
+joinville/qwen 6/54 2024-07-21: ok cached
+joinville/qwen 7/54 2024-07-28: ok cached
+joinville/qwen 8/54 2024-08-04: ok cached
+joinville/qwen 9/54 2024-08-11: ok cached
+joinville/qwen 10/54 2024-08-18: ok cached
+joinville/qwen 11/54 2024-08-25: ok cached
+joinville/qwen 12/54 2024-09-01: ok cached
+joinville/qwen 13/54 2024-09-08: ok cached
+joinville/qwen 14/54 2024-09-15: ok cached
+joinville/qwen 15/54 2024-09-22: ok cached
+joinville/qwen 16/54 2024-09-29: ok cached
+joinville/qwen 17/54 2024-10-06: ok cached
+joinville/qwen 18/54 2024-10-13: ok cached
+joinville/qwen 19/54 2024-10-20: ok cached
+joinville/qwen 20/54 2024-10-27: ok cached
+joinville/qwen 21/54 2024-11-03: ok cached
+joinville/qwen 22/54 2024-11-10: ok cached
+joinville/qwen 23/54 2024-11-17: ok cached
+joinville/qwen 24/54 2024-11-24: ok cached
+joinville/qwen 25/54 2024-12-01: ok cached
+joinville/qwen 26/54 2024-12-08: ok cached
+joinville/qwen 27/54 2024-12-15: ok cached
+joinville/qwen 28/54 2024-12-22: ok cached
+joinville/qwen 29/54 2024-12-29: ok cached
+joinville/qwen 30/54 2025-01-05: ok cached
+joinville/qwen 31/54 2025-01-12: ok cached
+joinville/qwen 32/54 2025-01-19: ok cached
+joinville/qwen 33/54 2025-01-26: ok cached
+joinville/qwen 34/54 2025-02-02: ok cached
+joinville/qwen 35/54 2025-02-09: ok cached
+joinville/qwen 36/54 2025-02-16: ok cached
+joinville/qwen 37/54 2025-02-23: ok cached
+joinville/qwen 38/54 2025-03-02: ok cached
+joinville/qwen 39/54 2025-03-09: ok cached
+joinville/qwen 40/54 2025-03-16: ok cached
+joinville/qwen 41/54 2025-03-23: ok cached
+joinville/qwen 42/54 2025-03-30: ok cached
+joinville/qwen 43/54 2025-04-06: ok cached
+joinville/qwen 44/54 2025-04-13: ok cached
+joinville/qwen 45/54 2025-04-20: ok cached
+joinville/qwen 46/54 2025-04-27: ok cached
+joinville/qwen 47/54 2025-05-04: ok cached
+joinville/qwen 48/54 2025-05-11: ok cached
+joinville/qwen 49/54 2025-05-18: ok cached
+joinville/qwen 50/54 2025-05-25: ok cached
+joinville/qwen 51/54 2025-06-01: ok cached
+joinville/qwen 52/54 2025-06-08: ok cached
+joinville/qwen 53/54 2025-06-15: ok cached
+joinville/qwen 54/54 2025-06-22: ok cached
+guaratuba/qwen 1/104 2017-12-31: ok cached
+guaratuba/qwen 2/104 2018-01-07: ok cached
+guaratuba/qwen 3/104 2018-01-14: ok cached
+guaratuba/qwen 4/104 2018-01-21: ok cached
+guaratuba/qwen 5/104 2018-01-28: ok cached
+guaratuba/qwen 6/104 2018-02-04: ok cached
+guaratuba/qwen 7/104 2018-02-11: ok cached
+guaratuba/qwen 8/104 2018-02-18: ok cached
+guaratuba/qwen 9/104 2018-02-25: ok cached
+guaratuba/qwen 10/104 2018-03-04: ok cached
+guaratuba/qwen 11/104 2018-03-11: ok cached
+guaratuba/qwen 12/104 2018-03-18: ok cached
+guaratuba/qwen 13/104 2018-03-25: ok cached
+guaratuba/qwen 14/104 2018-04-01: ok cached
+guaratuba/qwen 15/104 2018-04-08: ok cached
+guaratuba/qwen 16/104 2018-04-15: ok cached
+guaratuba/qwen 17/104 2018-04-22: ok cached
+guaratuba/qwen 18/104 2018-04-29: ok cached
+guaratuba/qwen 19/104 2018-05-06: ok cached
+guaratuba/qwen 20/104 2018-05-13: ok cached
+guaratuba/qwen 21/104 2018-05-20: ok cached
+guaratuba/qwen 22/104 2018-05-27: ok cached
+guaratuba/qwen 23/104 2018-06-03: ok cached
+guaratuba/qwen 24/104 2018-06-10: ok cached
+guaratuba/qwen 25/104 2018-06-17: ok cached
+guaratuba/qwen 26/104 2018-06-24: ok cached
+guaratuba/qwen 27/104 2018-07-01: ok cached
+guaratuba/qwen 28/104 2018-07-08: ok cached
+guaratuba/qwen 29/104 2018-07-15: ok cached
+guaratuba/qwen 30/104 2018-07-22: ok cached
+guaratuba/qwen 31/104 2018-07-29: ok cached
+guaratuba/qwen 32/104 2018-08-05: ok cached
+guaratuba/qwen 33/104 2018-08-12: ok cached
+guaratuba/qwen 34/104 2018-08-19: ok cached
+guaratuba/qwen 35/104 2018-08-26: ok cached
+guaratuba/qwen 36/104 2018-09-02: ok cached
+guaratuba/qwen 37/104 2018-09-09: ok cached
+guaratuba/qwen 38/104 2018-09-16: ok cached
+guaratuba/qwen 39/104 2018-09-23: ok cached
+guaratuba/qwen 40/104 2018-09-30: ok cached
+guaratuba/qwen 41/104 2018-10-07: ok cached
+guaratuba/qwen 42/104 2018-10-14: ok cached
+guaratuba/qwen 43/104 2018-10-21: ok cached
+guaratuba/qwen 44/104 2018-10-28: ok cached
+guaratuba/qwen 45/104 2018-11-04: ok cached
+guaratuba/qwen 46/104 2018-11-11: ok cached
+guaratuba/qwen 47/104 2018-11-18: ok cached
+guaratuba/qwen 48/104 2018-11-25: ok cached
+guaratuba/qwen 49/104 2018-12-02: ok cached
+guaratuba/qwen 50/104 2018-12-09: ok cached
+guaratuba/qwen 51/104 2018-12-16: ok cached
+guaratuba/qwen 52/104 2018-12-23: ok cached
+guaratuba/qwen 53/104 2018-12-30: ok cached
+guaratuba/qwen 54/104 2019-01-06: ok cached
+guaratuba/qwen 55/104 2019-01-13: ok cached
+guaratuba/qwen 56/104 2019-01-20: ok cached
+guaratuba/qwen 57/104 2019-01-27: ok cached
+guaratuba/qwen 58/104 2019-02-03: ok cached
+guaratuba/qwen 59/104 2019-02-10: ok cached
+guaratuba/qwen 60/104 2019-02-17: ok cached
+guaratuba/qwen 61/104 2019-02-24: ok cached
+guaratuba/qwen 62/104 2019-03-03: ok cached
+guaratuba/qwen 63/104 2019-03-10: ok cached
+guaratuba/qwen 64/104 2019-03-17: ok cached
+guaratuba/qwen 65/104 2019-03-24: ok cached
+guaratuba/qwen 66/104 2019-03-31: ok cached
+guaratuba/qwen 67/104 2019-04-07: ok cached
+guaratuba/qwen 68/104 2019-04-14: ok cached
+guaratuba/qwen 69/104 2019-04-21: ok cached
+guaratuba/qwen 70/104 2019-04-28: ok cached
+guaratuba/qwen 71/104 2019-05-05: ok cached
+guaratuba/qwen 72/104 2019-05-12: ok cached
+guaratuba/qwen 73/104 2019-05-19: ok cached
+guaratuba/qwen 74/104 2019-05-26: ok cached
+guaratuba/qwen 75/104 2019-06-02: ok cached
+guaratuba/qwen 76/104 2019-06-09: ok cached
+guaratuba/qwen 77/104 2019-06-16: ok cached
+guaratuba/qwen 78/104 2019-06-23: ok cached
+guaratuba/qwen 79/104 2019-06-30: ok cached
+guaratuba/qwen 80/104 2019-07-07: ok cached
+guaratuba/qwen 81/104 2019-07-14: ok cached
+guaratuba/qwen 82/104 2019-07-21: ok cached
+guaratuba/qwen 83/104 2019-07-28: ok cached
+guaratuba/qwen 84/104 2019-08-04: ok cached
+guaratuba/qwen 85/104 2019-08-11: ok cached
+guaratuba/qwen 86/104 2019-08-18: ok cached
+guaratuba/qwen 87/104 2019-08-25: ok cached
+guaratuba/qwen 88/104 2019-09-01: ok cached
+guaratuba/qwen 89/104 2019-09-08: ok cached
+guaratuba/qwen 90/104 2019-09-15: ok cached
+guaratuba/qwen 91/104 2019-09-22: ok cached
+guaratuba/qwen 92/104 2019-09-29: ok cached
+guaratuba/qwen 93/104 2019-10-06: ok cached
+guaratuba/qwen 94/104 2019-10-13: ok cached
+guaratuba/qwen 95/104 2019-10-20: ok cached
+guaratuba/qwen 96/104 2019-10-27: ok cached
+guaratuba/qwen 97/104 2019-11-03: ok cached
+guaratuba/qwen 98/104 2019-11-10: ok cached
+guaratuba/qwen 99/104 2019-11-17: ok cached
+guaratuba/qwen 100/104 2019-11-24: ok cached
+guaratuba/qwen 101/104 2019-12-01: ok cached
+guaratuba/qwen 102/104 2019-12-08: ok cached
+guaratuba/qwen 103/104 2019-12-15: ok cached
+guaratuba/qwen 104/104 2019-12-22: ok cached
+joinville/qwen 1/54 2024-06-16: ok cached
+joinville/qwen 2/54 2024-06-23: ok cached
+joinville/qwen 3/54 2024-06-30: ok cached
+joinville/qwen 4/54 2024-07-07: ok cached
+joinville/qwen 5/54 2024-07-14: ok cached
+joinville/qwen 6/54 2024-07-21: ok cached
+joinville/qwen 7/54 2024-07-28: ok cached
+joinville/qwen 8/54 2024-08-04: ok cached
+joinville/qwen 9/54 2024-08-11: ok cached
+joinville/qwen 10/54 2024-08-18: ok cached
+joinville/qwen 11/54 2024-08-25: ok cached
+joinville/qwen 12/54 2024-09-01: ok cached
+joinville/qwen 13/54 2024-09-08: ok cached
+joinville/qwen 14/54 2024-09-15: ok cached
+joinville/qwen 15/54 2024-09-22: ok cached
+joinville/qwen 16/54 2024-09-29: ok cached
+joinville/qwen 17/54 2024-10-06: ok cached
+joinville/qwen 18/54 2024-10-13: ok cached
+joinville/qwen 19/54 2024-10-20: ok cached
+joinville/qwen 20/54 2024-10-27: ok cached
+joinville/qwen 21/54 2024-11-03: ok cached
+joinville/qwen 22/54 2024-11-10: ok cached
+joinville/qwen 23/54 2024-11-17: ok cached
+joinville/qwen 24/54 2024-11-24: ok cached
+joinville/qwen 25/54 2024-12-01: ok cached
+joinville/qwen 26/54 2024-12-08: ok cached
+joinville/qwen 27/54 2024-12-15: ok cached
+joinville/qwen 28/54 2024-12-22: ok cached
+joinville/qwen 29/54 2024-12-29: ok cached
+joinville/qwen 30/54 2025-01-05: ok cached
+joinville/qwen 31/54 2025-01-12: ok cached
+joinville/qwen 32/54 2025-01-19: ok cached
+joinville/qwen 33/54 2025-01-26: ok cached
+joinville/qwen 34/54 2025-02-02: ok cached
+joinville/qwen 35/54 2025-02-09: ok cached
+joinville/qwen 36/54 2025-02-16: ok cached
+joinville/qwen 37/54 2025-02-23: ok cached
+joinville/qwen 38/54 2025-03-02: ok cached
+joinville/qwen 39/54 2025-03-09: ok cached
+joinville/qwen 40/54 2025-03-16: ok cached
+joinville/qwen 41/54 2025-03-23: ok cached
+joinville/qwen 42/54 2025-03-30: ok cached
+joinville/qwen 43/54 2025-04-06: ok cached
+joinville/qwen 44/54 2025-04-13: ok cached
+joinville/qwen 45/54 2025-04-20: ok cached
+joinville/qwen 46/54 2025-04-27: ok cached
+joinville/qwen 47/54 2025-05-04: ok cached
+joinville/qwen 48/54 2025-05-11: ok cached
+joinville/qwen 49/54 2025-05-18: ok cached
+joinville/qwen 50/54 2025-05-25: ok cached
+joinville/qwen 51/54 2025-06-01: ok cached
+joinville/qwen 52/54 2025-06-08: ok cached
+joinville/qwen 53/54 2025-06-15: ok cached
+joinville/qwen 54/54 2025-06-22: ok cached
+guaratuba/qwen 1/104 2017-12-31: ok cached
+guaratuba/qwen 2/104 2018-01-07: ok cached
+guaratuba/qwen 3/104 2018-01-14: ok cached
+guaratuba/qwen 4/104 2018-01-21: ok cached
+guaratuba/qwen 5/104 2018-01-28: ok cached
+guaratuba/qwen 6/104 2018-02-04: ok cached
+guaratuba/qwen 7/104 2018-02-11: ok cached
+guaratuba/qwen 8/104 2018-02-18: ok cached
+guaratuba/qwen 9/104 2018-02-25: ok cached
+guaratuba/qwen 10/104 2018-03-04: ok cached
+guaratuba/qwen 11/104 2018-03-11: ok cached
+guaratuba/qwen 12/104 2018-03-18: ok cached
+guaratuba/qwen 13/104 2018-03-25: ok cached
+guaratuba/qwen 14/104 2018-04-01: ok cached
+guaratuba/qwen 15/104 2018-04-08: ok cached
+guaratuba/qwen 16/104 2018-04-15: ok cached
+guaratuba/qwen 17/104 2018-04-22: ok cached
+guaratuba/qwen 18/104 2018-04-29: ok cached
+guaratuba/qwen 19/104 2018-05-06: ok cached
+guaratuba/qwen 20/104 2018-05-13: ok cached
+guaratuba/qwen 21/104 2018-05-20: ok cached
+guaratuba/qwen 22/104 2018-05-27: ok cached
+guaratuba/qwen 23/104 2018-06-03: ok cached
+guaratuba/qwen 24/104 2018-06-10: ok cached
+guaratuba/qwen 25/104 2018-06-17: ok cached
+guaratuba/qwen 26/104 2018-06-24: ok cached
+guaratuba/qwen 27/104 2018-07-01: ok cached
+guaratuba/qwen 28/104 2018-07-08: ok cached
+guaratuba/qwen 29/104 2018-07-15: ok cached
+guaratuba/qwen 30/104 2018-07-22: ok cached
+guaratuba/qwen 31/104 2018-07-29: ok cached
+guaratuba/qwen 32/104 2018-08-05: ok cached
+guaratuba/qwen 33/104 2018-08-12: ok cached
+guaratuba/qwen 34/104 2018-08-19: ok cached
+guaratuba/qwen 35/104 2018-08-26: ok cached
+guaratuba/qwen 36/104 2018-09-02: ok cached
+guaratuba/qwen 37/104 2018-09-09: ok cached
+guaratuba/qwen 38/104 2018-09-16: ok cached
+guaratuba/qwen 39/104 2018-09-23: ok cached
+guaratuba/qwen 40/104 2018-09-30: ok cached
+guaratuba/qwen 41/104 2018-10-07: ok cached
+guaratuba/qwen 42/104 2018-10-14: ok cached
+guaratuba/qwen 43/104 2018-10-21: ok cached
+guaratuba/qwen 44/104 2018-10-28: ok cached
+guaratuba/qwen 45/104 2018-11-04: ok cached
+guaratuba/qwen 46/104 2018-11-11: ok cached
+guaratuba/qwen 47/104 2018-11-18: ok cached
+guaratuba/qwen 48/104 2018-11-25: ok cached
+guaratuba/qwen 49/104 2018-12-02: ok cached
+guaratuba/qwen 50/104 2018-12-09: ok cached
+guaratuba/qwen 51/104 2018-12-16: ok cached
+guaratuba/qwen 52/104 2018-12-23: ok cached
+guaratuba/qwen 53/104 2018-12-30: ok cached
+guaratuba/qwen 54/104 2019-01-06: ok cached
+guaratuba/qwen 55/104 2019-01-13: ok cached
+guaratuba/qwen 56/104 2019-01-20: ok cached
+guaratuba/qwen 57/104 2019-01-27: ok cached
+guaratuba/qwen 58/104 2019-02-03: ok cached
+guaratuba/qwen 59/104 2019-02-10: ok cached
+guaratuba/qwen 60/104 2019-02-17: ok cached
+guaratuba/qwen 61/104 2019-02-24: ok cached
+guaratuba/qwen 62/104 2019-03-03: ok cached
+guaratuba/qwen 63/104 2019-03-10: ok cached
+guaratuba/qwen 64/104 2019-03-17: ok cached
+guaratuba/qwen 65/104 2019-03-24: ok cached
+guaratuba/qwen 66/104 2019-03-31: ok cached
+guaratuba/qwen 67/104 2019-04-07: ok cached
+guaratuba/qwen 68/104 2019-04-14: ok cached
+guaratuba/qwen 69/104 2019-04-21: ok cached
+guaratuba/qwen 70/104 2019-04-28: ok cached
+guaratuba/qwen 71/104 2019-05-05: ok cached
+guaratuba/qwen 72/104 2019-05-12: ok cached
+guaratuba/qwen 73/104 2019-05-19: ok cached
+guaratuba/qwen 74/104 2019-05-26: ok cached
+guaratuba/qwen 75/104 2019-06-02: ok cached
+guaratuba/qwen 76/104 2019-06-09: ok cached
+guaratuba/qwen 77/104 2019-06-16: ok cached
+guaratuba/qwen 78/104 2019-06-23: ok cached
+guaratuba/qwen 79/104 2019-06-30: ok cached
+guaratuba/qwen 80/104 2019-07-07: ok cached
+guaratuba/qwen 81/104 2019-07-14: ok cached
+guaratuba/qwen 82/104 2019-07-21: ok cached
+guaratuba/qwen 83/104 2019-07-28: ok cached
+guaratuba/qwen 84/104 2019-08-04: ok cached
+guaratuba/qwen 85/104 2019-08-11: ok cached
+guaratuba/qwen 86/104 2019-08-18: ok cached
+guaratuba/qwen 87/104 2019-08-25: ok cached
+guaratuba/qwen 88/104 2019-09-01: ok cached
+guaratuba/qwen 89/104 2019-09-08: ok cached
+guaratuba/qwen 90/104 2019-09-15: ok cached
+guaratuba/qwen 91/104 2019-09-22: ok cached
+guaratuba/qwen 92/104 2019-09-29: ok cached
+guaratuba/qwen 93/104 2019-10-06: ok cached
+guaratuba/qwen 94/104 2019-10-13: ok cached
+guaratuba/qwen 95/104 2019-10-20: ok cached
+guaratuba/qwen 96/104 2019-10-27: ok cached
+guaratuba/qwen 97/104 2019-11-03: ok cached
+guaratuba/qwen 98/104 2019-11-10: ok cached
+guaratuba/qwen 99/104 2019-11-17: ok cached
+guaratuba/qwen 100/104 2019-11-24: ok cached
+guaratuba/qwen 101/104 2019-12-01: ok cached
+guaratuba/qwen 102/104 2019-12-08: ok cached
+guaratuba/qwen 103/104 2019-12-15: ok cached
+guaratuba/qwen 104/104 2019-12-22: ok cached
+joinville/qwen 1/54 2024-06-16: ok cached
+joinville/qwen 2/54 2024-06-23: ok cached
+joinville/qwen 3/54 2024-06-30: ok cached
+joinville/qwen 4/54 2024-07-07: ok cached
+joinville/qwen 5/54 2024-07-14: ok cached
+joinville/qwen 6/54 2024-07-21: ok cached
+joinville/qwen 7/54 2024-07-28: ok cached
+joinville/qwen 8/54 2024-08-04: ok cached
+joinville/qwen 9/54 2024-08-11: ok cached
+joinville/qwen 10/54 2024-08-18: ok cached
+joinville/qwen 11/54 2024-08-25: ok cached
+joinville/qwen 12/54 2024-09-01: ok cached
+joinville/qwen 13/54 2024-09-08: ok cached
+joinville/qwen 14/54 2024-09-15: ok cached
+joinville/qwen 15/54 2024-09-22: ok cached
+joinville/qwen 16/54 2024-09-29: ok cached
+joinville/qwen 17/54 2024-10-06: ok cached
+joinville/qwen 18/54 2024-10-13: ok cached
+joinville/qwen 19/54 2024-10-20: ok cached
+joinville/qwen 20/54 2024-10-27: ok cached
+joinville/qwen 21/54 2024-11-03: ok cached
+joinville/qwen 22/54 2024-11-10: ok cached
+joinville/qwen 23/54 2024-11-17: ok cached
+joinville/qwen 24/54 2024-11-24: ok cached
+joinville/qwen 25/54 2024-12-01: ok cached
+joinville/qwen 26/54 2024-12-08: ok cached
+joinville/qwen 27/54 2024-12-15: ok cached
+joinville/qwen 28/54 2024-12-22: ok cached
+joinville/qwen 29/54 2024-12-29: ok cached
+joinville/qwen 30/54 2025-01-05: ok cached
+joinville/qwen 31/54 2025-01-12: ok cached
+joinville/qwen 32/54 2025-01-19: ok cached
+joinville/qwen 33/54 2025-01-26: ok cached
+joinville/qwen 34/54 2025-02-02: ok cached
+joinville/qwen 35/54 2025-02-09: ok cached
+joinville/qwen 36/54 2025-02-16: ok cached
+joinville/qwen 37/54 2025-02-23: ok cached
+joinville/qwen 38/54 2025-03-02: ok cached
+joinville/qwen 39/54 2025-03-09: ok cached
+joinville/qwen 40/54 2025-03-16: ok cached
+joinville/qwen 41/54 2025-03-23: ok cached
+joinville/qwen 42/54 2025-03-30: ok cached
+joinville/qwen 43/54 2025-04-06: ok cached
+joinville/qwen 44/54 2025-04-13: ok cached
+joinville/qwen 45/54 2025-04-20: ok cached
+joinville/qwen 46/54 2025-04-27: ok cached
+joinville/qwen 47/54 2025-05-04: ok cached
+joinville/qwen 48/54 2025-05-11: ok cached
+joinville/qwen 49/54 2025-05-18: ok cached
+joinville/qwen 50/54 2025-05-25: ok cached
+joinville/qwen 51/54 2025-06-01: ok cached
+joinville/qwen 52/54 2025-06-08: ok cached
+joinville/qwen 53/54 2025-06-15: ok cached
+joinville/qwen 54/54 2025-06-22: ok cached
+guaratuba/qwen 1/104 2017-12-31: ok cached
+guaratuba/qwen 2/104 2018-01-07: ok cached
+guaratuba/qwen 3/104 2018-01-14: ok cached
+guaratuba/qwen 4/104 2018-01-21: ok cached
+guaratuba/qwen 5/104 2018-01-28: ok cached
+guaratuba/qwen 6/104 2018-02-04: ok cached
+guaratuba/qwen 7/104 2018-02-11: ok cached
+guaratuba/qwen 8/104 2018-02-18: ok cached
+guaratuba/qwen 9/104 2018-02-25: ok cached
+guaratuba/qwen 10/104 2018-03-04: ok cached
+guaratuba/qwen 11/104 2018-03-11: ok cached
+guaratuba/qwen 12/104 2018-03-18: ok cached
+guaratuba/qwen 13/104 2018-03-25: ok cached
+guaratuba/qwen 14/104 2018-04-01: ok cached
+guaratuba/qwen 15/104 2018-04-08: ok cached
+guaratuba/qwen 16/104 2018-04-15: ok cached
+guaratuba/qwen 17/104 2018-04-22: ok cached
+guaratuba/qwen 18/104 2018-04-29: ok cached
+guaratuba/qwen 19/104 2018-05-06: ok cached
+guaratuba/qwen 20/104 2018-05-13: ok cached
+guaratuba/qwen 21/104 2018-05-20: ok cached
+guaratuba/qwen 22/104 2018-05-27: ok cached
+guaratuba/qwen 23/104 2018-06-03: ok cached
+guaratuba/qwen 24/104 2018-06-10: ok cached
+guaratuba/qwen 25/104 2018-06-17: ok cached
+guaratuba/qwen 26/104 2018-06-24: ok cached
+guaratuba/qwen 27/104 2018-07-01: ok cached
+guaratuba/qwen 28/104 2018-07-08: ok cached
+guaratuba/qwen 29/104 2018-07-15: ok cached
+guaratuba/qwen 30/104 2018-07-22: ok cached
+guaratuba/qwen 31/104 2018-07-29: ok cached
+guaratuba/qwen 32/104 2018-08-05: ok cached
+guaratuba/qwen 33/104 2018-08-12: ok cached
+guaratuba/qwen 34/104 2018-08-19: ok cached
+guaratuba/qwen 35/104 2018-08-26: ok cached
+guaratuba/qwen 36/104 2018-09-02: ok cached
+guaratuba/qwen 37/104 2018-09-09: ok cached
+guaratuba/qwen 38/104 2018-09-16: ok cached
+guaratuba/qwen 39/104 2018-09-23: ok cached
+guaratuba/qwen 40/104 2018-09-30: ok cached
+guaratuba/qwen 41/104 2018-10-07: ok cached
+guaratuba/qwen 42/104 2018-10-14: ok cached
+guaratuba/qwen 43/104 2018-10-21: ok cached
+guaratuba/qwen 44/104 2018-10-28: ok cached
+guaratuba/qwen 45/104 2018-11-04: ok cached
+guaratuba/qwen 46/104 2018-11-11: ok cached
+guaratuba/qwen 47/104 2018-11-18: ok cached
+guaratuba/qwen 48/104 2018-11-25: ok cached
+guaratuba/qwen 49/104 2018-12-02: ok cached
+guaratuba/qwen 50/104 2018-12-09: ok cached
+guaratuba/qwen 51/104 2018-12-16: ok cached
+guaratuba/qwen 52/104 2018-12-23: ok cached
+guaratuba/qwen 53/104 2018-12-30: ok cached
+guaratuba/qwen 54/104 2019-01-06: ok cached
+guaratuba/qwen 55/104 2019-01-13: ok cached
+guaratuba/qwen 56/104 2019-01-20: ok cached
+guaratuba/qwen 57/104 2019-01-27: ok cached
+guaratuba/qwen 58/104 2019-02-03: ok cached
+guaratuba/qwen 59/104 2019-02-10: ok cached
+guaratuba/qwen 60/104 2019-02-17: ok cached
+guaratuba/qwen 61/104 2019-02-24: ok cached
+guaratuba/qwen 62/104 2019-03-03: ok cached
+guaratuba/qwen 63/104 2019-03-10: ok cached
+guaratuba/qwen 64/104 2019-03-17: ok cached
+guaratuba/qwen 65/104 2019-03-24: ok cached
+guaratuba/qwen 66/104 2019-03-31: ok cached
+guaratuba/qwen 67/104 2019-04-07: ok cached
+guaratuba/qwen 68/104 2019-04-14: ok cached
+guaratuba/qwen 69/104 2019-04-21: ok cached
+guaratuba/qwen 70/104 2019-04-28: ok cached
+guaratuba/qwen 71/104 2019-05-05: ok cached
+guaratuba/qwen 72/104 2019-05-12: ok cached
+guaratuba/qwen 73/104 2019-05-19: ok cached
+guaratuba/qwen 74/104 2019-05-26: ok cached
+guaratuba/qwen 75/104 2019-06-02: ok cached
+guaratuba/qwen 76/104 2019-06-09: ok cached
+guaratuba/qwen 77/104 2019-06-16: ok cached
+guaratuba/qwen 78/104 2019-06-23: ok cached
+guaratuba/qwen 79/104 2019-06-30: ok cached
+guaratuba/qwen 80/104 2019-07-07: ok cached
+guaratuba/qwen 81/104 2019-07-14: ok cached
+guaratuba/qwen 82/104 2019-07-21: ok cached
+guaratuba/qwen 83/104 2019-07-28: ok cached
+guaratuba/qwen 84/104 2019-08-04: ok cached
+guaratuba/qwen 85/104 2019-08-11: ok cached
+guaratuba/qwen 86/104 2019-08-18: ok cached
+guaratuba/qwen 87/104 2019-08-25: ok cached
+guaratuba/qwen 88/104 2019-09-01: ok cached
+guaratuba/qwen 89/104 2019-09-08: ok cached
+guaratuba/qwen 90/104 2019-09-15: ok cached
+guaratuba/qwen 91/104 2019-09-22: ok cached
+guaratuba/qwen 92/104 2019-09-29: ok cached
+guaratuba/qwen 93/104 2019-10-06: ok cached
+guaratuba/qwen 94/104 2019-10-13: ok cached
+guaratuba/qwen 95/104 2019-10-20: ok cached
+guaratuba/qwen 96/104 2019-10-27: ok cached
+guaratuba/qwen 97/104 2019-11-03: ok cached
+guaratuba/qwen 98/104 2019-11-10: ok cached
+guaratuba/qwen 99/104 2019-11-17: ok cached
+guaratuba/qwen 100/104 2019-11-24: ok cached
+guaratuba/qwen 101/104 2019-12-01: ok cached
+guaratuba/qwen 102/104 2019-12-08: ok cached
+guaratuba/qwen 103/104 2019-12-15: ok cached
+guaratuba/qwen 104/104 2019-12-22: ok cached
+joinville/qwen 1/54 2024-06-16: ok cached
+joinville/qwen 2/54 2024-06-23: ok cached
+joinville/qwen 3/54 2024-06-30: ok cached
+joinville/qwen 4/54 2024-07-07: ok cached
+joinville/qwen 5/54 2024-07-14: ok cached
+joinville/qwen 6/54 2024-07-21: ok cached
+joinville/qwen 7/54 2024-07-28: ok cached
+joinville/qwen 8/54 2024-08-04: ok cached
+joinville/qwen 9/54 2024-08-11: ok cached
+joinville/qwen 10/54 2024-08-18: ok cached
+joinville/qwen 11/54 2024-08-25: ok cached
+joinville/qwen 12/54 2024-09-01: ok cached
+joinville/qwen 13/54 2024-09-08: ok cached
+joinville/qwen 14/54 2024-09-15: ok cached
+joinville/qwen 15/54 2024-09-22: ok cached
+joinville/qwen 16/54 2024-09-29: ok cached
+joinville/qwen 17/54 2024-10-06: ok cached
+joinville/qwen 18/54 2024-10-13: ok cached
+joinville/qwen 19/54 2024-10-20: ok cached
+joinville/qwen 20/54 2024-10-27: ok cached
+joinville/qwen 21/54 2024-11-03: ok cached
+joinville/qwen 22/54 2024-11-10: ok cached
+joinville/qwen 23/54 2024-11-17: ok cached
+joinville/qwen 24/54 2024-11-24: ok cached
+joinville/qwen 25/54 2024-12-01: ok cached
+joinville/qwen 26/54 2024-12-08: ok cached
+joinville/qwen 27/54 2024-12-15: ok cached
+joinville/qwen 28/54 2024-12-22: ok cached
+joinville/qwen 29/54 2024-12-29: ok cached
+joinville/qwen 30/54 2025-01-05: ok cached
+joinville/qwen 31/54 2025-01-12: ok cached
+joinville/qwen 32/54 2025-01-19: ok cached
+joinville/qwen 33/54 2025-01-26: ok cached
+joinville/qwen 34/54 2025-02-02: ok cached
+joinville/qwen 35/54 2025-02-09: ok cached
+joinville/qwen 36/54 2025-02-16: ok cached
+joinville/qwen 37/54 2025-02-23: ok cached
+joinville/qwen 38/54 2025-03-02: ok cached
+joinville/qwen 39/54 2025-03-09: ok cached
+joinville/qwen 40/54 2025-03-16: ok cached
+joinville/qwen 41/54 2025-03-23: ok cached
+joinville/qwen 42/54 2025-03-30: ok cached
+joinville/qwen 43/54 2025-04-06: ok cached
+joinville/qwen 44/54 2025-04-13: ok cached
+joinville/qwen 45/54 2025-04-20: ok cached
+joinville/qwen 46/54 2025-04-27: ok cached
+joinville/qwen 47/54 2025-05-04: ok cached
+joinville/qwen 48/54 2025-05-11: ok cached
+joinville/qwen 49/54 2025-05-18: ok cached
+joinville/qwen 50/54 2025-05-25: ok cached
+joinville/qwen 51/54 2025-06-01: ok cached
+joinville/qwen 52/54 2025-06-08: ok cached
+joinville/qwen 53/54 2025-06-15: ok cached
+joinville/qwen 54/54 2025-06-22: ok cached
+guaratuba/qwen 1/104 2017-12-31: ok cached
+guaratuba/qwen 2/104 2018-01-07: ok cached
+guaratuba/qwen 3/104 2018-01-14: ok cached
+guaratuba/qwen 4/104 2018-01-21: ok cached
+guaratuba/qwen 5/104 2018-01-28: ok cached
+guaratuba/qwen 6/104 2018-02-04: ok cached
+guaratuba/qwen 7/104 2018-02-11: ok cached
+guaratuba/qwen 8/104 2018-02-18: ok cached
+guaratuba/qwen 9/104 2018-02-25: ok cached
+guaratuba/qwen 10/104 2018-03-04: ok cached
+guaratuba/qwen 11/104 2018-03-11: ok cached
+guaratuba/qwen 12/104 2018-03-18: ok cached
+guaratuba/qwen 13/104 2018-03-25: ok cached
+guaratuba/qwen 14/104 2018-04-01: ok cached
+guaratuba/qwen 15/104 2018-04-08: ok cached
+guaratuba/qwen 16/104 2018-04-15: ok cached
+guaratuba/qwen 17/104 2018-04-22: ok cached
+guaratuba/qwen 18/104 2018-04-29: ok cached
+guaratuba/qwen 19/104 2018-05-06: ok cached
+guaratuba/qwen 20/104 2018-05-13: ok cached
+guaratuba/qwen 21/104 2018-05-20: ok cached
+guaratuba/qwen 22/104 2018-05-27: ok cached
+guaratuba/qwen 23/104 2018-06-03: ok cached
+guaratuba/qwen 24/104 2018-06-10: ok cached
+guaratuba/qwen 25/104 2018-06-17: ok cached
+guaratuba/qwen 26/104 2018-06-24: ok cached
+guaratuba/qwen 27/104 2018-07-01: ok cached
+guaratuba/qwen 28/104 2018-07-08: ok cached
+guaratuba/qwen 29/104 2018-07-15: ok cached
+guaratuba/qwen 30/104 2018-07-22: ok cached
+guaratuba/qwen 31/104 2018-07-29: ok cached
+guaratuba/qwen 32/104 2018-08-05: ok cached
+guaratuba/qwen 33/104 2018-08-12: ok cached
+guaratuba/qwen 34/104 2018-08-19: ok cached
+guaratuba/qwen 35/104 2018-08-26: ok cached
+guaratuba/qwen 36/104 2018-09-02: ok cached
+guaratuba/qwen 37/104 2018-09-09: ok cached
+guaratuba/qwen 38/104 2018-09-16: ok cached
+guaratuba/qwen 39/104 2018-09-23: ok cached
+guaratuba/qwen 40/104 2018-09-30: ok cached
+guaratuba/qwen 41/104 2018-10-07: ok cached
+guaratuba/qwen 42/104 2018-10-14: ok cached
+guaratuba/qwen 43/104 2018-10-21: ok cached
+guaratuba/qwen 44/104 2018-10-28: ok cached
+guaratuba/qwen 45/104 2018-11-04: ok cached
+guaratuba/qwen 46/104 2018-11-11: ok cached
+guaratuba/qwen 47/104 2018-11-18: ok cached
+guaratuba/qwen 48/104 2018-11-25: ok cached
+guaratuba/qwen 49/104 2018-12-02: ok cached
+guaratuba/qwen 50/104 2018-12-09: ok cached
+guaratuba/qwen 51/104 2018-12-16: ok cached
+guaratuba/qwen 52/104 2018-12-23: ok cached
+guaratuba/qwen 53/104 2018-12-30: ok cached
+guaratuba/qwen 54/104 2019-01-06: ok cached
+guaratuba/qwen 55/104 2019-01-13: ok cached
+guaratuba/qwen 56/104 2019-01-20: ok cached
+guaratuba/qwen 57/104 2019-01-27: ok cached
+guaratuba/qwen 58/104 2019-02-03: ok cached
+guaratuba/qwen 59/104 2019-02-10: ok cached
+guaratuba/qwen 60/104 2019-02-17: ok cached
+guaratuba/qwen 61/104 2019-02-24: ok cached
+guaratuba/qwen 62/104 2019-03-03: ok cached
+guaratuba/qwen 63/104 2019-03-10: ok cached
+guaratuba/qwen 64/104 2019-03-17: ok cached
+guaratuba/qwen 65/104 2019-03-24: ok cached
+guaratuba/qwen 66/104 2019-03-31: ok cached
+guaratuba/qwen 67/104 2019-04-07: ok cached
+guaratuba/qwen 68/104 2019-04-14: ok cached
+guaratuba/qwen 69/104 2019-04-21: ok cached
+guaratuba/qwen 70/104 2019-04-28: ok cached
+guaratuba/qwen 71/104 2019-05-05: ok cached
+guaratuba/qwen 72/104 2019-05-12: ok cached
+guaratuba/qwen 73/104 2019-05-19: ok cached
+guaratuba/qwen 74/104 2019-05-26: ok cached
+guaratuba/qwen 75/104 2019-06-02: ok cached
+guaratuba/qwen 76/104 2019-06-09: ok cached
+guaratuba/qwen 77/104 2019-06-16: ok cached
+guaratuba/qwen 78/104 2019-06-23: ok cached
+guaratuba/qwen 79/104 2019-06-30: ok cached
+guaratuba/qwen 80/104 2019-07-07: ok cached
+guaratuba/qwen 81/104 2019-07-14: ok cached
+guaratuba/qwen 82/104 2019-07-21: ok cached
+guaratuba/qwen 83/104 2019-07-28: ok cached
+guaratuba/qwen 84/104 2019-08-04: ok cached
+guaratuba/qwen 85/104 2019-08-11: ok
+guaratuba/qwen 86/104 2019-08-18: ok
+guaratuba/qwen 87/104 2019-08-25: ok
+guaratuba/qwen 88/104 2019-09-01: ok
+guaratuba/qwen 89/104 2019-09-08: ok
+guaratuba/qwen 90/104 2019-09-15: ok
+guaratuba/qwen 91/104 2019-09-22: ok
+guaratuba/qwen 92/104 2019-09-29: ok
+guaratuba/qwen 93/104 2019-10-06: ok
+guaratuba/qwen 94/104 2019-10-13: ok
+guaratuba/qwen 95/104 2019-10-20: ok
+guaratuba/qwen 96/104 2019-10-27: ok
+guaratuba/qwen 97/104 2019-11-03: ok
+guaratuba/qwen 98/104 2019-11-10: ok
+guaratuba/qwen 99/104 2019-11-17: ok
+guaratuba/qwen 100/104 2019-11-24: ok
+guaratuba/qwen 101/104 2019-12-01: ok
+guaratuba/qwen 102/104 2019-12-08: ok
+guaratuba/qwen 103/104 2019-12-15: ok
+guaratuba/qwen 104/104 2019-12-22: ok
+  dataset      model  context          rmse          r2
+joinville Qwen3 1.7B        7 184015.725643 -159.037258
+joinville Qwen3 1.7B       15  96098.285894  -42.645805
+joinville   Qwen3 4B        7  16216.672804   -0.242896
+joinville   Qwen3 4B       15  15930.501187   -0.199417
+guaratuba Qwen3 1.7B        7  34316.717102  -94.395425
+guaratuba Qwen3 1.7B       15  14031.684017  -14.949081
+guaratuba   Qwen3 4B        7   2347.523564    0.553588
+guaratuba   Qwen3 4B       15   2551.273769    0.472733

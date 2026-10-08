@@ -1,0 +1,66 @@
+[
+  {
+    "model": "1_7b",
+    "context": 7,
+    "dataset": "joinville",
+    "windows": 54,
+    "source": "data/processed/calendar_text/joinville_processed_1day_calendar_text.csv",
+    "maximum_byte_budget": 7389
+  },
+  {
+    "model": "1_7b",
+    "context": 7,
+    "dataset": "guaratuba",
+    "windows": 104,
+    "source": "data/processed/calendar_text/guaratuba_processed_1daysin_calendar_text.csv",
+    "maximum_byte_budget": 10469
+  },
+  {
+    "model": "1_7b",
+    "context": 15,
+    "dataset": "joinville",
+    "windows": 54,
+    "source": "data/processed/calendar_text/joinville_processed_1day_calendar_text.csv",
+    "maximum_byte_budget": 8432
+  },
+  {
+    "model": "1_7b",
+    "context": 15,
+    "dataset": "guaratuba",
+    "windows": 104,
+    "source": "data/processed/calendar_text/guaratuba_processed_1daysin_calendar_text.csv",
+    "maximum_byte_budget": 12379
+  },
+  {
+    "model": "4b",
+    "context": 7,
+    "dataset": "joinville",
+    "windows": 54,
+    "source": "data/processed/calendar_text/joinville_processed_1day_calendar_text.csv",
+    "maximum_byte_budget": 7389
+  },
+  {
+    "model": "4b",
+    "context": 7,
+    "dataset": "guaratuba",
+    "windows": 104,
+    "source": "data/processed/calendar_text/guaratuba_processed_1daysin_calendar_text.csv",
+    "maximum_byte_budget": 10469
+  },
+  {
+    "model": "4b",
+    "context": 15,
+    "dataset": "joinville",
+    "windows": 54,
+    "source": "data/processed/calendar_text/joinville_processed_1day_calendar_text.csv",
+    "maximum_byte_budget": 8432
+  },
+  {
+    "model": "4b",
+    "context": 15,
+    "dataset": "guaratuba",
+    "windows": 104,
+    "source": "data/processed/calendar_text/guaratuba_processed_1daysin_calendar_text.csv",
+    "maximum_byte_budget": 12379
+  }
+]

@@ -4,7 +4,8 @@ import unittest
 from unittest.mock import patch
 import numpy as np
 import pandas as pd
-from src.data.preprocessing.generate_prompts import build_prompt, select_demonstrations
+from src.data.preprocessing.generate_prompts import LABELS, build_prompt, select_demonstrations
+from src.data.preprocessing.calendar_text import calendar_to_text
 from src.data.preprocessing.missing_values import fill_past_only
 from src.data.preprocessing.resampling import daily_grid
 from src.data.validation.schema import validate_series
@@ -36,7 +37,7 @@ class ForecastTests(unittest.TestCase):
         df.loc[20:, 'water_produced'] = 987654321
         self.assertEqual(before,build_prompt(df.iloc[:20],7))
         self.assertNotIn('987654321',before)
-        self.assertIn('2020-01-21',before)
+        self.assertIn('two thousand and twenty, day twenty-one of January',before)
 
     def test_demonstrations_remain_before_frozen_test(self):
         for strategy in ['few_random','few_similar']:
@@ -79,7 +80,8 @@ class ForecastTests(unittest.TestCase):
                 self.assertEqual(len(short), 15)
                 pd.testing.assert_frame_equal(future, same_future)
                 prompt = build_prompt(short, 7, future_covariates=future)
-                self.assertTrue(all(c in prompt for c in columns))
+                self.assertTrue(all(LABELS.get(c, c.replace("_", " ")) in prompt
+                                    for c in calendar_to_text(short).columns if c != "timestamp"))
                 poisoned = df.copy()
                 poisoned.loc[window.origin:, 'water_produced'] = 987654321
                 other_history, other_future = model_inputs(poisoned, window, dataset, history_days=15)

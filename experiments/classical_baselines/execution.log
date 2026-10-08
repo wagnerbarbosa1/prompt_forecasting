@@ -1,0 +1,269 @@
+joinville/linear_regression fold 1/12 2024-07-06: ok
+joinville/linear_regression fold 2/12 2024-08-05: ok
+joinville/linear_regression fold 3/12 2024-09-04: ok
+joinville/linear_regression fold 4/12 2024-10-04: ok
+joinville/linear_regression fold 5/12 2024-11-03: ok
+joinville/linear_regression fold 6/12 2024-12-03: ok
+joinville/linear_regression fold 7/12 2025-01-02: ok
+joinville/linear_regression fold 8/12 2025-02-01: ok
+joinville/linear_regression fold 9/12 2025-03-03: ok
+joinville/linear_regression fold 10/12 2025-04-02: ok
+joinville/linear_regression fold 11/12 2025-05-02: ok
+joinville/linear_regression fold 12/12 2025-06-01: ok
+joinville/knn fold 1/12 2024-07-06: ok
+joinville/knn fold 2/12 2024-08-05: ok
+joinville/knn fold 3/12 2024-09-04: ok
+joinville/knn fold 4/12 2024-10-04: ok
+joinville/knn fold 5/12 2024-11-03: ok
+joinville/knn fold 6/12 2024-12-03: ok
+joinville/knn fold 7/12 2025-01-02: ok
+joinville/knn fold 8/12 2025-02-01: ok
+joinville/knn fold 9/12 2025-03-03: ok
+joinville/knn fold 10/12 2025-04-02: ok
+joinville/knn fold 11/12 2025-05-02: ok
+joinville/knn fold 12/12 2025-06-01: ok
+/home/wagner-barbosa/miniconda3/envs/baseline/lib/python3.11/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/home/wagner-barbosa/miniconda3/envs/baseline/lib/python3.11/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+joinville/arima fold 1/12 2024-07-06: ok
+/home/wagner-barbosa/miniconda3/envs/baseline/lib/python3.11/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+joinville/arima fold 2/12 2024-08-05: ok
+/home/wagner-barbosa/miniconda3/envs/baseline/lib/python3.11/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+joinville/arima fold 3/12 2024-09-04: ok
+/home/wagner-barbosa/miniconda3/envs/baseline/lib/python3.11/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+joinville/arima fold 4/12 2024-10-04: ok
+/home/wagner-barbosa/miniconda3/envs/baseline/lib/python3.11/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+joinville/arima fold 5/12 2024-11-03: ok
+/home/wagner-barbosa/miniconda3/envs/baseline/lib/python3.11/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+joinville/arima fold 6/12 2024-12-03: ok
+/home/wagner-barbosa/miniconda3/envs/baseline/lib/python3.11/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/home/wagner-barbosa/miniconda3/envs/baseline/lib/python3.11/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+joinville/arima fold 7/12 2025-01-02: ok
+/home/wagner-barbosa/miniconda3/envs/baseline/lib/python3.11/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/home/wagner-barbosa/miniconda3/envs/baseline/lib/python3.11/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+joinville/arima fold 8/12 2025-02-01: ok
+/home/wagner-barbosa/miniconda3/envs/baseline/lib/python3.11/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/home/wagner-barbosa/miniconda3/envs/baseline/lib/python3.11/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+joinville/arima fold 9/12 2025-03-03: ok
+/home/wagner-barbosa/miniconda3/envs/baseline/lib/python3.11/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/home/wagner-barbosa/miniconda3/envs/baseline/lib/python3.11/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+joinville/arima fold 10/12 2025-04-02: ok
+/home/wagner-barbosa/miniconda3/envs/baseline/lib/python3.11/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/home/wagner-barbosa/miniconda3/envs/baseline/lib/python3.11/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+joinville/arima fold 11/12 2025-05-02: ok
+/home/wagner-barbosa/miniconda3/envs/baseline/lib/python3.11/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/home/wagner-barbosa/miniconda3/envs/baseline/lib/python3.11/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+joinville/arima fold 12/12 2025-06-01: ok
+guaratuba/linear_regression fold 1/35 2017-01-20: ok
+guaratuba/linear_regression fold 2/35 2017-02-19: ok
+guaratuba/linear_regression fold 3/35 2017-03-21: ok
+guaratuba/linear_regression fold 4/35 2017-04-20: ok
+guaratuba/linear_regression fold 5/35 2017-05-20: ok
+guaratuba/linear_regression fold 6/35 2017-06-19: ok
+guaratuba/linear_regression fold 7/35 2017-07-19: ok
+guaratuba/linear_regression fold 8/35 2017-08-18: ok
+guaratuba/linear_regression fold 9/35 2017-09-17: ok
+guaratuba/linear_regression fold 10/35 2017-10-17: ok
+guaratuba/linear_regression fold 11/35 2017-11-16: ok
+guaratuba/linear_regression fold 12/35 2017-12-16: ok
+guaratuba/linear_regression fold 13/35 2018-01-15: ok
+guaratuba/linear_regression fold 14/35 2018-02-14: ok
+guaratuba/linear_regression fold 15/35 2018-03-16: ok
+guaratuba/linear_regression fold 16/35 2018-04-15: ok
+guaratuba/linear_regression fold 17/35 2018-05-15: ok
+guaratuba/linear_regression fold 18/35 2018-06-14: ok
+guaratuba/linear_regression fold 19/35 2018-07-14: ok
+guaratuba/linear_regression fold 20/35 2018-08-13: ok
+guaratuba/linear_regression fold 21/35 2018-09-12: ok
+guaratuba/linear_regression fold 22/35 2018-10-12: ok
+guaratuba/linear_regression fold 23/35 2018-11-11: ok
+guaratuba/linear_regression fold 24/35 2018-12-11: ok
+guaratuba/linear_regression fold 25/35 2019-01-10: ok
+guaratuba/linear_regression fold 26/35 2019-02-09: ok
+guaratuba/linear_regression fold 27/35 2019-03-11: ok
+guaratuba/linear_regression fold 28/35 2019-04-10: ok
+guaratuba/linear_regression fold 29/35 2019-05-10: ok
+guaratuba/linear_regression fold 30/35 2019-06-09: ok
+guaratuba/linear_regression fold 31/35 2019-07-09: ok
+guaratuba/linear_regression fold 32/35 2019-08-08: ok
+guaratuba/linear_regression fold 33/35 2019-09-07: ok
+guaratuba/linear_regression fold 34/35 2019-10-07: ok
+guaratuba/linear_regression fold 35/35 2019-11-06: ok
+guaratuba/knn fold 1/35 2017-01-20: ok
+guaratuba/knn fold 2/35 2017-02-19: ok
+guaratuba/knn fold 3/35 2017-03-21: ok
+guaratuba/knn fold 4/35 2017-04-20: ok
+guaratuba/knn fold 5/35 2017-05-20: ok
+guaratuba/knn fold 6/35 2017-06-19: ok
+guaratuba/knn fold 7/35 2017-07-19: ok
+guaratuba/knn fold 8/35 2017-08-18: ok
+guaratuba/knn fold 9/35 2017-09-17: ok
+guaratuba/knn fold 10/35 2017-10-17: ok
+guaratuba/knn fold 11/35 2017-11-16: ok
+guaratuba/knn fold 12/35 2017-12-16: ok
+guaratuba/knn fold 13/35 2018-01-15: ok
+guaratuba/knn fold 14/35 2018-02-14: ok
+guaratuba/knn fold 15/35 2018-03-16: ok
+guaratuba/knn fold 16/35 2018-04-15: ok
+guaratuba/knn fold 17/35 2018-05-15: ok
+guaratuba/knn fold 18/35 2018-06-14: ok
+guaratuba/knn fold 19/35 2018-07-14: ok
+guaratuba/knn fold 20/35 2018-08-13: ok
+guaratuba/knn fold 21/35 2018-09-12: ok
+guaratuba/knn fold 22/35 2018-10-12: ok
+guaratuba/knn fold 23/35 2018-11-11: ok
+guaratuba/knn fold 24/35 2018-12-11: ok
+guaratuba/knn fold 25/35 2019-01-10: ok
+guaratuba/knn fold 26/35 2019-02-09: ok
+guaratuba/knn fold 27/35 2019-03-11: ok
+guaratuba/knn fold 28/35 2019-04-10: ok
+guaratuba/knn fold 29/35 2019-05-10: ok
+guaratuba/knn fold 30/35 2019-06-09: ok
+guaratuba/knn fold 31/35 2019-07-09: ok
+guaratuba/knn fold 32/35 2019-08-08: ok
+guaratuba/knn fold 33/35 2019-09-07: ok
+guaratuba/knn fold 34/35 2019-10-07: ok
+guaratuba/knn fold 35/35 2019-11-06: ok
+/home/wagner-barbosa/miniconda3/envs/baseline/lib/python3.11/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+guaratuba/arima fold 1/35 2017-01-20: ok
+/home/wagner-barbosa/miniconda3/envs/baseline/lib/python3.11/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+guaratuba/arima fold 2/35 2017-02-19: ok
+/home/wagner-barbosa/miniconda3/envs/baseline/lib/python3.11/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+guaratuba/arima fold 3/35 2017-03-21: ok
+guaratuba/arima fold 4/35 2017-04-20: ok
+guaratuba/arima fold 5/35 2017-05-20: ok
+/home/wagner-barbosa/miniconda3/envs/baseline/lib/python3.11/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+guaratuba/arima fold 6/35 2017-06-19: ok
+/home/wagner-barbosa/miniconda3/envs/baseline/lib/python3.11/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/home/wagner-barbosa/miniconda3/envs/baseline/lib/python3.11/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+guaratuba/arima fold 7/35 2017-07-19: ok
+/home/wagner-barbosa/miniconda3/envs/baseline/lib/python3.11/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+guaratuba/arima fold 8/35 2017-08-18: ok
+/home/wagner-barbosa/miniconda3/envs/baseline/lib/python3.11/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/home/wagner-barbosa/miniconda3/envs/baseline/lib/python3.11/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+guaratuba/arima fold 9/35 2017-09-17: ok
+/home/wagner-barbosa/miniconda3/envs/baseline/lib/python3.11/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/home/wagner-barbosa/miniconda3/envs/baseline/lib/python3.11/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+guaratuba/arima fold 10/35 2017-10-17: ok
+/home/wagner-barbosa/miniconda3/envs/baseline/lib/python3.11/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/home/wagner-barbosa/miniconda3/envs/baseline/lib/python3.11/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+guaratuba/arima fold 11/35 2017-11-16: ok
+/home/wagner-barbosa/miniconda3/envs/baseline/lib/python3.11/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/home/wagner-barbosa/miniconda3/envs/baseline/lib/python3.11/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+guaratuba/arima fold 12/35 2017-12-16: ok
+/home/wagner-barbosa/miniconda3/envs/baseline/lib/python3.11/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/home/wagner-barbosa/miniconda3/envs/baseline/lib/python3.11/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+guaratuba/arima fold 13/35 2018-01-15: ok
+/home/wagner-barbosa/miniconda3/envs/baseline/lib/python3.11/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/home/wagner-barbosa/miniconda3/envs/baseline/lib/python3.11/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+guaratuba/arima fold 14/35 2018-02-14: ok
+/home/wagner-barbosa/miniconda3/envs/baseline/lib/python3.11/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/home/wagner-barbosa/miniconda3/envs/baseline/lib/python3.11/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+guaratuba/arima fold 15/35 2018-03-16: ok
+/home/wagner-barbosa/miniconda3/envs/baseline/lib/python3.11/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+guaratuba/arima fold 16/35 2018-04-15: ok
+/home/wagner-barbosa/miniconda3/envs/baseline/lib/python3.11/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+guaratuba/arima fold 17/35 2018-05-15: ok
+/home/wagner-barbosa/miniconda3/envs/baseline/lib/python3.11/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+guaratuba/arima fold 18/35 2018-06-14: ok
+/home/wagner-barbosa/miniconda3/envs/baseline/lib/python3.11/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+guaratuba/arima fold 19/35 2018-07-14: ok
+/home/wagner-barbosa/miniconda3/envs/baseline/lib/python3.11/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+guaratuba/arima fold 20/35 2018-08-13: ok
+/home/wagner-barbosa/miniconda3/envs/baseline/lib/python3.11/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+guaratuba/arima fold 21/35 2018-09-12: ok
+/home/wagner-barbosa/miniconda3/envs/baseline/lib/python3.11/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+guaratuba/arima fold 22/35 2018-10-12: ok
+/home/wagner-barbosa/miniconda3/envs/baseline/lib/python3.11/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+guaratuba/arima fold 23/35 2018-11-11: ok
+/home/wagner-barbosa/miniconda3/envs/baseline/lib/python3.11/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+guaratuba/arima fold 24/35 2018-12-11: ok
+/home/wagner-barbosa/miniconda3/envs/baseline/lib/python3.11/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+guaratuba/arima fold 25/35 2019-01-10: ok
+/home/wagner-barbosa/miniconda3/envs/baseline/lib/python3.11/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/home/wagner-barbosa/miniconda3/envs/baseline/lib/python3.11/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+guaratuba/arima fold 26/35 2019-02-09: ok
+/home/wagner-barbosa/miniconda3/envs/baseline/lib/python3.11/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/home/wagner-barbosa/miniconda3/envs/baseline/lib/python3.11/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+guaratuba/arima fold 27/35 2019-03-11: ok
+/home/wagner-barbosa/miniconda3/envs/baseline/lib/python3.11/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+guaratuba/arima fold 28/35 2019-04-10: ok
+/home/wagner-barbosa/miniconda3/envs/baseline/lib/python3.11/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+guaratuba/arima fold 29/35 2019-05-10: ok
+/home/wagner-barbosa/miniconda3/envs/baseline/lib/python3.11/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+guaratuba/arima fold 30/35 2019-06-09: ok
+/home/wagner-barbosa/miniconda3/envs/baseline/lib/python3.11/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+guaratuba/arima fold 31/35 2019-07-09: ok
+/home/wagner-barbosa/miniconda3/envs/baseline/lib/python3.11/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/home/wagner-barbosa/miniconda3/envs/baseline/lib/python3.11/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+guaratuba/arima fold 32/35 2019-08-08: ok
+/home/wagner-barbosa/miniconda3/envs/baseline/lib/python3.11/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+guaratuba/arima fold 33/35 2019-09-07: ok
+/home/wagner-barbosa/miniconda3/envs/baseline/lib/python3.11/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/home/wagner-barbosa/miniconda3/envs/baseline/lib/python3.11/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+guaratuba/arima fold 34/35 2019-10-07: ok
+/home/wagner-barbosa/miniconda3/envs/baseline/lib/python3.11/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+guaratuba/arima fold 35/35 2019-11-06: ok

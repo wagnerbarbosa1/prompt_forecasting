@@ -1,0 +1,179 @@
+{
+  "datasets": {
+    "joinville": {
+      "path": "data/processed/joinville_processed_1day.csv"
+    },
+    "guaratuba": {
+      "path": "data/processed/guaratuba_processed_1daysin.csv"
+    }
+  },
+  "initial_training": 355,
+  "validation_days": 30,
+  "test_days": 30,
+  "step_days": 30,
+  "refit_train_validation": true,
+  "inputs": "univariate historical water_produced; no future weather",
+  "candidates": {
+    "linear_regression": [
+      {
+        "lags": 7
+      },
+      {
+        "lags": 15
+      },
+      {
+        "lags": 30
+      }
+    ],
+    "knn": [
+      {
+        "lags": 7,
+        "neighbors": 3,
+        "weights": "uniform"
+      },
+      {
+        "lags": 7,
+        "neighbors": 3,
+        "weights": "distance"
+      },
+      {
+        "lags": 7,
+        "neighbors": 5,
+        "weights": "uniform"
+      },
+      {
+        "lags": 7,
+        "neighbors": 5,
+        "weights": "distance"
+      },
+      {
+        "lags": 7,
+        "neighbors": 10,
+        "weights": "uniform"
+      },
+      {
+        "lags": 7,
+        "neighbors": 10,
+        "weights": "distance"
+      },
+      {
+        "lags": 15,
+        "neighbors": 3,
+        "weights": "uniform"
+      },
+      {
+        "lags": 15,
+        "neighbors": 3,
+        "weights": "distance"
+      },
+      {
+        "lags": 15,
+        "neighbors": 5,
+        "weights": "uniform"
+      },
+      {
+        "lags": 15,
+        "neighbors": 5,
+        "weights": "distance"
+      },
+      {
+        "lags": 15,
+        "neighbors": 10,
+        "weights": "uniform"
+      },
+      {
+        "lags": 15,
+        "neighbors": 10,
+        "weights": "distance"
+      },
+      {
+        "lags": 30,
+        "neighbors": 3,
+        "weights": "uniform"
+      },
+      {
+        "lags": 30,
+        "neighbors": 3,
+        "weights": "distance"
+      },
+      {
+        "lags": 30,
+        "neighbors": 5,
+        "weights": "uniform"
+      },
+      {
+        "lags": 30,
+        "neighbors": 5,
+        "weights": "distance"
+      },
+      {
+        "lags": 30,
+        "neighbors": 10,
+        "weights": "uniform"
+      },
+      {
+        "lags": 30,
+        "neighbors": 10,
+        "weights": "distance"
+      }
+    ],
+    "arima": [
+      {
+        "order": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "order": [
+          2,
+          0,
+          0
+        ]
+      },
+      {
+        "order": [
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "order": [
+          2,
+          0,
+          1
+        ]
+      },
+      {
+        "order": [
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "order": [
+          2,
+          1,
+          0
+        ]
+      },
+      {
+        "order": [
+          0,
+          1,
+          1
+        ]
+      },
+      {
+        "order": [
+          1,
+          1,
+          1
+        ]
+      }
+    ]
+  }
+}

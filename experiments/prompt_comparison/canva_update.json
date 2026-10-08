@@ -1,0 +1,40 @@
+{
+  "design_id": "DAHVuKKQK2c",
+  "edit_url": "https://www.canva.com/d/2FKg2JBi32QVlbe",
+  "page_count": 29,
+  "table_pages": [
+    22,
+    27,
+    28
+  ],
+  "graph_pages": [
+    20,
+    21,
+    23,
+    24,
+    25,
+    26
+  ],
+  "original_text_preserved": true,
+  "metrics_verified": true,
+  "comparison_assets": {
+    "joinville_1_7b_comparison": "MAHXadzZrnw",
+    "joinville_4b_comparison": "MAHXaZa9Sd8",
+    "guaratuba_1_7b_comparison": "MAHXaY5nj_Q",
+    "guaratuba_4b_comparison": "MAHXaf_p7qo",
+    "joinville_baselines": "MAHXaaFKYFQ",
+    "guaratuba_baselines": "MAHXaSKGbyQ"
+  },
+  "table_locations": {
+    "baselines": 22,
+    "guaratuba_qwen": 27,
+    "joinville_qwen": 28
+  },
+  "verified_metrics": [
+    "MAE",
+    "RMSE",
+    "R2",
+    "MAPE",
+    "sMAPE"
+  ]
+}

@@ -73,4 +73,14 @@ Para "joinville_processed_1day" 7 dias de horizonte, 7 dias de passo, 365 dias d
 Para "guaratuba_processed_1daysin" 7 dias de horizonte, 7 dias de passo, com 730 dias de contexto, caso necessário validação será sempre na proporção de 20% da janela de treinamento treinamento.
 Para o promptcast será necessário avalia-lo nos mesmos dias que os outros modelos, os modelos do ollama deverão ser executados com contexto de 7 dias e 15 dias.
 Todo teste deverá retornar um csv de previsões de cada modelo e outro csv de comparações simples, com apenas o modelo, contexto inicial, e as métricas RMSE, R2, MAE, MAPE.
-Toda e qualquer modificação, deve vir seguida de atualização no pdf guia_qwen_forecast, explicando linha por linha o código, suas relações com o projeto e por qual motivo houve a alteração.
+
+#### Eficiencia de tokens
+Do not reproduce entire files or large unchanged code blocks in your responses.
+When modifying files, apply the changes directly and report only:
+- files changed
+- concise summary of changes
+- relevant diffs or small excerpts when necessary
+Avoid echoing large portions of source files, datasets, prompts, logs, or configuration files.
+When inspecting datasets or generated prompts, do not print large samples or full datasets.
+Use only the minimum number of rows necessary for validation.
+Do not reproduce large generated prompt corpora in the final response.
