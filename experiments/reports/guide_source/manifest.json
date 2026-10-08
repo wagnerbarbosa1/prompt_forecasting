@@ -86,8 +86,8 @@
   },
   {
     "file": "src/evaluation/cross_validation.py",
-    "lines": 37,
-    "sha256": "c747d9daa646f470f57268f2cb3fae90aea4f1001c40b2f414b096b3313031f3"
+    "lines": 76,
+    "sha256": "87e7ae6d7cd50ff53e224a7385bfbc567d503c2b2cb2f53f5624c84cc31f2b1e"
   },
   {
     "file": "src/data/features/temporal.py",
@@ -178,5 +178,40 @@
     "file": "tests/test_text_dataset_input.py",
     "lines": 38,
     "sha256": "227240a66a7ee45875cedbf2797e8b2087e50ad4d8b8c88bbe848fe41fd58ed5"
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "lines": 179,
+    "sha256": "4dbeb6d02cdc3f61c41d5f381b44e068860fa5578498da8dbcc5b951f0ec2557"
+  },
+  {
+    "file": "src/data/features/autoregressive.py",
+    "lines": 25,
+    "sha256": "adb2b0e234b2614da64e7c7f84d9e62cf944dca61f466d7f3d9813ae0e73a8ea"
+  },
+  {
+    "file": "src/models/classical.py",
+    "lines": 61,
+    "sha256": "20b137bb97dea2f6649093127e1694ec9d8cdc9df9eb28ec157c13bc8bb16bd4"
+  },
+  {
+    "file": "src/training/classical.py",
+    "lines": 32,
+    "sha256": "fd49843a03486f3cb80c8e39428b2db29174b4a23c5a84d81b7fee41bf7d40b2"
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "lines": 106,
+    "sha256": "74f8b5235266f30a8b94c50ce90c32c8f9b34eeea2012e4f296c041cb4b982ee"
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "lines": 96,
+    "sha256": "733048922276619623e0d5a8d8a7c5200732befb978f48bdccb5045de1c2c0aa"
+  },
+  {
+    "file": "tests/test_classical_baselines.py",
+    "lines": 53,
+    "sha256": "e095a31e8dd9306d2fdbe67d0984be57157c68336af1d18a0beb8315102d69ed"
   }
 ]

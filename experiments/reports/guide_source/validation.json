@@ -1,8 +1,17 @@
 {
-  "files": 36,
-  "lines": 1975,
+  "files": 43,
+  "lines": 2566,
   "all_source_hashes_match": true,
   "all_lines_documented": true,
   "unresolved_calls": 0,
-  "pages": 229
+  "pages": 289,
+  "root_pdf_identical": true,
+  "new_sections_present": {
+    "Baselines clássicos: seleção": true,
+    "4230": true,
+    "522,33": true,
+    "select_and_forecast": true,
+    "StandardScaler": true,
+    "Comparação entre prompt numérico": true
+  }
 }

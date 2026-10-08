@@ -5424,6 +5424,240 @@
     "explained": true
   },
   {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 38,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 39,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 40,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 41,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 42,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 43,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 44,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 45,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 46,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 47,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 48,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 49,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 50,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 51,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 52,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 53,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 54,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 55,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 56,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 57,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 58,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 59,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 60,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 61,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 62,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 63,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 64,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 65,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 66,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 67,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 68,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 69,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 70,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 71,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 72,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 73,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 74,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 75,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/evaluation/cross_validation.py",
+    "line": 76,
+    "kind": "code",
+    "explained": true
+  },
+  {
     "file": "src/data/features/temporal.py",
     "line": 1,
     "kind": "code",
@@ -11846,6 +12080,3318 @@
   {
     "file": "tests/test_text_dataset_input.py",
     "line": 38,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 1,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 2,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 3,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 4,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 5,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 6,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 7,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 8,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 9,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 10,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 11,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 12,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 13,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 14,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 15,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 16,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 17,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 18,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 19,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 20,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 21,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 22,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 23,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 24,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 25,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 26,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 27,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 28,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 29,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 30,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 31,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 32,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 33,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 34,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 35,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 36,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 37,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 38,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 39,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 40,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 41,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 42,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 43,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 44,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 45,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 46,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 47,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 48,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 49,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 50,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 51,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 52,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 53,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 54,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 55,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 56,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 57,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 58,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 59,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 60,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 61,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 62,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 63,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 64,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 65,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 66,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 67,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 68,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 69,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 70,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 71,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 72,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 73,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 74,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 75,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 76,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 77,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 78,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 79,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 80,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 81,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 82,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 83,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 84,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 85,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 86,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 87,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 88,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 89,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 90,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 91,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 92,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 93,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 94,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 95,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 96,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 97,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 98,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 99,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 100,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 101,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 102,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 103,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 104,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 105,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 106,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 107,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 108,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 109,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 110,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 111,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 112,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 113,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 114,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 115,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 116,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 117,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 118,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 119,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 120,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 121,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 122,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 123,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 124,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 125,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 126,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 127,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 128,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 129,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 130,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 131,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 132,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 133,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 134,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 135,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 136,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 137,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 138,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 139,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 140,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 141,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 142,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 143,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 144,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 145,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 146,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 147,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 148,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 149,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 150,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 151,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 152,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 153,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 154,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 155,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 156,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 157,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 158,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 159,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 160,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 161,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 162,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 163,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 164,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 165,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 166,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 167,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 168,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 169,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 170,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 171,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 172,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 173,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 174,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 175,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 176,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 177,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 178,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "configs/classical_baselines.json",
+    "line": 179,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/autoregressive.py",
+    "line": 1,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/autoregressive.py",
+    "line": 2,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/autoregressive.py",
+    "line": 3,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/autoregressive.py",
+    "line": 4,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/autoregressive.py",
+    "line": 5,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/autoregressive.py",
+    "line": 6,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/autoregressive.py",
+    "line": 7,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/autoregressive.py",
+    "line": 8,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/autoregressive.py",
+    "line": 9,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/autoregressive.py",
+    "line": 10,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/autoregressive.py",
+    "line": 11,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/autoregressive.py",
+    "line": 12,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/autoregressive.py",
+    "line": 13,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/autoregressive.py",
+    "line": 14,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/autoregressive.py",
+    "line": 15,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/autoregressive.py",
+    "line": 16,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/autoregressive.py",
+    "line": 17,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/autoregressive.py",
+    "line": 18,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/autoregressive.py",
+    "line": 19,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/autoregressive.py",
+    "line": 20,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/autoregressive.py",
+    "line": 21,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/autoregressive.py",
+    "line": 22,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/autoregressive.py",
+    "line": 23,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/autoregressive.py",
+    "line": 24,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/data/features/autoregressive.py",
+    "line": 25,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/classical.py",
+    "line": 1,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/classical.py",
+    "line": 2,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/classical.py",
+    "line": 3,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/classical.py",
+    "line": 4,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/classical.py",
+    "line": 5,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/classical.py",
+    "line": 6,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/classical.py",
+    "line": 7,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/classical.py",
+    "line": 8,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/classical.py",
+    "line": 9,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/classical.py",
+    "line": 10,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/models/classical.py",
+    "line": 11,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/classical.py",
+    "line": 12,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/models/classical.py",
+    "line": 13,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/models/classical.py",
+    "line": 14,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/classical.py",
+    "line": 15,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/classical.py",
+    "line": 16,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/classical.py",
+    "line": 17,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/classical.py",
+    "line": 18,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/classical.py",
+    "line": 19,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/classical.py",
+    "line": 20,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/classical.py",
+    "line": 21,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/classical.py",
+    "line": 22,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/classical.py",
+    "line": 23,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/classical.py",
+    "line": 24,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/models/classical.py",
+    "line": 25,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/classical.py",
+    "line": 26,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/classical.py",
+    "line": 27,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/classical.py",
+    "line": 28,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/classical.py",
+    "line": 29,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/classical.py",
+    "line": 30,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/models/classical.py",
+    "line": 31,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/classical.py",
+    "line": 32,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/classical.py",
+    "line": 33,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/models/classical.py",
+    "line": 34,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/models/classical.py",
+    "line": 35,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/classical.py",
+    "line": 36,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/classical.py",
+    "line": 37,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/classical.py",
+    "line": 38,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/models/classical.py",
+    "line": 39,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/classical.py",
+    "line": 40,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/classical.py",
+    "line": 41,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/classical.py",
+    "line": 42,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/classical.py",
+    "line": 43,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/classical.py",
+    "line": 44,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/classical.py",
+    "line": 45,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/classical.py",
+    "line": 46,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/classical.py",
+    "line": 47,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/classical.py",
+    "line": 48,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/classical.py",
+    "line": 49,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/classical.py",
+    "line": 50,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/models/classical.py",
+    "line": 51,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/classical.py",
+    "line": 52,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/classical.py",
+    "line": 53,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/classical.py",
+    "line": 54,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/classical.py",
+    "line": 55,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/classical.py",
+    "line": 56,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/models/classical.py",
+    "line": 57,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/models/classical.py",
+    "line": 58,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/classical.py",
+    "line": 59,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/classical.py",
+    "line": 60,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/models/classical.py",
+    "line": 61,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/training/classical.py",
+    "line": 1,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/training/classical.py",
+    "line": 2,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/training/classical.py",
+    "line": 3,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/training/classical.py",
+    "line": 4,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/training/classical.py",
+    "line": 5,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/training/classical.py",
+    "line": 6,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/training/classical.py",
+    "line": 7,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/training/classical.py",
+    "line": 8,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/training/classical.py",
+    "line": 9,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/training/classical.py",
+    "line": 10,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/training/classical.py",
+    "line": 11,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/training/classical.py",
+    "line": 12,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/training/classical.py",
+    "line": 13,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/training/classical.py",
+    "line": 14,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/training/classical.py",
+    "line": 15,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/training/classical.py",
+    "line": 16,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/training/classical.py",
+    "line": 17,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/training/classical.py",
+    "line": 18,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/training/classical.py",
+    "line": 19,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/training/classical.py",
+    "line": 20,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/training/classical.py",
+    "line": 21,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/training/classical.py",
+    "line": 22,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/training/classical.py",
+    "line": 23,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/training/classical.py",
+    "line": 24,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/training/classical.py",
+    "line": 25,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/training/classical.py",
+    "line": 26,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/training/classical.py",
+    "line": 27,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/training/classical.py",
+    "line": 28,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/training/classical.py",
+    "line": 29,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/training/classical.py",
+    "line": 30,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/training/classical.py",
+    "line": 31,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/training/classical.py",
+    "line": 32,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 1,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 2,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 3,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 4,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 5,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 6,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 7,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 8,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 9,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 10,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 11,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 12,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 13,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 14,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 15,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 16,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 17,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 18,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 19,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 20,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 21,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 22,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 23,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 24,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 25,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 26,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 27,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 28,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 29,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 30,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 31,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 32,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 33,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 34,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 35,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 36,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 37,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 38,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 39,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 40,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 41,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 42,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 43,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 44,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 45,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 46,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 47,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 48,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 49,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 50,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 51,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 52,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 53,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 54,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 55,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 56,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 57,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 58,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 59,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 60,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 61,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 62,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 63,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 64,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 65,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 66,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 67,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 68,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 69,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 70,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 71,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 72,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 73,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 74,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 75,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 76,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 77,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 78,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 79,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 80,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 81,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 82,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 83,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 84,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 85,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 86,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 87,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 88,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 89,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 90,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 91,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 92,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 93,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 94,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 95,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 96,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 97,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 98,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 99,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 100,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 101,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 102,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 103,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 104,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 105,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/pipelines/classical_baselines.py",
+    "line": 106,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 1,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 2,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 3,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 4,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 5,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 6,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 7,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 8,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 9,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 10,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 11,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 12,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 13,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 14,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 15,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 16,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 17,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 18,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 19,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 20,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 21,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 22,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 23,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 24,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 25,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 26,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 27,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 28,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 29,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 30,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 31,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 32,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 33,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 34,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 35,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 36,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 37,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 38,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 39,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 40,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 41,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 42,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 43,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 44,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 45,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 46,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 47,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 48,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 49,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 50,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 51,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 52,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 53,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 54,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 55,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 56,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 57,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 58,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 59,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 60,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 61,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 62,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 63,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 64,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 65,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 66,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 67,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 68,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 69,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 70,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 71,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 72,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 73,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 74,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 75,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 76,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 77,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 78,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 79,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 80,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 81,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 82,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 83,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 84,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 85,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 86,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 87,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 88,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 89,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 90,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 91,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 92,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 93,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 94,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 95,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "src/visualization/comparison_results.py",
+    "line": 96,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_classical_baselines.py",
+    "line": 1,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_classical_baselines.py",
+    "line": 2,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_classical_baselines.py",
+    "line": 3,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_classical_baselines.py",
+    "line": 4,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_classical_baselines.py",
+    "line": 5,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_classical_baselines.py",
+    "line": 6,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_classical_baselines.py",
+    "line": 7,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_classical_baselines.py",
+    "line": 8,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_classical_baselines.py",
+    "line": 9,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_classical_baselines.py",
+    "line": 10,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "tests/test_classical_baselines.py",
+    "line": 11,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "tests/test_classical_baselines.py",
+    "line": 12,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_classical_baselines.py",
+    "line": 13,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_classical_baselines.py",
+    "line": 14,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_classical_baselines.py",
+    "line": 15,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_classical_baselines.py",
+    "line": 16,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_classical_baselines.py",
+    "line": 17,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_classical_baselines.py",
+    "line": 18,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_classical_baselines.py",
+    "line": 19,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_classical_baselines.py",
+    "line": 20,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_classical_baselines.py",
+    "line": 21,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "tests/test_classical_baselines.py",
+    "line": 22,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_classical_baselines.py",
+    "line": 23,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_classical_baselines.py",
+    "line": 24,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_classical_baselines.py",
+    "line": 25,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_classical_baselines.py",
+    "line": 26,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_classical_baselines.py",
+    "line": 27,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_classical_baselines.py",
+    "line": 28,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_classical_baselines.py",
+    "line": 29,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "tests/test_classical_baselines.py",
+    "line": 30,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_classical_baselines.py",
+    "line": 31,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_classical_baselines.py",
+    "line": 32,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_classical_baselines.py",
+    "line": 33,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_classical_baselines.py",
+    "line": 34,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_classical_baselines.py",
+    "line": 35,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_classical_baselines.py",
+    "line": 36,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_classical_baselines.py",
+    "line": 37,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_classical_baselines.py",
+    "line": 38,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_classical_baselines.py",
+    "line": 39,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_classical_baselines.py",
+    "line": 40,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_classical_baselines.py",
+    "line": 41,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_classical_baselines.py",
+    "line": 42,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_classical_baselines.py",
+    "line": 43,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_classical_baselines.py",
+    "line": 44,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_classical_baselines.py",
+    "line": 45,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_classical_baselines.py",
+    "line": 46,
+    "kind": "blank",
+    "explained": true
+  },
+  {
+    "file": "tests/test_classical_baselines.py",
+    "line": 47,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_classical_baselines.py",
+    "line": 48,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_classical_baselines.py",
+    "line": 49,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_classical_baselines.py",
+    "line": 50,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_classical_baselines.py",
+    "line": 51,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_classical_baselines.py",
+    "line": 52,
+    "kind": "code",
+    "explained": true
+  },
+  {
+    "file": "tests/test_classical_baselines.py",
+    "line": 53,
     "kind": "code",
     "explained": true
   }

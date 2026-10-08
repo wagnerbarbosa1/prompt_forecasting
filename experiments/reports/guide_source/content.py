@@ -12,7 +12,7 @@ INTRO = [('Como usar este livro e o que mudou',
   'As mudanças centrais são: calendário escrito em inglês; exportação e leitura direta dos CSVs '
   'textuais; prompts narrativos; contexto turístico de Guaratuba; Qwen restrito a sete ou quinze dias; '
   'execução comparável dos checkpoints 1.7B e 4B; métricas e gráficos específicos dessa avaliação. Não '
-  'há treinamento de pesos no experimento atual. O código de treinamento listado no guia é apenas uma '
+  'há treinamento dos pesos Qwen. Os novos baselines clássicos são ajustados por fold. O módulo train.py é uma '
   'extensão auxiliar.\n'
   'Dados completos, prompts de todas as janelas e respostas extensas não são reproduzidos. O guia '
   'descreve seu esquema, sua origem e onde encontrá-los. O próprio gerador documental fica fora de src '
@@ -1021,3 +1021,65 @@ plt.show|Solicita exibição da figura no backend ativo.|Na rotina histórica é
 plt.style.use|Aplica um estilo visual Matplotlib.|O estilo altera parâmetros de apresentação, não dados.
 plt.tight_layout|Ajusta espaçamento entre eixos e rótulos.|Sem argumentos nas chamadas listadas; previne sobreposição na figura histórica.
 """
+
+# Extensão editorial: comparação histórica e baselines solicitados pelo usuário.
+INTRO.extend([
+('Comparação entre prompt numérico e linguagem natural',
+ 'As previsões numéricas anteriores foram preservadas: Qwen 1.7B em experiments/benchmark e Qwen 4B em experiments/qwen_15_days. As novas avaliações estão em experiments/qwen_text. comparison_results.py exige execuções completas, igualdade de origin, timestamp, lead e y_true e o mesmo digest do checkpoint. A comparação pareada usa quinze dias; a tabela também mostra linguagem natural com sete dias, sem inventar uma execução numérica de sete dias.\n'
+ 'A redução percentual é 100 × (RMSE anterior − RMSE natural) / RMSE anterior. Para 4B, foi 5,16% em Joinville e 7,86% em Guaratuba. Para 1.7B, foi −522,33% e −400,04%, respectivamente: erro maior, não ganho. Previsões extremas permanecem nos resultados e nos gráficos, cujos painéis usam escalas verticais automáticas.\n'
+ 'Esta é uma comparação histórica descritiva. Além da redação, mudaram calendário, conteúdo turístico e a capacidade da janela de contexto num_ctx (não o limite de tokens gerados): 8192 para 16384 no 1.7B e 131072 para 16384 no 4B. Não isola causalmente o efeito da linguagem natural. Covariáveis meteorológicas futuras continuam condicionadas à disponibilidade suposta no dataset.\n'
+ 'experiments/prompt_comparison contém metrics.csv, prompt_change.csv, comparison_<cidade>.csv, quatro figuras Qwen e duas figuras de baselines. canva_update.json registra a apresentação atualizada: tabela clássica no slide 22, tabelas Qwen nos slides 27 e 28 e gráficos nos slides 20, 21 e 23 a 26. Esses números descrevem o estado salvo, podendo mudar se a apresentação for reorganizada.'),
+('Baselines clássicos: seleção, reajuste e janela expansiva',
+ 'Por confirmação explícita do usuário, 355 dias de treino, 30 de validação e 30 de teste aplicam-se somente a regressão linear, ARIMA e KNN. Qwen continua com contexto fixo 7/15 e horizonte/passo 7. Chronos e TimesFM conservam o protocolo anterior. As métricas de horizonte 30 não são diretamente comparáveis às de horizonte 7.\n'
+ 'A divisão é cronológica, sem embaralhamento. Fold 1: treino [0,355), validação [355,385), teste [385,415). Fold 2: treino [0,385), validação [385,415), teste [415,445). Fold 3: treino [0,415), validação [415,445), teste [445,475). O limite direito é exclusivo. O passo é 30 dias e o início do treino permanece zero.\n'
+ 'Cada candidato ajusta somente o treino e prevê a validação inteira. O menor RMSE de validação escolhe os parâmetros; empates mantêm o primeiro candidato da grade. Depois há reajuste com treino + validação, ambos anteriores ao teste: 385 observações no primeiro fold, 415 no segundo. Por isso training_days e fit_days não são sinônimos. initial_context é 355 nos CSVs simples.\n'
+ 'Durante os 30 dias de teste, nenhum valor real desse bloco entra no ajuste ou nos atrasos. Ao terminar o bloco, seus 30 dados reais tornam-se passado disponível na origem seguinte; na divisão adotada, ocupam primeiro a nova validação. Isso é avaliação temporal expansiva, não validação cruzada aleatória. select_and_forecast nem aceita alvos de teste como argumento.\n'
+ 'Só folds completos são avaliados: 12 em Joinville e 35 em Guaratuba por modelo. A cauda de 26 dias de Guaratuba fica fora e é registrada. A preparação usa grade diária e preenchimento com passado; a construção dos folds rejeita validação/teste com demanda originalmente ausente. Foram concluídas seis execuções, 141 folds e 4230 previsões, sem falhas. O registro audit.json verifica limites e seleção das execuções salvas.'),
+('Como funcionam regressão linear, KNN e ARIMA neste código',
+ 'Os três baselines são univariados: usam somente water_produced histórico, sem clima futuro ou calendário textual. lagged_samples cria exemplos supervisionados: com atrasos 3, [10,11,12,13] fornece X=[10,11,12] e y=13. Cada atributo precede seu alvo. A grade usa atrasos 7, 15 ou 30.\n'
+ 'Regressão linear ajusta uma combinação linear dos atrasos com intercepto. KNN busca exemplos históricos próximos no espaço desses atrasos; testa 3, 5 ou 10 vizinhos e pesos uniformes ou inversamente proporcionais à distância. StandardScaler e o regressor ficam na mesma Pipeline, ajustada exclusivamente nos exemplos do prefixo autorizado. São três candidatos lineares e dezoito candidatos KNN por fold.\n'
+ 'recursive_forecast prevê um dia, acrescenta a própria previsão ao histórico temporário e repete até completar 30 dias. Não usa teacher forcing com valores reais do horizonte. Essa recursão vale tanto para validação quanto para teste e pode acumular erro.\n'
+ 'ARIMA(p,d,q) combina termos autorregressivos, diferenciação e médias móveis dos erros. Não há componente sazonal SARIMA nesta implementação. A grade tem oito ordens: (1,0,0), (2,0,0), (1,0,1), (2,0,1), (1,1,0), (2,1,0), (0,1,1), (1,1,1). Média e desvio são calculados somente no prefixo de ajuste; o desvio mínimo é 1e-8. A previsão de 30 passos é transformada de volta à escala original. O ajuste permite até 200 iterações; aviso de não convergência é tratado como falha de candidato.\n'
+ 'Falhas ficam registradas em trials; se todos os candidatos falham, o fold falha. Valores não finitos são rejeitados. Não há substituição por previsões inventadas, recorte de negativos ou remoção de extremos nos baselines. run.json identifica configuração, hashes e limites; folds/*.json registra seleção, erros, previsões e duração. status.json aponta completude. predictions.csv contém origem, data, lead, verdade, previsão e tamanhos de treino/reajuste.\n'
+ 'RMSE agregado em Joinville: regressão linear 13634,16; ARIMA 14719,54; KNN 14135,82. Em Guaratuba: regressão linear 2670,04; ARIMA 2920,12; KNN 2967,14. A regressão teve o menor RMSE entre estes três candidatos de modelo no protocolo executado. Os números completos estão em experiments/classical_baselines/metrics.csv. Os testes cobrem limites dos folds, escala ajustada somente no treino, seleção/reajuste sem alvos de teste e recursão real dos regressores.')])
+PURPOSE.update({
+ 'src/data/features/autoregressive.py':'Constrói atrasos anteriores ao alvo e previsão recursiva sem observações do horizonte.',
+ 'src/models/classical.py':'Adapta regressão linear, KNN e ARIMA ao contrato fit(history)/predict(horizon).',
+ 'src/training/classical.py':'Seleciona parâmetros pelo RMSE de validação e reajusta somente o prefixo anterior ao teste.',
+ 'src/pipelines/classical_baselines.py':'Executa o protocolo exclusivo 355/30/30, salva procedência, auditorias e previsões.',
+ 'src/visualization/comparison_results.py':'Compara os prompts Qwen históricos e gera gráficos separados dos baselines.',
+ 'configs/classical_baselines.json':'Define séries, protocolo e grades dos três baselines univariados.',
+ 'tests/test_classical_baselines.py':'Verifica isolamento temporal, seleção, escala e previsão recursiva.'})
+FUNCTIONS.update({
+ 'lagged_samples':'values é o histórico autorizado; lags é o número de atrasos. Devolve X com lags colunas e y com o próximo valor, sem atributos posteriores ao alvo.',
+ 'recursive_forecast':'Recebe estimador ajustado, histórico permitido, horizonte e atrasos. Acrescenta apenas previsões durante o horizonte e devolve um vetor finito.',
+ 'select_and_forecast':'Recebe nome, treino, validação, horizonte e candidatos, nunca alvos de teste. Seleciona pelo RMSE de validação, reajusta treino+validação e devolve previsões e auditoria.',
+ 'create_classical_model':'Cria o adaptador ARIMA ou LagRegressor conforme name e os parâmetros selecionados.',
+ 'expanding_validation_folds':'Gera treino expansivo desde zero, validação móvel e teste completo, com avanço igual ao tamanho do teste. Rejeita alvos ausentes nos blocos pontuados.',
+ 'prompt_comparison':'Confere completude, mesmos alvos e checkpoint; calcula métricas e redução histórica de RMSE e gera quatro gráficos de contexto 15.',
+ 'baseline_plots':'Lê os seis resultados clássicos, exige mesmos alvos entre modelos e desenha três painéis por cidade.'})
+CONFIG_KEYS.update({
+ 'initial_training':'Treino inicial de seleção: 355 dias, exclusivo dos baselines clássicos.',
+ 'validation_days':'Bloco cronológico de 30 dias para seleção de parâmetros.',
+ 'test_days':'Horizonte de teste de 30 dias, sem atualização com verdade interna.',
+ 'step_days':'Avanço 30, obrigatoriamente igual ao teste neste pipeline.',
+ 'refit_train_validation':'Exige reajuste final no prefixo treino+validação anterior ao teste.',
+ 'candidates':'Grade explícita selecionada exclusivamente pela validação de cada fold.',
+ 'lags':'Número de demandas passadas por exemplo supervisionado.',
+ 'neighbors':'Número de vizinhos do KNN.',
+ 'weights':'uniform atribui pesos iguais; distance pondera por distância.',
+ 'order':'Ordem (p,d,q) do ARIMA não sazonal.'})
+API_TEXT += '''
+ARIMA|Constrói o modelo autorregressivo integrado de médias móveis.|endog é a demanda normalizada do prefixo permitido; order=(p,d,q) define autorregressão, diferenciação e médias móveis. Não configura sazonalidade.
+KNeighborsRegressor|Regressor por vizinhos mais próximos.|n_neighbors escolhe quantos exemplos históricos usar; weights é uniform ou distance; n_jobs=1 limita paralelismo.
+LinearRegression|Regressão linear por mínimos quadrados.|Sem argumentos explícitos; usa intercepto padrão. Ajusta coeficientes nos atrasos padronizados.
+StandardScaler|Padroniza atributos por média e desvio do ajuste.|Sem argumentos explícitos; é ajustado dentro da Pipeline apenas nas linhas de atributos do histórico autorizado.
+make_pipeline|Encadeia transformações e estimador.|Recebe StandardScaler e regressor em ordem; fit aprende a escala antes de ajustar o regressor e predict reutiliza essa escala.
+reshape|Muda a forma de um array.|(1,-1) cria uma única linha de atributos com todos os atrasos para prever o próximo dia.
+np.concatenate|Concatena arrays.|[train,valid] forma o prefixo autorizado para reajuste; nenhum alvo do teste é concatenado.
+np.lib.stride_tricks.sliding_window_view|Cria janelas consecutivas sobre um array.|values é a série histórica; lags+1 inclui atributos anteriores e alvo seguinte. O código copia X e y antes de retorná-los.
+np.repeat|Repete valores em um array.|Usado no estimador simulado dos testes para produzir previsões de comprimento determinado.
+np.testing.assert_array_equal|Exige igualdade exata entre arrays.|Compara resultados nos testes; divergência de forma ou valores falha a asserção.
+warnings.catch_warnings|Isola temporariamente a política de avisos.|O bloco with restaura a política anterior ao terminar o ajuste ARIMA.
+warnings.simplefilter|Define tratamento de uma categoria de avisos.|action=error e ConvergenceWarning transformam não convergência em exceção registrada como falha.
+'''
