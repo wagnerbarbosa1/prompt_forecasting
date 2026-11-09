@@ -1,0 +1,301 @@
+{
+  "source": "/home/wagner-barbosa/Documents/codex/promptcast_forecast/experiments/llm/qwen_1_7b/15/few_similar/guaratuba/llm",
+  "policy": "three_consecutive_v1",
+  "changed_windows": [
+    {
+      "run": "qwen_1_7b/15/few_similar/guaratuba/llm",
+      "origin": "2018-01-28",
+      "longest_original_match": 7,
+      "status": "ok",
+      "still_matches": false
+    },
+    {
+      "run": "qwen_1_7b/15/few_similar/guaratuba/llm",
+      "origin": "2018-03-18",
+      "longest_original_match": 5,
+      "status": "ok",
+      "still_matches": true
+    },
+    {
+      "run": "qwen_1_7b/15/few_similar/guaratuba/llm",
+      "origin": "2018-04-29",
+      "longest_original_match": 7,
+      "status": "ok",
+      "still_matches": true
+    },
+    {
+      "run": "qwen_1_7b/15/few_similar/guaratuba/llm",
+      "origin": "2018-05-20",
+      "longest_original_match": 4,
+      "status": "ok",
+      "still_matches": true
+    },
+    {
+      "run": "qwen_1_7b/15/few_similar/guaratuba/llm",
+      "origin": "2018-06-03",
+      "longest_original_match": 3,
+      "status": "ok",
+      "still_matches": false
+    },
+    {
+      "run": "qwen_1_7b/15/few_similar/guaratuba/llm",
+      "origin": "2018-06-24",
+      "longest_original_match": 4,
+      "status": "ok",
+      "still_matches": true
+    },
+    {
+      "run": "qwen_1_7b/15/few_similar/guaratuba/llm",
+      "origin": "2018-07-08",
+      "longest_original_match": 7,
+      "status": "ok",
+      "still_matches": true
+    },
+    {
+      "run": "qwen_1_7b/15/few_similar/guaratuba/llm",
+      "origin": "2018-07-22",
+      "longest_original_match": 3,
+      "status": "ok",
+      "still_matches": false
+    },
+    {
+      "run": "qwen_1_7b/15/few_similar/guaratuba/llm",
+      "origin": "2018-07-29",
+      "longest_original_match": 7,
+      "status": "ok",
+      "still_matches": true
+    },
+    {
+      "run": "qwen_1_7b/15/few_similar/guaratuba/llm",
+      "origin": "2018-08-05",
+      "longest_original_match": 5,
+      "status": "ok",
+      "still_matches": false
+    },
+    {
+      "run": "qwen_1_7b/15/few_similar/guaratuba/llm",
+      "origin": "2018-08-12",
+      "longest_original_match": 4,
+      "status": "ok",
+      "still_matches": true
+    },
+    {
+      "run": "qwen_1_7b/15/few_similar/guaratuba/llm",
+      "origin": "2018-09-02",
+      "longest_original_match": 3,
+      "status": "ok",
+      "still_matches": true
+    },
+    {
+      "run": "qwen_1_7b/15/few_similar/guaratuba/llm",
+      "origin": "2018-10-21",
+      "longest_original_match": 4,
+      "status": "ok",
+      "still_matches": true
+    },
+    {
+      "run": "qwen_1_7b/15/few_similar/guaratuba/llm",
+      "origin": "2018-11-11",
+      "longest_original_match": 4,
+      "status": "ok",
+      "still_matches": true
+    },
+    {
+      "run": "qwen_1_7b/15/few_similar/guaratuba/llm",
+      "origin": "2018-11-18",
+      "longest_original_match": 3,
+      "status": "ok",
+      "still_matches": true
+    },
+    {
+      "run": "qwen_1_7b/15/few_similar/guaratuba/llm",
+      "origin": "2018-11-25",
+      "longest_original_match": 3,
+      "status": "ok",
+      "still_matches": false
+    },
+    {
+      "run": "qwen_1_7b/15/few_similar/guaratuba/llm",
+      "origin": "2018-12-16",
+      "longest_original_match": 7,
+      "status": "ok",
+      "still_matches": false
+    },
+    {
+      "run": "qwen_1_7b/15/few_similar/guaratuba/llm",
+      "origin": "2019-01-20",
+      "longest_original_match": 3,
+      "status": "ok",
+      "still_matches": true
+    },
+    {
+      "run": "qwen_1_7b/15/few_similar/guaratuba/llm",
+      "origin": "2019-03-10",
+      "longest_original_match": 7,
+      "status": "ok",
+      "still_matches": true
+    },
+    {
+      "run": "qwen_1_7b/15/few_similar/guaratuba/llm",
+      "origin": "2019-04-07",
+      "longest_original_match": 7,
+      "status": "ok",
+      "still_matches": true
+    },
+    {
+      "run": "qwen_1_7b/15/few_similar/guaratuba/llm",
+      "origin": "2019-04-28",
+      "longest_original_match": 6,
+      "status": "ok",
+      "still_matches": false
+    },
+    {
+      "run": "qwen_1_7b/15/few_similar/guaratuba/llm",
+      "origin": "2019-05-05",
+      "longest_original_match": 4,
+      "status": "ok",
+      "still_matches": true
+    },
+    {
+      "run": "qwen_1_7b/15/few_similar/guaratuba/llm",
+      "origin": "2019-05-26",
+      "longest_original_match": 3,
+      "status": "ok",
+      "still_matches": false
+    },
+    {
+      "run": "qwen_1_7b/15/few_similar/guaratuba/llm",
+      "origin": "2019-06-02",
+      "longest_original_match": 4,
+      "status": "ok",
+      "still_matches": false
+    },
+    {
+      "run": "qwen_1_7b/15/few_similar/guaratuba/llm",
+      "origin": "2019-06-16",
+      "longest_original_match": 7,
+      "status": "ok",
+      "still_matches": true
+    },
+    {
+      "run": "qwen_1_7b/15/few_similar/guaratuba/llm",
+      "origin": "2019-07-14",
+      "longest_original_match": 5,
+      "status": "ok",
+      "still_matches": false
+    },
+    {
+      "run": "qwen_1_7b/15/few_similar/guaratuba/llm",
+      "origin": "2019-07-21",
+      "longest_original_match": 4,
+      "status": "ok",
+      "still_matches": false
+    },
+    {
+      "run": "qwen_1_7b/15/few_similar/guaratuba/llm",
+      "origin": "2019-07-28",
+      "longest_original_match": 4,
+      "status": "ok",
+      "still_matches": false
+    },
+    {
+      "run": "qwen_1_7b/15/few_similar/guaratuba/llm",
+      "origin": "2019-08-11",
+      "longest_original_match": 7,
+      "status": "ok",
+      "still_matches": false
+    },
+    {
+      "run": "qwen_1_7b/15/few_similar/guaratuba/llm",
+      "origin": "2019-08-18",
+      "longest_original_match": 3,
+      "status": "ok",
+      "still_matches": true
+    },
+    {
+      "run": "qwen_1_7b/15/few_similar/guaratuba/llm",
+      "origin": "2019-08-25",
+      "longest_original_match": 5,
+      "status": "ok",
+      "still_matches": true
+    },
+    {
+      "run": "qwen_1_7b/15/few_similar/guaratuba/llm",
+      "origin": "2019-09-15",
+      "longest_original_match": 3,
+      "status": "ok",
+      "still_matches": true
+    },
+    {
+      "run": "qwen_1_7b/15/few_similar/guaratuba/llm",
+      "origin": "2019-09-22",
+      "longest_original_match": 4,
+      "status": "ok",
+      "still_matches": true
+    },
+    {
+      "run": "qwen_1_7b/15/few_similar/guaratuba/llm",
+      "origin": "2019-09-29",
+      "longest_original_match": 4,
+      "status": "ok",
+      "still_matches": true
+    },
+    {
+      "run": "qwen_1_7b/15/few_similar/guaratuba/llm",
+      "origin": "2019-10-06",
+      "longest_original_match": 5,
+      "status": "ok",
+      "still_matches": true
+    },
+    {
+      "run": "qwen_1_7b/15/few_similar/guaratuba/llm",
+      "origin": "2019-10-13",
+      "longest_original_match": 4,
+      "status": "ok",
+      "still_matches": false
+    },
+    {
+      "run": "qwen_1_7b/15/few_similar/guaratuba/llm",
+      "origin": "2019-10-20",
+      "longest_original_match": 6,
+      "status": "ok",
+      "still_matches": false
+    },
+    {
+      "run": "qwen_1_7b/15/few_similar/guaratuba/llm",
+      "origin": "2019-10-27",
+      "longest_original_match": 4,
+      "status": "ok",
+      "still_matches": true
+    },
+    {
+      "run": "qwen_1_7b/15/few_similar/guaratuba/llm",
+      "origin": "2019-11-03",
+      "longest_original_match": 6,
+      "status": "ok",
+      "still_matches": false
+    },
+    {
+      "run": "qwen_1_7b/15/few_similar/guaratuba/llm",
+      "origin": "2019-11-10",
+      "longest_original_match": 5,
+      "status": "ok",
+      "still_matches": false
+    },
+    {
+      "run": "qwen_1_7b/15/few_similar/guaratuba/llm",
+      "origin": "2019-12-15",
+      "longest_original_match": 5,
+      "status": "ok",
+      "still_matches": true
+    },
+    {
+      "run": "qwen_1_7b/15/few_similar/guaratuba/llm",
+      "origin": "2019-12-22",
+      "longest_original_match": 3,
+      "status": "ok",
+      "still_matches": false
+    }
+  ],
+  "failed_retries_keep_original": true
+}

@@ -1,0 +1,259 @@
+{
+  "source": "/home/wagner-barbosa/Documents/codex/promptcast_forecast/experiments/llm/qwen_1_7b/7/few_random/guaratuba/llm",
+  "policy": "three_consecutive_v1",
+  "changed_windows": [
+    {
+      "run": "qwen_1_7b/7/few_random/guaratuba/llm",
+      "origin": "2018-01-21",
+      "longest_original_match": 3,
+      "status": "ok",
+      "still_matches": false
+    },
+    {
+      "run": "qwen_1_7b/7/few_random/guaratuba/llm",
+      "origin": "2018-03-04",
+      "longest_original_match": 5,
+      "status": "ok",
+      "still_matches": false
+    },
+    {
+      "run": "qwen_1_7b/7/few_random/guaratuba/llm",
+      "origin": "2018-03-25",
+      "longest_original_match": 5,
+      "status": "ok",
+      "still_matches": false
+    },
+    {
+      "run": "qwen_1_7b/7/few_random/guaratuba/llm",
+      "origin": "2018-04-15",
+      "longest_original_match": 3,
+      "status": "ok",
+      "still_matches": true
+    },
+    {
+      "run": "qwen_1_7b/7/few_random/guaratuba/llm",
+      "origin": "2018-05-13",
+      "longest_original_match": 3,
+      "status": "ok",
+      "still_matches": true
+    },
+    {
+      "run": "qwen_1_7b/7/few_random/guaratuba/llm",
+      "origin": "2018-05-20",
+      "longest_original_match": 4,
+      "status": "ok",
+      "still_matches": true
+    },
+    {
+      "run": "qwen_1_7b/7/few_random/guaratuba/llm",
+      "origin": "2018-05-27",
+      "longest_original_match": 3,
+      "status": "ok",
+      "still_matches": false
+    },
+    {
+      "run": "qwen_1_7b/7/few_random/guaratuba/llm",
+      "origin": "2018-07-01",
+      "longest_original_match": 4,
+      "status": "ok",
+      "still_matches": true
+    },
+    {
+      "run": "qwen_1_7b/7/few_random/guaratuba/llm",
+      "origin": "2018-07-29",
+      "longest_original_match": 3,
+      "status": "ok",
+      "still_matches": true
+    },
+    {
+      "run": "qwen_1_7b/7/few_random/guaratuba/llm",
+      "origin": "2018-08-12",
+      "longest_original_match": 7,
+      "status": "ok",
+      "still_matches": false
+    },
+    {
+      "run": "qwen_1_7b/7/few_random/guaratuba/llm",
+      "origin": "2018-09-09",
+      "longest_original_match": 7,
+      "status": "ok",
+      "still_matches": false
+    },
+    {
+      "run": "qwen_1_7b/7/few_random/guaratuba/llm",
+      "origin": "2018-10-21",
+      "longest_original_match": 3,
+      "status": "ok",
+      "still_matches": false
+    },
+    {
+      "run": "qwen_1_7b/7/few_random/guaratuba/llm",
+      "origin": "2018-10-28",
+      "longest_original_match": 4,
+      "status": "ok",
+      "still_matches": false
+    },
+    {
+      "run": "qwen_1_7b/7/few_random/guaratuba/llm",
+      "origin": "2018-11-18",
+      "longest_original_match": 3,
+      "status": "ok",
+      "still_matches": true
+    },
+    {
+      "run": "qwen_1_7b/7/few_random/guaratuba/llm",
+      "origin": "2018-12-09",
+      "longest_original_match": 3,
+      "status": "ok",
+      "still_matches": true
+    },
+    {
+      "run": "qwen_1_7b/7/few_random/guaratuba/llm",
+      "origin": "2018-12-16",
+      "longest_original_match": 7,
+      "status": "ok",
+      "still_matches": false
+    },
+    {
+      "run": "qwen_1_7b/7/few_random/guaratuba/llm",
+      "origin": "2019-01-27",
+      "longest_original_match": 4,
+      "status": "ok",
+      "still_matches": true
+    },
+    {
+      "run": "qwen_1_7b/7/few_random/guaratuba/llm",
+      "origin": "2019-02-10",
+      "longest_original_match": 7,
+      "status": "ok",
+      "still_matches": false
+    },
+    {
+      "run": "qwen_1_7b/7/few_random/guaratuba/llm",
+      "origin": "2019-02-24",
+      "longest_original_match": 3,
+      "status": "ok",
+      "still_matches": true
+    },
+    {
+      "run": "qwen_1_7b/7/few_random/guaratuba/llm",
+      "origin": "2019-03-03",
+      "longest_original_match": 7,
+      "status": "ok",
+      "still_matches": false
+    },
+    {
+      "run": "qwen_1_7b/7/few_random/guaratuba/llm",
+      "origin": "2019-03-31",
+      "longest_original_match": 7,
+      "status": "ok",
+      "still_matches": false
+    },
+    {
+      "run": "qwen_1_7b/7/few_random/guaratuba/llm",
+      "origin": "2019-05-05",
+      "longest_original_match": 5,
+      "status": "ok",
+      "still_matches": false
+    },
+    {
+      "run": "qwen_1_7b/7/few_random/guaratuba/llm",
+      "origin": "2019-06-02",
+      "longest_original_match": 5,
+      "status": "ok",
+      "still_matches": true
+    },
+    {
+      "run": "qwen_1_7b/7/few_random/guaratuba/llm",
+      "origin": "2019-06-16",
+      "longest_original_match": 3,
+      "status": "ok",
+      "still_matches": false
+    },
+    {
+      "run": "qwen_1_7b/7/few_random/guaratuba/llm",
+      "origin": "2019-06-23",
+      "longest_original_match": 3,
+      "status": "ok",
+      "still_matches": true
+    },
+    {
+      "run": "qwen_1_7b/7/few_random/guaratuba/llm",
+      "origin": "2019-06-30",
+      "longest_original_match": 3,
+      "status": "ok",
+      "still_matches": false
+    },
+    {
+      "run": "qwen_1_7b/7/few_random/guaratuba/llm",
+      "origin": "2019-07-14",
+      "longest_original_match": 4,
+      "status": "ok",
+      "still_matches": true
+    },
+    {
+      "run": "qwen_1_7b/7/few_random/guaratuba/llm",
+      "origin": "2019-08-04",
+      "longest_original_match": 3,
+      "status": "ok",
+      "still_matches": true
+    },
+    {
+      "run": "qwen_1_7b/7/few_random/guaratuba/llm",
+      "origin": "2019-08-25",
+      "longest_original_match": 4,
+      "status": "ok",
+      "still_matches": false
+    },
+    {
+      "run": "qwen_1_7b/7/few_random/guaratuba/llm",
+      "origin": "2019-09-08",
+      "longest_original_match": 3,
+      "status": "ok",
+      "still_matches": true
+    },
+    {
+      "run": "qwen_1_7b/7/few_random/guaratuba/llm",
+      "origin": "2019-09-29",
+      "longest_original_match": 3,
+      "status": "ok",
+      "still_matches": true
+    },
+    {
+      "run": "qwen_1_7b/7/few_random/guaratuba/llm",
+      "origin": "2019-10-27",
+      "longest_original_match": 4,
+      "status": "ok",
+      "still_matches": false
+    },
+    {
+      "run": "qwen_1_7b/7/few_random/guaratuba/llm",
+      "origin": "2019-11-17",
+      "longest_original_match": 3,
+      "status": "ok",
+      "still_matches": true
+    },
+    {
+      "run": "qwen_1_7b/7/few_random/guaratuba/llm",
+      "origin": "2019-11-24",
+      "longest_original_match": 5,
+      "status": "ok",
+      "still_matches": false
+    },
+    {
+      "run": "qwen_1_7b/7/few_random/guaratuba/llm",
+      "origin": "2019-12-08",
+      "longest_original_match": 3,
+      "status": "ok",
+      "still_matches": false
+    },
+    {
+      "run": "qwen_1_7b/7/few_random/guaratuba/llm",
+      "origin": "2019-12-22",
+      "longest_original_match": 4,
+      "status": "ok",
+      "still_matches": false
+    }
+  ],
+  "failed_retries_keep_original": true
+}

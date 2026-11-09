@@ -4,7 +4,7 @@ from unittest.mock import patch
 import numpy as np
 import pandas as pd
 from src.data.features.autoregressive import lagged_samples
-from src.evaluation.cross_validation import expanding_validation_folds
+from src.evaluation.protocol import expanding_validation_folds
 from src.models.classical import LagRegressor
 from src.training.classical import select_and_forecast
 

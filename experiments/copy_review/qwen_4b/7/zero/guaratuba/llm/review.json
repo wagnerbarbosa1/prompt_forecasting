@@ -1,0 +1,21 @@
+{
+  "source": "/home/wagner-barbosa/Documents/codex/promptcast_forecast/experiments/llm/qwen_4b/7/zero/guaratuba/llm",
+  "policy": "three_consecutive_v1",
+  "changed_windows": [
+    {
+      "run": "qwen_4b/7/zero/guaratuba/llm",
+      "origin": "2018-12-02",
+      "longest_original_match": 6,
+      "status": "ok",
+      "still_matches": false
+    },
+    {
+      "run": "qwen_4b/7/zero/guaratuba/llm",
+      "origin": "2019-05-05",
+      "longest_original_match": 6,
+      "status": "ok",
+      "still_matches": true
+    }
+  ],
+  "failed_retries_keep_original": true
+}

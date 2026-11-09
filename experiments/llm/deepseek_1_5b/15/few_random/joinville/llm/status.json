@@ -1,0 +1,10 @@
+{
+  "expected_windows": 54,
+  "successful_windows": 53,
+  "failures": [
+    {
+      "origin": "2024-06-23",
+      "error": "ValueError: Predictions must be finite, nonnegative numbers"
+    }
+  ]
+}

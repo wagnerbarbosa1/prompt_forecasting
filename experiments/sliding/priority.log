@@ -1,0 +1,11 @@
+unloading_ollama_for_baselines
+chronos_sliding_7
+chronos 7 exit_code 0
+chronos_sliding_15
+chronos 15 exit_code 0
+timesfm_sliding_7
+timesfm 7 exit_code 0
+timesfm_sliding_15
+timesfm 15 exit_code 0
+deepseek_and_llama
+verification_after_forecasts

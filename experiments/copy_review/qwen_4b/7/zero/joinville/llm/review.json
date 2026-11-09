@@ -1,0 +1,21 @@
+{
+  "source": "/home/wagner-barbosa/Documents/codex/promptcast_forecast/experiments/llm/qwen_4b/7/zero/joinville/llm",
+  "policy": "three_consecutive_v1",
+  "changed_windows": [
+    {
+      "run": "qwen_4b/7/zero/joinville/llm",
+      "origin": "2024-10-13",
+      "longest_original_match": 7,
+      "status": "ok",
+      "still_matches": false
+    },
+    {
+      "run": "qwen_4b/7/zero/joinville/llm",
+      "origin": "2025-06-01",
+      "longest_original_match": 6,
+      "status": "ok",
+      "still_matches": false
+    }
+  ],
+  "failed_retries_keep_original": true
+}

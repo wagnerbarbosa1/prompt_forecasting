@@ -1,0 +1,98 @@
+{
+  "source": "/home/wagner-barbosa/Documents/codex/promptcast_forecast/experiments/llm/qwen_4b/15/zero/guaratuba/llm",
+  "policy": "three_consecutive_v1",
+  "changed_windows": [
+    {
+      "run": "qwen_4b/15/zero/guaratuba/llm",
+      "origin": "2018-03-11",
+      "longest_original_match": 7,
+      "status": "ok",
+      "still_matches": true
+    },
+    {
+      "run": "qwen_4b/15/zero/guaratuba/llm",
+      "origin": "2018-07-01",
+      "longest_original_match": 7,
+      "status": "ok",
+      "still_matches": false
+    },
+    {
+      "run": "qwen_4b/15/zero/guaratuba/llm",
+      "origin": "2018-07-15",
+      "longest_original_match": 3,
+      "status": "ok",
+      "still_matches": true
+    },
+    {
+      "run": "qwen_4b/15/zero/guaratuba/llm",
+      "origin": "2018-07-29",
+      "longest_original_match": 5,
+      "status": "ok",
+      "still_matches": false
+    },
+    {
+      "run": "qwen_4b/15/zero/guaratuba/llm",
+      "origin": "2018-08-12",
+      "longest_original_match": 3,
+      "status": "ok",
+      "still_matches": true
+    },
+    {
+      "run": "qwen_4b/15/zero/guaratuba/llm",
+      "origin": "2018-09-30",
+      "longest_original_match": 4,
+      "status": "ok",
+      "still_matches": true
+    },
+    {
+      "run": "qwen_4b/15/zero/guaratuba/llm",
+      "origin": "2018-12-09",
+      "longest_original_match": 6,
+      "status": "ok",
+      "still_matches": true
+    },
+    {
+      "run": "qwen_4b/15/zero/guaratuba/llm",
+      "origin": "2019-02-24",
+      "longest_original_match": 6,
+      "status": "ok",
+      "still_matches": true
+    },
+    {
+      "run": "qwen_4b/15/zero/guaratuba/llm",
+      "origin": "2019-05-12",
+      "longest_original_match": 5,
+      "status": "ok",
+      "still_matches": true
+    },
+    {
+      "run": "qwen_4b/15/zero/guaratuba/llm",
+      "origin": "2019-06-09",
+      "longest_original_match": 3,
+      "status": "ok",
+      "still_matches": true
+    },
+    {
+      "run": "qwen_4b/15/zero/guaratuba/llm",
+      "origin": "2019-06-23",
+      "longest_original_match": 5,
+      "status": "ok",
+      "still_matches": true
+    },
+    {
+      "run": "qwen_4b/15/zero/guaratuba/llm",
+      "origin": "2019-09-01",
+      "longest_original_match": 6,
+      "status": "ok",
+      "still_matches": true
+    },
+    {
+      "run": "qwen_4b/15/zero/guaratuba/llm",
+      "origin": "2019-10-27",
+      "longest_original_match": 7,
+      "status": "ok",
+      "still_matches": true
+    }
+  ],
+  "failed_retries_keep_original": true
+}

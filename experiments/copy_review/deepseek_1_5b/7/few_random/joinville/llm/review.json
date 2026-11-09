@@ -1,0 +1,6 @@
+{
+  "source": "/home/wagner-barbosa/Documents/codex/promptcast_forecast/experiments/llm/deepseek_1_5b/7/few_random/joinville/llm",
+  "policy": "three_consecutive_v1",
+  "changed_windows": [],
+  "failed_retries_keep_original": true
+}

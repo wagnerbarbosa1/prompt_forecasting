@@ -76,3 +76,18 @@ class CalendarPromptTests(unittest.TestCase):
             build_prompt(frame.iloc[:3], 7, future_covariates=frame.iloc[3:])
         with self.assertRaisesRegex(ValueError, 'dates must match'):
             build_prompt(frame.iloc[:3], 7, future_covariates=frame.iloc[2:9].drop(columns='water_produced'))
+
+    def test_zero_flags_are_omitted_and_positive_dates_remain_aligned(self):
+        frame = self.frame()
+        frame['is_carnival'] = 0
+        frame['precipitation_mean'] = 0.0
+        original = frame.copy(deep=True)
+        prompt = build_prompt(frame.iloc[:3], 7,
+                              future_covariates=frame.iloc[3:].drop(columns='water_produced'))
+        self.assertNotIn('Carnival status', prompt)
+        self.assertNotIn('not a public holiday', prompt)
+        self.assertIn('public holiday status applies on: two thousand and sixteen, day one of January.', prompt)
+        self.assertEqual(prompt.count('public holiday status applies on:'), 1)
+        self.assertIn('average precipitation', prompt)
+        self.assertIn('0; 0; 0', prompt)
+        pd.testing.assert_frame_equal(frame, original)

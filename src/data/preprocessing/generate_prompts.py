@@ -1,53 +1,54 @@
 """PromptCast prompts with demand and the same covariates used by the baselines; future targets are absent by construction."""
 import json
-from dataclasses import dataclass
+import random
 import numpy as np
 import pandas as pd
 from src.data.features.temporal import future_dates
-from src.data.preprocessing.calendar_text import calendar_to_text, date_to_text
+from src.data.preprocessing.calendar_text import calendar_to_text, date_to_text, FLAGS
 
 
-@dataclass(frozen=True)
-class Demonstration:
-    history: tuple[float, ...]
-    target: tuple[float, ...]
-    target_end: int
+def z_normalize_vector(values):
+    """Original normalization: constant histories become zeros."""
+    values = np.asarray(values, dtype=float)
+    return np.zeros_like(values) if values.std() < 1e-12 else (values - values.mean()) / values.std()
 
 
-def select_demonstrations(training_values, history, horizon: int, *,
-                          strategy: str = 'zero', count: int = 3,
-                          seed: int = 42) -> list[Demonstration]:
-    """Select only from the frozen prefix preceding the FIRST evaluated target.
+def build_similarity_vector(frame):
+    """Original S3 selection: demand, cyclic calendar, flags and weather history."""
+    parts = [z_normalize_vector(frame.water_produced)]
+    for values, period in [(frame.timestamp.dt.dayofweek, 7), (frame.timestamp.dt.month, 12)]:
+        parts.extend([np.sin(2 * np.pi * values / period), np.cos(2 * np.pi * values / period)])
+    for column, labels in FLAGS.items():
+        if column in frame:
+            values = frame[column].map(lambda value: 0 if value == labels[0] else 1 if value == labels[1] else value)
+            parts.append(pd.to_numeric(values, errors='raise').to_numpy(dtype=float))
+    for column in frame:
+        if column.startswith(('temperature_', 'radiation_', 'shortwave_', 'precipitation_', 'relative_humidity_')):
+            parts.append(z_normalize_vector(frame[column]))
+    return np.concatenate(parts)
 
-    Similarity uses historical inputs only. The caller passes an already
-    restricted training prefix; test observations can never become examples.
-    """
+
+def select_demonstrations(training, history, horizon, *, strategy='zero', count=3, rng=None):
+    """Select complete examples from a pre-test DataFrame, using historical inputs only."""
     if strategy not in {'zero', 'few_random', 'few_similar'}:
         raise ValueError(f'Unknown strategy: {strategy}')
     if strategy == 'zero':
         return []
     if count < 1 or horizon < 1:
         raise ValueError('count and horizon must be positive')
-    values = np.asarray(training_values, dtype=float)
     width = len(history)
-    origins = np.arange(width, len(values) - horizon + 1)
-    if len(origins) < count:
-        raise ValueError('Insufficient pre-test data for requested demonstrations')
+    candidates = [origin for origin in range(width, len(training) - horizon + 1)
+                  if 'observed' not in training or training.iloc[origin-width:origin+horizon].observed.all()]
+    if len(candidates) < count:
+        raise ValueError('Insufficient pre-test examples')
     if strategy == 'few_random':
-        selected = np.random.default_rng(seed).choice(origins, size=count, replace=False)
+        selected = (rng if rng is not None else random.Random(42)).sample(candidates, count)
     else:
-        def standardized(x):
-            return (x - np.mean(x)) / max(float(np.std(x)), 1e-8)
-        query = standardized(np.asarray(history))
-        distances = [np.mean((standardized(values[o-width:o]) - query) ** 2) for o in origins]
-        selected = origins[np.argsort(distances, kind='stable')[:count]]
-    return [Demonstration(tuple(values[o-width:o]), tuple(values[o:o+horizon]), int(o+horizon))
-            for o in sorted(selected)]
-
-
-def format_values(values) -> str:
-    """Round only the text representation, retaining raw values in model baselines."""
-    return ','.join(f'{float(value):.2f}' for value in values)
+        query = build_similarity_vector(history)
+        selected = sorted(candidates, key=lambda origin: np.linalg.norm(
+            query - build_similarity_vector(training.iloc[origin-width:origin])))[:count]
+    return [(training.iloc[origin-width:origin].copy(), training.iloc[origin:origin+horizon].copy())
+            for origin in selected]
 
 
 LABELS = {
@@ -73,14 +74,16 @@ LABELS = {
 def _narrate(frame: pd.DataFrame, region: str, *, future: bool = False) -> list[str]:
     text = calendar_to_text(frame)
     start, end = text.timestamp.iloc[0], text.timestamp.iloc[-1]
-    sentences = [
-        ('The forecast dates' if future else 'The observation dates') +
-        ' in chronological order are: ' + '; '.join(text.timestamp) + '.',
-    ]
+    sentences = []
     for column in text.columns:
         if column in {'timestamp', 'unique_id', 'observed'}:
             continue
         label = LABELS.get(column, column.replace('_', ' '))
+        if column in FLAGS:
+            active_dates = text.loc[text[column].eq(FLAGS[column][1]), 'timestamp']
+            if not active_dates.empty:
+                sentences.append(f'In region {region}, {label} applies on: ' + '; '.join(active_dates) + '.')
+            continue
         values = '; '.join(f'{value:.2f}' if column == 'water_produced' else
                            f'{value:.6g}' if isinstance(value, (float, int)) else str(value)
                            for value in text[column])
@@ -94,7 +97,7 @@ def _narrate(frame: pd.DataFrame, region: str, *, future: bool = False) -> list[
 
 
 def build_prompt(history: pd.DataFrame, horizon: int, *,
-                 demonstrations: list[Demonstration] | None = None,
+                 demonstrations: list | None = None,
                  future_covariates: pd.DataFrame | None = None,
                  region: str = 'the study area') -> str:
     """Narrate historical inputs and target-free supplied covariates in English.
@@ -128,11 +131,14 @@ def build_prompt(history: pd.DataFrame, horizon: int, *,
         parts.append('Guaratuba is a tourist city with strong seasonality during Brazilian holidays '
                      'and school recesses, especially from December through March. '
                      'Consider this context when interpreting changes in water demand.')
-    for example in demonstrations or []:
-        parts.append('In a historical training example, daily water production was ' +
-                     format_values(example.history) + ' cubic metres, respectively.')
-        parts.append('The following daily production values were: ' +
-                     json.dumps({'predictions': list(example.target)}))
+    for example_history, example_target in demonstrations or []:
+        if example_target.timestamp.max() >= history.timestamp.iloc[-1] + pd.Timedelta(days=1):
+            raise ValueError('Demonstration outcome must be known before the forecast origin')
+        parts.append('Historical training example:')
+        parts.extend(_narrate(example_history, region))
+        parts.extend(_narrate(example_target.drop(columns='water_produced'), region, future=True))
+        parts.append('Observed production on those example forecast dates: ' +
+                     json.dumps({'predictions': example_target.water_produced.tolist()}))
     parts.extend(_narrate(history, region))
     if future_covariates is not None:
         parts.append('The following covariates are supplied inputs for the forecast dates; '

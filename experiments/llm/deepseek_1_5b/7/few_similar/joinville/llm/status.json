@@ -1,0 +1,14 @@
+{
+  "expected_windows": 54,
+  "successful_windows": 52,
+  "failures": [
+    {
+      "origin": "2024-07-28",
+      "error": "ValueError: Predictions must be finite, nonnegative numbers"
+    },
+    {
+      "origin": "2024-08-18",
+      "error": "ValueError: Predictions must be finite, nonnegative numbers"
+    }
+  ]
+}

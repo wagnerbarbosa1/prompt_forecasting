@@ -1,0 +1,33 @@
+{
+  "request_id": "54be8fb42cb3645e56a94824aaf950a6913c610c006a8b8ff90a39b56c2d882b",
+  "origin": "2024-07-28",
+  "status": "ok",
+  "predictions": [
+    221298.34550037843,
+    230627.9236755171,
+    221752.35452278575,
+    214729.19688898293,
+    188322.04087479992,
+    194728.85785416194,
+    201318.21802571887
+  ],
+  "audit": {
+    "history_rows": 7,
+    "history_start": "2024-07-21 00:00:00",
+    "history_end": "2024-07-27 00:00:00",
+    "max_context": 32,
+    "covariates": [
+      "precipitation_median",
+      "temperature_2m_previsao_mean",
+      "shortwave_radiation_previsao_std",
+      "day",
+      "dayofweek_sin",
+      "dayofweek_cos",
+      "season_sin",
+      "season_cos",
+      "is_holiday"
+    ],
+    "future_rows": 7,
+    "xreg_mode": "xreg + timesfm"
+  }
+}

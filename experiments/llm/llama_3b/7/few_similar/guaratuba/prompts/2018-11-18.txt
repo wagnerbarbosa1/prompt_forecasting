@@ -1,0 +1,95 @@
+Forecast daily water production in cubic metres using demand, weather and calendar context.
+Each sequence below contains one value per day, aligned with the listed dates in chronological order.
+Return ONLY a JSON object with key "predictions" and exactly 7 nonnegative numbers.
+Do not explain. Do not repeat the historical values as an answer.
+Guaratuba is a tourist city with strong seasonality during Brazilian holidays and school recesses, especially from December through March. Consider this context when interpreting changes in water demand.
+Historical training example:
+From two thousand and sixteen, day six of November to two thousand and sixteen, day twelve of November, the water production (water_produced) of region Guaratuba was 11500.30; 12114.96; 10634.77; 10404.75; 11555.85; 14006.56; 10886.66 cubic metres on each day, respectively.
+From two thousand and sixteen, day six of November to two thousand and sixteen, day twelve of November, the average relative humidity of region Guaratuba was 89.05; 90.01; 86.71; 92.26; 79; 84.52; 85.51 on each day, respectively.
+From two thousand and sixteen, day six of November to two thousand and sixteen, day twelve of November, the average temperature of region Guaratuba was 21.3; 22.57; 23.71; 22.8; 24.96; 23.43; 18.82 degrees Celsius on each day, respectively.
+From two thousand and sixteen, day six of November to two thousand and sixteen, day twelve of November, the average radiation of region Guaratuba was 91.27; 203.22; 240.76; 41.68; 317.16; 274.27; 53.46 on each day, respectively.
+From two thousand and sixteen, day six of November to two thousand and sixteen, day twelve of November, the average precipitation of region Guaratuba was 0.01; 0.01; 0; 0.45; 0; 0.02; 0.06 on each day, respectively.
+In region Guaratuba, weekend status applies on: two thousand and sixteen, day six of November; two thousand and sixteen, day twelve of November.
+From two thousand and sixteen, day six of November to two thousand and sixteen, day twelve of November, the day of the month of region Guaratuba was six; seven; eight; nine; ten; eleven; twelve on each day, respectively.
+From two thousand and sixteen, day six of November to two thousand and sixteen, day twelve of November, the day of the week of region Guaratuba was Sunday; Monday; Tuesday; Wednesday; Thursday; Friday; Saturday on each day, respectively.
+From two thousand and sixteen, day six of November to two thousand and sixteen, day twelve of November, the season of the year of region Guaratuba was spring; spring; spring; spring; spring; spring; spring on each day, respectively.
+From two thousand and sixteen, day thirteen of November to two thousand and sixteen, day nineteen of November, the supplied average relative humidity of region Guaratuba is 93.31; 90.43; 91.97; 89.67; 87.18; 72.34; 67.67 on each day, respectively.
+From two thousand and sixteen, day thirteen of November to two thousand and sixteen, day nineteen of November, the supplied average temperature of region Guaratuba is 18.84; 20.83; 22.85; 23.02; 23.61; 21.72; 20.85 degrees Celsius on each day, respectively.
+From two thousand and sixteen, day thirteen of November to two thousand and sixteen, day nineteen of November, the supplied average radiation of region Guaratuba is 48.75; 122.03; 230.44; 176.77; 227.04; 302.04; 242.04 on each day, respectively.
+From two thousand and sixteen, day thirteen of November to two thousand and sixteen, day nineteen of November, the supplied average precipitation of region Guaratuba is 0.01; 0.01; 0.06; 0.07; 0.19; 0.04; 0 on each day, respectively.
+In region Guaratuba, regional holiday status applies on: two thousand and sixteen, day fifteen of November.
+In region Guaratuba, weekend status applies on: two thousand and sixteen, day thirteen of November; two thousand and sixteen, day nineteen of November.
+In region Guaratuba, Paraná school recess status applies on: two thousand and sixteen, day fourteen of November.
+From two thousand and sixteen, day thirteen of November to two thousand and sixteen, day nineteen of November, the supplied day of the month of region Guaratuba is thirteen; fourteen; fifteen; sixteen; seventeen; eighteen; nineteen on each day, respectively.
+From two thousand and sixteen, day thirteen of November to two thousand and sixteen, day nineteen of November, the supplied day of the week of region Guaratuba is Sunday; Monday; Tuesday; Wednesday; Thursday; Friday; Saturday on each day, respectively.
+From two thousand and sixteen, day thirteen of November to two thousand and sixteen, day nineteen of November, the supplied season of the year of region Guaratuba is spring; spring; spring; spring; spring; spring; spring on each day, respectively.
+Observed production on those example forecast dates: {"predictions": [9714.296720894286, 13901.675772542363, 9880.877190737992, 10450.321865716567, 12208.997627740611, 11219.004047610855, 11582.206264807535]}
+Historical training example:
+From two thousand and sixteen, day twenty-two of October to two thousand and sixteen, day twenty-eight of October, the water production (water_produced) of region Guaratuba was 10781.85; 10236.79; 12159.80; 8385.75; 10325.32; 12163.61; 9938.43 cubic metres on each day, respectively.
+From two thousand and sixteen, day twenty-two of October to two thousand and sixteen, day twenty-eight of October, the average relative humidity of region Guaratuba was 88.58; 91.31; 90.31; 96.97; 96.63; 69.61; 56.19 on each day, respectively.
+From two thousand and sixteen, day twenty-two of October to two thousand and sixteen, day twenty-eight of October, the average temperature of region Guaratuba was 18.98; 20.13; 22.24; 22.08; 22.28; 25.52; 20.34 degrees Celsius on each day, respectively.
+From two thousand and sixteen, day twenty-two of October to two thousand and sixteen, day twenty-eight of October, the average radiation of region Guaratuba was 128.89; 114.73; 114.99; 32.01; 98.77; 232.38; 322.99 on each day, respectively.
+From two thousand and sixteen, day twenty-two of October to two thousand and sixteen, day twenty-eight of October, the average precipitation of region Guaratuba was 0.01; 0; 0; 0.8; 0.18; 0; 0 on each day, respectively.
+In region Guaratuba, regional holiday status applies on: two thousand and sixteen, day twenty-eight of October.
+In region Guaratuba, weekend status applies on: two thousand and sixteen, day twenty-two of October; two thousand and sixteen, day twenty-three of October.
+From two thousand and sixteen, day twenty-two of October to two thousand and sixteen, day twenty-eight of October, the day of the month of region Guaratuba was twenty-two; twenty-three; twenty-four; twenty-five; twenty-six; twenty-seven; twenty-eight on each day, respectively.
+From two thousand and sixteen, day twenty-two of October to two thousand and sixteen, day twenty-eight of October, the day of the week of region Guaratuba was Saturday; Sunday; Monday; Tuesday; Wednesday; Thursday; Friday on each day, respectively.
+From two thousand and sixteen, day twenty-two of October to two thousand and sixteen, day twenty-eight of October, the season of the year of region Guaratuba was spring; spring; spring; spring; spring; spring; spring on each day, respectively.
+From two thousand and sixteen, day twenty-nine of October to two thousand and sixteen, day four of November, the supplied average relative humidity of region Guaratuba is 74.66; 76.87; 91.61; 87.25; 92.56; 86.4; 86.2 on each day, respectively.
+From two thousand and sixteen, day twenty-nine of October to two thousand and sixteen, day four of November, the supplied average temperature of region Guaratuba is 19.76; 19.93; 20.25; 22.88; 22.95; 19.62; 19.98 degrees Celsius on each day, respectively.
+From two thousand and sixteen, day twenty-nine of October to two thousand and sixteen, day four of November, the supplied average radiation of region Guaratuba is 256.1; 211.02; 86; 226.77; 152.88; 81.58; 198.29 on each day, respectively.
+From two thousand and sixteen, day twenty-nine of October to two thousand and sixteen, day four of November, the supplied average precipitation of region Guaratuba is 0; 0.01; 0.01; 0; 0.18; 0.05; 0 on each day, respectively.
+In region Guaratuba, regional holiday status applies on: two thousand and sixteen, day two of November.
+In region Guaratuba, weekend status applies on: two thousand and sixteen, day twenty-nine of October; two thousand and sixteen, day thirty of October.
+From two thousand and sixteen, day twenty-nine of October to two thousand and sixteen, day four of November, the supplied day of the month of region Guaratuba is twenty-nine; thirty; thirty-one; one; two; three; four on each day, respectively.
+From two thousand and sixteen, day twenty-nine of October to two thousand and sixteen, day four of November, the supplied day of the week of region Guaratuba is Saturday; Sunday; Monday; Tuesday; Wednesday; Thursday; Friday on each day, respectively.
+From two thousand and sixteen, day twenty-nine of October to two thousand and sixteen, day four of November, the supplied season of the year of region Guaratuba is spring; spring; spring; spring; spring; spring; spring on each day, respectively.
+Observed production on those example forecast dates: {"predictions": [11411.3704261782, 10489.401408200356, 10875.670453806752, 8089.127852323707, 11050.02446845061, 11537.793622642905, 10747.764230964229]}
+Historical training example:
+From two thousand and sixteen, day thirty of October to two thousand and sixteen, day five of November, the water production (water_produced) of region Guaratuba was 10489.40; 10875.67; 8089.13; 11050.02; 11537.79; 10747.76; 12525.46 cubic metres on each day, respectively.
+From two thousand and sixteen, day thirty of October to two thousand and sixteen, day five of November, the average relative humidity of region Guaratuba was 76.87; 91.61; 87.25; 92.56; 86.4; 86.2; 82.31 on each day, respectively.
+From two thousand and sixteen, day thirty of October to two thousand and sixteen, day five of November, the average temperature of region Guaratuba was 19.93; 20.25; 22.88; 22.95; 19.62; 19.98; 21.8 degrees Celsius on each day, respectively.
+From two thousand and sixteen, day thirty of October to two thousand and sixteen, day five of November, the average radiation of region Guaratuba was 211.02; 86; 226.77; 152.88; 81.58; 198.29; 284.56 on each day, respectively.
+From two thousand and sixteen, day thirty of October to two thousand and sixteen, day five of November, the average precipitation of region Guaratuba was 0.01; 0.01; 0; 0.18; 0.05; 0; 0 on each day, respectively.
+In region Guaratuba, regional holiday status applies on: two thousand and sixteen, day two of November.
+In region Guaratuba, weekend status applies on: two thousand and sixteen, day thirty of October; two thousand and sixteen, day five of November.
+From two thousand and sixteen, day thirty of October to two thousand and sixteen, day five of November, the day of the month of region Guaratuba was thirty; thirty-one; one; two; three; four; five on each day, respectively.
+From two thousand and sixteen, day thirty of October to two thousand and sixteen, day five of November, the day of the week of region Guaratuba was Sunday; Monday; Tuesday; Wednesday; Thursday; Friday; Saturday on each day, respectively.
+From two thousand and sixteen, day thirty of October to two thousand and sixteen, day five of November, the season of the year of region Guaratuba was spring; spring; spring; spring; spring; spring; spring on each day, respectively.
+From two thousand and sixteen, day six of November to two thousand and sixteen, day twelve of November, the supplied average relative humidity of region Guaratuba is 89.05; 90.01; 86.71; 92.26; 79; 84.52; 85.51 on each day, respectively.
+From two thousand and sixteen, day six of November to two thousand and sixteen, day twelve of November, the supplied average temperature of region Guaratuba is 21.3; 22.57; 23.71; 22.8; 24.96; 23.43; 18.82 degrees Celsius on each day, respectively.
+From two thousand and sixteen, day six of November to two thousand and sixteen, day twelve of November, the supplied average radiation of region Guaratuba is 91.27; 203.22; 240.76; 41.68; 317.16; 274.27; 53.46 on each day, respectively.
+From two thousand and sixteen, day six of November to two thousand and sixteen, day twelve of November, the supplied average precipitation of region Guaratuba is 0.01; 0.01; 0; 0.45; 0; 0.02; 0.06 on each day, respectively.
+In region Guaratuba, weekend status applies on: two thousand and sixteen, day six of November; two thousand and sixteen, day twelve of November.
+From two thousand and sixteen, day six of November to two thousand and sixteen, day twelve of November, the supplied day of the month of region Guaratuba is six; seven; eight; nine; ten; eleven; twelve on each day, respectively.
+From two thousand and sixteen, day six of November to two thousand and sixteen, day twelve of November, the supplied day of the week of region Guaratuba is Sunday; Monday; Tuesday; Wednesday; Thursday; Friday; Saturday on each day, respectively.
+From two thousand and sixteen, day six of November to two thousand and sixteen, day twelve of November, the supplied season of the year of region Guaratuba is spring; spring; spring; spring; spring; spring; spring on each day, respectively.
+Observed production on those example forecast dates: {"predictions": [11500.297519119184, 12114.955388797383, 10634.769097167164, 10404.749667676406, 11555.849508306716, 14006.560160431492, 10886.656098795796]}
+From two thousand and eighteen, day eleven of November to two thousand and eighteen, day seventeen of November, the water production (water_produced) of region Guaratuba was 9867.07; 12506.83; 13680.86; 13467.65; 15794.12; 17137.42; 13203.03 cubic metres on each day, respectively.
+From two thousand and eighteen, day eleven of November to two thousand and eighteen, day seventeen of November, the average relative humidity of region Guaratuba was 84.55; 83.16; 82.61; 86.49; 76.49; 73.02; 72.45 on each day, respectively.
+From two thousand and eighteen, day eleven of November to two thousand and eighteen, day seventeen of November, the average temperature of region Guaratuba was 23.01; 23.74; 24.04; 24.26; 24.19; 23.54; 22.97 degrees Celsius on each day, respectively.
+From two thousand and eighteen, day eleven of November to two thousand and eighteen, day seventeen of November, the average radiation of region Guaratuba was 149.37; 150.47; 139.71; 97.72; 74.89; 197.26; 250.82 on each day, respectively.
+From two thousand and eighteen, day eleven of November to two thousand and eighteen, day seventeen of November, the average precipitation of region Guaratuba was 0.03; 0; 0.01; 0.34; 0; 0; 0 on each day, respectively.
+In region Guaratuba, regional holiday status applies on: two thousand and eighteen, day fifteen of November.
+In region Guaratuba, weekend status applies on: two thousand and eighteen, day eleven of November; two thousand and eighteen, day seventeen of November.
+In region Guaratuba, Paraná school recess status applies on: two thousand and eighteen, day sixteen of November.
+From two thousand and eighteen, day eleven of November to two thousand and eighteen, day seventeen of November, the day of the month of region Guaratuba was eleven; twelve; thirteen; fourteen; fifteen; sixteen; seventeen on each day, respectively.
+From two thousand and eighteen, day eleven of November to two thousand and eighteen, day seventeen of November, the day of the week of region Guaratuba was Sunday; Monday; Tuesday; Wednesday; Thursday; Friday; Saturday on each day, respectively.
+From two thousand and eighteen, day eleven of November to two thousand and eighteen, day seventeen of November, the season of the year of region Guaratuba was spring; spring; spring; spring; spring; spring; spring on each day, respectively.
+The following covariates are supplied inputs for the forecast dates; they do not include future water production.
+From two thousand and eighteen, day eighteen of November to two thousand and eighteen, day twenty-four of November, the supplied average relative humidity of region Guaratuba is 82.96; 70.92; 79.06; 81.89; 85.71; 84.24; 72.87 on each day, respectively.
+From two thousand and eighteen, day eighteen of November to two thousand and eighteen, day twenty-four of November, the supplied average temperature of region Guaratuba is 21.97; 21.04; 20.27; 20.15; 22.13; 23.37; 26.41 degrees Celsius on each day, respectively.
+From two thousand and eighteen, day eighteen of November to two thousand and eighteen, day twenty-four of November, the supplied average radiation of region Guaratuba is 54.91; 175.44; 103.13; 122.99; 100.07; 50; 92.2 on each day, respectively.
+From two thousand and eighteen, day eighteen of November to two thousand and eighteen, day twenty-four of November, the supplied average precipitation of region Guaratuba is 0.13; 0.06; 0.01; 0.04; 0.09; 0; 0.01 on each day, respectively.
+In region Guaratuba, weekend status applies on: two thousand and eighteen, day eighteen of November; two thousand and eighteen, day twenty-four of November.
+From two thousand and eighteen, day eighteen of November to two thousand and eighteen, day twenty-four of November, the supplied day of the month of region Guaratuba is eighteen; nineteen; twenty; twenty-one; twenty-two; twenty-three; twenty-four on each day, respectively.
+From two thousand and eighteen, day eighteen of November to two thousand and eighteen, day twenty-four of November, the supplied day of the week of region Guaratuba is Sunday; Monday; Tuesday; Wednesday; Thursday; Friday; Saturday on each day, respectively.
+From two thousand and eighteen, day eighteen of November to two thousand and eighteen, day twenty-four of November, the supplied season of the year of region Guaratuba is spring; spring; spring; spring; spring; spring; spring on each day, respectively.
+What is the water_produced going to be on two thousand and eighteen, day eighteen of November in region Guaratuba?
+What is the water_produced going to be on two thousand and eighteen, day nineteen of November in region Guaratuba?
+What is the water_produced going to be on two thousand and eighteen, day twenty of November in region Guaratuba?
+What is the water_produced going to be on two thousand and eighteen, day twenty-one of November in region Guaratuba?
+What is the water_produced going to be on two thousand and eighteen, day twenty-two of November in region Guaratuba?
+What is the water_produced going to be on two thousand and eighteen, day twenty-three of November in region Guaratuba?
+What is the water_produced going to be on two thousand and eighteen, day twenty-four of November in region Guaratuba?
+Output schema: {"predictions": [number, ...]}; array length must be 7, in the same order as the questions.

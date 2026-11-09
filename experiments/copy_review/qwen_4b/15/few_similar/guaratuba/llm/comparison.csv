@@ -1,0 +1,2 @@
+modelo,contexto_inicial,RMSE,R2,MAE,MAPE
+qwen3:4b-instruct-2507-q4_K_M / few_similar / revisado,15,2351.0909652946957,0.5522300495036441,1836.92944551463,15.622333572236077

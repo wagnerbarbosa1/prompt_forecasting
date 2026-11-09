@@ -1,0 +1,46 @@
+{
+  "expected_windows": 54,
+  "successful_windows": 44,
+  "failures": [
+    {
+      "origin": "2024-08-25",
+      "error": "ValueError: Predictions must be finite, nonnegative numbers"
+    },
+    {
+      "origin": "2024-09-01",
+      "error": "ValueError: Predictions must be finite, nonnegative numbers"
+    },
+    {
+      "origin": "2024-09-08",
+      "error": "ValueError: Predictions must be finite, nonnegative numbers"
+    },
+    {
+      "origin": "2024-12-15",
+      "error": "ValueError: Predictions must be finite, nonnegative numbers"
+    },
+    {
+      "origin": "2025-01-26",
+      "error": "ValueError: Predictions must be finite, nonnegative numbers"
+    },
+    {
+      "origin": "2025-03-02",
+      "error": "ValueError: Predictions must be finite, nonnegative numbers"
+    },
+    {
+      "origin": "2025-03-09",
+      "error": "ValueError: Predictions must be finite, nonnegative numbers"
+    },
+    {
+      "origin": "2025-03-23",
+      "error": "ValueError: Predictions must be finite, nonnegative numbers"
+    },
+    {
+      "origin": "2025-05-18",
+      "error": "ValueError: Predictions must be finite, nonnegative numbers"
+    },
+    {
+      "origin": "2025-06-15",
+      "error": "ValueError: Predictions must be finite, nonnegative numbers"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "expected_windows": 104,
+  "successful_windows": 99,
+  "failures": [
+    {
+      "origin": "2018-02-25",
+      "error": "ValueError: Predictions must be finite, nonnegative numbers"
+    },
+    {
+      "origin": "2018-04-01",
+      "error": "ValueError: Predictions must be finite, nonnegative numbers"
+    },
+    {
+      "origin": "2018-04-08",
+      "error": "ValueError: Predictions must be finite, nonnegative numbers"
+    },
+    {
+      "origin": "2018-12-09",
+      "error": "ValueError: Predictions must be finite, nonnegative numbers"
+    },
+    {
+      "origin": "2019-06-09",
+      "error": "ValueError: Predictions must be finite, nonnegative numbers"
+    }
+  ]
+}

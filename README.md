@@ -128,3 +128,76 @@ A comparação histórica entre Qwen numérico/tabular e narrativo está em
 limites de tokens também mudaram, portanto a variação de erro não isola apenas
 a redação do prompt. `python -m src.visualization.comparison_results` recria
 os gráficos a partir dos CSVs verificados, sem executar novas inferências Qwen.
+
+## Compatibilidade com o código original
+
+`src/evaluation/cross_validation.py` preserva integralmente o código do commit
+`7489ec2`: `ExpandingWindow` e `SlidingWindow` recebem `n_samples`, `trainw`,
+`step` e `horizon`; `split()` entrega pares de `slice` com `yield`.
+O histórico expansivo usa `slice(0, k)` e o deslizante usa
+`slice(k - trainw, k)`; ambos preveem `slice(k, k + horizon)`.
+
+`src/evaluation/protocol.py` chama esses divisores e adapta seus resultados aos
+pipelines. Nele ficam os registros simples de auditoria, a validação temporal e
+o filtro de alvos sem observação real. Esses registros não usam `dataclass` nem
+`property`. O filtro não pertence ao algoritmo original de divisão; ele existe
+para evitar calcular métricas sobre alvos preenchidos artificialmente.
+
+A modularização mantém as chamadas centrais originais: Chronos usa `predict_df`
+com covariáveis futuras e a mediana `0.5`; TimesFM usa
+`forecast_with_covariates` com `xreg + timesfm` e contexto arredondado aos patches.
+Permanecem as alterações solicitadas posteriormente: contexto efetivamente
+crescente dos baselines, horizonte e passo de sete dias, métricas de todos os
+sete dias, Qwen com sete/quinze dias e prompts em linguagem natural.
+O tratamento de dias ausentes e as verificações de entradas são adaptações do
+pipeline, não parte do código original dos divisores.
+
+Verificação: `conda run -n baseline python -m unittest discover -s tests -q`.
+Os testes verificam os limites originais, o crescimento do histórico, a janela
+fixa, o último horizonte completo e a integração com os protocolos atuais.
+
+## LLMs e few-shot
+
+O comando abaixo usa Qwen3 1.7B, Qwen3 4B, DeepSeek-R1 1.5B e Llama 3.2 3B,
+com contextos de 7 e 15 dias e estratégias `zero`, `few_random` e `few_similar`.
+O Ollama deve estar ativo localmente na porta configurada.
+
+```bash
+python -m src.pipelines.llm_experiment
+```
+
+`configs/llm_experiment.json` concentra os modelos e as combinações. Para testar
+uma janela por cidade, sem misturar com o benchmark completo:
+
+```bash
+python -m src.pipelines.llm_experiment --models deepseek_1_5b llama_3b \
+  --strategies few_random few_similar --limit 1 --output experiments/llm_smoke
+```
+
+Use `--prepare-only` para gerar os mesmos prompts utilizados na inferência;
+`--summarize-only` recalcula os CSVs de comparação após execuções completas.
+Cada combinação tem uma pasta própria: modelo/contexto/estratégia/cidade/llm.
+As comparações têm seis colunas: modelo (incluindo a estratégia), contexto
+inicial, RMSE, R2, MAE e MAPE. As métricas incluem os sete dias previstos.
+
+A seleção recupera o comportamento do cenário S3 original: demanda normalizada,
+calendário cíclico, indicadores disponíveis e meteorologia histórica, comparados
+por distância euclidiana. A seleção aleatória usa `random.Random` compartilhado
+entre as janelas, como no gerador antigo, em vez de reiniciar a semente a cada
+previsão. Cada exemplo inclui histórico, covariáveis e seu desfecho conhecido.
+Por exigência de isolamento dos testes, os candidatos ficam no prefixo anterior
+ao primeiro teste; dias preenchidos artificialmente não entram nos exemplos.
+
+O fluxo tem uma geração única: `llm_experiment` chama `run_dataset`, que chama
+`select_demonstrations` e `build_prompt`; `OllamaForecaster` envia o resultado ao
+Ollama. O cliente é compartilhado pelos quatro modelos e só envia `think=False`
+quando o servidor declara suporte a essa opção. Respostas inválidas ficam
+registradas como falhas; não são corrigidas artificialmente para gerar métricas.
+Os scripts e configurações anteriores do Qwen continuam disponíveis para os
+relatórios históricos que dependem deles.
+
+Indicadores binários iguais a zero são omitidos somente no texto dos prompts,
+inclusive nos exemplos few-shot. Valores positivos aparecem com suas datas
+explícitas. Isso preserva o alinhamento temporal e não remove zeros de variáveis
+contínuas, como precipitação. A seleção dos exemplos continua usando os dados
+completos, com os indicadores binários presentes.

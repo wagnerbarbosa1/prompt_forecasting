@@ -1,0 +1,29 @@
+{
+  "model": {
+    "model": "google/timesfm-2.5-200m-pytorch",
+    "initial_context": 15,
+    "version": "2.0.2",
+    "xreg_mode": "xreg + timesfm"
+  },
+  "dataset": "joinville",
+  "history_days": 15,
+  "evaluation_initial_context": 365,
+  "horizon": 7,
+  "step": 7,
+  "covariates": [
+    "precipitation_median",
+    "temperature_2m_previsao_mean",
+    "shortwave_radiation_previsao_std",
+    "day",
+    "dayofweek_sin",
+    "dayofweek_cos",
+    "season_sin",
+    "season_cos",
+    "is_holiday"
+  ],
+  "source_sha256": "a666487071c60671c4111e2c592095d11d3def729be5b17a1da3064d95b9656a",
+  "dataset_sha256": "d54a71f6f209f7ba69fc0d3628b63d9435f035e8dd3a914cf4182a7b56b5347e",
+  "limit": 0,
+  "script_sha256": "2788961f4fe62c04438bf709e9f7b7640e522567a6151f9c8612472839b8e7ac",
+  "run_id": "b7eeb358f3d0cfc06ca564ba03b20f3612ba8fff3ba5e5c3dd5471d2559df2e7"
+}

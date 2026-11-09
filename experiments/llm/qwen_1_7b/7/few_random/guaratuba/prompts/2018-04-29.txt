@@ -1,0 +1,92 @@
+Forecast daily water production in cubic metres using demand, weather and calendar context.
+Each sequence below contains one value per day, aligned with the listed dates in chronological order.
+Return ONLY a JSON object with key "predictions" and exactly 7 nonnegative numbers.
+Do not explain. Do not repeat the historical values as an answer.
+Guaratuba is a tourist city with strong seasonality during Brazilian holidays and school recesses, especially from December through March. Consider this context when interpreting changes in water demand.
+Historical training example:
+From two thousand and sixteen, day four of April to two thousand and sixteen, day ten of April, the water production (water_produced) of region Guaratuba was 11092.24; 9506.96; 9269.21; 8651.26; 10867.67; 13033.42; 9110.42 cubic metres on each day, respectively.
+From two thousand and sixteen, day four of April to two thousand and sixteen, day ten of April, the average relative humidity of region Guaratuba was 92.44; 92.02; 84.4; 89.18; 91.96; 94.44; 94.25 on each day, respectively.
+From two thousand and sixteen, day four of April to two thousand and sixteen, day ten of April, the average temperature of region Guaratuba was 25.05; 24.87; 26.51; 26.25; 26.28; 26.89; 26.92 degrees Celsius on each day, respectively.
+From two thousand and sixteen, day four of April to two thousand and sixteen, day ten of April, the average radiation of region Guaratuba was 57.52; 192.03; 214.68; 200.29; 130.17; 169.75; 82.99 on each day, respectively.
+From two thousand and sixteen, day four of April to two thousand and sixteen, day ten of April, the average precipitation of region Guaratuba was 0; 0; 0; 0; 0; 0; 0 on each day, respectively.
+In region Guaratuba, weekend status applies on: two thousand and sixteen, day nine of April; two thousand and sixteen, day ten of April.
+From two thousand and sixteen, day four of April to two thousand and sixteen, day ten of April, the day of the month of region Guaratuba was four; five; six; seven; eight; nine; ten on each day, respectively.
+From two thousand and sixteen, day four of April to two thousand and sixteen, day ten of April, the day of the week of region Guaratuba was Monday; Tuesday; Wednesday; Thursday; Friday; Saturday; Sunday on each day, respectively.
+From two thousand and sixteen, day four of April to two thousand and sixteen, day ten of April, the season of the year of region Guaratuba was autumn; autumn; autumn; autumn; autumn; autumn; autumn on each day, respectively.
+From two thousand and sixteen, day eleven of April to two thousand and sixteen, day seventeen of April, the supplied average relative humidity of region Guaratuba is 97.63; 94.44; 92.01; 91.04; 93.4; 90.47; 90.86 on each day, respectively.
+From two thousand and sixteen, day eleven of April to two thousand and sixteen, day seventeen of April, the supplied average temperature of region Guaratuba is 23.72; 25.22; 26.13; 26.34; 26.09; 27.12; 27.37 degrees Celsius on each day, respectively.
+From two thousand and sixteen, day eleven of April to two thousand and sixteen, day seventeen of April, the supplied average radiation of region Guaratuba is 61.65; 143.28; 162.88; 175.37; 93.8; 179.39; 154.77 on each day, respectively.
+From two thousand and sixteen, day eleven of April to two thousand and sixteen, day seventeen of April, the supplied average precipitation of region Guaratuba is 0; 0; 0; 0.57; 0; 0; 0 on each day, respectively.
+In region Guaratuba, weekend status applies on: two thousand and sixteen, day sixteen of April; two thousand and sixteen, day seventeen of April.
+From two thousand and sixteen, day eleven of April to two thousand and sixteen, day seventeen of April, the supplied day of the month of region Guaratuba is eleven; twelve; thirteen; fourteen; fifteen; sixteen; seventeen on each day, respectively.
+From two thousand and sixteen, day eleven of April to two thousand and sixteen, day seventeen of April, the supplied day of the week of region Guaratuba is Monday; Tuesday; Wednesday; Thursday; Friday; Saturday; Sunday on each day, respectively.
+From two thousand and sixteen, day eleven of April to two thousand and sixteen, day seventeen of April, the supplied season of the year of region Guaratuba is autumn; autumn; autumn; autumn; autumn; autumn; autumn on each day, respectively.
+Observed production on those example forecast dates: {"predictions": [10336.076687101886, 11045.905947504943, 10029.758348214684, 9754.6764790553, 10051.850853098227, 13504.174339422005, 10684.63892492943]}
+Historical training example:
+From two thousand and seventeen, day two of August to two thousand and seventeen, day eight of August, the water production (water_produced) of region Guaratuba was 9258.15; 13122.63; 10504.44; 9389.24; 9164.33; 10239.85; 9645.39 cubic metres on each day, respectively.
+From two thousand and seventeen, day two of August to two thousand and seventeen, day eight of August, the average relative humidity of region Guaratuba was 71.97; 81.24; 73.87; 71.39; 76.66; 76.06; 85.29 on each day, respectively.
+From two thousand and seventeen, day two of August to two thousand and seventeen, day eight of August, the average temperature of region Guaratuba was 20.77; 19.59; 18.01; 17.71; 17.34; 17.87; 17.88 degrees Celsius on each day, respectively.
+From two thousand and seventeen, day two of August to two thousand and seventeen, day eight of August, the average radiation of region Guaratuba was 148.7; 101.14; 165.31; 149.67; 70.89; 160.15; 150.07 on each day, respectively.
+From two thousand and seventeen, day two of August to two thousand and seventeen, day eight of August, the average precipitation of region Guaratuba was 0; 0.01; 0; 0; 0; 0; 0 on each day, respectively.
+In region Guaratuba, weekend status applies on: two thousand and seventeen, day five of August; two thousand and seventeen, day six of August.
+From two thousand and seventeen, day two of August to two thousand and seventeen, day eight of August, the day of the month of region Guaratuba was two; three; four; five; six; seven; eight on each day, respectively.
+From two thousand and seventeen, day two of August to two thousand and seventeen, day eight of August, the day of the week of region Guaratuba was Wednesday; Thursday; Friday; Saturday; Sunday; Monday; Tuesday on each day, respectively.
+From two thousand and seventeen, day two of August to two thousand and seventeen, day eight of August, the season of the year of region Guaratuba was winter; winter; winter; winter; winter; winter; winter on each day, respectively.
+From two thousand and seventeen, day nine of August to two thousand and seventeen, day fifteen of August, the supplied average relative humidity of region Guaratuba is 78.53; 79.65; 87.51; 85.44; 85.31; 74.28; 87.71 on each day, respectively.
+From two thousand and seventeen, day nine of August to two thousand and seventeen, day fifteen of August, the supplied average temperature of region Guaratuba is 20.2; 17.95; 16.85; 18.39; 19.55; 20.25; 17.65 degrees Celsius on each day, respectively.
+From two thousand and seventeen, day nine of August to two thousand and seventeen, day fifteen of August, the supplied average radiation of region Guaratuba is 162.24; 38.01; 75.48; 39.56; 55.56; 200.54; 35.93 on each day, respectively.
+From two thousand and seventeen, day nine of August to two thousand and seventeen, day fifteen of August, the supplied average precipitation of region Guaratuba is 0; 0; 0.01; 0.03; 0.08; 0; 0.06 on each day, respectively.
+In region Guaratuba, weekend status applies on: two thousand and seventeen, day twelve of August; two thousand and seventeen, day thirteen of August.
+From two thousand and seventeen, day nine of August to two thousand and seventeen, day fifteen of August, the supplied day of the month of region Guaratuba is nine; ten; eleven; twelve; thirteen; fourteen; fifteen on each day, respectively.
+From two thousand and seventeen, day nine of August to two thousand and seventeen, day fifteen of August, the supplied day of the week of region Guaratuba is Wednesday; Thursday; Friday; Saturday; Sunday; Monday; Tuesday on each day, respectively.
+From two thousand and seventeen, day nine of August to two thousand and seventeen, day fifteen of August, the supplied season of the year of region Guaratuba is winter; winter; winter; winter; winter; winter; winter on each day, respectively.
+Observed production on those example forecast dates: {"predictions": [9193.780428109732, 12223.418866543892, 10179.82644027014, 10764.073739813082, 9511.720075227771, 10926.968065933108, 10333.918822756226]}
+Historical training example:
+From two thousand and sixteen, day ten of November to two thousand and sixteen, day sixteen of November, the water production (water_produced) of region Guaratuba was 11555.85; 14006.56; 10886.66; 9714.30; 13901.68; 9880.88; 10450.32 cubic metres on each day, respectively.
+From two thousand and sixteen, day ten of November to two thousand and sixteen, day sixteen of November, the average relative humidity of region Guaratuba was 79; 84.52; 85.51; 93.31; 90.43; 91.97; 89.67 on each day, respectively.
+From two thousand and sixteen, day ten of November to two thousand and sixteen, day sixteen of November, the average temperature of region Guaratuba was 24.96; 23.43; 18.82; 18.84; 20.83; 22.85; 23.02 degrees Celsius on each day, respectively.
+From two thousand and sixteen, day ten of November to two thousand and sixteen, day sixteen of November, the average radiation of region Guaratuba was 317.16; 274.27; 53.46; 48.75; 122.03; 230.44; 176.77 on each day, respectively.
+From two thousand and sixteen, day ten of November to two thousand and sixteen, day sixteen of November, the average precipitation of region Guaratuba was 0; 0.02; 0.06; 0.01; 0.01; 0.06; 0.07 on each day, respectively.
+In region Guaratuba, regional holiday status applies on: two thousand and sixteen, day fifteen of November.
+In region Guaratuba, weekend status applies on: two thousand and sixteen, day twelve of November; two thousand and sixteen, day thirteen of November.
+In region Guaratuba, Paraná school recess status applies on: two thousand and sixteen, day fourteen of November.
+From two thousand and sixteen, day ten of November to two thousand and sixteen, day sixteen of November, the day of the month of region Guaratuba was ten; eleven; twelve; thirteen; fourteen; fifteen; sixteen on each day, respectively.
+From two thousand and sixteen, day ten of November to two thousand and sixteen, day sixteen of November, the day of the week of region Guaratuba was Thursday; Friday; Saturday; Sunday; Monday; Tuesday; Wednesday on each day, respectively.
+From two thousand and sixteen, day ten of November to two thousand and sixteen, day sixteen of November, the season of the year of region Guaratuba was spring; spring; spring; spring; spring; spring; spring on each day, respectively.
+From two thousand and sixteen, day seventeen of November to two thousand and sixteen, day twenty-three of November, the supplied average relative humidity of region Guaratuba is 87.18; 72.34; 67.67; 74.31; 74.82; 79.36; 91.69 on each day, respectively.
+From two thousand and sixteen, day seventeen of November to two thousand and sixteen, day twenty-three of November, the supplied average temperature of region Guaratuba is 23.61; 21.72; 20.85; 20.82; 22.68; 22.63; 21.12 degrees Celsius on each day, respectively.
+From two thousand and sixteen, day seventeen of November to two thousand and sixteen, day twenty-three of November, the supplied average radiation of region Guaratuba is 227.04; 302.04; 242.04; 305.21; 313.04; 101.82; 72.61 on each day, respectively.
+From two thousand and sixteen, day seventeen of November to two thousand and sixteen, day twenty-three of November, the supplied average precipitation of region Guaratuba is 0.19; 0.04; 0; 0; 0; 0.01; 0.06 on each day, respectively.
+In region Guaratuba, weekend status applies on: two thousand and sixteen, day nineteen of November; two thousand and sixteen, day twenty of November.
+From two thousand and sixteen, day seventeen of November to two thousand and sixteen, day twenty-three of November, the supplied day of the month of region Guaratuba is seventeen; eighteen; nineteen; twenty; twenty-one; twenty-two; twenty-three on each day, respectively.
+From two thousand and sixteen, day seventeen of November to two thousand and sixteen, day twenty-three of November, the supplied day of the week of region Guaratuba is Thursday; Friday; Saturday; Sunday; Monday; Tuesday; Wednesday on each day, respectively.
+From two thousand and sixteen, day seventeen of November to two thousand and sixteen, day twenty-three of November, the supplied season of the year of region Guaratuba is spring; spring; spring; spring; spring; spring; spring on each day, respectively.
+Observed production on those example forecast dates: {"predictions": [12208.997627740611, 11219.004047610855, 11582.206264807535, 10001.927667370835, 12312.18211710325, 11643.340836978074, 11981.791020207414]}
+From two thousand and eighteen, day twenty-two of April to two thousand and eighteen, day twenty-eight of April, the water production (water_produced) of region Guaratuba was 12720.56; 13810.94; 13625.39; 10970.60; 12300.49; 15787.90; 15034.00 cubic metres on each day, respectively.
+From two thousand and eighteen, day twenty-two of April to two thousand and eighteen, day twenty-eight of April, the average relative humidity of region Guaratuba was 79.47; 81.72; 82.64; 82.9; 83.37; 84.43; 82.8 on each day, respectively.
+From two thousand and eighteen, day twenty-two of April to two thousand and eighteen, day twenty-eight of April, the average temperature of region Guaratuba was 22.16; 22.6; 23.14; 23.06; 23.47; 23.95; 24.38 degrees Celsius on each day, respectively.
+From two thousand and eighteen, day twenty-two of April to two thousand and eighteen, day twenty-eight of April, the average radiation of region Guaratuba was 147.04; 134.6; 140.73; 52.44; 121.71; 99.06; 60.35 on each day, respectively.
+From two thousand and eighteen, day twenty-two of April to two thousand and eighteen, day twenty-eight of April, the average precipitation of region Guaratuba was 0; 0; 0; 0; 0; 0; 0 on each day, respectively.
+In region Guaratuba, weekend status applies on: two thousand and eighteen, day twenty-two of April; two thousand and eighteen, day twenty-eight of April.
+From two thousand and eighteen, day twenty-two of April to two thousand and eighteen, day twenty-eight of April, the day of the month of region Guaratuba was twenty-two; twenty-three; twenty-four; twenty-five; twenty-six; twenty-seven; twenty-eight on each day, respectively.
+From two thousand and eighteen, day twenty-two of April to two thousand and eighteen, day twenty-eight of April, the day of the week of region Guaratuba was Sunday; Monday; Tuesday; Wednesday; Thursday; Friday; Saturday on each day, respectively.
+From two thousand and eighteen, day twenty-two of April to two thousand and eighteen, day twenty-eight of April, the season of the year of region Guaratuba was autumn; autumn; autumn; autumn; autumn; autumn; autumn on each day, respectively.
+The following covariates are supplied inputs for the forecast dates; they do not include future water production.
+From two thousand and eighteen, day twenty-nine of April to two thousand and eighteen, day five of May, the supplied average relative humidity of region Guaratuba is 84.98; 82.16; 86.35; 91.54; 86.2; 86.04; 85.44 on each day, respectively.
+From two thousand and eighteen, day twenty-nine of April to two thousand and eighteen, day five of May, the supplied average temperature of region Guaratuba is 24.13; 25.3; 24.02; 22.23; 23.18; 24.11; 24.52 degrees Celsius on each day, respectively.
+From two thousand and eighteen, day twenty-nine of April to two thousand and eighteen, day five of May, the supplied average radiation of region Guaratuba is 97.99; 75.27; 47.32; 45.06; 19.94; 22.54; 21.5 on each day, respectively.
+From two thousand and eighteen, day twenty-nine of April to two thousand and eighteen, day five of May, the supplied average precipitation of region Guaratuba is 0; 0; 0.22; 0.25; 0.02; 0; 0 on each day, respectively.
+In region Guaratuba, regional holiday status applies on: two thousand and eighteen, day twenty-nine of April; two thousand and eighteen, day one of May.
+In region Guaratuba, weekend status applies on: two thousand and eighteen, day twenty-nine of April; two thousand and eighteen, day five of May.
+In region Guaratuba, Paraná school recess status applies on: two thousand and eighteen, day thirty of April.
+From two thousand and eighteen, day twenty-nine of April to two thousand and eighteen, day five of May, the supplied day of the month of region Guaratuba is twenty-nine; thirty; one; two; three; four; five on each day, respectively.
+From two thousand and eighteen, day twenty-nine of April to two thousand and eighteen, day five of May, the supplied day of the week of region Guaratuba is Sunday; Monday; Tuesday; Wednesday; Thursday; Friday; Saturday on each day, respectively.
+From two thousand and eighteen, day twenty-nine of April to two thousand and eighteen, day five of May, the supplied season of the year of region Guaratuba is autumn; autumn; autumn; autumn; autumn; autumn; autumn on each day, respectively.
+What is the water_produced going to be on two thousand and eighteen, day twenty-nine of April in region Guaratuba?
+What is the water_produced going to be on two thousand and eighteen, day thirty of April in region Guaratuba?
+What is the water_produced going to be on two thousand and eighteen, day one of May in region Guaratuba?
+What is the water_produced going to be on two thousand and eighteen, day two of May in region Guaratuba?
+What is the water_produced going to be on two thousand and eighteen, day three of May in region Guaratuba?
+What is the water_produced going to be on two thousand and eighteen, day four of May in region Guaratuba?
+What is the water_produced going to be on two thousand and eighteen, day five of May in region Guaratuba?
+Output schema: {"predictions": [number, ...]}; array length must be 7, in the same order as the questions.

@@ -1,0 +1,33 @@
+{
+  "request_id": "0e7aa108111f0d229e2631a0c6baed4183db7be39942ab41e6bfd8c3a296ff42",
+  "origin": "2025-03-02",
+  "status": "ok",
+  "predictions": [
+    261708.70014450443,
+    256055.8055421815,
+    256789.4740495012,
+    253587.15074123445,
+    257300.17924130042,
+    263272.15769947,
+    266384.8542404268
+  ],
+  "audit": {
+    "history_rows": 7,
+    "history_start": "2025-02-23 00:00:00",
+    "history_end": "2025-03-01 00:00:00",
+    "max_context": 32,
+    "covariates": [
+      "precipitation_median",
+      "temperature_2m_previsao_mean",
+      "shortwave_radiation_previsao_std",
+      "day",
+      "dayofweek_sin",
+      "dayofweek_cos",
+      "season_sin",
+      "season_cos",
+      "is_holiday"
+    ],
+    "future_rows": 7,
+    "xreg_mode": "xreg + timesfm"
+  }
+}

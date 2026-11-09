@@ -1,0 +1,2 @@
+modelo,contexto_inicial,RMSE,R2,MAE,MAPE
+llama3.2:3b / few_similar / revisado,7,25072.29213420355,-49.92184828958092,8083.449344096384,63.63740309769007

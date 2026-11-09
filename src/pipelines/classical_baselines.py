@@ -1,6 +1,5 @@
 """Execute expanding 355/30/30 baseline folds with auditable pre-test fitting."""
 import argparse
-from dataclasses import asdict
 import hashlib
 import json
 from pathlib import Path
@@ -10,7 +9,7 @@ import pandas as pd
 from src.data.ingestion.files import read_series, write_json
 from src.data.preprocessing.resampling import daily_grid
 from src.data.preprocessing.missing_values import fill_past_only
-from src.evaluation.cross_validation import expanding_validation_folds
+from src.evaluation.protocol import expanding_validation_folds
 from src.evaluation.metrics import deterministic_metrics
 from src.pipelines.forecasting_pipeline import ROOT, fingerprint, source_fingerprint
 from src.training.classical import select_and_forecast
@@ -30,7 +29,7 @@ def run(config, output=OUTPUT):
             folder = output / city / name
             provenance = {'dataset': city, 'model': name, 'config': config,
                           'dataset_sha256': hashlib.sha256(path.read_bytes()).hexdigest(),
-                          'source_sha256': source_hash, 'folds': [asdict(f) for f in folds],
+                          'source_sha256': source_hash, 'folds': [f.to_dict() for f in folds],
                           'unused_tail_days': len(frame)-folds[-1].test_end,
                           'protocol': 'expanding selection training; trailing validation; refit pre-test prefix',
                           'no_future_covariates': True}
@@ -40,11 +39,11 @@ def run(config, output=OUTPUT):
             for fold in folds:
                 origin = frame.timestamp.iloc[fold.validation_end].strftime('%Y-%m-%d')
                 record_path = folder/'folds'/f'{origin}.json'
-                request_id = fingerprint({'run_id': run_id, 'fold': asdict(fold)})
+                request_id = fingerprint({'run_id': run_id, 'fold': fold.to_dict()})
                 record = json.loads(record_path.read_text()) if record_path.exists() else {}
                 if record.get('request_id') != request_id or record.get('status') != 'ok':
                     start = time.monotonic()
-                    record = {'request_id': request_id, 'fold': asdict(fold), 'origin': origin,
+                    record = {'request_id': request_id, 'fold': fold.to_dict(), 'origin': origin,
                               'training_end': str(frame.timestamp.iloc[fold.train_end-1].date()),
                               'validation_end': str(frame.timestamp.iloc[fold.validation_end-1].date()),
                               'test_end': str(frame.timestamp.iloc[fold.test_end-1].date())}

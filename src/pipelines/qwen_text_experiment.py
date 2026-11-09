@@ -1,15 +1,10 @@
 """Prepare, execute and summarize Qwen runs sourced from the textual CSVs."""
 import argparse
 import json
-from pathlib import Path
 
 import pandas as pd
 
-from src.data.features.covariates import model_inputs, validate_covariates
-from src.data.ingestion.files import write_json
-from src.data.preprocessing.generate_prompts import build_prompt
 from src.evaluation.metrics import deterministic_metrics
-from src.pipelines.data_pipeline import prepare_dataset
 from src.pipelines.forecasting_pipeline import ROOT, run_dataset
 
 OUTPUT = ROOT / 'experiments/qwen_text'
@@ -21,29 +16,10 @@ def configuration(slug, days):
 
 
 def prepare():
-    records = []
     for slug, days in RUNS:
         config = configuration(slug, days)
         for name, dataset in config['datasets'].items():
-            frame, windows = prepare_dataset(ROOT / dataset['path'], dataset['context'],
-                                            textual_calendar=True)
-            validate_covariates(frame, dataset)
-            destination = OUTPUT / f'{slug}_{days}' / name / 'prompts'
-            destination.mkdir(parents=True, exist_ok=True)
-            maximum = 0
-            for window in windows:
-                history, future = model_inputs(frame, window, dataset, history_days=days)
-                prompt = build_prompt(history, 7, future_covariates=future, region=name.capitalize())
-                required = len(prompt.encode()) + config['qwen']['num_predict'] + 512
-                if required > config['qwen']['num_ctx']:
-                    raise ValueError(f'Prompt does not fit: {slug}/{days}/{name}')
-                maximum = max(maximum, required)
-                origin = future.timestamp.iloc[0].strftime('%Y-%m-%d')
-                (destination / f'{origin}.txt').write_text(prompt)
-            records.append(dict(model=slug, context=days, dataset=name, windows=len(windows),
-                                source=dataset['path'], maximum_byte_budget=maximum))
-    write_json(OUTPUT / 'prompt_manifest.json', records)
-    print(f'Prepared {sum(r["windows"] for r in records)} prompts from textual CSVs.', flush=True)
+            run_dataset(name, dataset, config, 'qwen', OUTPUT / f'{slug}_{days}', prepare_only=True)
 
 
 def summarize():

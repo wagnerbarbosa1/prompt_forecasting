@@ -1,8 +1,8 @@
 """Run one model/environment with shared windows and resumable, fingerprinted records."""
 import argparse
-from dataclasses import asdict
 import hashlib
 import json
+import random
 from pathlib import Path
 import time
 import numpy as np
@@ -29,9 +29,9 @@ def source_fingerprint() -> str:
 
 
 def create_model(name, context, config, dataset):
-    if name == 'qwen':
-        from src.models.promptcast import OllamaConfig, QwenForecaster
-        return QwenForecaster(OllamaConfig(**config['qwen'], seed=config['seed']))
+    if name in {'qwen', 'llm'}:
+        from src.models.promptcast import OllamaConfig, OllamaForecaster
+        return OllamaForecaster(OllamaConfig(**config.get('ollama', config.get('qwen')), seed=config['seed']))
     if name == 'chronos':
         from src.models.chronos import ChronosForecaster
         return ChronosForecaster(context, dataset)
@@ -49,30 +49,32 @@ def qwen_history_days(config) -> int:
     return days
 
 
-def run_dataset(name, dataset, config, model_name, output, limit=0):
-    history_days = qwen_history_days(config) if model_name == 'qwen' else None
+def run_dataset(name, dataset, config, model_name, output, limit=0, prepare_only=False):
+    history_days = qwen_history_days(config) if model_name in {'qwen', 'llm'} else None
     path = ROOT / dataset['path']
     df, windows = prepare_dataset(path, dataset['context'], horizon=config['horizon'],
                                   step=config['step'], textual_calendar=dataset.get('textual_calendar', False))
     validate_covariates(df, dataset)
     if limit:
         windows = windows[:limit]
-    model = create_model(model_name, dataset['context'], config, dataset)
+    model = None if prepare_only else create_model(model_name, dataset['context'], config, dataset)
     provenance = {'config': config, 'dataset_sha256': hashlib.sha256(path.read_bytes()).hexdigest(),
-                  'source_sha256': source_fingerprint(), 'model': model.identity,
+                  'source_sha256': source_fingerprint(), 'model': model.identity if model else None,
                   'dataset': name, 'limit': limit, 'n_windows': len(windows),
                   'first_test_origin': windows[0].origin,
                   'missing_days_forward_filled': df.loc[~df.observed, 'timestamp'].dt.strftime('%Y-%m-%d').tolist(),
-                  'protocol': (f'fixed {history_days}-day history' if model_name == 'qwen'
+                  'protocol': (f'fixed {history_days}-day history' if model_name in {'qwen', 'llm'}
                                else 'expanding history') + ' with historical and supplied future covariates',
                   'covariates': covariate_columns(dataset),
                   'future_covariates_policy': config['future_covariates_policy'],
                   'qwen_history_days': config['qwen_history_days']}
     run_id = fingerprint(provenance)
     destination = output / name / model_name
-    write_json(destination / 'run.json', dict(provenance, run_id=run_id))
+    if not prepare_only:
+        write_json(destination / 'run.json', dict(provenance, run_id=run_id))
     # This prefix is frozen for every window, including all few-shot strategies.
-    training_values = df.iloc[:windows[0].origin].water_produced.to_numpy()
+    training = df.iloc[:windows[0].origin][['timestamp', 'water_produced', 'observed'] + covariate_columns(dataset)]
+    rng = random.Random(config['seed'])
     rows, failures = [], []
     for index, window in enumerate(windows, 1):
         history, future = model_inputs(df, window, dataset,
@@ -80,20 +82,25 @@ def run_dataset(name, dataset, config, model_name, output, limit=0):
         origin_date = df.timestamp.iloc[window.origin].strftime('%Y-%m-%d')
         target = destination / 'responses' / f'{origin_date}.json'
         prompt = None
-        if model_name == 'qwen':
-            examples = select_demonstrations(training_values, history.water_produced.to_numpy(),
-                window.horizon, strategy=config['strategy'], count=config['few_shot_examples'], seed=config['seed'])
+        if model_name in {'qwen', 'llm'}:
+            examples = select_demonstrations(training, history,
+                window.horizon, strategy=config['strategy'], count=config['few_shot_examples'], rng=rng)
             prompt = build_prompt(history, window.horizon, demonstrations=examples,
                                   future_covariates=future, region=name.capitalize())
+            options = config.get('ollama', config.get('qwen'))
+            if len(prompt.encode('utf-8')) + options['num_predict'] + 512 > options['num_ctx']:
+                raise ValueError('Prompt exceeds context budget; increase num_ctx without dropping covariates')
             prompt_path = output / name / 'prompts' / f'{origin_date}.txt'
             prompt_path.parent.mkdir(parents=True, exist_ok=True)
             prompt_path.write_text(prompt)
-        request_id = fingerprint({'run_id': run_id, 'window': asdict(window), 'prompt': prompt})
+        if prepare_only:
+            continue
+        request_id = fingerprint({'run_id': run_id, 'window': window.to_dict(), 'prompt': prompt})
         saved = json.loads(target.read_text()) if target.exists() else {}
         cached = saved.get('request_id') == request_id and saved.get('status') == 'ok'
         if not cached:
             started = time.monotonic()
-            saved = {'request_id': request_id, 'window': asdict(window), 'origin': origin_date,
+            saved = {'request_id': request_id, 'window': window.to_dict(), 'origin': origin_date,
                      'history_rows': len(history), 'history_start': str(history.timestamp.iloc[0]),
                      'history_end': str(history.timestamp.iloc[-1]), 'covariates': covariate_columns(dataset)}
             try:
@@ -120,6 +127,8 @@ def run_dataset(name, dataset, config, model_name, output, limit=0):
                          'history_start': history.timestamp.iloc[0].strftime('%Y-%m-%d'),
                          'horizon': window.horizon,
                          'elapsed_seconds_window': saved['elapsed_seconds'], 'run_id': run_id})
+    if prepare_only:
+        return 0
     pd.DataFrame(rows).to_csv(destination / 'predictions.csv', index=False)
     write_json(destination / 'status.json', {'expected_windows': len(windows),
                'successful_windows': len(rows)//config['horizon'], 'failures': failures})
@@ -128,7 +137,7 @@ def run_dataset(name, dataset, config, model_name, output, limit=0):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--model', choices=['qwen', 'chronos', 'timesfm'], default='qwen')
+    parser.add_argument('--model', choices=['qwen', 'llm', 'chronos', 'timesfm'], default='qwen')
     parser.add_argument('--config', type=Path, default=ROOT / 'configs/benchmark.json')
     parser.add_argument('--dataset', choices=['all', 'joinville', 'guaratuba'], default='all')
     parser.add_argument('--output', type=Path, default=ROOT / 'experiments/benchmark')

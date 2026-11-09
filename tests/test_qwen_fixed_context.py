@@ -7,7 +7,7 @@ import numpy as np
 import pandas as pd
 
 from src.data.features.covariates import model_inputs
-from src.evaluation.cross_validation import ForecastWindow
+from src.evaluation.protocol import ForecastWindow
 from src.pipelines.forecasting_pipeline import qwen_history_days, run_dataset
 
 

@@ -1,0 +1,12 @@
+Validated Qwen windows: 1896 predictions: 13272
+History sequence matches: 48
+Few-shot answer matches: 59
+dataset    model    
+guaratuba  chronos        1422.61
+           qwen_1_7b     10716.35
+           qwen_4b        2290.58
+           timesfm        1576.31
+joinville  chronos        8036.90
+           qwen_1_7b    188271.32
+           qwen_4b       14410.66
+           timesfm        8076.89

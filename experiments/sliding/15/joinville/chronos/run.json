@@ -1,0 +1,28 @@
+{
+  "model": {
+    "model": "amazon/chronos-2",
+    "initial_context": 15,
+    "version": "2.3.1"
+  },
+  "dataset": "joinville",
+  "history_days": 15,
+  "evaluation_initial_context": 365,
+  "horizon": 7,
+  "step": 7,
+  "covariates": [
+    "precipitation_median",
+    "temperature_2m_previsao_mean",
+    "shortwave_radiation_previsao_std",
+    "day",
+    "dayofweek_sin",
+    "dayofweek_cos",
+    "season_sin",
+    "season_cos",
+    "is_holiday"
+  ],
+  "source_sha256": "a666487071c60671c4111e2c592095d11d3def729be5b17a1da3064d95b9656a",
+  "dataset_sha256": "d54a71f6f209f7ba69fc0d3628b63d9435f035e8dd3a914cf4182a7b56b5347e",
+  "limit": 0,
+  "script_sha256": "2788961f4fe62c04438bf709e9f7b7640e522567a6151f9c8612472839b8e7ac",
+  "run_id": "d5ad6b355377980c4a2a71c5cf9a9b6e31fa66b77ab0fd51ec2651a15fab19ce"
+}

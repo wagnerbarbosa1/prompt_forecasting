@@ -1,4 +1,4 @@
-"""Qwen forecasting through Ollama, with strict output validation and audit data."""
+"""Local LLM forecasting through Ollama, with strict output validation and audit data."""
 import json
 import math
 import time
@@ -50,7 +50,7 @@ def post_json(url: str, payload: dict, timeout: int) -> dict:
         return json.load(response)
 
 
-class QwenForecaster:
+class OllamaForecaster:
     def __init__(self, config: OllamaConfig):
         self.config = config
         self.last_audit = {}
@@ -65,6 +65,7 @@ class QwenForecaster:
         maximum_context = int(info[f'{architecture}.context_length'])
         if config.num_ctx > maximum_context:
             raise ValueError(f'Requested {config.num_ctx} tokens exceeds model limit {maximum_context}')
+        self.supports_thinking = 'thinking' in metadata.get('capabilities', [])
         self.identity = {'model': config.model, 'digest': matches[0]['digest'],
                          'maximum_context_tokens': maximum_context, 'config': asdict(config)}
 
@@ -76,9 +77,11 @@ class QwenForecaster:
         if len(prompt.encode('utf-8')) + config.num_predict + 512 > config.num_ctx:
             raise ValueError('Prompt exceeds conservative context budget; increase num_ctx')
         payload = {'model': config.model, 'prompt': prompt, 'stream': False,
-                   'think': False, 'keep_alive': '10m', 'truncate': False, 'format': prediction_schema(horizon),
+                   'keep_alive': '10m', 'truncate': False, 'format': prediction_schema(horizon),
                    'options': {'temperature': config.temperature, 'seed': config.seed,
                                'num_ctx': config.num_ctx, 'num_predict': config.num_predict}}
+        if self.supports_thinking:
+            payload['think'] = False
         self.last_audit = {'request': payload, 'attempts': []}
         for attempt in range(config.retries + 1):
             audit = {'attempt': attempt + 1}

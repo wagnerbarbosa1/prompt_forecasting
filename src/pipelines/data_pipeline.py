@@ -2,7 +2,7 @@
 from src.data.ingestion.files import read_series
 from src.data.preprocessing.resampling import daily_grid
 from src.data.preprocessing.missing_values import fill_past_only
-from src.evaluation.cross_validation import build_windows
+from src.evaluation.protocol import build_windows
 
 
 def prepare_dataset(path, context, *, horizon=7, step=7, textual_calendar=False):

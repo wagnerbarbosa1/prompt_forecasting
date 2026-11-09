@@ -5,6 +5,8 @@ data/interim/*
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 
+Research/*
+
 !data/processed/calendar_text/
 data/processed/calendar_text/*
 !data/processed/calendar_text/joinville_processed_1day_calendar_text.csv

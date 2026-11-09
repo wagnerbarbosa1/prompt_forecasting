@@ -1,0 +1,6260 @@
+[
+  {
+    "file": "experiments/llm/deepseek_1_5b/7/zero/joinville/llm/responses/2025-04-27.json",
+    "origin": "2025-04-27",
+    "matches": [
+      {
+        "source": "covariate",
+        "length": 3,
+        "prediction_start": 1,
+        "source_start": 0
+      },
+      {
+        "source": "covariate",
+        "length": 3,
+        "prediction_start": 1,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/deepseek_1_5b/7/zero/joinville/llm/responses/2024-08-25.json",
+    "origin": "2024-08-25",
+    "matches": [
+      {
+        "source": "covariate",
+        "length": 3,
+        "prediction_start": 1,
+        "source_start": 0
+      },
+      {
+        "source": "covariate",
+        "length": 6,
+        "prediction_start": 1,
+        "source_start": 1
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/15/few_similar/joinville/llm/responses/2024-06-30.json",
+    "origin": "2024-06-30",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 6,
+        "prediction_start": 1,
+        "source_start": 1
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/15/few_similar/joinville/llm/responses/2025-02-09.json",
+    "origin": "2025-02-09",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 1
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/15/few_similar/joinville/llm/responses/2025-03-09.json",
+    "origin": "2025-03-09",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 1,
+        "source_start": 4
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/15/few_similar/joinville/llm/responses/2024-09-22.json",
+    "origin": "2024-09-22",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 4,
+        "prediction_start": 2,
+        "source_start": 3
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/15/few_similar/joinville/llm/responses/2025-05-11.json",
+    "origin": "2025-05-11",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 8
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/15/few_similar/joinville/llm/responses/2025-04-20.json",
+    "origin": "2025-04-20",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 3
+      },
+      {
+        "source": "example_answer",
+        "length": 5,
+        "prediction_start": 0,
+        "source_start": 2
+      },
+      {
+        "source": "water_history",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 4
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/15/few_similar/joinville/llm/responses/2025-04-13.json",
+    "origin": "2025-04-13",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      },
+      {
+        "source": "example_answer",
+        "length": 6,
+        "prediction_start": 1,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/15/few_similar/guaratuba/llm/responses/2018-02-11.json",
+    "origin": "2018-02-11",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 5,
+        "prediction_start": 0,
+        "source_start": 2
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/15/few_similar/guaratuba/llm/responses/2018-08-26.json",
+    "origin": "2018-08-26",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 6,
+        "prediction_start": 1,
+        "source_start": 1
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/15/few_similar/guaratuba/llm/responses/2018-04-29.json",
+    "origin": "2018-04-29",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 3,
+        "prediction_start": 1,
+        "source_start": 12
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/15/few_similar/guaratuba/llm/responses/2018-07-01.json",
+    "origin": "2018-07-01",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 6,
+        "prediction_start": 0,
+        "source_start": 9
+      },
+      {
+        "source": "water_history",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 8
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/15/few_similar/guaratuba/llm/responses/2019-07-07.json",
+    "origin": "2019-07-07",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 6,
+        "prediction_start": 0,
+        "source_start": 1
+      },
+      {
+        "source": "example_answer",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/15/few_similar/guaratuba/llm/responses/2018-04-15.json",
+    "origin": "2018-04-15",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 5,
+        "prediction_start": 2,
+        "source_start": 6
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/15/few_similar/guaratuba/llm/responses/2018-09-16.json",
+    "origin": "2018-09-16",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 6,
+        "prediction_start": 1,
+        "source_start": 9
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/15/few_similar/guaratuba/llm/responses/2017-12-31.json",
+    "origin": "2017-12-31",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 6,
+        "prediction_start": 1,
+        "source_start": 9
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/15/few_similar/guaratuba/llm/responses/2018-06-03.json",
+    "origin": "2018-06-03",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 5,
+        "prediction_start": 0,
+        "source_start": 10
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/15/few_similar/guaratuba/llm/responses/2019-03-17.json",
+    "origin": "2019-03-17",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 6,
+        "prediction_start": 0,
+        "source_start": 1
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/15/few_similar/guaratuba/llm/responses/2018-11-18.json",
+    "origin": "2018-11-18",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 6,
+        "prediction_start": 1,
+        "source_start": 9
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/15/few_similar/guaratuba/llm/responses/2018-10-07.json",
+    "origin": "2018-10-07",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/15/few_similar/guaratuba/llm/responses/2018-03-04.json",
+    "origin": "2018-03-04",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 6,
+        "prediction_start": 1,
+        "source_start": 7
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/15/few_similar/guaratuba/llm/responses/2019-01-20.json",
+    "origin": "2019-01-20",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 5,
+        "prediction_start": 1,
+        "source_start": 2
+      },
+      {
+        "source": "example_answer",
+        "length": 4,
+        "prediction_start": 1,
+        "source_start": 3
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/15/few_similar/guaratuba/llm/responses/2018-02-18.json",
+    "origin": "2018-02-18",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 6,
+        "prediction_start": 1,
+        "source_start": 9
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/15/few_similar/guaratuba/llm/responses/2018-07-08.json",
+    "origin": "2018-07-08",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 6,
+        "prediction_start": 1,
+        "source_start": 9
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/15/few_similar/guaratuba/llm/responses/2019-02-10.json",
+    "origin": "2019-02-10",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 6,
+        "prediction_start": 0,
+        "source_start": 9
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/15/few_random/joinville/llm/responses/2024-12-01.json",
+    "origin": "2024-12-01",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 5,
+        "prediction_start": 2,
+        "source_start": 2
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/15/few_random/joinville/llm/responses/2024-10-13.json",
+    "origin": "2024-10-13",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/15/few_random/joinville/llm/responses/2025-06-08.json",
+    "origin": "2025-06-08",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 6,
+        "prediction_start": 1,
+        "source_start": 4
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/15/few_random/joinville/llm/responses/2025-03-02.json",
+    "origin": "2025-03-02",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 1
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/15/few_random/joinville/llm/responses/2025-06-22.json",
+    "origin": "2025-06-22",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 8
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/15/few_random/joinville/llm/responses/2025-04-20.json",
+    "origin": "2025-04-20",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 3,
+        "prediction_start": 1,
+        "source_start": 4
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/15/few_random/joinville/llm/responses/2024-09-08.json",
+    "origin": "2024-09-08",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 8
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/15/few_random/joinville/llm/responses/2025-01-26.json",
+    "origin": "2025-01-26",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/15/few_random/guaratuba/llm/responses/2018-03-11.json",
+    "origin": "2018-03-11",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 5,
+        "prediction_start": 2,
+        "source_start": 2
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/15/few_random/guaratuba/llm/responses/2018-01-28.json",
+    "origin": "2018-01-28",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 6,
+        "prediction_start": 1,
+        "source_start": 2
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/15/few_random/guaratuba/llm/responses/2018-09-16.json",
+    "origin": "2018-09-16",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 1,
+        "source_start": 3
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/15/few_random/guaratuba/llm/responses/2019-07-28.json",
+    "origin": "2019-07-28",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 4,
+        "prediction_start": 2,
+        "source_start": 11
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/15/few_random/guaratuba/llm/responses/2018-06-03.json",
+    "origin": "2018-06-03",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 5,
+        "prediction_start": 0,
+        "source_start": 10
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/15/few_random/guaratuba/llm/responses/2019-02-17.json",
+    "origin": "2019-02-17",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/15/few_random/guaratuba/llm/responses/2018-03-04.json",
+    "origin": "2018-03-04",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 3,
+        "prediction_start": 4,
+        "source_start": 10
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/15/few_random/guaratuba/llm/responses/2019-01-20.json",
+    "origin": "2019-01-20",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 6,
+        "prediction_start": 1,
+        "source_start": 9
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/15/zero/joinville/llm/responses/2024-06-30.json",
+    "origin": "2024-06-30",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 7
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/15/zero/joinville/llm/responses/2025-01-12.json",
+    "origin": "2025-01-12",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 4,
+        "prediction_start": 0,
+        "source_start": 11
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/15/zero/joinville/llm/responses/2024-12-08.json",
+    "origin": "2024-12-08",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 6,
+        "prediction_start": 1,
+        "source_start": 1
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/15/zero/joinville/llm/responses/2024-08-25.json",
+    "origin": "2024-08-25",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 4,
+        "prediction_start": 3,
+        "source_start": 4
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/15/zero/joinville/llm/responses/2025-04-13.json",
+    "origin": "2025-04-13",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 3,
+        "prediction_start": 1,
+        "source_start": 11
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/15/zero/joinville/llm/responses/2024-08-11.json",
+    "origin": "2024-08-11",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 8
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/15/zero/guaratuba/llm/responses/2018-08-12.json",
+    "origin": "2018-08-12",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 3,
+        "prediction_start": 4,
+        "source_start": 6
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/15/zero/guaratuba/llm/responses/2018-03-11.json",
+    "origin": "2018-03-11",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 6
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/15/zero/guaratuba/llm/responses/2018-09-30.json",
+    "origin": "2018-09-30",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 4,
+        "prediction_start": 1,
+        "source_start": 11
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/15/zero/guaratuba/llm/responses/2019-06-09.json",
+    "origin": "2019-06-09",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 3,
+        "prediction_start": 1,
+        "source_start": 12
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/15/zero/guaratuba/llm/responses/2018-07-15.json",
+    "origin": "2018-07-15",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 3,
+        "prediction_start": 2,
+        "source_start": 12
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/15/zero/guaratuba/llm/responses/2018-07-01.json",
+    "origin": "2018-07-01",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 8
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/15/zero/guaratuba/llm/responses/2018-07-29.json",
+    "origin": "2018-07-29",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 5,
+        "prediction_start": 0,
+        "source_start": 10
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/15/zero/guaratuba/llm/responses/2019-02-24.json",
+    "origin": "2019-02-24",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 6,
+        "prediction_start": 0,
+        "source_start": 9
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/15/zero/guaratuba/llm/responses/2019-05-12.json",
+    "origin": "2019-05-12",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 5,
+        "prediction_start": 0,
+        "source_start": 10
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/15/zero/guaratuba/llm/responses/2018-12-09.json",
+    "origin": "2018-12-09",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 6,
+        "prediction_start": 0,
+        "source_start": 9
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/15/zero/guaratuba/llm/responses/2019-06-23.json",
+    "origin": "2019-06-23",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 5,
+        "prediction_start": 1,
+        "source_start": 3
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/15/zero/guaratuba/llm/responses/2019-09-01.json",
+    "origin": "2019-09-01",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 6,
+        "prediction_start": 0,
+        "source_start": 9
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/15/zero/guaratuba/llm/responses/2019-10-27.json",
+    "origin": "2019-10-27",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/7/few_similar/joinville/llm/responses/2024-11-24.json",
+    "origin": "2024-11-24",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 3,
+        "prediction_start": 1,
+        "source_start": 4
+      },
+      {
+        "source": "water_history",
+        "length": 3,
+        "prediction_start": 4,
+        "source_start": 2
+      },
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 1,
+        "source_start": 4
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/7/few_similar/joinville/llm/responses/2025-03-09.json",
+    "origin": "2025-03-09",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 4,
+        "prediction_start": 3,
+        "source_start": 3
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/7/few_similar/joinville/llm/responses/2024-12-29.json",
+    "origin": "2024-12-29",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/7/few_similar/joinville/llm/responses/2025-06-01.json",
+    "origin": "2025-06-01",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/7/few_similar/joinville/llm/responses/2025-04-13.json",
+    "origin": "2025-04-13",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/7/few_similar/guaratuba/llm/responses/2018-09-30.json",
+    "origin": "2018-09-30",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 3,
+        "prediction_start": 3,
+        "source_start": 4
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/7/few_similar/guaratuba/llm/responses/2019-03-31.json",
+    "origin": "2019-03-31",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/7/few_similar/guaratuba/llm/responses/2019-08-18.json",
+    "origin": "2019-08-18",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 5,
+        "prediction_start": 1,
+        "source_start": 2
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/7/few_similar/guaratuba/llm/responses/2018-04-29.json",
+    "origin": "2018-04-29",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 6,
+        "prediction_start": 1,
+        "source_start": 1
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/7/few_similar/guaratuba/llm/responses/2018-04-01.json",
+    "origin": "2018-04-01",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 6,
+        "prediction_start": 0,
+        "source_start": 1
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/7/few_similar/guaratuba/llm/responses/2018-08-19.json",
+    "origin": "2018-08-19",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 5,
+        "prediction_start": 0,
+        "source_start": 2
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/7/few_similar/guaratuba/llm/responses/2018-02-18.json",
+    "origin": "2018-02-18",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/7/few_similar/guaratuba/llm/responses/2019-12-22.json",
+    "origin": "2019-12-22",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/7/few_similar/guaratuba/llm/responses/2018-12-23.json",
+    "origin": "2018-12-23",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 6,
+        "prediction_start": 0,
+        "source_start": 1
+      },
+      {
+        "source": "example_answer",
+        "length": 5,
+        "prediction_start": 0,
+        "source_start": 2
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/7/few_similar/guaratuba/llm/responses/2018-07-08.json",
+    "origin": "2018-07-08",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 5,
+        "prediction_start": 1,
+        "source_start": 2
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/7/few_similar/guaratuba/llm/responses/2019-02-10.json",
+    "origin": "2019-02-10",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 6,
+        "prediction_start": 1,
+        "source_start": 1
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/7/few_similar/guaratuba/llm/responses/2019-10-27.json",
+    "origin": "2019-10-27",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 6,
+        "prediction_start": 1,
+        "source_start": 1
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/7/few_random/joinville/llm/responses/2024-10-27.json",
+    "origin": "2024-10-27",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/7/few_random/joinville/llm/responses/2024-12-01.json",
+    "origin": "2024-12-01",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/7/few_random/joinville/llm/responses/2025-05-11.json",
+    "origin": "2025-05-11",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/7/few_random/joinville/llm/responses/2024-12-08.json",
+    "origin": "2024-12-08",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/7/few_random/joinville/llm/responses/2024-06-23.json",
+    "origin": "2024-06-23",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 3,
+        "prediction_start": 4,
+        "source_start": 0
+      },
+      {
+        "source": "example_answer",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/7/few_random/joinville/llm/responses/2025-06-01.json",
+    "origin": "2025-06-01",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/7/few_random/joinville/llm/responses/2024-08-25.json",
+    "origin": "2024-08-25",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 3,
+        "prediction_start": 3,
+        "source_start": 4
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/7/few_random/joinville/llm/responses/2025-06-22.json",
+    "origin": "2025-06-22",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      },
+      {
+        "source": "water_history",
+        "length": 3,
+        "prediction_start": 0,
+        "source_start": 4
+      },
+      {
+        "source": "example_answer",
+        "length": 4,
+        "prediction_start": 3,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/7/few_random/joinville/llm/responses/2025-04-20.json",
+    "origin": "2025-04-20",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 4,
+        "prediction_start": 0,
+        "source_start": 3
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/7/few_random/guaratuba/llm/responses/2019-05-26.json",
+    "origin": "2019-05-26",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 5,
+        "prediction_start": 2,
+        "source_start": 2
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/7/few_random/guaratuba/llm/responses/2018-07-29.json",
+    "origin": "2018-07-29",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 3,
+        "prediction_start": 3,
+        "source_start": 4
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/7/few_random/guaratuba/llm/responses/2018-04-08.json",
+    "origin": "2018-04-08",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 5,
+        "prediction_start": 2,
+        "source_start": 2
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/7/few_random/guaratuba/llm/responses/2018-01-14.json",
+    "origin": "2018-01-14",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/7/few_random/guaratuba/llm/responses/2019-02-10.json",
+    "origin": "2019-02-10",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 6,
+        "prediction_start": 0,
+        "source_start": 1
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/7/few_random/guaratuba/llm/responses/2019-10-27.json",
+    "origin": "2019-10-27",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 6,
+        "prediction_start": 1,
+        "source_start": 1
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/7/zero/joinville/llm/responses/2024-10-13.json",
+    "origin": "2024-10-13",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/7/zero/joinville/llm/responses/2025-06-01.json",
+    "origin": "2025-06-01",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 6,
+        "prediction_start": 0,
+        "source_start": 1
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/7/zero/guaratuba/llm/responses/2019-05-05.json",
+    "origin": "2019-05-05",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 6,
+        "prediction_start": 0,
+        "source_start": 1
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_4b/7/zero/guaratuba/llm/responses/2018-12-02.json",
+    "origin": "2018-12-02",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 6,
+        "prediction_start": 0,
+        "source_start": 1
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_similar/joinville/llm/responses/2024-06-30.json",
+    "origin": "2024-06-30",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 4,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_similar/joinville/llm/responses/2025-02-09.json",
+    "origin": "2025-02-09",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 3,
+        "source_start": 4
+      },
+      {
+        "source": "example_answer",
+        "length": 4,
+        "prediction_start": 3,
+        "source_start": 3
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_similar/joinville/llm/responses/2024-11-24.json",
+    "origin": "2024-11-24",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 3,
+        "prediction_start": 0,
+        "source_start": 7
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_similar/joinville/llm/responses/2024-10-20.json",
+    "origin": "2024-10-20",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 6,
+        "prediction_start": 0,
+        "source_start": 1
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_similar/joinville/llm/responses/2024-07-21.json",
+    "origin": "2024-07-21",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_similar/joinville/llm/responses/2024-10-06.json",
+    "origin": "2024-10-06",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 4,
+        "prediction_start": 3,
+        "source_start": 3
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_similar/joinville/llm/responses/2024-07-07.json",
+    "origin": "2024-07-07",
+    "matches": [
+      {
+        "source": "covariate",
+        "length": 3,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_similar/joinville/llm/responses/2025-05-18.json",
+    "origin": "2025-05-18",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 5,
+        "prediction_start": 2,
+        "source_start": 2
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_similar/joinville/llm/responses/2024-12-29.json",
+    "origin": "2024-12-29",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_similar/joinville/llm/responses/2025-01-19.json",
+    "origin": "2025-01-19",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 6,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_similar/joinville/llm/responses/2025-02-16.json",
+    "origin": "2025-02-16",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 4,
+        "prediction_start": 3,
+        "source_start": 3
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_similar/joinville/llm/responses/2024-12-08.json",
+    "origin": "2024-12-08",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 5,
+        "prediction_start": 2,
+        "source_start": 2
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_similar/joinville/llm/responses/2025-04-27.json",
+    "origin": "2025-04-27",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_similar/joinville/llm/responses/2024-07-14.json",
+    "origin": "2024-07-14",
+    "matches": [
+      {
+        "source": "covariate",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_similar/joinville/llm/responses/2025-03-02.json",
+    "origin": "2025-03-02",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 3,
+        "prediction_start": 3,
+        "source_start": 5
+      },
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 3,
+        "source_start": 4
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_similar/joinville/llm/responses/2024-12-15.json",
+    "origin": "2024-12-15",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 3,
+        "source_start": 4
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_similar/joinville/llm/responses/2024-08-25.json",
+    "origin": "2024-08-25",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 6,
+        "prediction_start": 1,
+        "source_start": 1
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_similar/joinville/llm/responses/2025-05-25.json",
+    "origin": "2025-05-25",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 1,
+        "source_start": 1
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_similar/joinville/llm/responses/2025-04-20.json",
+    "origin": "2025-04-20",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      },
+      {
+        "source": "example_answer",
+        "length": 6,
+        "prediction_start": 0,
+        "source_start": 1
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_similar/joinville/llm/responses/2024-09-15.json",
+    "origin": "2024-09-15",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 3,
+        "source_start": 4
+      },
+      {
+        "source": "example_answer",
+        "length": 4,
+        "prediction_start": 3,
+        "source_start": 3
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_similar/joinville/llm/responses/2024-12-22.json",
+    "origin": "2024-12-22",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 5,
+        "prediction_start": 2,
+        "source_start": 2
+      },
+      {
+        "source": "example_answer",
+        "length": 4,
+        "prediction_start": 2,
+        "source_start": 3
+      },
+      {
+        "source": "example_answer",
+        "length": 5,
+        "prediction_start": 2,
+        "source_start": 1
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_similar/joinville/llm/responses/2025-03-30.json",
+    "origin": "2025-03-30",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 4,
+        "prediction_start": 2,
+        "source_start": 3
+      },
+      {
+        "source": "example_answer",
+        "length": 5,
+        "prediction_start": 2,
+        "source_start": 2
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_similar/joinville/llm/responses/2025-04-13.json",
+    "origin": "2025-04-13",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 1,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_similar/guaratuba/llm/responses/2019-04-28.json",
+    "origin": "2019-04-28",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 6,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_similar/guaratuba/llm/responses/2018-11-11.json",
+    "origin": "2018-11-11",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 4,
+        "prediction_start": 3,
+        "source_start": 3
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_similar/guaratuba/llm/responses/2018-08-12.json",
+    "origin": "2018-08-12",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 4,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_similar/guaratuba/llm/responses/2019-05-26.json",
+    "origin": "2019-05-26",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 3,
+        "prediction_start": 3,
+        "source_start": 10
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_similar/guaratuba/llm/responses/2018-01-28.json",
+    "origin": "2018-01-28",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 6,
+        "prediction_start": 0,
+        "source_start": 1
+      },
+      {
+        "source": "example_answer",
+        "length": 5,
+        "prediction_start": 0,
+        "source_start": 2
+      },
+      {
+        "source": "example_answer",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_similar/guaratuba/llm/responses/2019-10-06.json",
+    "origin": "2019-10-06",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 5,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_similar/guaratuba/llm/responses/2019-11-10.json",
+    "origin": "2019-11-10",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 5,
+        "prediction_start": 2,
+        "source_start": 2
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_similar/guaratuba/llm/responses/2019-10-13.json",
+    "origin": "2019-10-13",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 4,
+        "prediction_start": 3,
+        "source_start": 3
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_similar/guaratuba/llm/responses/2019-08-18.json",
+    "origin": "2019-08-18",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 3,
+        "source_start": 4
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_similar/guaratuba/llm/responses/2019-12-15.json",
+    "origin": "2019-12-15",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 5,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_similar/guaratuba/llm/responses/2019-05-05.json",
+    "origin": "2019-05-05",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 4,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_similar/guaratuba/llm/responses/2018-04-29.json",
+    "origin": "2018-04-29",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 6,
+        "prediction_start": 1,
+        "source_start": 0
+      },
+      {
+        "source": "example_answer",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_similar/guaratuba/llm/responses/2019-09-15.json",
+    "origin": "2019-09-15",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 3,
+        "source_start": 3
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_similar/guaratuba/llm/responses/2019-08-25.json",
+    "origin": "2019-08-25",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 5,
+        "prediction_start": 2,
+        "source_start": 2
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_similar/guaratuba/llm/responses/2018-07-29.json",
+    "origin": "2018-07-29",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_similar/guaratuba/llm/responses/2018-03-18.json",
+    "origin": "2018-03-18",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 5,
+        "prediction_start": 2,
+        "source_start": 2
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_similar/guaratuba/llm/responses/2019-07-21.json",
+    "origin": "2019-07-21",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 3,
+        "source_start": 4
+      },
+      {
+        "source": "example_answer",
+        "length": 4,
+        "prediction_start": 3,
+        "source_start": 3
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_similar/guaratuba/llm/responses/2018-05-20.json",
+    "origin": "2018-05-20",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 4,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_similar/guaratuba/llm/responses/2019-06-02.json",
+    "origin": "2019-06-02",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 3,
+        "source_start": 4
+      },
+      {
+        "source": "example_answer",
+        "length": 4,
+        "prediction_start": 3,
+        "source_start": 3
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_similar/guaratuba/llm/responses/2018-07-22.json",
+    "origin": "2018-07-22",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_similar/guaratuba/llm/responses/2019-07-28.json",
+    "origin": "2019-07-28",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 4,
+        "prediction_start": 3,
+        "source_start": 3
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_similar/guaratuba/llm/responses/2018-09-02.json",
+    "origin": "2018-09-02",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 3,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_similar/guaratuba/llm/responses/2018-06-03.json",
+    "origin": "2018-06-03",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 4,
+        "source_start": 4
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_similar/guaratuba/llm/responses/2018-12-16.json",
+    "origin": "2018-12-16",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      },
+      {
+        "source": "example_answer",
+        "length": 6,
+        "prediction_start": 0,
+        "source_start": 1
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_similar/guaratuba/llm/responses/2018-06-24.json",
+    "origin": "2018-06-24",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 4,
+        "prediction_start": 3,
+        "source_start": 3
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_similar/guaratuba/llm/responses/2019-06-16.json",
+    "origin": "2019-06-16",
+    "matches": [
+      {
+        "source": "covariate",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      },
+      {
+        "source": "covariate",
+        "length": 4,
+        "prediction_start": 0,
+        "source_start": 0
+      },
+      {
+        "source": "covariate",
+        "length": 4,
+        "prediction_start": 0,
+        "source_start": 11
+      },
+      {
+        "source": "covariate",
+        "length": 6,
+        "prediction_start": 0,
+        "source_start": 0
+      },
+      {
+        "source": "covariate",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 6
+      },
+      {
+        "source": "covariate",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      },
+      {
+        "source": "covariate",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 6
+      },
+      {
+        "source": "covariate",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_similar/guaratuba/llm/responses/2019-08-11.json",
+    "origin": "2019-08-11",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_similar/guaratuba/llm/responses/2018-11-18.json",
+    "origin": "2018-11-18",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 3,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_similar/guaratuba/llm/responses/2019-11-03.json",
+    "origin": "2019-11-03",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 6,
+        "prediction_start": 1,
+        "source_start": 1
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_similar/guaratuba/llm/responses/2019-09-22.json",
+    "origin": "2019-09-22",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 4,
+        "prediction_start": 3,
+        "source_start": 3
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_similar/guaratuba/llm/responses/2019-01-20.json",
+    "origin": "2019-01-20",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 4,
+        "source_start": 4
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_similar/guaratuba/llm/responses/2018-08-05.json",
+    "origin": "2018-08-05",
+    "matches": [
+      {
+        "source": "covariate",
+        "length": 5,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_similar/guaratuba/llm/responses/2019-07-14.json",
+    "origin": "2019-07-14",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 5,
+        "prediction_start": 2,
+        "source_start": 2
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_similar/guaratuba/llm/responses/2019-04-07.json",
+    "origin": "2019-04-07",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 6,
+        "prediction_start": 1,
+        "source_start": 0
+      },
+      {
+        "source": "example_answer",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_similar/guaratuba/llm/responses/2019-03-10.json",
+    "origin": "2019-03-10",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_similar/guaratuba/llm/responses/2019-12-22.json",
+    "origin": "2019-12-22",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_similar/guaratuba/llm/responses/2019-10-20.json",
+    "origin": "2019-10-20",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 6,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_similar/guaratuba/llm/responses/2018-11-25.json",
+    "origin": "2018-11-25",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 1,
+        "source_start": 1
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_similar/guaratuba/llm/responses/2018-10-21.json",
+    "origin": "2018-10-21",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 4,
+        "prediction_start": 2,
+        "source_start": 2
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_similar/guaratuba/llm/responses/2019-09-29.json",
+    "origin": "2019-09-29",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 4,
+        "prediction_start": 3,
+        "source_start": 3
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_similar/guaratuba/llm/responses/2018-07-08.json",
+    "origin": "2018-07-08",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_similar/guaratuba/llm/responses/2019-10-27.json",
+    "origin": "2019-10-27",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 4,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_random/joinville/llm/responses/2025-02-23.json",
+    "origin": "2025-02-23",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 4,
+        "source_start": 2
+      },
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_random/joinville/llm/responses/2024-11-24.json",
+    "origin": "2024-11-24",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_random/joinville/llm/responses/2024-08-04.json",
+    "origin": "2024-08-04",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 4,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_random/joinville/llm/responses/2024-07-07.json",
+    "origin": "2024-07-07",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_random/joinville/llm/responses/2025-05-18.json",
+    "origin": "2025-05-18",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 4,
+        "prediction_start": 3,
+        "source_start": 3
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_random/joinville/llm/responses/2024-09-22.json",
+    "origin": "2024-09-22",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 3,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_random/joinville/llm/responses/2024-12-29.json",
+    "origin": "2024-12-29",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 3,
+        "source_start": 3
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_random/joinville/llm/responses/2025-02-16.json",
+    "origin": "2025-02-16",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 3,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_random/joinville/llm/responses/2024-09-01.json",
+    "origin": "2024-09-01",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 5,
+        "prediction_start": 2,
+        "source_start": 2
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_random/joinville/llm/responses/2024-10-13.json",
+    "origin": "2024-10-13",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 4,
+        "prediction_start": 1,
+        "source_start": 1
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_random/joinville/llm/responses/2025-04-27.json",
+    "origin": "2025-04-27",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 5,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_random/joinville/llm/responses/2024-09-29.json",
+    "origin": "2024-09-29",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_random/joinville/llm/responses/2024-08-25.json",
+    "origin": "2024-08-25",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 4,
+        "source_start": 4
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_random/joinville/llm/responses/2025-05-25.json",
+    "origin": "2025-05-25",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 3,
+        "source_start": 3
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_random/joinville/llm/responses/2025-06-22.json",
+    "origin": "2025-06-22",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 3,
+        "prediction_start": 3,
+        "source_start": 3
+      },
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 3,
+        "source_start": 4
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_random/joinville/llm/responses/2025-04-20.json",
+    "origin": "2025-04-20",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 5,
+        "prediction_start": 2,
+        "source_start": 0
+      },
+      {
+        "source": "example_answer",
+        "length": 5,
+        "prediction_start": 2,
+        "source_start": 2
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_random/joinville/llm/responses/2025-03-30.json",
+    "origin": "2025-03-30",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_random/joinville/llm/responses/2025-04-13.json",
+    "origin": "2025-04-13",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 4,
+        "prediction_start": 3,
+        "source_start": 3
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_random/joinville/llm/responses/2024-08-11.json",
+    "origin": "2024-08-11",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_random/guaratuba/llm/responses/2018-11-11.json",
+    "origin": "2018-11-11",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 4,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_random/guaratuba/llm/responses/2018-09-09.json",
+    "origin": "2018-09-09",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 4,
+        "source_start": 0
+      },
+      {
+        "source": "example_answer",
+        "length": 6,
+        "prediction_start": 1,
+        "source_start": 1
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_random/guaratuba/llm/responses/2018-01-28.json",
+    "origin": "2018-01-28",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_random/guaratuba/llm/responses/2018-05-13.json",
+    "origin": "2018-05-13",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 4,
+        "prediction_start": 2,
+        "source_start": 2
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_random/guaratuba/llm/responses/2019-10-13.json",
+    "origin": "2019-10-13",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 5,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_random/guaratuba/llm/responses/2019-04-14.json",
+    "origin": "2019-04-14",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 2,
+        "source_start": 2
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_random/guaratuba/llm/responses/2019-08-18.json",
+    "origin": "2019-08-18",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 2,
+        "source_start": 2
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_random/guaratuba/llm/responses/2019-01-13.json",
+    "origin": "2019-01-13",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_random/guaratuba/llm/responses/2019-04-21.json",
+    "origin": "2019-04-21",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_random/guaratuba/llm/responses/2019-05-19.json",
+    "origin": "2019-05-19",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 4,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_random/guaratuba/llm/responses/2018-04-01.json",
+    "origin": "2018-04-01",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_random/guaratuba/llm/responses/2018-03-18.json",
+    "origin": "2018-03-18",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 5,
+        "prediction_start": 2,
+        "source_start": 2
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_random/guaratuba/llm/responses/2018-08-19.json",
+    "origin": "2018-08-19",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 4,
+        "source_start": 4
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_random/guaratuba/llm/responses/2019-07-21.json",
+    "origin": "2019-07-21",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_random/guaratuba/llm/responses/2018-04-15.json",
+    "origin": "2018-04-15",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 5,
+        "prediction_start": 2,
+        "source_start": 2
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_random/guaratuba/llm/responses/2018-10-28.json",
+    "origin": "2018-10-28",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 3,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_random/guaratuba/llm/responses/2019-02-24.json",
+    "origin": "2019-02-24",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 4,
+        "prediction_start": 2,
+        "source_start": 2
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_random/guaratuba/llm/responses/2019-06-02.json",
+    "origin": "2019-06-02",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 4,
+        "source_start": 4
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_random/guaratuba/llm/responses/2019-01-27.json",
+    "origin": "2019-01-27",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_random/guaratuba/llm/responses/2018-07-22.json",
+    "origin": "2018-07-22",
+    "matches": [
+      {
+        "source": "covariate",
+        "length": 3,
+        "prediction_start": 0,
+        "source_start": 2
+      },
+      {
+        "source": "covariate",
+        "length": 4,
+        "prediction_start": 0,
+        "source_start": 4
+      },
+      {
+        "source": "covariate",
+        "length": 3,
+        "prediction_start": 0,
+        "source_start": 4
+      },
+      {
+        "source": "covariate",
+        "length": 6,
+        "prediction_start": 0,
+        "source_start": 9
+      },
+      {
+        "source": "covariate",
+        "length": 4,
+        "prediction_start": 0,
+        "source_start": 3
+      },
+      {
+        "source": "covariate",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 3
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_random/guaratuba/llm/responses/2018-09-16.json",
+    "origin": "2018-09-16",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 6,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_random/guaratuba/llm/responses/2019-05-12.json",
+    "origin": "2019-05-12",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 5
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_random/guaratuba/llm/responses/2018-12-09.json",
+    "origin": "2018-12-09",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 5,
+        "prediction_start": 2,
+        "source_start": 2
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_random/guaratuba/llm/responses/2018-06-24.json",
+    "origin": "2018-06-24",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_random/guaratuba/llm/responses/2018-04-22.json",
+    "origin": "2018-04-22",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_random/guaratuba/llm/responses/2019-03-03.json",
+    "origin": "2019-03-03",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 4,
+        "prediction_start": 3,
+        "source_start": 3
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_random/guaratuba/llm/responses/2018-05-27.json",
+    "origin": "2018-05-27",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 3,
+        "prediction_start": 4,
+        "source_start": 5
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_random/guaratuba/llm/responses/2019-08-11.json",
+    "origin": "2019-08-11",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_random/guaratuba/llm/responses/2018-11-18.json",
+    "origin": "2018-11-18",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_random/guaratuba/llm/responses/2019-02-17.json",
+    "origin": "2019-02-17",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_random/guaratuba/llm/responses/2018-01-21.json",
+    "origin": "2018-01-21",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 3,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_random/guaratuba/llm/responses/2019-06-23.json",
+    "origin": "2019-06-23",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_random/guaratuba/llm/responses/2019-09-01.json",
+    "origin": "2019-09-01",
+    "matches": [
+      {
+        "source": "covariate",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_random/guaratuba/llm/responses/2019-03-10.json",
+    "origin": "2019-03-10",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 5,
+        "prediction_start": 2,
+        "source_start": 2
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_random/guaratuba/llm/responses/2018-09-23.json",
+    "origin": "2018-09-23",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_random/guaratuba/llm/responses/2019-10-20.json",
+    "origin": "2019-10-20",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 1,
+        "source_start": 2
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_random/guaratuba/llm/responses/2018-12-02.json",
+    "origin": "2018-12-02",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_random/guaratuba/llm/responses/2018-11-25.json",
+    "origin": "2018-11-25",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 6,
+        "prediction_start": 1,
+        "source_start": 1
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/few_random/guaratuba/llm/responses/2018-07-08.json",
+    "origin": "2018-07-08",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/zero/joinville/llm/responses/2025-02-23.json",
+    "origin": "2025-02-23",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 3,
+        "prediction_start": 1,
+        "source_start": 12
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/zero/joinville/llm/responses/2024-06-30.json",
+    "origin": "2024-06-30",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 4,
+        "prediction_start": 0,
+        "source_start": 9
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/zero/joinville/llm/responses/2024-11-24.json",
+    "origin": "2024-11-24",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 5,
+        "prediction_start": 1,
+        "source_start": 10
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/zero/joinville/llm/responses/2024-10-20.json",
+    "origin": "2024-10-20",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 4,
+        "prediction_start": 1,
+        "source_start": 11
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/zero/joinville/llm/responses/2025-03-09.json",
+    "origin": "2025-03-09",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/zero/joinville/llm/responses/2024-10-06.json",
+    "origin": "2024-10-06",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 8
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/zero/joinville/llm/responses/2024-11-10.json",
+    "origin": "2024-11-10",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 4,
+        "prediction_start": 1,
+        "source_start": 6
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/zero/joinville/llm/responses/2025-04-06.json",
+    "origin": "2025-04-06",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 3,
+        "prediction_start": 2,
+        "source_start": 10
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/zero/joinville/llm/responses/2024-09-01.json",
+    "origin": "2024-09-01",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 3,
+        "prediction_start": 0,
+        "source_start": 9
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/zero/joinville/llm/responses/2025-05-04.json",
+    "origin": "2025-05-04",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 3
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/zero/joinville/llm/responses/2025-06-08.json",
+    "origin": "2025-06-08",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 3,
+        "prediction_start": 0,
+        "source_start": 8
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/zero/joinville/llm/responses/2025-03-02.json",
+    "origin": "2025-03-02",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 1
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/zero/joinville/llm/responses/2025-03-23.json",
+    "origin": "2025-03-23",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 3,
+        "prediction_start": 1,
+        "source_start": 10
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/zero/joinville/llm/responses/2024-12-15.json",
+    "origin": "2024-12-15",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 3,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/zero/joinville/llm/responses/2025-05-25.json",
+    "origin": "2025-05-25",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 4,
+        "prediction_start": 3,
+        "source_start": 11
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/zero/joinville/llm/responses/2025-01-26.json",
+    "origin": "2025-01-26",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 3,
+        "prediction_start": 0,
+        "source_start": 12
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/zero/joinville/llm/responses/2024-09-15.json",
+    "origin": "2024-09-15",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 4,
+        "prediction_start": 0,
+        "source_start": 11
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/zero/guaratuba/llm/responses/2018-09-09.json",
+    "origin": "2018-09-09",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/zero/guaratuba/llm/responses/2019-12-08.json",
+    "origin": "2019-12-08",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 3,
+        "prediction_start": 2,
+        "source_start": 6
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/zero/guaratuba/llm/responses/2018-08-12.json",
+    "origin": "2018-08-12",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 6,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/zero/guaratuba/llm/responses/2019-05-26.json",
+    "origin": "2019-05-26",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/zero/guaratuba/llm/responses/2018-02-04.json",
+    "origin": "2018-02-04",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 6,
+        "prediction_start": 1,
+        "source_start": 1
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/zero/guaratuba/llm/responses/2018-03-11.json",
+    "origin": "2018-03-11",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 4,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/zero/guaratuba/llm/responses/2018-09-30.json",
+    "origin": "2018-09-30",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 5,
+        "prediction_start": 1,
+        "source_start": 2
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/zero/guaratuba/llm/responses/2018-01-28.json",
+    "origin": "2018-01-28",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 3,
+        "prediction_start": 1,
+        "source_start": 7
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/zero/guaratuba/llm/responses/2019-02-03.json",
+    "origin": "2019-02-03",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/zero/guaratuba/llm/responses/2019-10-06.json",
+    "origin": "2019-10-06",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 3,
+        "prediction_start": 0,
+        "source_start": 9
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/zero/guaratuba/llm/responses/2019-03-31.json",
+    "origin": "2019-03-31",
+    "matches": [
+      {
+        "source": "covariate",
+        "length": 3,
+        "prediction_start": 1,
+        "source_start": 1
+      },
+      {
+        "source": "covariate",
+        "length": 5,
+        "prediction_start": 1,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/zero/guaratuba/llm/responses/2018-01-07.json",
+    "origin": "2018-01-07",
+    "matches": [
+      {
+        "source": "covariate",
+        "length": 5,
+        "prediction_start": 1,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/zero/guaratuba/llm/responses/2018-10-14.json",
+    "origin": "2018-10-14",
+    "matches": [
+      {
+        "source": "covariate",
+        "length": 5,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/zero/guaratuba/llm/responses/2019-08-18.json",
+    "origin": "2019-08-18",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 3,
+        "prediction_start": 0,
+        "source_start": 7
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/zero/guaratuba/llm/responses/2019-05-05.json",
+    "origin": "2019-05-05",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/zero/guaratuba/llm/responses/2019-01-13.json",
+    "origin": "2019-01-13",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 3,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/zero/guaratuba/llm/responses/2018-08-26.json",
+    "origin": "2018-08-26",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/zero/guaratuba/llm/responses/2019-05-19.json",
+    "origin": "2019-05-19",
+    "matches": [
+      {
+        "source": "covariate",
+        "length": 3,
+        "prediction_start": 1,
+        "source_start": 1
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/zero/guaratuba/llm/responses/2018-04-01.json",
+    "origin": "2018-04-01",
+    "matches": [
+      {
+        "source": "covariate",
+        "length": 4,
+        "prediction_start": 0,
+        "source_start": 5
+      },
+      {
+        "source": "covariate",
+        "length": 3,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/zero/guaratuba/llm/responses/2019-07-07.json",
+    "origin": "2019-07-07",
+    "matches": [
+      {
+        "source": "covariate",
+        "length": 4,
+        "prediction_start": 0,
+        "source_start": 0
+      },
+      {
+        "source": "covariate",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/zero/guaratuba/llm/responses/2018-08-19.json",
+    "origin": "2018-08-19",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 6,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/zero/guaratuba/llm/responses/2018-06-10.json",
+    "origin": "2018-06-10",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 4,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/zero/guaratuba/llm/responses/2019-07-21.json",
+    "origin": "2019-07-21",
+    "matches": [
+      {
+        "source": "covariate",
+        "length": 4,
+        "prediction_start": 3,
+        "source_start": 0
+      },
+      {
+        "source": "covariate",
+        "length": 4,
+        "prediction_start": 3,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/zero/guaratuba/llm/responses/2019-02-24.json",
+    "origin": "2019-02-24",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 5,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/zero/guaratuba/llm/responses/2018-04-08.json",
+    "origin": "2018-04-08",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 4,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/zero/guaratuba/llm/responses/2019-06-02.json",
+    "origin": "2019-06-02",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 5,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/zero/guaratuba/llm/responses/2017-12-31.json",
+    "origin": "2017-12-31",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 5,
+        "prediction_start": 2,
+        "source_start": 2
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/zero/guaratuba/llm/responses/2018-09-02.json",
+    "origin": "2018-09-02",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/zero/guaratuba/llm/responses/2019-06-30.json",
+    "origin": "2019-06-30",
+    "matches": [
+      {
+        "source": "covariate",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/zero/guaratuba/llm/responses/2018-02-25.json",
+    "origin": "2018-02-25",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 4,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/zero/guaratuba/llm/responses/2018-06-03.json",
+    "origin": "2018-06-03",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 3,
+        "prediction_start": 3,
+        "source_start": 3
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/zero/guaratuba/llm/responses/2019-11-17.json",
+    "origin": "2019-11-17",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 5,
+        "prediction_start": 2,
+        "source_start": 10
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/zero/guaratuba/llm/responses/2019-03-17.json",
+    "origin": "2019-03-17",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 5,
+        "prediction_start": 0,
+        "source_start": 6
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/zero/guaratuba/llm/responses/2018-06-24.json",
+    "origin": "2018-06-24",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 4,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/zero/guaratuba/llm/responses/2019-03-03.json",
+    "origin": "2019-03-03",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 4,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/zero/guaratuba/llm/responses/2019-06-16.json",
+    "origin": "2019-06-16",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 5,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/zero/guaratuba/llm/responses/2019-08-04.json",
+    "origin": "2019-08-04",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 5,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/zero/guaratuba/llm/responses/2019-09-08.json",
+    "origin": "2019-09-08",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 4,
+        "prediction_start": 3,
+        "source_start": 3
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/zero/guaratuba/llm/responses/2018-12-30.json",
+    "origin": "2018-12-30",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 4,
+        "prediction_start": 3,
+        "source_start": 3
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/zero/guaratuba/llm/responses/2018-10-07.json",
+    "origin": "2018-10-07",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 3,
+        "prediction_start": 0,
+        "source_start": 5
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/zero/guaratuba/llm/responses/2019-12-01.json",
+    "origin": "2019-12-01",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 4,
+        "prediction_start": 2,
+        "source_start": 2
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/zero/guaratuba/llm/responses/2018-03-04.json",
+    "origin": "2018-03-04",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 4,
+        "prediction_start": 3,
+        "source_start": 3
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/zero/guaratuba/llm/responses/2019-01-20.json",
+    "origin": "2019-01-20",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/zero/guaratuba/llm/responses/2018-08-05.json",
+    "origin": "2018-08-05",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/zero/guaratuba/llm/responses/2018-09-23.json",
+    "origin": "2018-09-23",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 3,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/zero/guaratuba/llm/responses/2019-12-22.json",
+    "origin": "2019-12-22",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 4,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/zero/guaratuba/llm/responses/2018-03-25.json",
+    "origin": "2018-03-25",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 4,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/zero/guaratuba/llm/responses/2019-09-29.json",
+    "origin": "2019-09-29",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 6,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/zero/guaratuba/llm/responses/2018-07-08.json",
+    "origin": "2018-07-08",
+    "matches": [
+      {
+        "source": "covariate",
+        "length": 5,
+        "prediction_start": 0,
+        "source_start": 5
+      },
+      {
+        "source": "covariate",
+        "length": 5,
+        "prediction_start": 0,
+        "source_start": 2
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/15/zero/guaratuba/llm/responses/2019-10-27.json",
+    "origin": "2019-10-27",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 4,
+        "prediction_start": 3,
+        "source_start": 7
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_similar/joinville/llm/responses/2024-11-24.json",
+    "origin": "2024-11-24",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 3,
+        "prediction_start": 3,
+        "source_start": 3
+      },
+      {
+        "source": "water_history",
+        "length": 3,
+        "prediction_start": 3,
+        "source_start": 4
+      },
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 3,
+        "source_start": 3
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_similar/joinville/llm/responses/2025-02-02.json",
+    "origin": "2025-02-02",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 4,
+        "source_start": 4
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_similar/joinville/llm/responses/2025-03-09.json",
+    "origin": "2025-03-09",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 4,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_similar/joinville/llm/responses/2024-10-06.json",
+    "origin": "2024-10-06",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      },
+      {
+        "source": "example_answer",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_similar/joinville/llm/responses/2024-08-04.json",
+    "origin": "2024-08-04",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      },
+      {
+        "source": "example_answer",
+        "length": 6,
+        "prediction_start": 0,
+        "source_start": 1
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_similar/joinville/llm/responses/2024-11-10.json",
+    "origin": "2024-11-10",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 4,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_similar/joinville/llm/responses/2024-12-01.json",
+    "origin": "2024-12-01",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 6,
+        "prediction_start": 1,
+        "source_start": 1
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_similar/joinville/llm/responses/2024-09-22.json",
+    "origin": "2024-09-22",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 6,
+        "prediction_start": 1,
+        "source_start": 0
+      },
+      {
+        "source": "example_answer",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_similar/joinville/llm/responses/2025-05-11.json",
+    "origin": "2025-05-11",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 4,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_similar/joinville/llm/responses/2024-12-29.json",
+    "origin": "2024-12-29",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 6,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_similar/joinville/llm/responses/2025-01-19.json",
+    "origin": "2025-01-19",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 5,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_similar/joinville/llm/responses/2025-02-16.json",
+    "origin": "2025-02-16",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 4,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_similar/joinville/llm/responses/2024-10-13.json",
+    "origin": "2024-10-13",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 4,
+        "source_start": 4
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_similar/joinville/llm/responses/2025-05-04.json",
+    "origin": "2025-05-04",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 4,
+        "prediction_start": 1,
+        "source_start": 1
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_similar/joinville/llm/responses/2024-12-08.json",
+    "origin": "2024-12-08",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 6,
+        "prediction_start": 1,
+        "source_start": 1
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_similar/joinville/llm/responses/2025-04-27.json",
+    "origin": "2025-04-27",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 4,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_similar/joinville/llm/responses/2024-07-14.json",
+    "origin": "2024-07-14",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_similar/joinville/llm/responses/2024-06-23.json",
+    "origin": "2024-06-23",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 5,
+        "prediction_start": 2,
+        "source_start": 2
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_similar/joinville/llm/responses/2025-03-23.json",
+    "origin": "2025-03-23",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 5,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_similar/joinville/llm/responses/2025-06-01.json",
+    "origin": "2025-06-01",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_similar/joinville/llm/responses/2024-08-25.json",
+    "origin": "2024-08-25",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 0,
+        "source_start": 4
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_similar/joinville/llm/responses/2025-04-20.json",
+    "origin": "2025-04-20",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 4,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_similar/joinville/llm/responses/2025-01-05.json",
+    "origin": "2025-01-05",
+    "matches": [
+      {
+        "source": "covariate",
+        "length": 3,
+        "prediction_start": 1,
+        "source_start": 1
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_similar/joinville/llm/responses/2024-09-08.json",
+    "origin": "2024-09-08",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 4,
+        "prediction_start": 2,
+        "source_start": 3
+      },
+      {
+        "source": "example_answer",
+        "length": 5,
+        "prediction_start": 2,
+        "source_start": 2
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_similar/joinville/llm/responses/2024-12-22.json",
+    "origin": "2024-12-22",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 3,
+        "prediction_start": 4,
+        "source_start": 4
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_similar/joinville/llm/responses/2025-03-30.json",
+    "origin": "2025-03-30",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 4,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_similar/joinville/llm/responses/2024-06-16.json",
+    "origin": "2024-06-16",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 3,
+        "source_start": 4
+      },
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 3,
+        "source_start": 3
+      },
+      {
+        "source": "water_history",
+        "length": 3,
+        "prediction_start": 3,
+        "source_start": 3
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_similar/guaratuba/llm/responses/2019-04-28.json",
+    "origin": "2019-04-28",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 6,
+        "prediction_start": 1,
+        "source_start": 1
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_similar/guaratuba/llm/responses/2018-08-12.json",
+    "origin": "2018-08-12",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_similar/guaratuba/llm/responses/2019-05-26.json",
+    "origin": "2019-05-26",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_similar/guaratuba/llm/responses/2018-02-11.json",
+    "origin": "2018-02-11",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_similar/guaratuba/llm/responses/2019-02-03.json",
+    "origin": "2019-02-03",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 5,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_similar/guaratuba/llm/responses/2018-05-13.json",
+    "origin": "2018-05-13",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 4,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_similar/guaratuba/llm/responses/2019-04-14.json",
+    "origin": "2019-04-14",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 1,
+        "source_start": 1
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_similar/guaratuba/llm/responses/2019-08-18.json",
+    "origin": "2019-08-18",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 4,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_similar/guaratuba/llm/responses/2019-06-09.json",
+    "origin": "2019-06-09",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_similar/guaratuba/llm/responses/2019-04-21.json",
+    "origin": "2019-04-21",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_similar/guaratuba/llm/responses/2018-08-26.json",
+    "origin": "2018-08-26",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 5,
+        "prediction_start": 1,
+        "source_start": 1
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_similar/guaratuba/llm/responses/2018-07-01.json",
+    "origin": "2018-07-01",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 5,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_similar/guaratuba/llm/responses/2019-09-15.json",
+    "origin": "2019-09-15",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 6,
+        "prediction_start": 1,
+        "source_start": 1
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_similar/guaratuba/llm/responses/2019-05-19.json",
+    "origin": "2019-05-19",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 3,
+        "prediction_start": 4,
+        "source_start": 4
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_similar/guaratuba/llm/responses/2018-07-29.json",
+    "origin": "2018-07-29",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 5,
+        "prediction_start": 2,
+        "source_start": 2
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_similar/guaratuba/llm/responses/2018-04-01.json",
+    "origin": "2018-04-01",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 3,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_similar/guaratuba/llm/responses/2019-07-21.json",
+    "origin": "2019-07-21",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 4,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_similar/guaratuba/llm/responses/2019-02-24.json",
+    "origin": "2019-02-24",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 4,
+        "prediction_start": 3,
+        "source_start": 3
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_similar/guaratuba/llm/responses/2018-05-20.json",
+    "origin": "2018-05-20",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_similar/guaratuba/llm/responses/2019-01-27.json",
+    "origin": "2019-01-27",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 6,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_similar/guaratuba/llm/responses/2017-12-31.json",
+    "origin": "2017-12-31",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 3,
+        "source_start": 3
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_similar/guaratuba/llm/responses/2018-06-03.json",
+    "origin": "2018-06-03",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 5,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_similar/guaratuba/llm/responses/2019-03-17.json",
+    "origin": "2019-03-17",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 6,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_similar/guaratuba/llm/responses/2018-04-22.json",
+    "origin": "2018-04-22",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_similar/guaratuba/llm/responses/2019-11-24.json",
+    "origin": "2019-11-24",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_similar/guaratuba/llm/responses/2018-05-27.json",
+    "origin": "2018-05-27",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 6,
+        "prediction_start": 1,
+        "source_start": 1
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_similar/guaratuba/llm/responses/2019-08-11.json",
+    "origin": "2019-08-11",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 4,
+        "source_start": 4
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_similar/guaratuba/llm/responses/2018-11-04.json",
+    "origin": "2018-11-04",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 0,
+        "source_start": 4
+      },
+      {
+        "source": "example_answer",
+        "length": 4,
+        "prediction_start": 0,
+        "source_start": 3
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_similar/guaratuba/llm/responses/2019-11-03.json",
+    "origin": "2019-11-03",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 4,
+        "prediction_start": 3,
+        "source_start": 3
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_similar/guaratuba/llm/responses/2018-12-30.json",
+    "origin": "2018-12-30",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 4,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_similar/guaratuba/llm/responses/2018-10-07.json",
+    "origin": "2018-10-07",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 6,
+        "prediction_start": 1,
+        "source_start": 1
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_similar/guaratuba/llm/responses/2018-06-17.json",
+    "origin": "2018-06-17",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_similar/guaratuba/llm/responses/2019-06-23.json",
+    "origin": "2019-06-23",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 1,
+        "source_start": 4
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_similar/guaratuba/llm/responses/2019-09-01.json",
+    "origin": "2019-09-01",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 4,
+        "source_start": 4
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_similar/guaratuba/llm/responses/2018-02-18.json",
+    "origin": "2018-02-18",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_similar/guaratuba/llm/responses/2019-12-22.json",
+    "origin": "2019-12-22",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 5,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_similar/guaratuba/llm/responses/2018-12-23.json",
+    "origin": "2018-12-23",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 1,
+        "source_start": 0
+      },
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 1,
+        "source_start": 1
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_similar/guaratuba/llm/responses/2018-11-25.json",
+    "origin": "2018-11-25",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_similar/guaratuba/llm/responses/2019-09-29.json",
+    "origin": "2019-09-29",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 4,
+        "source_start": 4
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_similar/guaratuba/llm/responses/2019-10-27.json",
+    "origin": "2019-10-27",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 4,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_random/joinville/llm/responses/2025-02-23.json",
+    "origin": "2025-02-23",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 4,
+        "prediction_start": 3,
+        "source_start": 3
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_random/joinville/llm/responses/2024-10-27.json",
+    "origin": "2024-10-27",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 3,
+        "prediction_start": 4,
+        "source_start": 4
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_random/joinville/llm/responses/2024-11-24.json",
+    "origin": "2024-11-24",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 6,
+        "prediction_start": 1,
+        "source_start": 1
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_random/joinville/llm/responses/2024-10-20.json",
+    "origin": "2024-10-20",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 4,
+        "prediction_start": 3,
+        "source_start": 3
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_random/joinville/llm/responses/2024-07-21.json",
+    "origin": "2024-07-21",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 4,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_random/joinville/llm/responses/2024-08-04.json",
+    "origin": "2024-08-04",
+    "matches": [
+      {
+        "source": "covariate",
+        "length": 4,
+        "prediction_start": 3,
+        "source_start": 0
+      },
+      {
+        "source": "covariate",
+        "length": 4,
+        "prediction_start": 3,
+        "source_start": 1
+      },
+      {
+        "source": "covariate",
+        "length": 4,
+        "prediction_start": 3,
+        "source_start": 0
+      },
+      {
+        "source": "covariate",
+        "length": 4,
+        "prediction_start": 3,
+        "source_start": 3
+      },
+      {
+        "source": "covariate",
+        "length": 4,
+        "prediction_start": 3,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_random/joinville/llm/responses/2024-07-07.json",
+    "origin": "2024-07-07",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_random/joinville/llm/responses/2024-11-03.json",
+    "origin": "2024-11-03",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_random/joinville/llm/responses/2025-04-06.json",
+    "origin": "2025-04-06",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 6,
+        "prediction_start": 1,
+        "source_start": 1
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_random/joinville/llm/responses/2025-03-16.json",
+    "origin": "2025-03-16",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_random/joinville/llm/responses/2024-12-01.json",
+    "origin": "2024-12-01",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_random/joinville/llm/responses/2025-05-18.json",
+    "origin": "2025-05-18",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 4,
+        "prediction_start": 3,
+        "source_start": 3
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_random/joinville/llm/responses/2024-12-29.json",
+    "origin": "2024-12-29",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 6,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_random/joinville/llm/responses/2024-09-01.json",
+    "origin": "2024-09-01",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 1,
+        "source_start": 2
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_random/joinville/llm/responses/2024-10-13.json",
+    "origin": "2024-10-13",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_random/joinville/llm/responses/2025-04-27.json",
+    "origin": "2025-04-27",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_random/joinville/llm/responses/2024-07-14.json",
+    "origin": "2024-07-14",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 3,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_random/joinville/llm/responses/2024-06-23.json",
+    "origin": "2024-06-23",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 3,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_random/joinville/llm/responses/2024-11-17.json",
+    "origin": "2024-11-17",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 4,
+        "prediction_start": 2,
+        "source_start": 3
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_random/joinville/llm/responses/2025-03-02.json",
+    "origin": "2025-03-02",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 5,
+        "prediction_start": 2,
+        "source_start": 0
+      },
+      {
+        "source": "example_answer",
+        "length": 5,
+        "prediction_start": 2,
+        "source_start": 2
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_random/joinville/llm/responses/2024-09-29.json",
+    "origin": "2024-09-29",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 4,
+        "source_start": 4
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_random/joinville/llm/responses/2025-06-01.json",
+    "origin": "2025-06-01",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_random/joinville/llm/responses/2024-08-25.json",
+    "origin": "2024-08-25",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 3,
+        "source_start": 3
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_random/joinville/llm/responses/2025-04-20.json",
+    "origin": "2025-04-20",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_random/joinville/llm/responses/2025-01-05.json",
+    "origin": "2025-01-05",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_random/joinville/llm/responses/2024-08-18.json",
+    "origin": "2024-08-18",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 5,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_random/joinville/llm/responses/2024-12-22.json",
+    "origin": "2024-12-22",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_random/joinville/llm/responses/2025-03-30.json",
+    "origin": "2025-03-30",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 6,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_random/joinville/llm/responses/2024-08-11.json",
+    "origin": "2024-08-11",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_random/joinville/llm/responses/2024-06-16.json",
+    "origin": "2024-06-16",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 5,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_random/guaratuba/llm/responses/2018-09-09.json",
+    "origin": "2018-09-09",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_random/guaratuba/llm/responses/2019-12-08.json",
+    "origin": "2019-12-08",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_random/guaratuba/llm/responses/2018-08-12.json",
+    "origin": "2018-08-12",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_random/guaratuba/llm/responses/2019-03-31.json",
+    "origin": "2019-03-31",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_random/guaratuba/llm/responses/2018-05-13.json",
+    "origin": "2018-05-13",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 3,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_random/guaratuba/llm/responses/2019-05-05.json",
+    "origin": "2019-05-05",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 5,
+        "prediction_start": 1,
+        "source_start": 1
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_random/guaratuba/llm/responses/2018-07-01.json",
+    "origin": "2018-07-01",
+    "matches": [
+      {
+        "source": "covariate",
+        "length": 4,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_random/guaratuba/llm/responses/2019-08-25.json",
+    "origin": "2019-08-25",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 4,
+        "prediction_start": 3,
+        "source_start": 3
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_random/guaratuba/llm/responses/2018-07-29.json",
+    "origin": "2018-07-29",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 2,
+        "source_start": 2
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_random/guaratuba/llm/responses/2018-04-15.json",
+    "origin": "2018-04-15",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 1,
+        "source_start": 1
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_random/guaratuba/llm/responses/2018-10-28.json",
+    "origin": "2018-10-28",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 4,
+        "prediction_start": 3,
+        "source_start": 3
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_random/guaratuba/llm/responses/2019-02-24.json",
+    "origin": "2019-02-24",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 4,
+        "source_start": 4
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_random/guaratuba/llm/responses/2018-05-20.json",
+    "origin": "2018-05-20",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 4,
+        "prediction_start": 3,
+        "source_start": 3
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_random/guaratuba/llm/responses/2019-06-02.json",
+    "origin": "2019-06-02",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 5,
+        "prediction_start": 2,
+        "source_start": 2
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_random/guaratuba/llm/responses/2019-01-27.json",
+    "origin": "2019-01-27",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 4,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_random/guaratuba/llm/responses/2018-12-09.json",
+    "origin": "2018-12-09",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 3,
+        "source_start": 3
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_random/guaratuba/llm/responses/2019-06-30.json",
+    "origin": "2019-06-30",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 4,
+        "source_start": 4
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_random/guaratuba/llm/responses/2019-11-17.json",
+    "origin": "2019-11-17",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 2,
+        "source_start": 2
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_random/guaratuba/llm/responses/2018-12-16.json",
+    "origin": "2018-12-16",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_random/guaratuba/llm/responses/2019-03-03.json",
+    "origin": "2019-03-03",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_random/guaratuba/llm/responses/2019-06-16.json",
+    "origin": "2019-06-16",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 2,
+        "source_start": 2
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_random/guaratuba/llm/responses/2019-11-24.json",
+    "origin": "2019-11-24",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 5,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_random/guaratuba/llm/responses/2019-08-04.json",
+    "origin": "2019-08-04",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 4,
+        "source_start": 4
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_random/guaratuba/llm/responses/2018-05-27.json",
+    "origin": "2018-05-27",
+    "matches": [
+      {
+        "source": "covariate",
+        "length": 3,
+        "prediction_start": 2,
+        "source_start": 4
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_random/guaratuba/llm/responses/2018-11-18.json",
+    "origin": "2018-11-18",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_random/guaratuba/llm/responses/2019-09-08.json",
+    "origin": "2019-09-08",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 4,
+        "source_start": 2
+      },
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 4,
+        "source_start": 4
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_random/guaratuba/llm/responses/2018-03-04.json",
+    "origin": "2018-03-04",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 5,
+        "prediction_start": 1,
+        "source_start": 1
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_random/guaratuba/llm/responses/2019-07-14.json",
+    "origin": "2019-07-14",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 4,
+        "prediction_start": 3,
+        "source_start": 3
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_random/guaratuba/llm/responses/2018-01-21.json",
+    "origin": "2018-01-21",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 4,
+        "source_start": 4
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_random/guaratuba/llm/responses/2019-06-23.json",
+    "origin": "2019-06-23",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 4,
+        "source_start": 4
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_random/guaratuba/llm/responses/2019-12-22.json",
+    "origin": "2019-12-22",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 4,
+        "prediction_start": 2,
+        "source_start": 2
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_random/guaratuba/llm/responses/2018-03-25.json",
+    "origin": "2018-03-25",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 5,
+        "prediction_start": 2,
+        "source_start": 2
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_random/guaratuba/llm/responses/2018-10-21.json",
+    "origin": "2018-10-21",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 3,
+        "source_start": 3
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_random/guaratuba/llm/responses/2019-09-29.json",
+    "origin": "2019-09-29",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 3,
+        "prediction_start": 4,
+        "source_start": 4
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_random/guaratuba/llm/responses/2019-02-10.json",
+    "origin": "2019-02-10",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/few_random/guaratuba/llm/responses/2019-10-27.json",
+    "origin": "2019-10-27",
+    "matches": [
+      {
+        "source": "example_answer",
+        "length": 4,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/zero/joinville/llm/responses/2025-02-09.json",
+    "origin": "2025-02-09",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/zero/joinville/llm/responses/2025-01-12.json",
+    "origin": "2025-01-12",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 5,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/zero/joinville/llm/responses/2024-11-03.json",
+    "origin": "2024-11-03",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 5,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/zero/joinville/llm/responses/2024-11-10.json",
+    "origin": "2024-11-10",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 5,
+        "prediction_start": 2,
+        "source_start": 2
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/zero/joinville/llm/responses/2024-09-01.json",
+    "origin": "2024-09-01",
+    "matches": [
+      {
+        "source": "covariate",
+        "length": 6,
+        "prediction_start": 0,
+        "source_start": 1
+      },
+      {
+        "source": "covariate",
+        "length": 4,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/zero/joinville/llm/responses/2024-12-08.json",
+    "origin": "2024-12-08",
+    "matches": [
+      {
+        "source": "covariate",
+        "length": 5,
+        "prediction_start": 1,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/zero/joinville/llm/responses/2025-04-27.json",
+    "origin": "2025-04-27",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/zero/joinville/llm/responses/2024-06-23.json",
+    "origin": "2024-06-23",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 3,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/zero/joinville/llm/responses/2025-06-15.json",
+    "origin": "2025-06-15",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/zero/joinville/llm/responses/2025-03-23.json",
+    "origin": "2025-03-23",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/zero/joinville/llm/responses/2024-09-29.json",
+    "origin": "2024-09-29",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 3,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/zero/joinville/llm/responses/2025-06-01.json",
+    "origin": "2025-06-01",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 5,
+        "prediction_start": 2,
+        "source_start": 2
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/zero/joinville/llm/responses/2024-12-15.json",
+    "origin": "2024-12-15",
+    "matches": [
+      {
+        "source": "covariate",
+        "length": 3,
+        "prediction_start": 2,
+        "source_start": 3
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/zero/joinville/llm/responses/2024-09-08.json",
+    "origin": "2024-09-08",
+    "matches": [
+      {
+        "source": "covariate",
+        "length": 4,
+        "prediction_start": 1,
+        "source_start": 0
+      },
+      {
+        "source": "covariate",
+        "length": 6,
+        "prediction_start": 1,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/zero/joinville/llm/responses/2024-08-18.json",
+    "origin": "2024-08-18",
+    "matches": [
+      {
+        "source": "covariate",
+        "length": 6,
+        "prediction_start": 1,
+        "source_start": 1
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/zero/joinville/llm/responses/2024-12-22.json",
+    "origin": "2024-12-22",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/zero/joinville/llm/responses/2025-04-13.json",
+    "origin": "2025-04-13",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 4,
+        "prediction_start": 3,
+        "source_start": 3
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/zero/guaratuba/llm/responses/2019-03-24.json",
+    "origin": "2019-03-24",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 4,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/zero/guaratuba/llm/responses/2018-08-12.json",
+    "origin": "2018-08-12",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 3,
+        "prediction_start": 1,
+        "source_start": 1
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/zero/guaratuba/llm/responses/2019-05-26.json",
+    "origin": "2019-05-26",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 4,
+        "prediction_start": 3,
+        "source_start": 3
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/zero/guaratuba/llm/responses/2018-09-30.json",
+    "origin": "2018-09-30",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 6,
+        "prediction_start": 1,
+        "source_start": 1
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/zero/guaratuba/llm/responses/2019-10-06.json",
+    "origin": "2019-10-06",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/zero/guaratuba/llm/responses/2019-03-31.json",
+    "origin": "2019-03-31",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 5,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/zero/guaratuba/llm/responses/2019-11-10.json",
+    "origin": "2019-11-10",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 6,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/zero/guaratuba/llm/responses/2018-05-13.json",
+    "origin": "2018-05-13",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 6,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/zero/guaratuba/llm/responses/2019-10-13.json",
+    "origin": "2019-10-13",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 3,
+        "prediction_start": 3,
+        "source_start": 2
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/zero/guaratuba/llm/responses/2018-01-07.json",
+    "origin": "2018-01-07",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/zero/guaratuba/llm/responses/2018-10-14.json",
+    "origin": "2018-10-14",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/zero/guaratuba/llm/responses/2019-04-14.json",
+    "origin": "2019-04-14",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 6,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/zero/guaratuba/llm/responses/2019-08-18.json",
+    "origin": "2019-08-18",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 3,
+        "prediction_start": 1,
+        "source_start": 1
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/zero/guaratuba/llm/responses/2019-12-15.json",
+    "origin": "2019-12-15",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 6,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/zero/guaratuba/llm/responses/2019-05-05.json",
+    "origin": "2019-05-05",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/zero/guaratuba/llm/responses/2019-06-09.json",
+    "origin": "2019-06-09",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/zero/guaratuba/llm/responses/2019-04-21.json",
+    "origin": "2019-04-21",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/zero/guaratuba/llm/responses/2018-08-26.json",
+    "origin": "2018-08-26",
+    "matches": [
+      {
+        "source": "covariate",
+        "length": 3,
+        "prediction_start": 4,
+        "source_start": 4
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/zero/guaratuba/llm/responses/2019-09-15.json",
+    "origin": "2019-09-15",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/zero/guaratuba/llm/responses/2019-05-19.json",
+    "origin": "2019-05-19",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/zero/guaratuba/llm/responses/2019-07-07.json",
+    "origin": "2019-07-07",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 4,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/zero/guaratuba/llm/responses/2018-03-18.json",
+    "origin": "2018-03-18",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 4,
+        "prediction_start": 3,
+        "source_start": 3
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/zero/guaratuba/llm/responses/2018-08-19.json",
+    "origin": "2018-08-19",
+    "matches": [
+      {
+        "source": "covariate",
+        "length": 6,
+        "prediction_start": 1,
+        "source_start": 1
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/zero/guaratuba/llm/responses/2018-06-10.json",
+    "origin": "2018-06-10",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 4,
+        "prediction_start": 3,
+        "source_start": 3
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/zero/guaratuba/llm/responses/2019-07-21.json",
+    "origin": "2019-07-21",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/zero/guaratuba/llm/responses/2018-04-15.json",
+    "origin": "2018-04-15",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 4,
+        "prediction_start": 2,
+        "source_start": 2
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/zero/guaratuba/llm/responses/2019-02-24.json",
+    "origin": "2019-02-24",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 4,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/zero/guaratuba/llm/responses/2018-04-08.json",
+    "origin": "2018-04-08",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 3,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/zero/guaratuba/llm/responses/2019-06-02.json",
+    "origin": "2019-06-02",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 6,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/zero/guaratuba/llm/responses/2018-09-16.json",
+    "origin": "2018-09-16",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 4,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/zero/guaratuba/llm/responses/2017-12-31.json",
+    "origin": "2017-12-31",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 3,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/zero/guaratuba/llm/responses/2019-07-28.json",
+    "origin": "2019-07-28",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 5,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/zero/guaratuba/llm/responses/2018-12-09.json",
+    "origin": "2018-12-09",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 3,
+        "prediction_start": 1,
+        "source_start": 1
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/zero/guaratuba/llm/responses/2018-09-02.json",
+    "origin": "2018-09-02",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/zero/guaratuba/llm/responses/2019-06-30.json",
+    "origin": "2019-06-30",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 4,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/zero/guaratuba/llm/responses/2018-02-25.json",
+    "origin": "2018-02-25",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 4,
+        "prediction_start": 0,
+        "source_start": 1
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/zero/guaratuba/llm/responses/2018-12-16.json",
+    "origin": "2018-12-16",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 5,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/zero/guaratuba/llm/responses/2019-03-17.json",
+    "origin": "2019-03-17",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 3,
+        "prediction_start": 3,
+        "source_start": 3
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/zero/guaratuba/llm/responses/2019-06-16.json",
+    "origin": "2019-06-16",
+    "matches": [
+      {
+        "source": "covariate",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      },
+      {
+        "source": "covariate",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/zero/guaratuba/llm/responses/2019-08-04.json",
+    "origin": "2019-08-04",
+    "matches": [
+      {
+        "source": "covariate",
+        "length": 4,
+        "prediction_start": 0,
+        "source_start": 1
+      },
+      {
+        "source": "covariate",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/zero/guaratuba/llm/responses/2018-05-27.json",
+    "origin": "2018-05-27",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 5,
+        "prediction_start": 1,
+        "source_start": 1
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/zero/guaratuba/llm/responses/2018-11-18.json",
+    "origin": "2018-11-18",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 5,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/zero/guaratuba/llm/responses/2018-08-05.json",
+    "origin": "2018-08-05",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 5,
+        "prediction_start": 2,
+        "source_start": 2
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/zero/guaratuba/llm/responses/2018-01-21.json",
+    "origin": "2018-01-21",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 3,
+        "prediction_start": 3,
+        "source_start": 3
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/zero/guaratuba/llm/responses/2019-03-10.json",
+    "origin": "2019-03-10",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 4,
+        "prediction_start": 2,
+        "source_start": 2
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/zero/guaratuba/llm/responses/2018-09-23.json",
+    "origin": "2018-09-23",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 7,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/zero/guaratuba/llm/responses/2018-02-18.json",
+    "origin": "2018-02-18",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 4,
+        "prediction_start": 0,
+        "source_start": 3
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/zero/guaratuba/llm/responses/2019-10-20.json",
+    "origin": "2019-10-20",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 6,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/zero/guaratuba/llm/responses/2018-10-21.json",
+    "origin": "2018-10-21",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 5,
+        "prediction_start": 2,
+        "source_start": 1
+      }
+    ]
+  },
+  {
+    "file": "experiments/llm/qwen_1_7b/7/zero/guaratuba/llm/responses/2019-02-10.json",
+    "origin": "2019-02-10",
+    "matches": [
+      {
+        "source": "water_history",
+        "length": 6,
+        "prediction_start": 0,
+        "source_start": 0
+      }
+    ]
+  }
+]

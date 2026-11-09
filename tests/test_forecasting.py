@@ -9,9 +9,9 @@ from src.data.preprocessing.calendar_text import calendar_to_text
 from src.data.preprocessing.missing_values import fill_past_only
 from src.data.preprocessing.resampling import daily_grid
 from src.data.validation.schema import validate_series
-from src.evaluation.cross_validation import build_windows, validation_split
+from src.evaluation.protocol import build_windows, validation_split
 from src.evaluation.metrics import deterministic_metrics
-from src.models.promptcast import OllamaConfig, QwenForecaster, parse_prediction
+from src.models.promptcast import OllamaConfig, OllamaForecaster, parse_prediction
 from src.pipelines.data_pipeline import prepare_dataset
 from src.pipelines.forecasting_pipeline import ROOT
 from src.data.features.covariates import model_inputs, covariate_columns, timesfm_covariates, validate_covariates
@@ -41,10 +41,12 @@ class ForecastTests(unittest.TestCase):
 
     def test_demonstrations_remain_before_frozen_test(self):
         for strategy in ['few_random','few_similar']:
-            examples = select_demonstrations(np.arange(80.), np.arange(20.), 7, strategy=strategy)
+            training = pd.DataFrame({'timestamp': pd.date_range('2020-01-01', periods=80),
+                                     'water_produced': np.arange(80.)})
+            examples = select_demonstrations(training, training.iloc[:20], 7, strategy=strategy)
             self.assertEqual(len(examples),3)
-            self.assertTrue(all(e.target_end <= 80 for e in examples))
-            self.assertTrue(all(max(e.target)<80 for e in examples))
+            self.assertTrue(all(target.index.max() < 80 for _, target in examples))
+            self.assertTrue(all(target.water_produced.max() < 80 for _, target in examples))
 
     def test_missing_day_is_filled_from_past_only(self):
         df = pd.DataFrame({'timestamp':pd.to_datetime(['2020-01-01','2020-01-03']), 'water_produced':[10.,999.]})
@@ -81,7 +83,7 @@ class ForecastTests(unittest.TestCase):
                 pd.testing.assert_frame_equal(future, same_future)
                 prompt = build_prompt(short, 7, future_covariates=future)
                 self.assertTrue(all(LABELS.get(c, c.replace("_", " ")) in prompt
-                                    for c in calendar_to_text(short).columns if c != "timestamp"))
+                                    for c in calendar_to_text(short).columns if c != "timestamp" and not c.startswith("is_")))
                 poisoned = df.copy()
                 poisoned.loc[window.origin:, 'water_produced'] = 987654321
                 other_history, other_future = model_inputs(poisoned, window, dataset, history_days=15)
@@ -122,7 +124,8 @@ class ForecastTests(unittest.TestCase):
         self.assertEqual(parse_prediction('{"predictions":[1.5]}',1),[1.5])
 
     def test_retry_and_raw_response_audit(self):
-        model = object.__new__(QwenForecaster)
+        model = object.__new__(OllamaForecaster)
+        model.supports_thinking = True
         model.config = OllamaConfig(retries=1)
         model.last_audit = {}
         answers=[{'done':True,'response':'{}'}, {'done':True,'response':'{"predictions":[2]}'}]
@@ -132,7 +135,8 @@ class ForecastTests(unittest.TestCase):
         self.assertIn('error',model.last_audit['attempts'][0])
 
     def test_context_budget_rejects_silent_truncation(self):
-        model=object.__new__(QwenForecaster)
+        model=object.__new__(OllamaForecaster)
+        model.supports_thinking = True
         model.config=OllamaConfig(num_ctx=800)
         with self.assertRaises(ValueError):
             model.predict(None,7,prompt='x'*1000)

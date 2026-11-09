@@ -1,0 +1,33 @@
+{
+  "model": {
+    "model": "google/timesfm-2.5-200m-pytorch",
+    "initial_context": 7,
+    "version": "2.0.2",
+    "xreg_mode": "xreg + timesfm"
+  },
+  "dataset": "guaratuba",
+  "history_days": 7,
+  "evaluation_initial_context": 730,
+  "horizon": 7,
+  "step": 7,
+  "covariates": [
+    "relative_humidity_mean",
+    "temperature_mean",
+    "radiation_mean",
+    "precipitation_mean",
+    "day",
+    "dayofweek_sin",
+    "dayofweek_cos",
+    "season_sin",
+    "season_cos",
+    "is_holiday_ctba_gtba_jve",
+    "is_weekend",
+    "is_carnival",
+    "is_school_recess_pr"
+  ],
+  "source_sha256": "a666487071c60671c4111e2c592095d11d3def729be5b17a1da3064d95b9656a",
+  "dataset_sha256": "bbb2b696d50cb491262d2e175ed6a0de14eb146b34521ad8bf0adcac8cd242e2",
+  "limit": 0,
+  "script_sha256": "2788961f4fe62c04438bf709e9f7b7640e522567a6151f9c8612472839b8e7ac",
+  "run_id": "a3da95f07bafc19a47171658db011ee0e831222c948c692099440df73c341e30"
+}

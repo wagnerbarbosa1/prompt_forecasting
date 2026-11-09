@@ -1,5 +1,5 @@
 """Explicit experiment policy: pretrained inference only, with no fit on test data."""
-from src.evaluation.cross_validation import validation_split
+from src.evaluation.protocol import validation_split
 
 
 def training_partition(first_test_origin: int, validation_fraction: float = 0.2):

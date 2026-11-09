@@ -1,0 +1,52 @@
+{
+  "request_id": "2e16947b61e0ffa0ab04fc62f9871fb3f3b5b9d8181724bff5799a7d1d5a12c4",
+  "origin": "2019-07-07",
+  "status": "ok",
+  "predictions": [
+    9936.875,
+    13025.67578125,
+    13568.5390625,
+    11661.0625,
+    10892.734375,
+    9474.8984375,
+    8347.1240234375
+  ],
+  "audit": {
+    "history_rows": 15,
+    "context_length": 15,
+    "history_start": "2019-06-22 00:00:00",
+    "history_end": "2019-07-06 00:00:00",
+    "future_columns": [
+      "timestamp",
+      "relative_humidity_mean",
+      "temperature_mean",
+      "radiation_mean",
+      "precipitation_mean",
+      "day",
+      "dayofweek_sin",
+      "dayofweek_cos",
+      "season_sin",
+      "season_cos",
+      "is_holiday_ctba_gtba_jve",
+      "is_weekend",
+      "is_carnival",
+      "is_school_recess_pr",
+      "unique_id"
+    ],
+    "covariates": [
+      "relative_humidity_mean",
+      "temperature_mean",
+      "radiation_mean",
+      "precipitation_mean",
+      "day",
+      "dayofweek_sin",
+      "dayofweek_cos",
+      "season_sin",
+      "season_cos",
+      "is_holiday_ctba_gtba_jve",
+      "is_weekend",
+      "is_carnival",
+      "is_school_recess_pr"
+    ]
+  }
+}

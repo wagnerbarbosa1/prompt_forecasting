@@ -1,0 +1,6 @@
+{
+  "experiments/benchmark/joinville/chronos/predictions.csv": "8b945ac2a82e36960cafd274a854afce8ba0879765ec283e83acced1d1623823",
+  "experiments/benchmark/joinville/timesfm/predictions.csv": "0f20aa3d130f39b1771dc05cfbbb8447144288646af1f01060079d24cfa9c3bf",
+  "experiments/benchmark/guaratuba/chronos/predictions.csv": "6a9996d3685eef15dfbdba3aa1f9c71103f0177a6d27d1e3b9f9b158c3d3a67b",
+  "experiments/benchmark/guaratuba/timesfm/predictions.csv": "de01b17475e03069636ca4f7472a4359e8d7d9a11d1253f38e0e4b5daeeafa55"
+}

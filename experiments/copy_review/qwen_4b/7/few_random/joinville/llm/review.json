@@ -1,0 +1,70 @@
+{
+  "source": "/home/wagner-barbosa/Documents/codex/promptcast_forecast/experiments/llm/qwen_4b/7/few_random/joinville/llm",
+  "policy": "three_consecutive_v1",
+  "changed_windows": [
+    {
+      "run": "qwen_4b/7/few_random/joinville/llm",
+      "origin": "2024-06-23",
+      "longest_original_match": 7,
+      "status": "ok",
+      "still_matches": false
+    },
+    {
+      "run": "qwen_4b/7/few_random/joinville/llm",
+      "origin": "2024-08-25",
+      "longest_original_match": 3,
+      "status": "ok",
+      "still_matches": false
+    },
+    {
+      "run": "qwen_4b/7/few_random/joinville/llm",
+      "origin": "2024-10-27",
+      "longest_original_match": 7,
+      "status": "ok",
+      "still_matches": false
+    },
+    {
+      "run": "qwen_4b/7/few_random/joinville/llm",
+      "origin": "2024-12-01",
+      "longest_original_match": 7,
+      "status": "ok",
+      "still_matches": true
+    },
+    {
+      "run": "qwen_4b/7/few_random/joinville/llm",
+      "origin": "2024-12-08",
+      "longest_original_match": 7,
+      "status": "ok",
+      "still_matches": false
+    },
+    {
+      "run": "qwen_4b/7/few_random/joinville/llm",
+      "origin": "2025-04-20",
+      "longest_original_match": 4,
+      "status": "ok",
+      "still_matches": false
+    },
+    {
+      "run": "qwen_4b/7/few_random/joinville/llm",
+      "origin": "2025-05-11",
+      "longest_original_match": 7,
+      "status": "ok",
+      "still_matches": false
+    },
+    {
+      "run": "qwen_4b/7/few_random/joinville/llm",
+      "origin": "2025-06-01",
+      "longest_original_match": 7,
+      "status": "ok",
+      "still_matches": true
+    },
+    {
+      "run": "qwen_4b/7/few_random/joinville/llm",
+      "origin": "2025-06-22",
+      "longest_original_match": 7,
+      "status": "ok",
+      "still_matches": true
+    }
+  ],
+  "failed_retries_keep_original": true
+}

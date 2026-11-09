@@ -27,7 +27,8 @@ class TextDatasetTests(unittest.TestCase):
         future = frame.iloc[3:].drop(columns='water_produced')
         prompt = build_prompt(frame.iloc[:3], 7, future_covariates=future, region='Guaratuba')
         self.assertIn('twenty-nine; thirty; thirty-one', prompt)
-        self.assertIn('not a public holiday', prompt)
+        self.assertNotIn('not a public holiday', prompt)
+        self.assertNotIn('public holiday status', prompt)
         self.assertNotIn('2016-12-29', prompt)
         frame.loc[3:, 'water_produced'] = 999999
         self.assertEqual(prompt, build_prompt(frame.iloc[:3], 7,

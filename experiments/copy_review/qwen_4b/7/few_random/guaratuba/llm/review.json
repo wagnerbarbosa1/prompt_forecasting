@@ -1,0 +1,49 @@
+{
+  "source": "/home/wagner-barbosa/Documents/codex/promptcast_forecast/experiments/llm/qwen_4b/7/few_random/guaratuba/llm",
+  "policy": "three_consecutive_v1",
+  "changed_windows": [
+    {
+      "run": "qwen_4b/7/few_random/guaratuba/llm",
+      "origin": "2018-01-14",
+      "longest_original_match": 7,
+      "status": "ok",
+      "still_matches": false
+    },
+    {
+      "run": "qwen_4b/7/few_random/guaratuba/llm",
+      "origin": "2018-04-08",
+      "longest_original_match": 5,
+      "status": "ok",
+      "still_matches": true
+    },
+    {
+      "run": "qwen_4b/7/few_random/guaratuba/llm",
+      "origin": "2018-07-29",
+      "longest_original_match": 3,
+      "status": "ok",
+      "still_matches": true
+    },
+    {
+      "run": "qwen_4b/7/few_random/guaratuba/llm",
+      "origin": "2019-02-10",
+      "longest_original_match": 6,
+      "status": "ok",
+      "still_matches": true
+    },
+    {
+      "run": "qwen_4b/7/few_random/guaratuba/llm",
+      "origin": "2019-05-26",
+      "longest_original_match": 5,
+      "status": "ok",
+      "still_matches": false
+    },
+    {
+      "run": "qwen_4b/7/few_random/guaratuba/llm",
+      "origin": "2019-10-27",
+      "longest_original_match": 6,
+      "status": "ok",
+      "still_matches": false
+    }
+  ],
+  "failed_retries_keep_original": true
+}
