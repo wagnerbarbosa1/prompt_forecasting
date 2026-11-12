@@ -1,2 +1,0 @@
-model,rmse0,mae0,mape0,r20,rmse1,mae1,mape1,r21,split
-CHRONOS-EW,1286.6925,1026.8065,0.0856,0.8447,1343.3881,1062.2238,0.0883,0.8332,test

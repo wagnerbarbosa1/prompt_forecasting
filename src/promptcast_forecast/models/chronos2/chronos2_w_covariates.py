@@ -4,13 +4,13 @@ import numpy as np
 import torch
 import os
 import datetime
-from sklearn.metrics import mean_squared_error, mean_absolute_error, mean_absolute_percentage_error, r2_score
 from promptcast_forecast.visualization.plots import linear_graph
-from promptcast_forecast.evaluation.metrics import deterministic_metrics
-from promptcast_forecast.evaluation.cross_validation import ExpandingWindow, SlidingWindow
+from promptcast_forecast.validation.metrics import deterministic_metrics
+from promptcast_forecast.validation.cross_validation import ExpandingWindow, SlidingWindow
 
     
-df = pd.read_csv("/home/wagner-barbosa/Documents/IC/siaqua/data/processed/joinville_processed_1day.csv")
+df = pd.read_csv("/home/wagner-barbosa/Documents/IC/siaqua/data/processed/joinville_processed_1day.csv") #melhorar isso
+
 df["timestamp"] = pd.to_datetime(df["timestamp"])
 
 pipeline = Chronos2Pipeline.from_pretrained(
@@ -19,7 +19,9 @@ pipeline = Chronos2Pipeline.from_pretrained(
     dtype=torch.float32 #é um tipo bom para IA porque representa grandes escalas sem usar tanta memoria quanto float32
 )
 
-expanding_window_test = ExpandingWindow(
+
+# Implementar a sliding windows tambem ------------------------------------------
+expanding_window = ExpandingWindow(
     n_samples=len(df),
     trainw= 385, #train window
     step=1, #step
@@ -29,7 +31,7 @@ expanding_window_test = ExpandingWindow(
 resultsEW_val = dict(timestamp=[], ytrue0=[], ytrue1=[], yhat0=[], yhat1=[])
 print("Start Expanding Window")
 
-for i, (trainidxs, testidxs) in enumerate(expanding_window_test.split()):
+for i, (trainidxs, testidxs) in enumerate(expanding_window.split()):
     # Dados de treino
     context_df = df[trainidxs] 
 
@@ -46,7 +48,7 @@ for i, (trainidxs, testidxs) in enumerate(expanding_window_test.split()):
         timestamp_column="timestamp",
         batch_size=1, #o tamanho do batch são quantas séries ele vai prever.
         quantile_levels=[0.1, 0.5, 0.9],
-        prediction_length=expanding_window_test.horizon,
+        prediction_length=expanding_window.horizon,
         target="water_produced"
 )
 
@@ -68,11 +70,18 @@ for i, (trainidxs, testidxs) in enumerate(expanding_window_test.split()):
 
 df_result = pd.DataFrame(resultsEW_val)
 
+#Tornar essa lógica genérica ----------------------------------------------------
+
 # Metrics
 
 metricas_dia1 = deterministic_metrics(df_result["ytrue0"], df_result["yhat0"])
 
 metricas_dia2 = deterministic_metrics(df_result["ytrue1"],df_result["yhat1"])
+
+print(metricas_dia1)
+print(metricas_dia2)
+
+#----------------------------------------------------
 
 # Output directories
 
@@ -122,10 +131,10 @@ metrics_df = pd.DataFrame({
 
     "split": ["test"],
 
-    "step": [expanding_window_test.step],
-    "horizon": [expanding_window_test.horizon],
-    "trainw_start": [expanding_window_test.trainw],
-    "n_samples": [expanding_window_test.n_samples],
+    "step": [expanding_window.step],
+    "horizon": [expanding_window.horizon],
+    "trainw_start": [expanding_window.trainw],
+    "n_samples": [expanding_window.n_samples],
 })
 
 metrics_df.to_csv(
