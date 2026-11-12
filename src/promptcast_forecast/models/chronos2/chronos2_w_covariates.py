@@ -1,4 +1,5 @@
 import pandas as pd
+from pathlib import Path
 from chronos import Chronos2Pipeline, ChronosPipeline
 import numpy as np
 import torch
@@ -8,7 +9,12 @@ from promptcast_forecast.visualization.plots import linear_graph
 from promptcast_forecast.validation.metrics import deterministic_metrics
 from promptcast_forecast.validation.cross_validation import ExpandingWindow, SlidingWindow
 
-    
+
+#maneira muito maneira de verificar a data
+#if not df[DATE].is_monotonic_increasing:
+#        raise ValueError("Timestamp is not sorted.")
+
+
 df = pd.read_csv("/home/wagner-barbosa/Documents/IC/siaqua/data/processed/joinville_processed_1day.csv") #melhorar isso
 
 df["timestamp"] = pd.to_datetime(df["timestamp"])

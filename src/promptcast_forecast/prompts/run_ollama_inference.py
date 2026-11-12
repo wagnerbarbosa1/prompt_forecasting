@@ -156,6 +156,7 @@ def load_dataset(path: str | Path) -> pd.DataFrame:
     path = Path(path)
     df = pd.read_csv(path)
 
+    #verificação de mulambo
     missing = [c for c in EXPECTED_COLUMNS if c not in df.columns]
     if missing:
         raise ValueError(f"Missing required columns: {missing}")
@@ -168,17 +169,21 @@ def load_dataset(path: str | Path) -> pd.DataFrame:
         "is_school_recess_pr",
     ]
     keep = list(dict.fromkeys(c for c in keep if c in df.columns))
+    #verifica se essas colunas c estao em df.columns, se estao criam uma key no dicionario, a parte da "esquerda" -> "key" : "value", crita uma lista disso, como
+    #value é None, nao aparece, e fica ["valor1", "valor2", "valor3"]
     df = df[keep].copy()
     df[DATE] = pd.to_datetime(df[DATE], errors="raise")
     df = df.sort_values(DATE).drop_duplicates(subset=[DATE]).reset_index(drop=True)
 
     for col in [TARGET] + WEATHER_FORECAST_COLUMNS:
-        df[col] = pd.to_numeric(df[col], errors="coerce")
+        df[col] = pd.to_numeric(df[col], errors="coerce") #transforma todos valores da coluna em numericos, se nao for numerico, usa o coerce, que transforma esses valores em 
+        #NaN
 
     if df[[TARGET] + WEATHER_FORECAST_COLUMNS].isna().any().any():
         bad = df[[TARGET] + WEATHER_FORECAST_COLUMNS].isna().sum()
         raise ValueError(f"Missing/non-numeric values found:\n{bad[bad > 0]}")
 
+    #maneira muito maneira de verificar a data
     if not df[DATE].is_monotonic_increasing:
         raise ValueError("Timestamp is not sorted.")
 
@@ -209,7 +214,7 @@ def add_calendar_features(df: pd.DataFrame) -> None:
 
 
 # ---------------------------------------------------------------------
-# Forecast windows
+# Forecast windows ------------------------------------------------------------------- PAREI AQUI
 # ---------------------------------------------------------------------
 
 def get_evaluation_start(df: pd.DataFrame, evaluation_years: int = 2) -> pd.Timestamp:
