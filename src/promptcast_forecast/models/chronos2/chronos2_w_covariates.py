@@ -3,6 +3,7 @@ from pathlib import Path
 from chronos import Chronos2Pipeline, ChronosPipeline
 import numpy as np
 import torch
+import argparse
 import os
 import datetime
 from promptcast_forecast.visualization.plots import linear_graph
@@ -10,12 +11,27 @@ from promptcast_forecast.validation.metrics import deterministic_metrics
 from promptcast_forecast.validation.cross_validation import ExpandingWindow, SlidingWindow
 
 
+parser = argparse.ArgumentParser(
+    description="Chronos forecast for water demand produced\n --guaratuba (guaratuba dataset parameters) " \
+    "\n --joinville (joinville dataset parameters)"
+)
+
+parser.add_argument(
+    "--guaratuba",
+    action="store_true",
+    help="utiliza o dataset de guaratuba"
+)
+
+args = parser.parse_args()
+
 #maneira muito maneira de verificar a data
 #if not df[DATE].is_monotonic_increasing:
 #        raise ValueError("Timestamp is not sorted.")
 
-
-df = pd.read_csv("/home/wagner-barbosa/Documents/IC/siaqua/data/processed/joinville_processed_1day.csv") #melhorar isso
+if args.guaratuba:
+    df = pd.read_csv("/home/wagner_barbosa/Documents/prompt_forecasting/data/processed/guaratuba_processed_1day.csv") #melhorar isso
+else:
+    df = pd.read_csv("/home/wagner_barbosa/Documents/prompt_forecasting/data/processed/joinville_processed_1day.csv")
 
 df["timestamp"] = pd.to_datetime(df["timestamp"])
 
@@ -27,12 +43,20 @@ pipeline = Chronos2Pipeline.from_pretrained(
 
 
 # Implementar a sliding windows tambem ------------------------------------------
-expanding_window = ExpandingWindow(
-    n_samples=len(df),
-    trainw= 385, #train window
-    step=1, #step
-    horizon=2 #forecast.
-)
+if args.guaratuba:
+    expanding_window = ExpandingWindow(
+            n_samples=len(df),
+            trainw= 730, #train window
+            step=7, #step
+            horizon=7 #forecast.
+    )
+else:    
+    expanding_window = ExpandingWindow(
+        n_samples=len(df),
+        trainw= 385, #train window
+        step=7, #step
+        horizon=7 #forecast.
+    )
 
 resultsEW_val = dict(timestamp=[], ytrue0=[], ytrue1=[], yhat0=[], yhat1=[])
 print("Start Expanding Window")
@@ -60,34 +84,21 @@ for i, (trainidxs, testidxs) in enumerate(expanding_window.split()):
 
     median = np.array(predictions["0.5"])
 
-    #Refazer essa lógica para se tornar genérica. ------------------------------------
-
     ytrue = y_t["water_produced"]
-    
-    resultsEW_val["ytrue0"].append(ytrue.iloc[0]) #append adiciona os valores em blocos (tanto faz se é string, macaco, banana)
-    resultsEW_val["ytrue1"].append(ytrue.iloc[1])
-    resultsEW_val["yhat0"].append(median[0])
-    resultsEW_val["yhat1"].append(median[1])
-    resultsEW_val["timestamp"].append(y_t["timestamp"].iloc[0])
 
-    # -----------------------------------------------------------------------------------
+    for k in range(expanding_window.horizon):
+        resultsEW_val["ytrue"].append(ytrue.iloc[k]) #append adiciona os valores em blocos (tanto faz se é string, macaco, banana)
+        resultsEW_val["yhat"].append(median[k])
+        resultsEW_val["timestamp"].append(y_t["timestamp"].iloc[k])
 
     print(i)
 
 df_result = pd.DataFrame(resultsEW_val)
 
-#Tornar essa lógica genérica ----------------------------------------------------
+metricas = deterministic_metrics(df_result["ytrue0"], df_result["yhat0"])
 
-# Metrics
+print(metricas)
 
-metricas_dia1 = deterministic_metrics(df_result["ytrue0"], df_result["yhat0"])
-
-metricas_dia2 = deterministic_metrics(df_result["ytrue1"],df_result["yhat1"])
-
-print(metricas_dia1)
-print(metricas_dia2)
-
-#----------------------------------------------------
 
 # Output directories
 
@@ -125,15 +136,10 @@ metrics_file = os.path.join(output_metrics,f"metrics_chronos_{timestamp}.csv")
 metrics_df = pd.DataFrame({
     "model": ["CHRONOS-EW"],
 
-    "rmse_day1": [metricas_dia1["rmse"]],
-    "mae_day1": [metricas_dia1["mae"]],
-    "mape_day1": [metricas_dia1["mape"]],
-    "r2_day1": [metricas_dia1["r2"]],
-
-    "rmse_day2": [metricas_dia2["rmse"]],
-    "mae_day2": [metricas_dia2["mae"]],
-    "mape_day2": [metricas_dia2["mape"]],
-    "r2_day2": [metricas_dia2["r2"]],
+    "rmse_day1": [metricas["rmse"]],
+    "mae_day1": [metricas["mae"]],
+    "mape_day1": [metricas["mape"]],
+    "r2_day1": [metricas["r2"]],
 
     "split": ["test"],
 

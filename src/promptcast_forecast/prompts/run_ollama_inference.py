@@ -276,6 +276,7 @@ def build_forecast_windows(
 # Few-shot candidate construction
 # ---------------------------------------------------------------------
 
+#Cria os "candidatos" ou seja, os valores que usaremos no few-shot
 def candidate_demonstrations(
     df: pd.DataFrame,
     window: ForecastWindow,
@@ -306,7 +307,7 @@ def candidate_demonstrations(
         demo_target_end = demo_origin + horizon
 
         if demo_target_end > latest_allowed_target_end:
-            raise ValueError("invalid min_gap and windows")
+            continue
 
         demo_origin_id = df.iloc[demo_origin][DATE].strftime("%Y%m%d")
         demo_id = f"{demo_origin_id}_h{horizon}"
