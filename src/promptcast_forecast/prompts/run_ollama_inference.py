@@ -214,7 +214,7 @@ def add_calendar_features(df: pd.DataFrame) -> None:
 
 
 # ---------------------------------------------------------------------
-# Forecast windows ------------------------------------------------------------------- PAREI AQUI
+# Forecast windows 
 # ---------------------------------------------------------------------
 
 def get_evaluation_start(df: pd.DataFrame, evaluation_years: int = 2) -> pd.Timestamp:
@@ -306,7 +306,7 @@ def candidate_demonstrations(
         demo_target_end = demo_origin + horizon
 
         if demo_target_end > latest_allowed_target_end:
-            continue
+            raise ValueError("invalid min_gap and windows")
 
         demo_origin_id = df.iloc[demo_origin][DATE].strftime("%Y%m%d")
         demo_id = f"{demo_origin_id}_h{horizon}"
