@@ -24,10 +24,6 @@ parser.add_argument(
 
 args = parser.parse_args()
 
-#maneira muito maneira de verificar a data
-#if not df[DATE].is_monotonic_increasing:
-#        raise ValueError("Timestamp is not sorted.")
-
 if args.guaratuba:
     df = pd.read_csv("/home/wagner_barbosa/Documents/prompt_forecasting/data/processed/guaratuba_processed_1day.csv") #melhorar isso
 else:
@@ -35,9 +31,12 @@ else:
 
 df["timestamp"] = pd.to_datetime(df["timestamp"])
 
+if not df["timestamp"].is_monotonic_increasing:
+        raise ValueError("Timestamp is not sorted.")
+
 pipeline = Chronos2Pipeline.from_pretrained(
     "amazon/chronos-2",
-    device_map="cuda",
+    device_map= "cuda" if torch.cuda.is_available() else "cpu" ,
     dtype=torch.float32 #é um tipo bom para IA porque representa grandes escalas sem usar tanta memoria quanto float32
 )
 
@@ -67,7 +66,7 @@ for i, (trainidxs, testidxs) in enumerate(expanding_window.split()):
 
     # Dados de validaçãok
     y_t = df[testidxs]
-    context_future = y_t.drop(["water_produced", "volume_trend_7d"], axis=1) 
+    context_future = y_t.drop(["water_produced"], axis=1) 
 
     timestamp = df[testidxs]
 
